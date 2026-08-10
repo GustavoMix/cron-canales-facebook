@@ -1,0 +1,66 @@
+name: Probar Facebook Live Bolivia
+
+on:
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Cantidad de fuentes a probar (0 = todas)"
+        required: false
+        default: "5"
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  detectar-lives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Instalar Chromium y dependencias del sistema
+        run: python -m playwright install --with-deps chromium
+
+      - name: Ejecutar detector
+        shell: bash
+        run: |
+          LIMITE="${{ inputs.limite }}"
+          if [ -z "$LIMITE" ] || [ "$LIMITE" = "0" ]; then
+            python facebook_live_bolivia.py
+          else
+            python facebook_live_bolivia.py --limit "$LIMITE"
+          fi
+
+      - name: Mostrar resumen
+        if: always()
+        run: |
+          echo "=== Archivos generados ==="
+          ls -lah *.json 2>/dev/null || true
+          echo "=== Lives detectados ==="
+          cat lives_bolivia.json 2>/dev/null || true
+
+      - name: Guardar resultados como artefacto
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: resultados-facebook-live-bolivia
+          path: |
+            resultado_facebook_bolivia.json
+            lives_bolivia.json
+          if-no-files-found: warn
+          retention-days: 7
