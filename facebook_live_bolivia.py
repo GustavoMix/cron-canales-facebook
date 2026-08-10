@@ -30,7 +30,10 @@ POS_FUERTE = (
 POS_DEBIL = (" en vivo ", "\nen vivo\n", "🔴 en vivo", " ao vivo ", "🔴 ao vivo")
 PASADO = (
     "was live", "estuvo en vivo", "transmitió en vivo", "transmitio en vivo",
-    "foi ao vivo", "estava ao vivo"
+    "foi ao vivo", "estava ao vivo",
+    "en vivo anteriores", "vivo anteriores", "anteriormente en vivo",
+    "videos ao vivo anteriores", "vídeos em direto anteriores",
+    "previous live videos", "past live videos",
 )
 BLOQUEO = (
     "you're temporarily blocked", "you’re temporarily blocked",
@@ -172,7 +175,7 @@ def score_live(text, aria="", html_hint=False):
 
     for x in PASADO:
         if x in t:
-            score -= 100
+            score -= 200
             why.append("pasado:" + x)
 
     for x in POS_FUERTE:
@@ -205,7 +208,9 @@ def titulo(text):
         low = line.lower()
         if low in {
             "en vivo", "ao vivo", "live", "me gusta", "comentar",
-            "compartir", "like", "comment", "share"
+            "compartir", "like", "comment", "share",
+            "videos en vivo anteriores", "vídeos en vivo anteriores",
+            "previous live videos", "videos ao vivo anteriores",
         }:
             continue
         if 5 <= len(line) <= 180:
@@ -288,7 +293,9 @@ def inspect(page, route, timeout=30000):
                 continue
             ctx = contexto(a)
             aria = a.get_attribute("aria-label") or ""
-            sc, why = score_live(ctx, aria=aria, html_hint=html_hint)
+            # html_hint NO se aplica aquí: es una señal a nivel de página completa
+            # (puede venir de cualquier módulo embebido) y no de este link puntual.
+            sc, why = score_live(ctx, aria=aria, html_hint=False)
             cand.append({
                 "score": sc,
                 "url_video": href,
