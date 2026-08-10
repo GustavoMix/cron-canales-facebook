@@ -46,6 +46,11 @@ ESPECTADORES_RE = re.compile(
     re.I,
 )
 
+# Formato compacto tipo "2.2K" o "1.8 mil" sin palabra clave alrededor (el que Facebook
+# usa en el badge visual del ícono de ojito). Solo se usa sobre el aria-label del link,
+# nunca sobre el texto completo de la página, para no matchear precios o teléfonos sueltos.
+ESPECTADORES_COMPACTO_RE = re.compile(r"([\d]+(?:[.,]\d+)?)\s*(mil|k)\b", re.I)
+
 VIDEO_RES = [
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\d+)", re.I),
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/(\d+)/videos/(?:[^/?#]+/)?(\d+)", re.I),
@@ -144,21 +149,32 @@ def clean_url(href):
     return href.split("?")[0]
 
 
-def extraer_espectadores(text):
-    """Best-effort: busca frases tipo '1.1 mil espectadores' o '350 viewers'.
-    No siempre está presente en el HTML; devuelve None si no se encuentra."""
-    if not text:
-        return None
-    m = ESPECTADORES_RE.search(text)
-    if not m:
-        return None
+def _parsear_numero(valor, tiene_sufijo):
     try:
-        numero = float(m.group(1).replace(",", "."))
-        if m.group(2):
+        numero = float(valor.replace(",", "."))
+        if tiene_sufijo:
             numero *= 1000
         return int(numero)
     except (ValueError, TypeError):
         return None
+
+
+def extraer_espectadores(text, aria=None):
+    """Best-effort: busca frases tipo '1.1 mil espectadores' o '350 viewers' en el texto,
+    y como respaldo el formato compacto '2.2K'/'1.8 mil' dentro del aria-label del link
+    (donde Facebook suele poner esa cifra sin palabra clave alrededor).
+    No siempre está presente; devuelve None si no se encuentra."""
+    if text:
+        m = ESPECTADORES_RE.search(text)
+        if m:
+            resultado = _parsear_numero(m.group(1), bool(m.group(2)))
+            if resultado is not None:
+                return resultado
+    if aria:
+        m = ESPECTADORES_COMPACTO_RE.search(aria)
+        if m:
+            return _parsear_numero(m.group(1), True)
+    return None
 
 
 def video_id(url):
@@ -327,7 +343,7 @@ def inspect(page, route, timeout=30000):
                 "video_id": vid,
                 "titulo": titulo(ctx),
                 "motivos": why,
-                "espectadores": extraer_espectadores(ctx),
+                "espectadores": extraer_espectadores(ctx, aria=aria),
             })
         except Exception:
             pass
