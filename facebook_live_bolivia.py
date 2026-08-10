@@ -1,0 +1,329 @@
+# -*- coding: utf-8 -*-
+from __future__ import annotations
+
+import argparse
+import json
+import random
+import re
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import urlparse, parse_qs
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+
+ROOT = Path(__file__).resolve().parent
+FUENTES_FILE = ROOT / "fuentes.json"
+RESULTADO_FILE = ROOT / "resultado_facebook_bolivia.json"
+LIVES_FILE = ROOT / "lives_bolivia.json"
+
+POS_FUERTE = (
+    "está transmitiendo en vivo","esta transmitiendo en vivo",
+    "está en vivo ahora","esta en vivo ahora","en vivo ahora",
+    "is live now","is broadcasting live",
+    "transmitindo ao vivo","está ao vivo","esta ao vivo","ao vivo agora",
+)
+POS_DEBIL = (" en vivo ","\nen vivo\n","🔴 en vivo"," ao vivo ","🔴 ao vivo")
+PASADO = ("was live","estuvo en vivo","transmitió en vivo","transmitio en vivo","foi ao vivo","estava ao vivo")
+BLOQUEO = ("you're temporarily blocked","you’re temporarily blocked","temporarily blocked","temporalmente bloqueado")
+
+VIDEO_RES = [
+    re.compile(r"https?://(?:www\.|m\.)?facebook\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\d+)", re.I),
+    re.compile(r"https?://(?:www\.|m\.)?facebook\.com/(\d+)/videos/(?:[^/?#]+/)?(\d+)", re.I),
+    re.compile(r"https?://(?:www\.|m\.)?facebook\.com/watch/\?v=(\d+)", re.I),
+]
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+def normalize(url):
+    raw = url.strip()
+    if not raw.startswith(("http://","https://")):
+        raw = "https://" + raw.lstrip("/")
+    p = urlparse(raw)
+    if "facebook.com" not in p.netloc.lower():
+        raise ValueError("No es una URL de Facebook")
+    q = parse_qs(p.query)
+    path = p.path.rstrip("/")
+
+    if path.lower().endswith("/profile.php") or path.lower() == "/profile.php":
+        fid = (q.get("id") or [""])[0]
+        if not fid:
+            raise ValueError("profile.php sin id")
+        return {"tipo":"profile_id","id":fid,"base":f"https://www.facebook.com/{fid}"}
+
+    m = re.match(r"^/groups/([^/?#]+)", path, re.I)
+    if m:
+        gid = m.group(1)
+        return {"tipo":"grupo","id":gid,"base":f"https://www.facebook.com/groups/{gid}"}
+
+    parts = [x for x in path.split("/") if x]
+    if parts and parts[0].lower() == "p" and len(parts) >= 2:
+        last = parts[-1]
+        mid = re.search(r"(\d{8,})$", last)
+        ident = mid.group(1) if mid else last
+        return {"tipo":"pagina","id":ident,"base":f"https://www.facebook.com/{ident}"}
+
+    if parts:
+        ident = parts[0]
+        return {"tipo":"pagina","id":ident,"base":f"https://www.facebook.com/{ident}"}
+
+    raise ValueError("No pude obtener identificador")
+
+def routes(norm):
+    b = norm["base"].rstrip("/")
+    if norm["tipo"] == "grupo":
+        return [b, b + "/media/videos/"]
+    return [b + "/live/", b + "/live_videos/", b + "/videos/", b]
+
+def clean_url(href):
+    if not href:
+        return ""
+    href = href.replace("&amp;","&")
+    if href.startswith("/"):
+        href = "https://www.facebook.com" + href
+    if "/watch/" in href:
+        return href
+    return href.split("?")[0]
+
+def video_id(url):
+    for r in VIDEO_RES:
+        m = r.search(url or "")
+        if m:
+            return m.groups()[-1]
+    return None
+
+def contexto(anchor):
+    best = ""
+    for xp in (
+        "xpath=ancestor::div[@role='article'][1]",
+        "xpath=ancestor::div[8]",
+        "xpath=ancestor::div[7]",
+        "xpath=ancestor::div[6]",
+        "xpath=ancestor::div[5]",
+    ):
+        try:
+            n = anchor.locator(xp)
+            if n.count():
+                t = n.first.inner_text(timeout=800)
+                if len(t) > len(best):
+                    best = t
+                if len(best) > 250:
+                    break
+        except Exception:
+            pass
+    return best
+
+def score_live(text, aria="", html_hint=False):
+    t = " " + (text or "").lower() + " "
+    a = (aria or "").lower()
+    score = 0
+    why = []
+    for x in PASADO:
+        if x in t:
+            score -= 100
+            why.append("pasado:"+x)
+    for x in POS_FUERTE:
+        if x in t:
+            score += 100
+            why.append("live:"+x)
+    for x in POS_DEBIL:
+        if x in t:
+            score += 30
+            why.append("debil:"+x)
+    if any(x in a for x in ("live","en vivo","ao vivo")):
+        score += 100
+        why.append("aria_live")
+    if html_hint:
+        score += 80
+        why.append("html_live")
+    return score, why
+
+def titulo(text):
+    for line in [re.sub(r"\s+"," ",x).strip() for x in (text or "").splitlines() if x.strip()]:
+        low = line.lower()
+        if low in {"en vivo","ao vivo","live","me gusta","comentar","compartir","like","comment","share"}:
+            continue
+        if 5 <= len(line) <= 180:
+            return line
+    return None
+
+def cerrar_popups(page):
+    for tx in ("Permitir todas las cookies","Allow all cookies","Aceptar todas las cookies",
+               "Solo permitir cookies esenciales","Only allow essential cookies","Ahora no","Not now","Cerrar","Close"):
+        try:
+            loc = page.get_by_text(tx, exact=False)
+            if loc.count() and loc.first.is_visible():
+                loc.first.click(timeout=700)
+                page.wait_for_timeout(250)
+                return
+        except Exception:
+            pass
+
+def inspect(page, route, timeout=32000):
+    page.goto(route, wait_until="domcontentloaded", timeout=timeout)
+    page.wait_for_timeout(3200)
+    cerrar_popups(page)
+    page.wait_for_timeout(700)
+
+    try:
+        body = page.locator("body").inner_text(timeout=2000)
+    except Exception:
+        body = ""
+    low = body.lower()
+    if any(x in low for x in BLOQUEO):
+        return {"estado":"blocked","route":route}
+
+    try:
+        html = page.content().lower()
+    except Exception:
+        html = ""
+    html_hint = any(x in html for x in (
+        '"is_live_streaming":true',
+        '"islivestreaming":true',
+        '"broadcast_status":"live"',
+        '"broadcaststatus":"live"',
+    ))
+
+    cand = []
+    cur = clean_url(page.url)
+    vid = video_id(cur)
+    if vid and "/videos/" in cur:
+        sc, why = score_live(body, html_hint=html_hint)
+        if route.rstrip("/").endswith("/live"):
+            sc += 70
+            why.append("redirect_live")
+        cand.append({"score":sc,"url_video":cur,"video_id":vid,"titulo":titulo(body),"motivos":why})
+
+    anchors = page.locator('a[href*="/videos/"],a[href*="/watch/?v="],a[href*="/watch/"][href*="v="]')
+    for i in range(min(anchors.count(), 120)):
+        a = anchors.nth(i)
+        try:
+            href = clean_url(a.get_attribute("href") or "")
+            vid = video_id(href)
+            if not vid:
+                continue
+            ctx = contexto(a)
+            aria = a.get_attribute("aria-label") or ""
+            sc, why = score_live(ctx, aria=aria, html_hint=html_hint)
+            cand.append({"score":sc,"url_video":href,"video_id":vid,"titulo":titulo(ctx),"motivos":why})
+        except Exception:
+            pass
+
+    cand.sort(key=lambda x:x["score"], reverse=True)
+    if cand and cand[0]["score"] >= 70:
+        return {"estado":"live","route":route,**cand[0]}
+    return {"estado":"offline","route":route,"mejor_score":cand[0]["score"] if cand else None}
+
+def revisar(page, f):
+    out = {
+        "nombre":f.get("nombre"),"categoria":f.get("categoria"),"url_fuente":f.get("url"),
+        "tipo":None,"identificador":None,"en_vivo":False,"estado":"offline",
+        "titulo":None,"video_id":None,"url_video":None,"confianza":None,
+        "ruta_detectada":None,"motivos":[],"revisado_en":now_iso(),"error":None
+    }
+    try:
+        n = normalize(f["url"])
+        out["tipo"], out["identificador"] = n["tipo"], n["id"]
+        for route in routes(n):
+            try:
+                r = inspect(page, route)
+            except PlaywrightTimeoutError:
+                continue
+            except Exception:
+                continue
+            if r["estado"] == "blocked":
+                out["estado"] = "blocked"
+                out["error"] = "Facebook mostró bloqueo temporal"
+                break
+            if r["estado"] == "live":
+                out.update({
+                    "en_vivo":True,"estado":"live","titulo":r.get("titulo"),
+                    "video_id":r.get("video_id"),"url_video":r.get("url_video"),
+                    "confianza":r.get("score"),"ruta_detectada":r.get("route"),
+                    "motivos":r.get("motivos") or [],
+                })
+                break
+    except Exception as e:
+        out["estado"] = "error"
+        out["error"] = f"{type(e).__name__}: {e}"
+    return out
+
+def guardar(rows):
+    RESULTADO_FILE.write_text(json.dumps({
+        "schema_version":1,"generado_en":now_iso(),"fuentes_revisadas":len(rows),
+        "en_vivo":sum(1 for x in rows if x["en_vivo"]),"resultados":rows
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    lives = [x for x in rows if x["en_vivo"]]
+    LIVES_FILE.write_text(json.dumps({
+        "generado_en":now_iso(),"cantidad":len(lives),"lives":lives
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def scan(args):
+    fuentes = json.loads(FUENTES_FILE.read_text(encoding="utf-8"))
+    if args.url:
+        fuentes = [{"nombre":"Prueba manual","url":args.url,"categoria":"manual"}]
+    elif args.source:
+        s = args.source.lower()
+        fuentes = [x for x in fuentes if s in x["nombre"].lower() or s in x["url"].lower()]
+    if args.limit:
+        fuentes = fuentes[:args.limit]
+    if not fuentes:
+        print("No se encontraron fuentes")
+        return []
+
+    print(f"Revisando {len(fuentes)} fuentes. Sin login. Sin extraer m3u8.")
+    rows = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=not args.visible, args=["--disable-blink-features=AutomationControlled","--no-sandbox"])
+        ctx = browser.new_context(
+            locale="es-419",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+            viewport={"width":1365,"height":900},
+        )
+        page = ctx.new_page()
+        for i, f in enumerate(fuentes, 1):
+            print(f"[{i}/{len(fuentes)}] {f['nombre']} -> {f['url']}")
+            r = revisar(page, f)
+            rows.append(r)
+            if r["en_vivo"]:
+                print("   🔴 EN VIVO", r.get("url_video") or "")
+            else:
+                print("   Estado:", r["estado"])
+            guardar(rows)
+            if r["estado"] == "blocked":
+                print("Facebook indicó bloqueo temporal; se detiene el ciclo.")
+                break
+            if i < len(fuentes):
+                time.sleep(random.uniform(args.delay_min, args.delay_max))
+        browser.close()
+    guardar(rows)
+    print(f"Listo. Lives detectados: {sum(1 for x in rows if x['en_vivo'])}")
+    print("JSON:", LIVES_FILE)
+    return rows
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source")
+    ap.add_argument("--url")
+    ap.add_argument("--limit", type=int)
+    ap.add_argument("--visible", action="store_true")
+    ap.add_argument("--watch", type=int, metavar="SEGUNDOS")
+    ap.add_argument("--delay-min", type=float, default=5.0)
+    ap.add_argument("--delay-max", type=float, default=10.0)
+    args = ap.parse_args()
+    args.delay_min = max(2.0, args.delay_min)
+    args.delay_max = max(args.delay_min, args.delay_max)
+    if args.watch:
+        sec = max(600, args.watch)
+        try:
+            while True:
+                scan(args)
+                print(f"Esperando {sec}s...")
+                time.sleep(sec)
+        except KeyboardInterrupt:
+            print("Detenido.")
+    else:
+        scan(args)
+
+if __name__ == "__main__":
+    main()

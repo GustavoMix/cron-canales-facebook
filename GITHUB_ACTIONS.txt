@@ -1,0 +1,38 @@
+PRUEBA EN GITHUB ACTIONS
+========================
+
+Esta versión ya incluye:
+
+.github/workflows/probar-lives.yml
+
+El workflow es MANUAL a propósito para probar primero sin ejecutar scraping automáticamente.
+
+PASOS
+-----
+1. Crea un repositorio PRIVADO en GitHub.
+2. Sube EL CONTENIDO de esta carpeta a la raíz del repositorio.
+   Debes ver en GitHub:
+
+   facebook_live_bolivia.py
+   fuentes.json
+   requirements.txt
+   .github/workflows/probar-lives.yml
+
+3. Ve a la pestaña Actions.
+4. Entra a "Probar Facebook Live Bolivia".
+5. Pulsa "Run workflow".
+6. Para la primera prueba deja limite=5.
+7. Espera a que termine.
+8. Abre el run y mira el log "Ejecutar detector".
+9. Al final podrás descargar el artefacto:
+   resultados-facebook-live-bolivia
+
+Ese artefacto contiene:
+- resultado_facebook_bolivia.json
+- lives_bolivia.json
+
+IMPORTANTE
+----------
+Todavía NO escribe en Supabase.
+Primero estamos comprobando que Playwright + Facebook funciona correctamente desde un runner de GitHub.
+Cuando esa prueba salga bien, añadimos Supabase y recién después activamos el cron automático.
