@@ -7,6 +7,11 @@ on:
         description: "Cantidad de fuentes a probar (0 = todas)"
         required: false
         default: "5"
+      forzar:
+        description: "Ignorar cooldown/cache y revisar aunque se haya revisado hace poco"
+        type: boolean
+        required: false
+        default: false
   schedule:
     - cron: "*/30 * * * *"
 
@@ -52,10 +57,14 @@ jobs:
         shell: bash
         run: |
           LIMITE="${{ inputs.limite }}"
+          FORZAR_FLAG=""
+          if [ "${{ inputs.forzar }}" = "true" ]; then
+            FORZAR_FLAG="--force"
+          fi
           if [ -z "$LIMITE" ] || [ "$LIMITE" = "0" ]; then
-            python facebook_live_bolivia.py
+            python facebook_live_bolivia.py $FORZAR_FLAG
           else
-            python facebook_live_bolivia.py --limit "$LIMITE"
+            python facebook_live_bolivia.py --limit "$LIMITE" $FORZAR_FLAG
           fi
 
       - name: Mostrar resumen
