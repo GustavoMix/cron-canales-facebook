@@ -11,7 +11,11 @@ on:
     - cron: "*/30 * * * *"
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: probar-lives
+  cancel-in-progress: false
 
 jobs:
   detectar-lives:
@@ -72,3 +76,25 @@ jobs:
             lives_bolivia.json
           if-no-files-found: warn
           retention-days: 7
+
+      - name: Publicar lives_bolivia.json en el repo
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f lives_bolivia.json ]; then
+            echo "No hay lives_bolivia.json que publicar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add lives_bolivia.json resultado_facebook_bolivia.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los resultados, no se hace commit."
+            exit 0
+          fi
+          git commit -m "Actualizar resultados de lives [skip ci]"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push falló (posible carrera con otra corrida), reintentando ($i)..."
+            sleep 5
+          done
