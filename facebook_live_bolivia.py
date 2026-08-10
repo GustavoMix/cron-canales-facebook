@@ -211,7 +211,8 @@ def score_live(text, aria="", html_hint=False):
             score += 30
             why.append("debil:" + x)
 
-    if any(x in a for x in ("live", "en vivo", "ao vivo")):
+    # \b para no confundir "live" dentro de "delivery", "alive", "livestream", etc.
+    if re.search(r"\blive\b", a) or "en vivo" in a or "ao vivo" in a:
         score += 100
         why.append("aria_live")
 
