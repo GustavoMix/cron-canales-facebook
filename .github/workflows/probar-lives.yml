@@ -36,6 +36,14 @@ jobs:
       - name: Instalar Chromium y dependencias del sistema
         run: python -m playwright install --with-deps chromium
 
+      - name: Restaurar estado (cache/cooldown) de corridas anteriores
+        uses: actions/cache@v4
+        with:
+          path: .facebook_live_estado.json
+          key: estado-facebook-live-${{ github.run_id }}
+          restore-keys: |
+            estado-facebook-live-
+
       - name: Ejecutar detector
         shell: bash
         run: |

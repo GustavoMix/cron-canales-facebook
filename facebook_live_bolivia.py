@@ -38,9 +38,9 @@ BLOQUEO = (
 )
 
 VIDEO_RES = [
-    re.compile(r"https?://(?:www\\.|m\\.)?facebook\\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\\d+)", re.I),
-    re.compile(r"https?://(?:www\\.|m\\.)?facebook\\.com/(\\d+)/videos/(?:[^/?#]+/)?(\\d+)", re.I),
-    re.compile(r"https?://(?:www\\.|m\\.)?facebook\\.com/watch/\\?v=(\\d+)", re.I),
+    re.compile(r"https?://(?:www\.|m\.)?facebook\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\d+)", re.I),
+    re.compile(r"https?://(?:www\.|m\.)?facebook\.com/(\d+)/videos/(?:[^/?#]+/)?(\d+)", re.I),
+    re.compile(r"https?://(?:www\.|m\.)?facebook\.com/watch/\?v=(\d+)", re.I),
 ]
 
 
