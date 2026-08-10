@@ -40,6 +40,12 @@ BLOQUEO = (
     "temporarily blocked", "temporalmente bloqueado"
 )
 
+ESPECTADORES_RE = re.compile(
+    r"([\d]+(?:[.,]\d+)?)\s*(mil|k)?\s*(?:personas\s+)?(?:est[aá]n\s+)?"
+    r"(?:viendo|watching|espectadores|viewers)",
+    re.I,
+)
+
 VIDEO_RES = [
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\d+)", re.I),
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/(\d+)/videos/(?:[^/?#]+/)?(\d+)", re.I),
@@ -136,6 +142,23 @@ def clean_url(href):
     if "/watch/" in href:
         return href
     return href.split("?")[0]
+
+
+def extraer_espectadores(text):
+    """Best-effort: busca frases tipo '1.1 mil espectadores' o '350 viewers'.
+    No siempre está presente en el HTML; devuelve None si no se encuentra."""
+    if not text:
+        return None
+    m = ESPECTADORES_RE.search(text)
+    if not m:
+        return None
+    try:
+        numero = float(m.group(1).replace(",", "."))
+        if m.group(2):
+            numero *= 1000
+        return int(numero)
+    except (ValueError, TypeError):
+        return None
 
 
 def video_id(url):
@@ -277,6 +300,7 @@ def inspect(page, route, timeout=30000):
             "video_id": vid,
             "titulo": titulo(body),
             "motivos": why,
+            "espectadores": extraer_espectadores(body),
         })
 
     anchors = page.locator(
@@ -302,6 +326,7 @@ def inspect(page, route, timeout=30000):
                 "video_id": vid,
                 "titulo": titulo(ctx),
                 "motivos": why,
+                "espectadores": extraer_espectadores(ctx),
             })
         except Exception:
             pass
@@ -332,6 +357,7 @@ def revisar(page, f):
         "confianza": None,
         "ruta_detectada": None,
         "motivos": [],
+        "espectadores": None,
         "revisado_en": now_iso(),
         "error": None,
     }
@@ -364,6 +390,7 @@ def revisar(page, f):
                     "confianza": r.get("score"),
                     "ruta_detectada": r.get("route"),
                     "motivos": r.get("motivos") or [],
+                    "espectadores": r.get("espectadores"),
                 })
                 break
 
