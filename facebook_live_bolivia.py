@@ -390,6 +390,10 @@ def inspect(page, route, timeout=30000):
         "estado": "offline",
         "route": route,
         "mejor_score": cand[0]["score"] if cand else None,
+        # Aunque no llegue al puntaje de "en vivo", puede ser la última transmisión de
+        # la fuente (terminó hace poco, Facebook sigue sirviendo la grabación). Se
+        # guarda para que la app pueda ofrecer "ver la última" en vez de dejarlo mudo.
+        "mejor_candidato": cand[0] if cand else None,
     }
 
 
@@ -424,6 +428,11 @@ def revisar(page, f):
         if n["tipo"] in ("pagina", "profile_id"):
             out["icono_url"] = f"https://graph.facebook.com/{n['id']}/picture?type=large"
 
+        # Mejor candidato a "última transmisión" visto en cualquiera de las rutas,
+        # por si ninguna llega a puntaje de "en vivo" pero sí hay algo reciente
+        # que mostrar como repris en vez de dejar la fuente muda.
+        mejor_repris = None
+
         for route in routes(n):
             try:
                 r = inspect(page, route)
@@ -457,8 +466,24 @@ def revisar(page, f):
                         pass
                 break
 
+            candidato = r.get("mejor_candidato")
+            if candidato and (mejor_repris is None or candidato["score"] > mejor_repris["score"]):
+                mejor_repris = candidato
+
             # Pausa corta entre rutas de la MISMA fuente para no hacer ráfaga.
             time.sleep(1.5)
+
+        # Nunca estuvo en vivo en esta corrida, pero hay un video reciente disponible:
+        # se deja como "offline" (en_vivo sigue False) pero con url_video para que la
+        # app pueda ofrecer "ver la última" en vez de un offline mudo.
+        if not out["en_vivo"] and out["estado"] not in ("blocked", "error") and mejor_repris:
+            out.update({
+                "titulo": mejor_repris.get("titulo"),
+                "video_id": mejor_repris.get("video_id"),
+                "url_video": mejor_repris.get("url_video"),
+                "confianza": mejor_repris.get("score"),
+                "motivos": mejor_repris.get("motivos") or [],
+            })
 
     except Exception as e:
         out["estado"] = "error"
