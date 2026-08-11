@@ -9,8 +9,8 @@ on:
         required: false
         default: false
   schedule:
-    # Fuentes 1-21 de fuentes.json. Los 4 grupos corren a la misma hora, en paralelo.
-    - cron: "0 * * * *"
+    # Fuentes 1-21 de fuentes.json. Los 4 grupos corren cada media hora, en paralelo.
+    - cron: "0,30 * * * *"
 
 jobs:
   escanear:
