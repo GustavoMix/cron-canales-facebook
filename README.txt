@@ -6,9 +6,12 @@ FACEBOOK LIVE BOLIVIA - PRUEBA LOCAL
 4. Para revisar todas las fuentes de fuentes.json: revisar_todas_una_vez.bat
 5. Para repetir de forma conservadora: vigilar_cada_15_minutos.bat
 
-En GitHub Actions, fuentes.json se reparte en 4 grupos que corren en paralelo
+En GitHub Actions, fuentes.json se reparte en 5 grupos que corren en paralelo
 cada hora (ver GITHUB_ACTIONS.txt) para no exceder el timeout del job ni
-mandar de golpe todas las requests a Facebook.
+mandar de golpe todas las requests a Facebook. Los grupos 1-4 son canales
+bolivianos; el grupo 5 son canales de noticias regionales/internacionales de
+transmisión continua, agregados para que siempre haya algo en vivo aunque
+los canales bolivianos no estén emitiendo en ese momento.
 
 Archivos de salida:
 - resultado_facebook_bolivia.json: todas las fuentes
