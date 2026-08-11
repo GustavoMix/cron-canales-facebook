@@ -489,6 +489,9 @@ def scan(args):
             if s in x["nombre"].lower() or s in x["url"].lower()
         ]
 
+    if args.offset:
+        fuentes = fuentes[args.offset:]
+
     if args.limit:
         fuentes = fuentes[:args.limit]
 
@@ -573,6 +576,8 @@ def main():
     ap.add_argument("--source")
     ap.add_argument("--url")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--offset", type=int, default=0,
+                    help="Salta las primeras N fuentes antes de aplicar --limit (para repartir la lista en grupos).")
     ap.add_argument("--visible", action="store_true")
     ap.add_argument("--watch", type=int, metavar="SEGUNDOS")
 
