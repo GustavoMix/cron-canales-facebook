@@ -13,6 +13,10 @@ bolivianos; el grupo 5 son canales de noticias regionales/internacionales de
 transmisión continua, agregados para que siempre haya algo en vivo aunque
 los canales bolivianos no estén emitiendo en ese momento.
 
+Además hay fuentes_youtube.json + youtube_live.py: los mismos canales de
+noticias de la región, pero revisados en su canal de YouTube (sin navegador,
+más rápido). Corre como un 6to grupo en paralelo con los de Facebook.
+
 Archivos de salida:
 - resultado_facebook_bolivia.json: todas las fuentes
 - lives_bolivia.json: solamente transmisiones detectadas como activas

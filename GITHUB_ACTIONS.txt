@@ -11,8 +11,10 @@ Esta versión ya incluye:
 .github/workflows/probar-lives-grupo5.yml   (fuentes 84 en adelante, canales
                                               regionales/internacionales de
                                               noticias 24h)
+.github/workflows/_probar-lives-grupo-youtube.yml (reusable, YouTube)
+.github/workflows/probar-lives-youtube-grupo1.yml (fuentes_youtube.json)
 
-fuentes.json se reparte en 5 grupos para que cada corrida sea corta (no exceda
+fuentes.json (Facebook) se reparte en 5 grupos para que cada corrida sea corta (no exceda
 el timeout del job) y para no mandar todas las requests a Facebook de golpe.
 Cada fuente tiene un campo "pais" (ej. "Bolivia", "Argentina", "Internacional")
 para que la app que consuma los resultados pueda filtrar/agrupar por región.
@@ -23,10 +25,18 @@ Español, teleSUR, C5N, TN, Noticias Caracol, etc.) elegidos porque transmiten
 en vivo de forma continua o casi continua, para que siempre haya algo en vivo
 disponible aunque los canales bolivianos no estén emitiendo en ese momento.
 
-Los 5 workflows corren en paralelo, una vez por hora, cada uno con su propio
-"concurrency group" (no se pisan entre sí ni se bloquean unos a otros). Al
-terminar, cada uno también combina los 5 resultados parciales en los archivos
-finales lives_bolivia.json y resultado_facebook_bolivia.json.
+Además hay un grupo de YouTube (fuentes_youtube.json, 27 canales de noticias
+de la región con evidencia de transmisión continua) que usa youtube_live.py:
+a diferencia de Facebook, no necesita navegador, solo hace un HTTP GET a
+"<canal>/live" y busca el marcador "isLiveNow":true que YouTube sirve en el
+HTML cuando el canal está en vivo — por eso esa corrida es mucho más rápida.
+
+Los 6 workflows (5 de Facebook + 1 de YouTube) corren en paralelo, una vez
+por hora, cada uno con su propio "concurrency group" (no se pisan entre sí ni
+se bloquean unos a otros). Al terminar, cada uno también combina todos los
+resultados parciales en los archivos finales lives_bolivia.json y
+resultado_facebook_bolivia.json (cada fuente trae "plataforma":
+"facebook"/"youtube" para distinguirlas).
 
 PASOS
 -----
