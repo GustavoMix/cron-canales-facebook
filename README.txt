@@ -3,8 +3,12 @@ FACEBOOK LIVE BOLIVIA - PRUEBA LOCAL
 1. Ejecuta instalar.bat
 2. Prueba primero probar_red_uno.bat
 3. Luego probar_unitel.bat
-4. Para revisar las 24 fuentes: revisar_todas_una_vez.bat
+4. Para revisar todas las fuentes de fuentes.json: revisar_todas_una_vez.bat
 5. Para repetir de forma conservadora: vigilar_cada_15_minutos.bat
+
+En GitHub Actions, fuentes.json se reparte en 4 grupos que corren en paralelo
+cada hora (ver GITHUB_ACTIONS.txt) para no exceder el timeout del job ni
+mandar de golpe todas las requests a Facebook.
 
 Archivos de salida:
 - resultado_facebook_bolivia.json: todas las fuentes

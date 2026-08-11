@@ -3,9 +3,18 @@ PRUEBA EN GITHUB ACTIONS
 
 Esta versión ya incluye:
 
-.github/workflows/probar-lives.yml
+.github/workflows/_probar-lives-grupo.yml   (workflow reusable, no se dispara solo)
+.github/workflows/probar-lives-grupo1.yml   (fuentes 1-21)
+.github/workflows/probar-lives-grupo2.yml   (fuentes 22-42)
+.github/workflows/probar-lives-grupo3.yml   (fuentes 43-63)
+.github/workflows/probar-lives-grupo4.yml   (fuentes 64 en adelante)
 
-El workflow es MANUAL a propósito para probar primero sin ejecutar scraping automáticamente.
+fuentes.json se reparte en 4 grupos para que cada corrida sea corta (no exceda
+el timeout del job) y para no mandar todas las requests a Facebook de golpe.
+Los 4 workflows corren en paralelo, una vez por hora, cada uno con su propio
+"concurrency group" (no se pisan entre sí ni se bloquean unos a otros). Al
+terminar, cada uno también combina los 4 resultados parciales en los archivos
+finales lives_bolivia.json y resultado_facebook_bolivia.json.
 
 PASOS
 -----
@@ -16,18 +25,25 @@ PASOS
    facebook_live_bolivia.py
    fuentes.json
    requirements.txt
-   .github/workflows/probar-lives.yml
+   .github/workflows/_probar-lives-grupo.yml
+   .github/workflows/probar-lives-grupo1.yml
+   .github/workflows/probar-lives-grupo2.yml
+   .github/workflows/probar-lives-grupo3.yml
+   .github/workflows/probar-lives-grupo4.yml
 
 3. Ve a la pestaña Actions.
-4. Entra a "Probar Facebook Live Bolivia".
+4. Entra a "Probar Facebook Live Bolivia - Grupo 1" (o cualquiera de los 4).
 5. Pulsa "Run workflow".
-6. Para la primera prueba deja limite=5.
-7. Espera a que termine.
-8. Abre el run y mira el log "Ejecutar detector".
-9. Al final podrás descargar el artefacto:
-   resultados-facebook-live-bolivia
+6. Espera a que termine.
+7. Abre el run y mira el log "Ejecutar detector".
+8. Al final podrás descargar el artefacto:
+   resultados-facebook-live-bolivia-grupoN
 
 Ese artefacto contiene:
+- resultado_facebook_bolivia_grupoN.json
+- lives_bolivia_grupoN.json
+
+Y en la raíz del repo quedan los combinados de los 4 grupos:
 - resultado_facebook_bolivia.json
 - lives_bolivia.json
 

@@ -444,6 +444,27 @@ def guardar(rows):
     )
 
 
+def merge_grupos(sufijos):
+    """Combina los resultado_facebook_bolivia<sufijo>.json de cada grupo en los
+    archivos finales (sin sufijo). No escanea nada, solo lee lo que ya está
+    en disco en este checkout."""
+    rows = []
+    for suf in sufijos:
+        f = ROOT / f"resultado_facebook_bolivia{suf}.json"
+        if not f.exists():
+            print(f"Aviso: no existe {f.name}, se omite ese grupo.")
+            continue
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            rows.extend(data.get("resultados", []))
+        except Exception as e:
+            print(f"Aviso: no se pudo leer {f.name}: {e}")
+
+    guardar(rows)
+    print(f"Merge listo: {len(rows)} fuentes combinadas de {len(sufijos)} grupos.")
+    return rows
+
+
 def fuente_key(f):
     return f.get("url") or f.get("nombre") or "desconocida"
 
@@ -488,6 +509,9 @@ def scan(args):
             x for x in fuentes
             if s in x["nombre"].lower() or s in x["url"].lower()
         ]
+
+    if args.offset:
+        fuentes = fuentes[args.offset:]
 
     if args.limit:
         fuentes = fuentes[:args.limit]
@@ -573,6 +597,8 @@ def main():
     ap.add_argument("--source")
     ap.add_argument("--url")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--offset", type=int, default=0,
+                    help="Salta las primeras N fuentes antes de aplicar --limit (para repartir la lista en grupos).")
     ap.add_argument("--visible", action="store_true")
     ap.add_argument("--watch", type=int, metavar="SEGUNDOS")
 
@@ -587,8 +613,23 @@ def main():
                     help="Cooldown global si Facebook muestra bloqueo temporal.")
     ap.add_argument("--force", action="store_true",
                     help="Ignorar cache local. Úsalo solo para pruebas manuales puntuales.")
+    ap.add_argument("--out-suffix", default="",
+                    help="Sufijo para resultado_facebook_bolivia<sufijo>.json y lives_bolivia<sufijo>.json "
+                         "(para que grupos en paralelo no se pisen entre sí).")
+    ap.add_argument("--merge", metavar="SUFIJOS",
+                    help="No escanea nada: combina resultado_facebook_bolivia<sufijo>.json de cada grupo "
+                         "(sufijos separados por coma, ej. _grupo1,_grupo2) en los archivos finales sin sufijo.")
 
     args = ap.parse_args()
+
+    if args.merge:
+        merge_grupos(args.merge.split(","))
+        return
+
+    global RESULTADO_FILE, LIVES_FILE
+    if args.out_suffix:
+        RESULTADO_FILE = ROOT / f"resultado_facebook_bolivia{args.out_suffix}.json"
+        LIVES_FILE = ROOT / f"lives_bolivia{args.out_suffix}.json"
 
     # Si el workflow viejo pasa --delay-min/--delay-max, tomamos el mayor para ser conservadores.
     compat_delays = [x for x in (args.delay_min, args.delay_max) if x is not None]

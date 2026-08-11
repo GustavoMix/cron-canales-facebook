@@ -1,0 +1,25 @@
+name: Probar Facebook Live Bolivia - Grupo 4
+
+on:
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Ignorar cooldown/cache y revisar aunque se haya revisado hace poco"
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    # Fuentes 64 en adelante de fuentes.json (limit 0 = hasta el final). Los 4 grupos
+    # corren a la misma hora, en paralelo.
+    - cron: "0 * * * *"
+
+jobs:
+  escanear:
+    permissions:
+      contents: write
+    uses: ./.github/workflows/_probar-lives-grupo.yml
+    with:
+      grupo: grupo4
+      offset: 63
+      limit: 0
+      forzar: ${{ inputs.forzar == true }}
