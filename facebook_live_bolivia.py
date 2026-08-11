@@ -10,8 +10,7 @@ from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 try:
-    # El modo --merge (usado también por el workflow de YouTube, que no
-    # instala Playwright a propósito para ser liviano) no necesita navegador.
+    # El modo --merge no necesita navegador.
     from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 except ModuleNotFoundError:
     sync_playwright = None

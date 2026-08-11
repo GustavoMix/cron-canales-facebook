@@ -1,4 +1,4 @@
-name: Probar YouTube Live - Grupo 1
+name: Probar Facebook Live Bolivia - Grupo 7 (Radios)
 
 on:
   workflow_dispatch:
@@ -9,16 +9,17 @@ on:
         required: false
         default: false
   schedule:
-    # Todas las fuentes de fuentes_youtube.json. Corre junto a los grupos de Facebook.
+    # Fuentes 118-128 de fuentes.json: radios bolivianas (Facebook). Ocupa el lugar
+    # que tenía el grupo de YouTube, que se sacó para no mezclar plataformas.
     - cron: "0,30 * * * *"
 
 jobs:
   escanear:
     permissions:
       contents: write
-    uses: ./.github/workflows/_probar-lives-grupo-youtube.yml
+    uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
-      grupo: yt1
-      offset: 0
-      limit: 0
+      grupo: grupo7
+      offset: 117
+      limit: 11
       forzar: ${{ inputs.forzar == true }}

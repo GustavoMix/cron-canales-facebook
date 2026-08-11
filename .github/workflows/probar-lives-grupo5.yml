@@ -10,8 +10,8 @@ on:
         default: false
   schedule:
     # Canales de noticias regionales/internacionales de transmisión continua
-    # (últimas fuentes de fuentes.json, después del grupo6 de nuevas nacionales).
-    # Corre junto a los otros grupos.
+    # (últimas fuentes de fuentes.json, después del grupo6 de nacionales nuevas
+    # y el grupo7 de radios). Corre junto a los otros grupos.
     - cron: "0,30 * * * *"
 
 jobs:
@@ -21,6 +21,6 @@ jobs:
     uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
       grupo: grupo5
-      offset: 117
+      offset: 128
       limit: 0
       forzar: ${{ inputs.forzar == true }}
