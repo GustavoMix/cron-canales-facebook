@@ -1,4 +1,4 @@
-name: Probar Facebook Live Bolivia - Grupo 4
+name: Probar YouTube Live - Grupo 1
 
 on:
   workflow_dispatch:
@@ -9,17 +9,16 @@ on:
         required: false
         default: false
   schedule:
-    # Fuentes 64-83 de fuentes.json (las bolivianas). El grupo 5 (canales
-    # regionales/internacionales) es aparte y no entra en este rango.
+    # Todas las fuentes de fuentes_youtube.json. Corre junto a los grupos de Facebook.
     - cron: "0 * * * *"
 
 jobs:
   escanear:
     permissions:
       contents: write
-    uses: ./.github/workflows/_probar-lives-grupo.yml
+    uses: ./.github/workflows/_probar-lives-grupo-youtube.yml
     with:
-      grupo: grupo4
-      offset: 63
-      limit: 20
+      grupo: yt1
+      offset: 0
+      limit: 0
       forzar: ${{ inputs.forzar == true }}

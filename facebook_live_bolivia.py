@@ -363,6 +363,8 @@ def revisar(page, f):
     out = {
         "nombre": f.get("nombre"),
         "categoria": f.get("categoria"),
+        "pais": f.get("pais"),
+        "plataforma": "facebook",
         "url_fuente": f.get("url"),
         "tipo": None,
         "identificador": None,

@@ -4,17 +4,39 @@ PRUEBA EN GITHUB ACTIONS
 Esta versión ya incluye:
 
 .github/workflows/_probar-lives-grupo.yml   (workflow reusable, no se dispara solo)
-.github/workflows/probar-lives-grupo1.yml   (fuentes 1-21)
-.github/workflows/probar-lives-grupo2.yml   (fuentes 22-42)
-.github/workflows/probar-lives-grupo3.yml   (fuentes 43-63)
-.github/workflows/probar-lives-grupo4.yml   (fuentes 64 en adelante)
+.github/workflows/probar-lives-grupo1.yml   (fuentes 1-21, Bolivia)
+.github/workflows/probar-lives-grupo2.yml   (fuentes 22-42, Bolivia)
+.github/workflows/probar-lives-grupo3.yml   (fuentes 43-63, Bolivia)
+.github/workflows/probar-lives-grupo4.yml   (fuentes 64-83, Bolivia)
+.github/workflows/probar-lives-grupo5.yml   (fuentes 84 en adelante, canales
+                                              regionales/internacionales de
+                                              noticias 24h)
+.github/workflows/_probar-lives-grupo-youtube.yml (reusable, YouTube)
+.github/workflows/probar-lives-youtube-grupo1.yml (fuentes_youtube.json)
 
-fuentes.json se reparte en 4 grupos para que cada corrida sea corta (no exceda
+fuentes.json (Facebook) se reparte en 5 grupos para que cada corrida sea corta (no exceda
 el timeout del job) y para no mandar todas las requests a Facebook de golpe.
-Los 4 workflows corren en paralelo, una vez por hora, cada uno con su propio
-"concurrency group" (no se pisan entre sí ni se bloquean unos a otros). Al
-terminar, cada uno también combina los 4 resultados parciales en los archivos
-finales lives_bolivia.json y resultado_facebook_bolivia.json.
+Cada fuente tiene un campo "pais" (ej. "Bolivia", "Argentina", "Internacional")
+para que la app que consuma los resultados pueda filtrar/agrupar por región.
+
+Los grupos 1-4 son canales bolivianos (transmiten en horarios acotados, tipo
+noticieros). El grupo 5 son canales de noticias de la región (NTN24, CNN en
+Español, teleSUR, C5N, TN, Noticias Caracol, etc.) elegidos porque transmiten
+en vivo de forma continua o casi continua, para que siempre haya algo en vivo
+disponible aunque los canales bolivianos no estén emitiendo en ese momento.
+
+Además hay un grupo de YouTube (fuentes_youtube.json, 27 canales de noticias
+de la región con evidencia de transmisión continua) que usa youtube_live.py:
+a diferencia de Facebook, no necesita navegador, solo hace un HTTP GET a
+"<canal>/live" y busca el marcador "isLiveNow":true que YouTube sirve en el
+HTML cuando el canal está en vivo — por eso esa corrida es mucho más rápida.
+
+Los 6 workflows (5 de Facebook + 1 de YouTube) corren en paralelo, una vez
+por hora, cada uno con su propio "concurrency group" (no se pisan entre sí ni
+se bloquean unos a otros). Al terminar, cada uno también combina todos los
+resultados parciales en los archivos finales lives_bolivia.json y
+resultado_facebook_bolivia.json (cada fuente trae "plataforma":
+"facebook"/"youtube" para distinguirlas).
 
 PASOS
 -----
@@ -32,7 +54,7 @@ PASOS
    .github/workflows/probar-lives-grupo4.yml
 
 3. Ve a la pestaña Actions.
-4. Entra a "Probar Facebook Live Bolivia - Grupo 1" (o cualquiera de los 4).
+4. Entra a "Probar Facebook Live Bolivia - Grupo 1" (o cualquiera de los 5).
 5. Pulsa "Run workflow".
 6. Espera a que termine.
 7. Abre el run y mira el log "Ejecutar detector".
