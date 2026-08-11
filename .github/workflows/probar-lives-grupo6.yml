@@ -1,4 +1,4 @@
-name: Probar Facebook Live Bolivia - Grupo 5 (Regional)
+name: Probar Facebook Live Bolivia - Grupo 6 (Nuevas fuentes nacionales)
 
 on:
   workflow_dispatch:
@@ -9,9 +9,9 @@ on:
         required: false
         default: false
   schedule:
-    # Canales de noticias regionales/internacionales de transmisión continua
-    # (últimas fuentes de fuentes.json, después del grupo6 de nuevas nacionales).
-    # Corre junto a los otros grupos.
+    # Fuentes 84-117 de fuentes.json: 34 canales/radios bolivianos nuevos, agregados
+    # aparte de los grupos 1-4 para no aumentar el tiempo de corrida de esos grupos
+    # que ya venían funcionando bien. Corre junto a los otros grupos.
     - cron: "0,30 * * * *"
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
       contents: write
     uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
-      grupo: grupo5
-      offset: 117
-      limit: 0
+      grupo: grupo6
+      offset: 83
+      limit: 34
       forzar: ${{ inputs.forzar == true }}
