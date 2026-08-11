@@ -59,6 +59,10 @@ ESPECTADORES_RE = re.compile(
 # nunca sobre el texto completo de la página, para no matchear precios o teléfonos sueltos.
 ESPECTADORES_COMPACTO_RE = re.compile(r"([\d]+(?:[.,]\d+)?)\s*(mil|k)\b", re.I)
 
+# Respaldo de icono cuando Graph API no resuelve una foto real (perfiles personales,
+# IDs que ya no existen): el og:image de la propia página, público incluso sin login.
+OGIMAGE_RE = re.compile(r'property="og:image"\s+content="([^"]+)"', re.I)
+
 VIDEO_RES = [
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\d+)", re.I),
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/(\d+)/videos/(?:[^/?#]+/)?(\d+)", re.I),
@@ -349,9 +353,10 @@ def inspect(page, route, timeout=30000):
         return {"estado": "blocked", "route": route}
 
     try:
-        html = page.content().lower()
+        html_raw = page.content()
     except Exception:
-        html = ""
+        html_raw = ""
+    html = html_raw.lower()
 
     html_hint = any(x in html for x in (
         '"is_live_streaming":true',
@@ -359,6 +364,14 @@ def inspect(page, route, timeout=30000):
         '"broadcast_status":"live"',
         '"broadcaststatus":"live"',
     ))
+
+    # Respaldo de icono: el og:image de la propia página (funciona incluso para
+    # perfiles personales, sin necesidad de Graph API ni token). Se guarda siempre
+    # que se encuentre; revisar() solo lo usa si Graph API no dio una foto válida.
+    og_icono = None
+    m_og = OGIMAGE_RE.search(html_raw)
+    if m_og:
+        og_icono = m_og.group(1).replace("&amp;", "&")
 
     cand = []
     cur = clean_url(page.url)
@@ -408,11 +421,12 @@ def inspect(page, route, timeout=30000):
 
     cand.sort(key=lambda x: x["score"], reverse=True)
     if cand and cand[0]["score"] >= 70:
-        return {"estado": "live", "route": route, **cand[0]}
+        return {"estado": "live", "route": route, "og_icono": og_icono, **cand[0]}
 
     return {
         "estado": "offline",
         "route": route,
+        "og_icono": og_icono,
         "mejor_score": cand[0]["score"] if cand else None,
         # Aunque no llegue al puntaje de "en vivo", puede ser la última transmisión de
         # la fuente (terminó hace poco, Facebook sigue sirviendo la grabación). Se
@@ -459,6 +473,9 @@ def revisar(page, f):
         # por si ninguna llega a puntaje de "en vivo" pero sí hay algo reciente
         # que mostrar como repris en vez de dejar la fuente muda.
         mejor_repris = None
+        # Respaldo de icono desde el og:image de la página, por si Graph API no dio
+        # una foto válida (perfiles personales, IDs mal resueltos).
+        icono_respaldo = None
 
         for route in routes(n):
             try:
@@ -468,6 +485,9 @@ def revisar(page, f):
             except Exception as e:
                 out["error"] = f"{type(e).__name__}: {e}"
                 continue
+
+            if icono_respaldo is None and r.get("og_icono"):
+                icono_respaldo = r["og_icono"]
 
             if r["estado"] == "blocked":
                 out["estado"] = "blocked"
@@ -511,6 +531,9 @@ def revisar(page, f):
                 "confianza": mejor_repris.get("score"),
                 "motivos": mejor_repris.get("motivos") or [],
             })
+
+        if out["icono_url"] is None and icono_respaldo:
+            out["icono_url"] = icono_respaldo
 
     except Exception as e:
         out["estado"] = "error"
