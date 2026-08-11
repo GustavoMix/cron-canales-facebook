@@ -281,12 +281,111 @@ def cerrar_popups(page):
             pass
 
 
-def inspect(page, route, timeout=30000):
+def extraer_icono_canal(page, nombre=None):
+    """Extrae, en la misma página ya cargada, la foto/logo de perfil del canal.
+
+    No hace una solicitud adicional: reutiliza el DOM que Playwright ya descargó.
+    Devuelve una URL http(s) o None si Facebook no expone una imagen fiable.
+    """
+    nombre_low = re.sub(r"\s+", " ", (nombre or "").strip().lower())
+
+    # 1) Selectores semánticos para la foto de perfil en varios idiomas.
+    selectors = (
+        'a[aria-label*="profile picture" i] img',
+        'a[aria-label*="profile photo" i] img',
+        'a[aria-label*="foto del perfil" i] img',
+        'a[aria-label*="foto de perfil" i] img',
+        'a[aria-label*="imagem do perfil" i] img',
+        '[aria-label*="profile picture" i] img',
+        '[aria-label*="foto del perfil" i] img',
+        '[aria-label*="foto de perfil" i] img',
+    )
+    for sel in selectors:
+        try:
+            loc = page.locator(sel)
+            for i in range(min(loc.count(), 5)):
+                src = loc.nth(i).get_attribute("src") or ""
+                if src.startswith(("https://", "http://")):
+                    return src.replace("&amp;", "&")
+        except Exception:
+            pass
+
+    # 2) Facebook también suele dibujar avatares recortados dentro de SVG <image>.
+    try:
+        imgs_svg = page.locator("svg image")
+        candidatos = []
+        for i in range(min(imgs_svg.count(), 40)):
+            el = imgs_svg.nth(i)
+            href = (
+                el.get_attribute("href")
+                or el.get_attribute("xlink:href")
+                or ""
+            )
+            if not href.startswith(("https://", "http://")):
+                continue
+            # Las imágenes CDN de Facebook suelen venir de fbcdn/scontent.
+            if "fbcdn" in href or "scontent" in href:
+                candidatos.append(href.replace("&amp;", "&"))
+        if candidatos:
+            return candidatos[0]
+    except Exception:
+        pass
+
+    # 3) Respaldo: busca imágenes cuadradas del CDN, priorizando alt relacionado
+    # con el nombre del canal. Evita usar og:image porque en /live/ puede ser la
+    # miniatura del VIDEO y no el logo del canal.
+    try:
+        imgs = page.locator("img")
+        candidatos = []
+        for i in range(min(imgs.count(), 80)):
+            img = imgs.nth(i)
+            src = img.get_attribute("src") or ""
+            if not src.startswith(("https://", "http://")):
+                continue
+            if "fbcdn" not in src and "scontent" not in src:
+                continue
+
+            alt = re.sub(r"\s+", " ", (img.get_attribute("alt") or "").strip().lower())
+            try:
+                dims = img.evaluate("el => [el.naturalWidth || el.width || 0, el.naturalHeight || el.height || 0]")
+                w, h = int(dims[0] or 0), int(dims[1] or 0)
+            except Exception:
+                w = h = 0
+
+            # Un logo/avatar normalmente es aproximadamente cuadrado.
+            cuadrada = bool(w and h and 0.75 <= (w / h) <= 1.33)
+            coincide_nombre = bool(nombre_low and alt and (
+                nombre_low in alt or alt in nombre_low
+            ))
+
+            score = 0
+            if coincide_nombre:
+                score += 100
+            if cuadrada:
+                score += 30
+            if 40 <= w <= 1000 and 40 <= h <= 1000:
+                score += 10
+            candidatos.append((score, src.replace("&amp;", "&")))
+
+        if candidatos:
+            candidatos.sort(key=lambda x: x[0], reverse=True)
+            if candidatos[0][0] >= 30:
+                return candidatos[0][1]
+    except Exception:
+        pass
+
+    return None
+
+
+def inspect(page, route, nombre=None, timeout=30000):
     page.goto(route, wait_until="domcontentloaded", timeout=timeout)
     # Espera funcional corta para que cargue contenido dinámico; no simula humano.
     page.wait_for_timeout(2500)
     cerrar_popups(page)
     page.wait_for_timeout(400)
+
+    # Se obtiene el logo/foto desde ESTA MISMA carga de Facebook.
+    icono_url = extraer_icono_canal(page, nombre=nombre)
 
     try:
         body = page.locator("body").inner_text(timeout=1800)
@@ -295,7 +394,7 @@ def inspect(page, route, timeout=30000):
 
     low = body.lower()
     if any(x in low for x in BLOQUEO):
-        return {"estado": "blocked", "route": route}
+        return {"estado": "blocked", "route": route, "icono_url": icono_url}
 
     try:
         html = page.content().lower()
@@ -357,11 +456,12 @@ def inspect(page, route, timeout=30000):
 
     cand.sort(key=lambda x: x["score"], reverse=True)
     if cand and cand[0]["score"] >= 70:
-        return {"estado": "live", "route": route, **cand[0]}
+        return {"estado": "live", "route": route, "icono_url": icono_url, **cand[0]}
 
     return {
         "estado": "offline",
         "route": route,
+        "icono_url": icono_url,
         "mejor_score": cand[0]["score"] if cand else None,
     }
 
@@ -373,6 +473,7 @@ def revisar(page, f):
         "pais": f.get("pais"),
         "plataforma": "facebook",
         "url_fuente": f.get("url"),
+        "icono_url": None,
         "tipo": None,
         "identificador": None,
         "en_vivo": False,
@@ -394,12 +495,17 @@ def revisar(page, f):
 
         for route in routes(n):
             try:
-                r = inspect(page, route)
+                r = inspect(page, route, nombre=f.get("nombre"))
             except PlaywrightTimeoutError:
                 continue
             except Exception as e:
                 out["error"] = f"{type(e).__name__}: {e}"
                 continue
+
+            # Conserva la primera foto/logo fiable que aparezca, incluso si
+            # esta ruta concreta no tiene un live activo.
+            if not out.get("icono_url") and r.get("icono_url"):
+                out["icono_url"] = r.get("icono_url")
 
             if r["estado"] == "blocked":
                 out["estado"] = "blocked"
@@ -417,6 +523,7 @@ def revisar(page, f):
                     "ruta_detectada": r.get("route"),
                     "motivos": r.get("motivos") or [],
                     "espectadores": r.get("espectadores"),
+                    "icono_url": r.get("icono_url") or out.get("icono_url"),
                 })
                 break
 
