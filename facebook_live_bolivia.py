@@ -5,6 +5,8 @@ import argparse
 import json
 import re
 import time
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
@@ -133,6 +135,28 @@ def normalize(url):
         return {"tipo": "pagina", "id": ident, "base": f"https://www.facebook.com/{ident}"}
 
     raise ValueError("No pude obtener identificador")
+
+
+# Fragmento del nombre de archivo de la silueta genérica que Facebook devuelve en
+# graph.facebook.com/{id}/picture cuando NO pudo resolver una foto real de forma
+# anónima (perfil personal privado, id que ya no existe, etc.) — en vez de fallar,
+# redirige a este placeholder como si fuera una foto válida.
+SILUETA_GENERICA = "176159830277856_972693363922829312"
+
+
+def icono_valido(id_grafo):
+    """Confirma que graph.facebook.com/{id}/picture resolvió una foto real, no el
+    placeholder genérico. Un solo GET liviano, se hace una vez por fuente."""
+    try:
+        req = urllib.request.Request(
+            f"https://graph.facebook.com/{id_grafo}/picture?type=large",
+            headers={"User-Agent": "Mozilla/5.0"},
+        )
+        with urllib.request.urlopen(req, timeout=6) as resp:
+            final_url = resp.geturl()
+        return SILUETA_GENERICA not in final_url
+    except Exception:
+        return False
 
 
 def routes(norm):
@@ -425,7 +449,10 @@ def revisar(page, f):
         out["tipo"], out["identificador"] = n["tipo"], n["id"]
         # Foto de perfil pública vía Graph API: no necesita token para páginas públicas,
         # solo redirige (302) a la imagen real en el CDN de Facebook. No aplica a grupos.
-        if n["tipo"] in ("pagina", "profile_id"):
+        # Se valida que no sea la silueta genérica (perfiles personales privados, IDs mal
+        # resueltos) — mejor dejarlo en None y que la app use la inicial como respaldo,
+        # que mostrar una foto que no es de nadie.
+        if n["tipo"] in ("pagina", "profile_id") and icono_valido(n["id"]):
             out["icono_url"] = f"https://graph.facebook.com/{n['id']}/picture?type=large"
 
         # Mejor candidato a "última transmisión" visto en cualquiera de las rutas,
