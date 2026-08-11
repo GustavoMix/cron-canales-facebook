@@ -8,7 +8,14 @@ import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+
+try:
+    # El modo --merge (usado también por el workflow de YouTube, que no
+    # instala Playwright a propósito para ser liviano) no necesita navegador.
+    from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+except ModuleNotFoundError:
+    sync_playwright = None
+    PlaywrightTimeoutError = Exception
 
 ROOT = Path(__file__).resolve().parent
 FUENTES_FILE = ROOT / "fuentes.json"
@@ -501,6 +508,10 @@ def marcar_bloqueo_global(estado, horas=6):
 
 
 def scan(args):
+    if sync_playwright is None:
+        raise RuntimeError("Playwright no está instalado. Instalalo con 'pip install -r requirements.txt' "
+                            "y 'playwright install chromium' para poder escanear Facebook.")
+
     fuentes = json.loads(FUENTES_FILE.read_text(encoding="utf-8"))
 
     if args.url:
