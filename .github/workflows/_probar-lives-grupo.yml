@@ -114,7 +114,7 @@ jobs:
         shell: bash
         run: |
           git pull --rebase origin main || true
-          python facebook_live_bolivia.py --merge "_grupo1,_grupo2,_grupo3,_grupo4"
+          python facebook_live_bolivia.py --merge "_grupo1,_grupo2,_grupo3,_grupo4,_grupo5"
           git add lives_bolivia.json resultado_facebook_bolivia.json
           if git diff --cached --quiet; then
             echo "Sin cambios en el combinado, no se hace commit."
