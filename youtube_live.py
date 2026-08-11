@@ -30,6 +30,10 @@ USER_AGENT = (
 ISLIVE_RE = re.compile(r'"isLiveNow":true')
 TITLE_TAG_RE = re.compile(r"<title>([^<]{1,200})</title>")
 VIDEOID_RE = re.compile(r'"videoId":"([A-Za-z0-9_-]{11})"')
+# El <meta property="og:image"> de la página /live de un canal es la miniatura del
+# video en vivo, no el logo del canal — pero es lo único disponible sin autenticarse
+# ni pegarle a la API oficial, y sirve igual de bien como ícono en la lista.
+OGIMAGE_RE = re.compile(r'<meta property="og:image" content="([^"]+)"')
 
 
 def now_utc() -> datetime:
@@ -140,9 +144,14 @@ def inspect(norm):
     if "consent.youtube.com" in final_url:
         return {"estado": "error", "error": "Bloqueado por muro de consentimiento de YouTube"}
 
+    icono = None
+    m_icono = OGIMAGE_RE.search(body)
+    if m_icono:
+        icono = m_icono.group(1)
+
     en_vivo = bool(ISLIVE_RE.search(body))
     if not en_vivo:
-        return {"estado": "offline", "ruta_detectada": live_url}
+        return {"estado": "offline", "ruta_detectada": live_url, "icono_url": icono}
 
     q = parse_qs(urlparse(final_url).query)
     video_id = (q.get("v") or [None])[0]
@@ -156,6 +165,7 @@ def inspect(norm):
         "url_video": f"https://www.youtube.com/watch?v={video_id}" if video_id else final_url,
         "titulo": titulo_desde_html(body),
         "ruta_detectada": live_url,
+        "icono_url": icono,
     }
 
 
@@ -168,6 +178,7 @@ def revisar(f):
         "url_fuente": f.get("url"),
         "tipo": "canal",
         "identificador": None,
+        "icono_url": None,
         "en_vivo": False,
         "estado": "offline",
         "titulo": None,
@@ -188,6 +199,7 @@ def revisar(f):
         r = inspect(n)
         out["estado"] = r.get("estado", "offline")
         out["ruta_detectada"] = r.get("ruta_detectada")
+        out["icono_url"] = r.get("icono_url")
 
         if r["estado"] == "live":
             out.update({

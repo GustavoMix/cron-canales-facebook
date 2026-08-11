@@ -403,6 +403,7 @@ def revisar(page, f):
         "url_fuente": f.get("url"),
         "tipo": None,
         "identificador": None,
+        "icono_url": None,
         "en_vivo": False,
         "estado": "offline",
         "titulo": None,
@@ -419,6 +420,10 @@ def revisar(page, f):
     try:
         n = normalize(f["url"])
         out["tipo"], out["identificador"] = n["tipo"], n["id"]
+        # Foto de perfil pública vía Graph API: no necesita token para páginas públicas,
+        # solo redirige (302) a la imagen real en el CDN de Facebook. No aplica a grupos.
+        if n["tipo"] in ("pagina", "profile_id"):
+            out["icono_url"] = f"https://graph.facebook.com/{n['id']}/picture?type=large"
 
         for route in routes(n):
             try:
