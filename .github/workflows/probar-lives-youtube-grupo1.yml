@@ -1,0 +1,24 @@
+name: Probar YouTube Live - Grupo 1
+
+on:
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Ignorar cooldown/cache y revisar aunque se haya revisado hace poco"
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    # Todas las fuentes de fuentes_youtube.json. Corre junto a los grupos de Facebook.
+    - cron: "0 * * * *"
+
+jobs:
+  escanear:
+    permissions:
+      contents: write
+    uses: ./.github/workflows/_probar-lives-grupo-youtube.yml
+    with:
+      grupo: yt1
+      offset: 0
+      limit: 0
+      forzar: ${{ inputs.forzar == true }}
