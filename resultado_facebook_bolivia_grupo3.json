@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-13T09:49:30.069704+00:00",
+  "generado_en": "2026-08-13T11:11:52.751846+00:00",
   "fuentes_revisadas": 21,
-  "en_vivo": 0,
+  "en_vivo": 3,
   "resultados": [
     {
       "nombre": "Beni Televisión",
@@ -22,7 +22,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:42:51.583735+00:00",
+      "revisado_en": "2026-08-13T11:05:27.363522+00:00",
       "error": null
     },
     {
@@ -43,7 +43,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:43:12.723688+00:00",
+      "revisado_en": "2026-08-13T11:05:49.107267+00:00",
       "error": null
     },
     {
@@ -64,7 +64,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:43:33.232619+00:00",
+      "revisado_en": "2026-08-13T11:06:09.027894+00:00",
       "error": null
     },
     {
@@ -85,7 +85,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:43:52.532707+00:00",
+      "revisado_en": "2026-08-13T11:06:27.765060+00:00",
       "error": null
     },
     {
@@ -106,7 +106,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:44:11.916975+00:00",
+      "revisado_en": "2026-08-13T11:06:47.411063+00:00",
       "error": null
     },
     {
@@ -127,7 +127,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:44:32.262093+00:00",
+      "revisado_en": "2026-08-13T11:07:06.988763+00:00",
       "error": null
     },
     {
@@ -139,18 +139,18 @@
       "tipo": "pagina",
       "identificador": "UNITELPANDO11",
       "icono_url": "https://graph.facebook.com/UNITELPANDO11/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "EN VIVO - Telepaís Edición Central Pando",
-      "video_id": "1037165082440019",
-      "url_video": "https://www.facebook.com/UNITELPANDO11/videos/en-vivo-telepa%C3%ADs-edici%C3%B3n-central-pando/1037165082440019/",
-      "confianza": 30,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "UNITEL Pando",
+      "video_id": "2619817225138164",
+      "url_video": "https://www.facebook.com/100063968802070/videos/2619817225138164",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/UNITELPANDO11/live/",
       "motivos": [
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T09:44:52.989010+00:00",
+      "espectadores": 15000,
+      "revisado_en": "2026-08-13T11:07:27.397852+00:00",
       "error": null
     },
     {
@@ -162,20 +162,18 @@
       "tipo": "pagina",
       "identificador": "TVUCanal21",
       "icono_url": "https://graph.facebook.com/TVUCanal21/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "LA VOZ DEL PUEBLO || MIÉRCOLES 12 DE AGOSTO DE 2026",
-      "video_id": "1185813501289823",
-      "url_video": "https://www.facebook.com/100064163974953/videos/1185813501289823",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "TVU PANDO",
+      "video_id": "2931337297220956",
+      "url_video": "https://www.facebook.com/100064163974953/videos/2931337297220956",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/TVUCanal21/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T09:45:13.021733+00:00",
+      "espectadores": 11000,
+      "revisado_en": "2026-08-13T11:07:43.831609+00:00",
       "error": null
     },
     {
@@ -189,14 +187,14 @@
       "icono_url": "https://graph.facebook.com/noticiaspando/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Noticias Pando",
+      "video_id": "484074256853693",
+      "url_video": "https://www.facebook.com/100056033330615/videos/484074256853693",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:45:32.088844+00:00",
+      "revisado_en": "2026-08-13T11:08:00.282673+00:00",
       "error": null
     },
     {
@@ -221,7 +219,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:45:50.841927+00:00",
+      "revisado_en": "2026-08-13T11:08:19.978496+00:00",
       "error": null
     },
     {
@@ -242,7 +240,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:46:10.242745+00:00",
+      "revisado_en": "2026-08-13T11:08:39.386743+00:00",
       "error": null
     },
     {
@@ -263,7 +261,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:46:29.263866+00:00",
+      "revisado_en": "2026-08-13T11:08:57.805386+00:00",
       "error": null
     },
     {
@@ -288,7 +286,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:46:48.327594+00:00",
+      "revisado_en": "2026-08-13T11:09:16.334560+00:00",
       "error": null
     },
     {
@@ -313,7 +311,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:47:07.409033+00:00",
+      "revisado_en": "2026-08-13T11:09:34.936139+00:00",
       "error": null
     },
     {
@@ -334,7 +332,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:47:26.287434+00:00",
+      "revisado_en": "2026-08-13T11:09:53.761317+00:00",
       "error": null
     },
     {
@@ -360,7 +358,7 @@
         "aria_live"
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:47:44.398563+00:00",
+      "revisado_en": "2026-08-13T11:10:11.518459+00:00",
       "error": null
     },
     {
@@ -381,7 +379,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:48:03.798320+00:00",
+      "revisado_en": "2026-08-13T11:10:30.639246+00:00",
       "error": null
     },
     {
@@ -406,7 +404,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:48:21.736754+00:00",
+      "revisado_en": "2026-08-13T11:10:48.336416+00:00",
       "error": null
     },
     {
@@ -418,21 +416,18 @@
       "tipo": "pagina",
       "identificador": "radioaclopotosi",
       "icono_url": "https://graph.facebook.com/radioaclopotosi/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "Uniendo Potosí",
-      "video_id": "1052271470549474",
-      "url_video": "https://www.facebook.com/100063564669719/videos/1052271470549474",
-      "confianza": -270,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio ACLO Potosí",
+      "video_id": "906637262026232",
+      "url_video": "https://www.facebook.com/100063564669719/videos/906637262026232",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/radioaclopotosi/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T09:48:40.917839+00:00",
+      "espectadores": 29000,
+      "revisado_en": "2026-08-13T11:11:07.006851+00:00",
       "error": null
     },
     {
@@ -453,7 +448,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:48:59.812754+00:00",
+      "revisado_en": "2026-08-13T11:11:22.939471+00:00",
       "error": null
     },
     {
@@ -479,7 +474,7 @@
         "aria_live"
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T09:49:18.332783+00:00",
+      "revisado_en": "2026-08-13T11:11:41.442939+00:00",
       "error": null
     }
   ]
