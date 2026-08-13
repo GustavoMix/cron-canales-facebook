@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-13T12:56:53.823838+00:00",
+  "generado_en": "2026-08-13T13:03:24.833967+00:00",
   "fuentes_revisadas": 176,
-  "en_vivo": 23,
+  "en_vivo": 27,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -487,16 +487,18 @@
       "tipo": "profile_id",
       "identificador": "100083098042355",
       "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "El poder boliviano",
-      "video_id": "3226379634416534",
-      "url_video": "https://www.facebook.com/100083098042355/videos/3226379634416534",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T11:45:37.370886+00:00",
+      "video_id": "1726678865283528",
+      "url_video": "https://www.facebook.com/100083098042355/videos/1726678865283528",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/100083098042355/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 62000,
+      "revisado_en": "2026-08-13T12:57:13.119937+00:00",
       "error": null
     },
     {
@@ -519,7 +521,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:45:57.564536+00:00",
+      "revisado_en": "2026-08-13T12:57:29.357241+00:00",
       "error": null
     },
     {
@@ -531,18 +533,16 @@
       "tipo": "pagina",
       "identificador": "TeleEstrellaHDBolivia",
       "icono_url": "https://graph.facebook.com/TeleEstrellaHDBolivia/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Tele Estrella - Canal de Televisión",
-      "video_id": "1039321572042168",
-      "url_video": "https://www.facebook.com/100066459051848/videos/1039321572042168",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/TeleEstrellaHDBolivia/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 12000,
-      "revisado_en": "2026-08-13T11:46:17.000911+00:00",
+      "video_id": "1740518410524592",
+      "url_video": "https://www.facebook.com/100066459051848/videos/1740518410524592",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
+      "revisado_en": "2026-08-13T12:57:48.819213+00:00",
       "error": null
     },
     {
@@ -563,7 +563,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:46:32.607680+00:00",
+      "revisado_en": "2026-08-13T12:58:08.494659+00:00",
       "error": null
     },
     {
@@ -575,16 +575,18 @@
       "tipo": "pagina",
       "identificador": "FapTvBolivia",
       "icono_url": "https://graph.facebook.com/FapTvBolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "FAP Televisión",
-      "video_id": "1537486277673413",
-      "url_video": "https://www.facebook.com/100064229463986/videos/1537486277673413",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
+      "video_id": "1030025439931017",
+      "url_video": "https://www.facebook.com/100064229463986/videos/1030025439931017",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FapTvBolivia/live/",
+      "motivos": [
+        "aria_live"
+      ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:46:50.904853+00:00",
+      "revisado_en": "2026-08-13T12:58:26.962051+00:00",
       "error": null
     },
     {
@@ -605,7 +607,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:47:10.197286+00:00",
+      "revisado_en": "2026-08-13T12:58:41.829328+00:00",
       "error": null
     },
     {
@@ -626,7 +628,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:47:30.301069+00:00",
+      "revisado_en": "2026-08-13T12:59:01.658728+00:00",
       "error": null
     },
     {
@@ -647,7 +649,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:47:50.029021+00:00",
+      "revisado_en": "2026-08-13T12:59:21.479076+00:00",
       "error": null
     },
     {
@@ -661,18 +663,14 @@
       "icono_url": "https://graph.facebook.com/Gotelevisionbolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "URBANO TV",
-      "video_id": "1618324629885154",
-      "url_video": "https://www.facebook.com/61570826043237/videos/1618324629885154",
-      "confianza": -370,
+      "titulo": "Go Television Bolivia",
+      "video_id": "2140343520227523",
+      "url_video": "https://www.facebook.com/61570826043237/videos/2140343520227523",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:48:09.410056+00:00",
+      "revisado_en": "2026-08-13T12:59:41.096208+00:00",
       "error": null
     },
     {
@@ -699,7 +697,7 @@
         "aria_live"
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:48:27.985459+00:00",
+      "revisado_en": "2026-08-13T13:00:00.629000+00:00",
       "error": null
     },
     {
@@ -720,7 +718,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:48:46.815137+00:00",
+      "revisado_en": "2026-08-13T13:00:19.913087+00:00",
       "error": null
     },
     {
@@ -741,7 +739,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:49:04.790207+00:00",
+      "revisado_en": "2026-08-13T13:00:37.846733+00:00",
       "error": null
     },
     {
@@ -767,7 +765,7 @@
         "aria_live"
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:49:23.265054+00:00",
+      "revisado_en": "2026-08-13T13:00:56.077437+00:00",
       "error": null
     },
     {
@@ -779,22 +777,18 @@
       "tipo": "pagina",
       "identificador": "canal13tvvision",
       "icono_url": "https://graph.facebook.com/canal13tvvision/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "TELEPAIS CENTRAL",
-      "video_id": "1649745796571164",
-      "url_video": "https://www.facebook.com/100063369361678/videos/1649745796571164",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Canal 13 tv vision - Potosi - unitel",
+      "video_id": "1067190375958086",
+      "url_video": "https://www.facebook.com/100063369361678/videos/1067190375958086",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/canal13tvvision/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T11:49:42.013215+00:00",
+      "espectadores": 1800,
+      "revisado_en": "2026-08-13T13:01:14.679094+00:00",
       "error": null
     },
     {
@@ -815,7 +809,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:50:00.559103+00:00",
+      "revisado_en": "2026-08-13T13:01:31.578048+00:00",
       "error": null
     },
     {
@@ -827,20 +821,18 @@
       "tipo": "pagina",
       "identificador": "TvSucreUSFX",
       "icono_url": "https://graph.facebook.com/TvSucreUSFX/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "#EnVivo | ENTREVISTA - 13 de agosto de 2026",
-      "video_id": "1323540620833948",
-      "url_video": "https://www.facebook.com/100064156385235/videos/1323540620833948",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Televisión Universitaria - SUCRE",
+      "video_id": "37673585548956362",
+      "url_video": "https://www.facebook.com/100064156385235/videos/37673585548956362",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/TvSucreUSFX/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T11:50:18.912152+00:00",
+      "espectadores": 8900,
+      "revisado_en": "2026-08-13T13:01:49.841337+00:00",
       "error": null
     },
     {
@@ -854,9 +846,9 @@
       "icono_url": "https://graph.facebook.com/BoliviaTVChuquisaca/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "#EnDirecto 🔴 |",
-      "video_id": "28216804651290445",
-      "url_video": "https://www.facebook.com/100065411472592/videos/28216804651290445",
+      "titulo": "🔴 | #EnDirecto",
+      "video_id": "1234747225439989",
+      "url_video": "https://www.facebook.com/100065411472592/videos/1234747225439989",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -865,7 +857,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:50:37.268118+00:00",
+      "revisado_en": "2026-08-13T13:02:04.465661+00:00",
       "error": null
     },
     {
@@ -877,21 +869,18 @@
       "tipo": "pagina",
       "identificador": "tutvtarija",
       "icono_url": "https://graph.facebook.com/tutvtarija/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "EN VIVO - TU TV NOTICIAS",
-      "video_id": "28120271967662128",
-      "url_video": "https://www.facebook.com/100076332595103/videos/28120271967662128",
-      "confianza": -270,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Tu Tv",
+      "video_id": "1415535697090779",
+      "url_video": "https://www.facebook.com/100076332595103/videos/1415535697090779",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/tutvtarija/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": null,
-      "revisado_en": "2026-08-13T11:50:55.627713+00:00",
+      "espectadores": 1100,
+      "revisado_en": "2026-08-13T13:02:22.893483+00:00",
       "error": null
     },
     {
@@ -906,15 +895,15 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "PLUS TLT Tarija",
-      "video_id": "1404979628194238",
-      "url_video": "https://www.facebook.com/100063998112308/videos/1404979628194238",
+      "video_id": "1035246675785860",
+      "url_video": "https://www.facebook.com/100063998112308/videos/1035246675785860",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/100063998112308/live/",
       "motivos": [
         "aria_live"
       ],
       "espectadores": 1400,
-      "revisado_en": "2026-08-13T11:51:14.055679+00:00",
+      "revisado_en": "2026-08-13T13:02:37.841534+00:00",
       "error": null
     },
     {
@@ -935,7 +924,7 @@
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:51:29.553730+00:00",
+      "revisado_en": "2026-08-13T13:02:53.006792+00:00",
       "error": null
     },
     {
@@ -960,7 +949,7 @@
         "debil: en vivo "
       ],
       "espectadores": null,
-      "revisado_en": "2026-08-13T11:51:47.486961+00:00",
+      "revisado_en": "2026-08-13T13:03:11.760976+00:00",
       "error": null
     },
     {
