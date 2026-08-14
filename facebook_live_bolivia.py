@@ -9,7 +9,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, quote
 
 try:
     # El modo --merge no necesita navegador.
@@ -233,6 +233,72 @@ def icono_valido(id_grafo):
         return True
     except Exception:
         return False
+
+
+# Último recurso cuando ni Graph API ni el og:image de la propia página dieron una
+# foto real (perfil bloqueado por login, id sin foto, etc.): buscar el logo en
+# DuckDuckGo Images. Es un truco no oficial (endpoint interno de DDG) y se bloquea
+# con facilidad — bastó una ráfaga de ~5 consultas seguidas para recibir 403 en las
+# pruebas. Por eso: reintentos cortos, y si se detecta bloqueo, se apaga el resto de
+# la corrida (BUSQUEDA_IMAGEN_BLOQUEADA) para no insistir en cada fuente restante.
+# La foto que devuelve es un best-effort por texto, no una confirmación de que es el
+# logo correcto: puede fallar en traer la imagen equivocada para nombres ambiguos.
+BUSQUEDA_IMAGEN_BLOQUEADA = False
+
+
+def _resultados_duckduckgo(query):
+    q = quote(query)
+    req = urllib.request.Request(
+        f"https://duckduckgo.com/?q={q}",
+        headers={"User-Agent": "Mozilla/5.0"},
+    )
+    with urllib.request.urlopen(req, timeout=8) as resp:
+        html = resp.read().decode("utf-8", "ignore")
+    m = re.search(r"vqd=([\d-]+)", html)
+    if not m:
+        return []
+    req2 = urllib.request.Request(
+        f"https://duckduckgo.com/i.js?q={q}&vqd={m.group(1)}",
+        headers={"User-Agent": "Mozilla/5.0"},
+    )
+    with urllib.request.urlopen(req2, timeout=8) as resp:
+        data = json.loads(resp.read())
+    return [r.get("image") for r in (data.get("results") or []) if r.get("image")]
+
+
+def _es_imagen_descargable(url):
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=6) as resp:
+            return (resp.headers.get("Content-Type") or "").startswith("image/")
+    except Exception:
+        return False
+
+
+def buscar_imagen_web(nombre_canal):
+    """Devuelve una URL de imagen para el nombre dado, o None si no encontró nada
+    descargable o DuckDuckGo bloqueó la consulta."""
+    global BUSQUEDA_IMAGEN_BLOQUEADA
+    if BUSQUEDA_IMAGEN_BLOQUEADA or not nombre_canal:
+        return None
+    try:
+        candidatos = _resultados_duckduckgo(f"{nombre_canal} logo facebook")
+    except urllib.error.HTTPError as e:
+        if e.code in (403, 429):
+            BUSQUEDA_IMAGEN_BLOQUEADA = True
+        return None
+    except Exception:
+        return None
+
+    for url in candidatos[:5]:
+        host = urlparse(url).netloc
+        # Se descartan los resultados alojados en Facebook: son links a fotos que
+        # requieren login (page HTML, no la imagen cruda), no sirven como <img src>.
+        if "facebook.com" in host or "fbsbx.com" in host:
+            continue
+        if _es_imagen_descargable(url):
+            return url
+    return None
 
 
 def routes(norm):
@@ -630,6 +696,12 @@ def revisar(page, f):
 
         if out["icono_url"] is None and icono_respaldo:
             out["icono_url"] = icono_respaldo
+
+        # Último recurso, solo si Graph API y og:image fallaron los dos: buscar el
+        # logo por nombre en DuckDuckGo. Ver buscar_imagen_web() — es best-effort,
+        # no una foto confirmada de la fuente real.
+        if out["icono_url"] is None:
+            out["icono_url"] = buscar_imagen_web(out["nombre"])
 
         out["muro_login"] = rutas_vistas > 0 and rutas_tapadas == rutas_vistas
 
