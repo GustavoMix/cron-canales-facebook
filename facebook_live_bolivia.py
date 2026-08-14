@@ -188,6 +188,15 @@ def normalize(url):
         ident = mid.group(1) if mid else last
         return {"tipo": "pagina", "id": ident, "base": f"https://www.facebook.com/{ident}"}
 
+    # "/pages/Nombre/12345/": el ID numérico real va en un segmento propio, no pegado
+    # al nombre como en "/p/". Sin este caso, parts[0] ("pages") se usaba como si
+    # fuera el identificador, apuntando a un ID que no existe.
+    if parts and parts[0].lower() == "pages" and len(parts) >= 3:
+        mid = re.search(r"^\d+$", parts[-1])
+        if mid:
+            ident = parts[-1]
+            return {"tipo": "pagina", "id": ident, "base": f"https://www.facebook.com/{ident}"}
+
     if parts:
         ident = parts[0]
         return {"tipo": "pagina", "id": ident, "base": f"https://www.facebook.com/{ident}"}
@@ -201,10 +210,17 @@ def normalize(url):
 # redirige a este placeholder como si fuera una foto válida.
 SILUETA_GENERICA = "176159830277856_972693363922829312"
 
+# Hay una segunda variante genérica: en vez del jpg de arriba, un .gif servido desde
+# el CDN de assets estáticos de Facebook (rsrc.php), no del CDN de contenido subido
+# (scontent*.fbcdn.net) donde viven las fotos reales. Se detectó con IDs de páginas
+# tipo "/pages/Nombre/ID/" que Graph API no puede resolver a una foto de verdad.
+CDN_ESTATICO_GENERICO = "static.xx.fbcdn.net"
+
 
 def icono_valido(id_grafo):
-    """Confirma que graph.facebook.com/{id}/picture resolvió una foto real, no el
-    placeholder genérico. Un solo GET liviano, se hace una vez por fuente."""
+    """Confirma que graph.facebook.com/{id}/picture resolvió una foto real, no
+    alguno de los placeholders genéricos que Facebook redirige como si fueran una
+    foto válida. Un solo GET liviano, se hace una vez por fuente."""
     try:
         req = urllib.request.Request(
             f"https://graph.facebook.com/{id_grafo}/picture?type=large",
@@ -212,7 +228,9 @@ def icono_valido(id_grafo):
         )
         with urllib.request.urlopen(req, timeout=6) as resp:
             final_url = resp.geturl()
-        return SILUETA_GENERICA not in final_url
+        if SILUETA_GENERICA in final_url or CDN_ESTATICO_GENERICO in final_url:
+            return False
+        return True
     except Exception:
         return False
 
