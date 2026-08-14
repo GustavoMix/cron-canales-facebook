@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-14T13:43:38.837989+00:00",
+  "generado_en": "2026-08-14T14:47:02.729696+00:00",
   "fuentes_revisadas": 23,
-  "en_vivo": 0,
+  "en_vivo": 2,
   "resultados": [
     {
       "nombre": "Radio Compañera 106.3",
@@ -14,26 +14,26 @@
       "tipo": "pagina",
       "identificador": "radiocompanera106.3",
       "icono_url": "https://graph.facebook.com/radiocompanera106.3/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "EN VIVO CON ARIEL SANCHEZ",
-      "video_id": "2130093407721890",
-      "url_video": "https://www.facebook.com/radiocompanera106.3/videos/en-vivo-con-ariel-sanchez/2130093407721890/",
-      "confianza": 30,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Compañera 106.3",
+      "video_id": "4826481074294753",
+      "url_video": "https://www.facebook.com/100063647768187/videos/4826481074294753",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/radiocompanera106.3/live/",
       "motivos": [
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 14000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:36:18.719680+00:00",
+      "revisado_en": "2026-08-14T14:39:37.786412+00:00",
       "error": null
     },
     {
@@ -51,11 +51,9 @@
       "titulo": "Radio Splendid Bolivia",
       "video_id": "1619683269541661",
       "url_video": "https://www.facebook.com/100063679567723/videos/1619683269541661",
-      "confianza": 30,
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "debil:\nen vivo\n"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -65,7 +63,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:36:38.402923+00:00",
+      "revisado_en": "2026-08-14T14:39:56.550851+00:00",
       "error": null
     },
     {
@@ -95,7 +93,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:36:58.167887+00:00",
+      "revisado_en": "2026-08-14T14:40:17.623827+00:00",
       "error": null
     },
     {
@@ -125,7 +123,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:37:18.264097+00:00",
+      "revisado_en": "2026-08-14T14:40:37.703489+00:00",
       "error": null
     },
     {
@@ -155,7 +153,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:37:38.307029+00:00",
+      "revisado_en": "2026-08-14T14:40:57.894069+00:00",
       "error": null
     },
     {
@@ -185,7 +183,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:37:57.933549+00:00",
+      "revisado_en": "2026-08-14T14:41:18.194089+00:00",
       "error": null
     },
     {
@@ -212,7 +210,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:38:17.514124+00:00",
+      "revisado_en": "2026-08-14T14:41:38.201566+00:00",
       "error": null
     },
     {
@@ -243,7 +241,7 @@
         "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:38:35.863344+00:00",
+      "revisado_en": "2026-08-14T14:41:57.873715+00:00",
       "error": null
     },
     {
@@ -273,7 +271,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:38:55.354139+00:00",
+      "revisado_en": "2026-08-14T14:42:17.603296+00:00",
       "error": null
     },
     {
@@ -288,22 +286,24 @@
       "icono_url": "https://graph.facebook.com/lostiemposbol1/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Los Tiempos Digital",
-      "video_id": "897549449641903",
-      "url_video": "https://www.facebook.com/100064005251495/videos/897549449641903",
-      "confianza": 0,
+      "titulo": "#Urkupiña Quillacollo se prepara para vivir la Entrada Folklórica de la Virgen de Urkupiña 2026",
+      "video_id": "1829199594738113",
+      "url_video": "https://www.facebook.com/100064005251495/videos/1829199594738113",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:39:14.900447+00:00",
+      "revisado_en": "2026-08-14T14:42:38.348693+00:00",
       "error": null
     },
     {
@@ -318,22 +318,24 @@
       "icono_url": "https://graph.facebook.com/correodelsur/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Correo del Sur",
-      "video_id": "2135706264015933",
-      "url_video": "https://www.facebook.com/100044631120305/videos/2135706264015933",
-      "confianza": 0,
+      "titulo": "#Ahora | Velatorios Jardín de Paz y Cainco Chuquisaca firman un convenio interinstitucional",
+      "video_id": "875732168735345",
+      "url_video": "https://www.facebook.com/100044631120305/videos/875732168735345",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:39:35.009337+00:00",
+      "revisado_en": "2026-08-14T14:42:58.977249+00:00",
       "error": null
     },
     {
@@ -348,22 +350,25 @@
       "icono_url": "https://graph.facebook.com/elpotosi.noticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "El Potosí",
-      "video_id": "1596040658895726",
-      "url_video": "https://www.facebook.com/100068911484178/videos/1596040658895726",
-      "confianza": 0,
+      "titulo": "En la cuarta noche de Peatonalización se tendrá una pasarela de moda de la mano de la diseñadora Belén Escobar",
+      "video_id": "2982902932057184",
+      "url_video": "https://www.facebook.com/100068911484178/videos/2982902932057184",
+      "confianza": -270,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:39:54.832344+00:00",
+      "revisado_en": "2026-08-14T14:43:18.345785+00:00",
       "error": null
     },
     {
@@ -378,22 +383,24 @@
       "icono_url": "https://graph.facebook.com/elpais.bo/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "elpais.bo",
-      "video_id": "1004874525473765",
-      "url_video": "https://www.facebook.com/100069134842039/videos/1004874525473765",
-      "confianza": 0,
+      "titulo": "57:05",
+      "video_id": "1024129477149084",
+      "url_video": "https://www.facebook.com/100069134842039/videos/1024129477149084",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:40:14.357932+00:00",
+      "revisado_en": "2026-08-14T14:43:38.100887+00:00",
       "error": null
     },
     {
@@ -408,22 +415,19 @@
       "icono_url": "https://graph.facebook.com/PeriodicoLaEstrellaDelOriente/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Periódico La Estrella del Oriente",
-      "video_id": "1711874380073748",
-      "url_video": "https://www.facebook.com/100063531332487/videos/1711874380073748",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:40:34.281380+00:00",
+      "revisado_en": "2026-08-14T14:43:57.566737+00:00",
       "error": null
     },
     {
@@ -438,22 +442,26 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "CVC 57 HD El Alto",
-      "video_id": "1529353211744276",
-      "url_video": "https://www.facebook.com/100033841465119/videos/1529353211744276",
-      "confianza": 0,
+      "titulo": "Parroquia Jesús Obrero",
+      "video_id": "1376961414619485",
+      "url_video": "https://www.facebook.com/100033841465119/videos/1376961414619485",
+      "confianza": -240,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "debil:🔴 en vivo",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:40:54.203745+00:00",
+      "revisado_en": "2026-08-14T14:44:16.633648+00:00",
       "error": null
     },
     {
@@ -468,22 +476,24 @@
       "icono_url": "https://graph.facebook.com/AltosTVLoVivisLoSentis/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "ALTOS TV",
+      "titulo": "3:24:14",
       "video_id": "2500993187084570",
       "url_video": "https://www.facebook.com/100064554048340/videos/2500993187084570",
-      "confianza": 0,
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:41:13.744690+00:00",
+      "revisado_en": "2026-08-14T14:44:36.082838+00:00",
       "error": null
     },
     {
@@ -498,20 +508,19 @@
       "icono_url": "https://graph.facebook.com/LaPazTvBol/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Humor",
-      "video_id": "1004348766373450",
-      "url_video": "https://www.facebook.com/LaPazTvBol/videos/humor/1004348766373450/",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:41:33.708591+00:00",
+      "revisado_en": "2026-08-14T14:44:55.417412+00:00",
       "error": null
     },
     {
@@ -526,22 +535,24 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Somos Bolivia TV",
-      "video_id": "2292408498237994",
-      "url_video": "https://www.facebook.com/100067033663572/videos/2292408498237994",
-      "confianza": 0,
+      "titulo": "Video de Somos Bolivia TV",
+      "video_id": "1522869253187659",
+      "url_video": "https://www.facebook.com/100067033663572/videos/1522869253187659",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:41:53.505168+00:00",
+      "revisado_en": "2026-08-14T14:45:14.883804+00:00",
       "error": null
     },
     {
@@ -554,24 +565,26 @@
       "tipo": "pagina",
       "identificador": "SolidariaBolivia",
       "icono_url": "https://graph.facebook.com/SolidariaBolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Solidaria Tv Bolivia",
-      "video_id": "1585771316509427",
-      "url_video": "https://www.facebook.com/100064128035712/videos/1585771316509427",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
+      "video_id": "1430453742475599",
+      "url_video": "https://www.facebook.com/100064128035712/videos/1430453742475599",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/SolidariaBolivia/live/",
+      "motivos": [
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:42:13.061856+00:00",
+      "revisado_en": "2026-08-14T14:45:34.493038+00:00",
       "error": null
     },
     {
@@ -586,22 +599,24 @@
       "icono_url": "https://graph.facebook.com/TVUBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "TVU UMSA",
-      "video_id": "1217932248860159",
-      "url_video": "https://www.facebook.com/100063502177158/videos/1217932248860159",
-      "confianza": 0,
+      "titulo": "8:00:00",
+      "video_id": "1889183234814096",
+      "url_video": "https://www.facebook.com/100063502177158/videos/1889183234814096",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:42:33.102240+00:00",
+      "revisado_en": "2026-08-14T14:45:53.028293+00:00",
       "error": null
     },
     {
@@ -616,20 +631,19 @@
       "icono_url": "https://graph.facebook.com/RadioIllimaniLaVozDeBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "hace 5 años",
-      "video_id": "420171599145420",
-      "url_video": "https://www.facebook.com/RadioIllimaniLaVozDeBolivia/videos/los-actos-protocolares-comenzaron-a-horas-de-la-ma%C3%B1ana-con-la-ceremonia-ancestra/420171599145420/",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:42:52.848940+00:00",
+      "revisado_en": "2026-08-14T14:46:13.050398+00:00",
       "error": null
     },
     {
@@ -655,7 +669,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:43:11.893358+00:00",
+      "revisado_en": "2026-08-14T14:46:32.433810+00:00",
       "error": null
     },
     {
@@ -681,7 +695,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-14T13:43:29.396582+00:00",
+      "revisado_en": "2026-08-14T14:46:51.630254+00:00",
       "error": null
     }
   ]
