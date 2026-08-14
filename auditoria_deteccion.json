@@ -1,29 +1,29 @@
 {
   "totales": {
-    "live": 19,
-    "offline": 299,
+    "live": 20,
+    "offline": 352,
     "muro_login": 0
   },
   "marcadores": {
     "html_is_live": {
       "en_live": 2,
-      "en_offline": 59
+      "en_offline": 82
     },
     "html_is_live_streaming": {
       "en_live": 2,
-      "en_offline": 49
+      "en_offline": 69
     },
     "html_is_currently_live": {
       "en_live": 2,
-      "en_offline": 57
+      "en_offline": 79
     },
     "html_broadcast_id": {
       "en_live": 2,
-      "en_offline": 19
+      "en_offline": 26
     },
     "html_broadcast_status": {
       "en_live": 2,
-      "en_offline": 19
+      "en_offline": 26
     },
     "texto_comento": {
       "en_live": 0,
@@ -31,11 +31,11 @@
     },
     "texto_en_directo": {
       "en_live": 0,
-      "en_offline": 1
+      "en_offline": 2
     }
   },
   "senales_que_detectaron": {
-    "aria_live": 19
+    "aria_live": 20
   },
   "_revisiones_contadas": {
     "https://www.facebook.com/unitelbolivia": "2026-08-14T05:12:27.028898+00:00",
@@ -223,63 +223,63 @@
     "https://www.facebook.com/ElAltoAlcaldia/": "2026-08-14T04:58:14.411984+00:00",
     "https://www.facebook.com/gamcochabamba/": "2026-08-14T04:58:33.339324+00:00"
   },
-  "generado_en": "2026-08-14T05:19:44.513556+00:00",
+  "generado_en": "2026-08-14T05:25:56.228493+00:00",
   "ranking_marcadores": [
     {
       "marcador": "html_broadcast_id",
-      "cobertura_live": 0.105,
-      "ruido_offline": 0.064,
-      "separacion": 0.042,
+      "cobertura_live": 0.1,
+      "ruido_offline": 0.074,
+      "separacion": 0.026,
       "en_live": 2,
-      "en_offline": 19
+      "en_offline": 26
     },
     {
       "marcador": "html_broadcast_status",
-      "cobertura_live": 0.105,
-      "ruido_offline": 0.064,
-      "separacion": 0.042,
+      "cobertura_live": 0.1,
+      "ruido_offline": 0.074,
+      "separacion": 0.026,
       "en_live": 2,
-      "en_offline": 19
-    },
-    {
-      "marcador": "texto_en_directo",
-      "cobertura_live": 0.0,
-      "ruido_offline": 0.003,
-      "separacion": -0.003,
-      "en_live": 0,
-      "en_offline": 1
+      "en_offline": 26
     },
     {
       "marcador": "texto_comento",
       "cobertura_live": 0.0,
-      "ruido_offline": 0.007,
-      "separacion": -0.007,
+      "ruido_offline": 0.006,
+      "separacion": -0.006,
+      "en_live": 0,
+      "en_offline": 2
+    },
+    {
+      "marcador": "texto_en_directo",
+      "cobertura_live": 0.0,
+      "ruido_offline": 0.006,
+      "separacion": -0.006,
       "en_live": 0,
       "en_offline": 2
     },
     {
       "marcador": "html_is_live_streaming",
-      "cobertura_live": 0.105,
-      "ruido_offline": 0.164,
-      "separacion": -0.059,
+      "cobertura_live": 0.1,
+      "ruido_offline": 0.196,
+      "separacion": -0.096,
       "en_live": 2,
-      "en_offline": 49
+      "en_offline": 69
     },
     {
       "marcador": "html_is_currently_live",
-      "cobertura_live": 0.105,
-      "ruido_offline": 0.191,
-      "separacion": -0.085,
+      "cobertura_live": 0.1,
+      "ruido_offline": 0.224,
+      "separacion": -0.124,
       "en_live": 2,
-      "en_offline": 57
+      "en_offline": 79
     },
     {
       "marcador": "html_is_live",
-      "cobertura_live": 0.105,
-      "ruido_offline": 0.197,
-      "separacion": -0.092,
+      "cobertura_live": 0.1,
+      "ruido_offline": 0.233,
+      "separacion": -0.133,
       "en_live": 2,
-      "en_offline": 59
+      "en_offline": 82
     }
   ],
   "lectura": "cobertura_live alta + ruido_offline bajo = candidato a segunda señal. senales_que_detectaron muestra de qué sirve cada detector que YA existe: si una sola familia aparece siempre, el detector depende de un solo punto."
