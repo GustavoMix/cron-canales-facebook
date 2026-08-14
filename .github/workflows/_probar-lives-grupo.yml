@@ -119,7 +119,8 @@ jobs:
         run: |
           git pull --rebase origin main || true
           python facebook_live_bolivia.py --merge-de "${{ inputs.total }}"
-          git add lives_bolivia.json resultado_facebook_bolivia.json salud_fuentes.json
+          git add lives_bolivia.json resultado_facebook_bolivia.json \
+                  salud_fuentes.json auditoria_deteccion.json
           if git diff --cached --quiet; then
             echo "Sin cambios en el combinado, no se hace commit."
           else

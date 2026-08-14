@@ -23,6 +23,10 @@ Archivos de salida:
 - salud_fuentes.json: qué fuentes responden y cuáles no (para detectar URLs
   muertas o mal escritas). Para quitar las muertas:
   py facebook_live_bolivia.py --podar --min-fallas 6
+- auditoria_deteccion.json: mide de qué señal depende la detección y qué otros
+  marcadores acompañan a las transmisiones confirmadas (ver GITHUB_ACTIONS.txt).
+  Hoy TODAS las detecciones vienen de una sola señal; esto sirve para encontrar
+  una segunda con datos reales.
 
 Puedes editar fuentes.json y agregar cualquier URL:
 - https://www.facebook.com/usuario

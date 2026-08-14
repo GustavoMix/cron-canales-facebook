@@ -24,6 +24,7 @@ RESULTADO_FILE = ROOT / "resultado_facebook_bolivia.json"
 LIVES_FILE = ROOT / "lives_bolivia.json"
 ESTADO_FILE = ROOT / ".facebook_live_estado.json"
 SALUD_FILE = ROOT / "salud_fuentes.json"
+AUDITORIA_FILE = ROOT / "auditoria_deteccion.json"
 
 # Detector conservador: no intenta ocultar Playwright, falsificar huellas,
 # rotar IPs/proxies ni evadir controles de Facebook.
@@ -63,6 +64,58 @@ ESPECTADORES_COMPACTO_RE = re.compile(r"([\d]+(?:[.,]\d+)?)\s*(mil|k)\b", re.I)
 # Respaldo de icono cuando Graph API no resuelve una foto real (perfiles personales,
 # IDs que ya no existen): el og:image de la propia página, público incluso sin login.
 OGIMAGE_RE = re.compile(r'property="og:image"\s+content="([^"]+)"', re.I)
+
+# --- Auditoría de detección -------------------------------------------------
+# Estos marcadores NO puntúan ni cambian el resultado: solo se registran para
+# medir. La idea es usar las transmisiones ya confirmadas (las que hoy detecta
+# aria_live) como referencia y ver qué otros marcadores las acompañan siempre.
+# El que aparezca en casi todos los live y en casi ningún offline es candidato a
+# convertirse en una segunda señal real, y así dejar de depender de una sola.
+#
+# No cuesta ni una solicitud extra: el HTML y el texto ya están descargados.
+MARCADORES_CANDIDATOS = {
+    "html_is_live": '"is_live"',
+    "html_is_live_true": '"is_live":true',
+    "html_live_status": '"live_status"',
+    "html_video_status_live": 'video_status_live',
+    "html_broadcast_id": '"broadcast_id"',
+    "html_is_live_streaming": '"is_live_streaming"',
+    "html_broadcast_status": '"broadcast_status"',
+    "html_live_video": '"livevideo"',
+    "html_is_currently_live": '"is_currently_live"',
+    "texto_espectadores": "espectadores",
+    "texto_personas_viendo": "personas están viendo",
+    "texto_en_directo": "en directo",
+    "texto_comento": "comentó",
+}
+
+# Un muro de login no es lo mismo que "no está transmitiendo": es "Facebook no
+# me dejó mirar". Hoy los dos casos terminan como offline y se confunden entre
+# sí, lo que esconde puntos ciegos (páginas reales donde nunca se ve un video).
+MURO_LOGIN = (
+    "inicia sesión en facebook", "iniciar sesión en facebook",
+    "log in to facebook", "you must log in to continue",
+    "debes iniciar sesión para continuar",
+    "entrar no facebook",
+)
+
+
+def analizar_pagina(html, body):
+    """Devuelve (marcadores presentes, ¿parece muro de login?).
+
+    Puramente observacional: nada de esto altera el puntaje ni el estado. Solo
+    alimenta auditoria_deteccion.json para poder decidir con datos, y no a ojo,
+    qué señal conviene agregar al detector."""
+    h = (html or "").lower()
+    t = (body or "").lower()
+    presentes = [
+        nombre for nombre, aguja in MARCADORES_CANDIDATOS.items()
+        if aguja in (t if nombre.startswith("texto_") else h)
+    ]
+    # El muro de login se reconoce por el texto y porque la página queda casi vacía.
+    muro = any(x in t for x in MURO_LOGIN) or len(t.strip()) < 200
+    return presentes, muro
+
 
 VIDEO_RES = [
     re.compile(r"https?://(?:www\.|m\.)?facebook\.com/[^/?#]+/videos/(?:[^/?#]+/)?(\d+)", re.I),
@@ -366,6 +419,9 @@ def inspect(page, route, timeout=30000):
         '"broadcaststatus":"live"',
     ))
 
+    # Observación para la auditoría (no influye en el puntaje ni en el estado).
+    marcadores, muro_login = analizar_pagina(html_raw, body)
+
     # Respaldo de icono: el og:image de la propia página (funciona incluso para
     # perfiles personales, sin necesidad de Graph API ni token). Se guarda siempre
     # que se encuentre; revisar() solo lo usa si Graph API no dio una foto válida.
@@ -421,13 +477,15 @@ def inspect(page, route, timeout=30000):
             pass
 
     cand.sort(key=lambda x: x["score"], reverse=True)
+    obs = {"marcadores": marcadores, "muro_login": muro_login}
     if cand and cand[0]["score"] >= 70:
-        return {"estado": "live", "route": route, "og_icono": og_icono, **cand[0]}
+        return {"estado": "live", "route": route, "og_icono": og_icono, **obs, **cand[0]}
 
     return {
         "estado": "offline",
         "route": route,
         "og_icono": og_icono,
+        **obs,
         "mejor_score": cand[0]["score"] if cand else None,
         # Aunque no llegue al puntaje de "en vivo", puede ser la última transmisión de
         # la fuente (terminó hace poco, Facebook sigue sirviendo la grabación). Se
@@ -458,6 +516,9 @@ def revisar(page, f):
         "ruta_detectada": None,
         "motivos": [],
         "espectadores": None,
+        # Observación para la auditoría; no afecta lo que ve la app.
+        "marcadores": [],
+        "muro_login": False,
         "revisado_en": now_iso(),
         "error": None,
     }
@@ -480,6 +541,10 @@ def revisar(page, f):
         # Respaldo de icono desde el og:image de la página, por si Graph API no dio
         # una foto válida (perfiles personales, IDs mal resueltos).
         icono_respaldo = None
+        # Para distinguir "no está transmitiendo" de "Facebook no me dejó mirar":
+        # solo cuenta como muro de login si TODAS las rutas quedaron tapadas.
+        rutas_vistas = 0
+        rutas_tapadas = 0
 
         for route in routes(n):
             try:
@@ -492,6 +557,15 @@ def revisar(page, f):
 
             if icono_respaldo is None and r.get("og_icono"):
                 icono_respaldo = r["og_icono"]
+
+            # Se acumulan los marcadores de todas las rutas visitadas: lo que
+            # interesa es qué se vio de esta fuente, no en cuál de las dos páginas.
+            rutas_vistas += 1
+            if r.get("muro_login"):
+                rutas_tapadas += 1
+            for marcador in r.get("marcadores") or []:
+                if marcador not in out["marcadores"]:
+                    out["marcadores"].append(marcador)
 
             if r["estado"] == "blocked":
                 out["estado"] = "blocked"
@@ -538,6 +612,8 @@ def revisar(page, f):
 
         if out["icono_url"] is None and icono_respaldo:
             out["icono_url"] = icono_respaldo
+
+        out["muro_login"] = rutas_vistas > 0 and rutas_tapadas == rutas_vistas
 
     except Exception as e:
         out["estado"] = "error"
@@ -670,6 +746,88 @@ def actualizar_salud(rows):
     return salud
 
 
+def actualizar_auditoria(rows):
+    """Mide, corrida a corrida, qué tan sólido es el detector.
+
+    El punto de partida es un problema real: hoy TODAS las transmisiones se
+    detectan por una sola señal (aria_live). Las otras tres que tiene el código
+    no dispararon nunca. Si Facebook cambia esa etiqueta, la detección cae a cero
+    y todo aparece como "offline" sin que nadie se entere.
+
+    Para poder agregar una segunda señal con fundamento, se usan las
+    transmisiones ya confirmadas como referencia y se cuenta qué marcadores las
+    acompañan. Un marcador que aparezca en casi todos los live y en casi ningún
+    offline sirve; uno que aparezca en los dos por igual, no."""
+    try:
+        aud = json.loads(AUDITORIA_FILE.read_text(encoding="utf-8"))
+        if not isinstance(aud, dict):
+            raise ValueError
+    except Exception:
+        aud = {}
+
+    tot = aud.setdefault("totales", {"live": 0, "offline": 0, "muro_login": 0})
+    marc = aud.setdefault("marcadores", {})
+    senales = aud.setdefault("senales_que_detectaron", {})
+    vistos = aud.setdefault("_revisiones_contadas", {})
+
+    for r in rows:
+        key = r.get("url_fuente") or r.get("nombre")
+        # Mismo corte que en salud: el merge relee grupos que no se re-escanearon.
+        if not key or (r.get("revisado_en") and vistos.get(key) == r["revisado_en"]):
+            continue
+        vistos[key] = r.get("revisado_en")
+
+        es_live = r.get("estado") == "live"
+        if es_live:
+            tot["live"] += 1
+        elif r.get("estado") == "offline":
+            tot["offline"] += 1
+        else:
+            continue
+
+        if r.get("muro_login"):
+            tot["muro_login"] += 1
+
+        for m in r.get("marcadores") or []:
+            fila = marc.setdefault(m, {"en_live": 0, "en_offline": 0})
+            fila["en_live" if es_live else "en_offline"] += 1
+
+        if es_live:
+            for motivo in r.get("motivos") or []:
+                # "live:está transmitiendo..." -> se agrupa por familia de señal.
+                familia = motivo.split(":")[0]
+                senales[familia] = senales.get(familia, 0) + 1
+
+    # Ranking: qué marcador separa mejor live de offline.
+    ranking = []
+    for nombre, f in marc.items():
+        cobertura = f["en_live"] / tot["live"] if tot["live"] else 0
+        ruido = f["en_offline"] / tot["offline"] if tot["offline"] else 0
+        ranking.append({
+            "marcador": nombre,
+            "cobertura_live": round(cobertura, 3),
+            "ruido_offline": round(ruido, 3),
+            "separacion": round(cobertura - ruido, 3),
+            **f,
+        })
+    ranking.sort(key=lambda x: -x["separacion"])
+
+    aud["generado_en"] = now_iso()
+    aud["totales"] = tot
+    aud["ranking_marcadores"] = ranking
+    aud["lectura"] = (
+        "cobertura_live alta + ruido_offline bajo = candidato a segunda señal. "
+        "senales_que_detectaron muestra de qué sirve cada detector que YA existe: "
+        "si una sola familia aparece siempre, el detector depende de un solo punto."
+    )
+    AUDITORIA_FILE.write_text(json.dumps(aud, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    if tot["muro_login"]:
+        print(f"Auditoría: {tot['muro_login']} revisiones acumuladas terminaron en "
+              f"muro de login (no son 'offline' de verdad).")
+    return aud
+
+
 def podar(min_fallas):
     """Saca de fuentes.json las fuentes que llevan N corridas seguidas sin responder.
     Es manual a propósito: nunca se ejecuta desde el cron."""
@@ -713,6 +871,7 @@ def merge_grupos(sufijos):
 
     guardar(rows)
     actualizar_salud(rows)
+    actualizar_auditoria(rows)
 
     # Aviso de cobertura: si el combinado tiene menos fuentes que fuentes.json, algún
     # grupo no publicó todavía (normal la primera corrida tras cambiar el reparto) o

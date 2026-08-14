@@ -77,6 +77,40 @@ Quitarlas de fuentes.json (manual, nunca lo hace el cron):
 
     py facebook_live_bolivia.py --podar --min-fallas 6
 
+AUDITORÍA DE DETECCIÓN
+----------------------
+auditoria_deteccion.json mide qué tan sólido es el detector. Existe por un
+problema concreto que se vio en los datos: de las 4 señales que tiene el código
+para decidir si algo está en vivo, en 176 fuentes revisadas SOLO UNA disparó
+alguna vez (aria_live, la etiqueta de accesibilidad del link). Las otras tres
+—el texto "está transmitiendo en vivo", el marcador is_live_streaming del HTML
+y la redirección de /live/— no aparecieron nunca.
+
+Eso es un punto único de falla: si Facebook cambia esa etiqueta, la detección
+cae a cero y todo pasa a figurar como "offline" sin ningún aviso.
+
+Para poder agregar una segunda señal con fundamento (y no a ojo), el script
+registra en cada página una lista de marcadores candidatos SIN usarlos para
+puntuar, y los cruza contra las transmisiones ya confirmadas:
+
+  "ranking_marcadores": [
+    { "marcador": "html_is_live_true",
+      "cobertura_live": 0.98,    <- aparece en el 98% de los live confirmados
+      "ruido_offline": 0.01,     <- y solo en el 1% de los offline
+      "separacion": 0.97 }       <- cuanto más alto, mejor candidato
+  ]
+
+Un marcador con separación alta se puede promover a señal real del detector.
+Uno que aparezca por igual en live y offline (separación cerca de 0) no sirve.
+Esto no cuesta ni una solicitud extra: el HTML ya está descargado.
+
+También cuenta "muro_login": revisiones donde Facebook no dejó ver la página.
+Antes esas se confundían con "no está transmitiendo", que es muy distinto —
+en la última corrida había 29 páginas reales donde no se vio ni un video.
+
+Conviene mirarlo después de un día completo de corridas, cuando haya suficientes
+transmisiones confirmadas como para que los porcentajes signifiquen algo.
+
 PASOS
 -----
 1. Crea un repositorio PRIVADO en GitHub.
