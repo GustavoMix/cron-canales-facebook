@@ -9,9 +9,10 @@ on:
         required: false
         default: false
   schedule:
-    # Fuentes 64-83 de fuentes.json (las bolivianas). El grupo 5 (canales
-    # regionales/internacionales) es aparte y no entra en este rango.
-    - cron: "0,30 * * * *"
+    # Parte 4 de 9 de fuentes.json. El script calcula qué fuentes le tocan
+    # (--grupo/--de), así que agregar canales no obliga a editar este archivo.
+    # Los grupos arrancan escalonados cada 3 minutos para no golpear Facebook en ráfaga.
+    - cron: "9,39 * * * *"
 
 jobs:
   escanear:
@@ -19,7 +20,6 @@ jobs:
       contents: write
     uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
-      grupo: grupo4
-      offset: 63
-      limit: 20
+      numero: 4
+      total: 9
       forzar: ${{ inputs.forzar == true }}

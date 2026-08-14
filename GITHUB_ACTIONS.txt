@@ -4,38 +4,78 @@ PRUEBA EN GITHUB ACTIONS
 Esta versión ya incluye:
 
 .github/workflows/_probar-lives-grupo.yml   (workflow reusable, no se dispara solo)
-.github/workflows/probar-lives-grupo1.yml   (fuentes 1-21, Bolivia)
-.github/workflows/probar-lives-grupo2.yml   (fuentes 22-42, Bolivia)
-.github/workflows/probar-lives-grupo3.yml   (fuentes 43-63, Bolivia)
-.github/workflows/probar-lives-grupo4.yml   (fuentes 64-83, Bolivia)
-.github/workflows/probar-lives-grupo6.yml   (fuentes 84-117, Bolivia — nuevas
-                                              fuentes nacionales agregadas
-                                              aparte para no alargar 1-4)
-.github/workflows/probar-lives-grupo7.yml   (fuentes 118-128, Bolivia — radios)
-.github/workflows/probar-lives-grupo5.yml   (últimas fuentes de fuentes.json,
-                                              canales regionales/internacionales
-                                              de noticias 24h)
+.github/workflows/probar-lives-grupo1.yml   (parte 1 de 9)
+.github/workflows/probar-lives-grupo2.yml   (parte 2 de 9)
+.github/workflows/probar-lives-grupo3.yml   (parte 3 de 9)
+.github/workflows/probar-lives-grupo4.yml   (parte 4 de 9)
+.github/workflows/probar-lives-grupo5.yml   (parte 5 de 9)
+.github/workflows/probar-lives-grupo6.yml   (parte 6 de 9)
+.github/workflows/probar-lives-grupo7.yml   (parte 7 de 9)
+.github/workflows/probar-lives-grupo8.yml   (parte 8 de 9)
+.github/workflows/probar-lives-grupo9.yml   (parte 9 de 9)
 
-fuentes.json se reparte en 7 grupos para que cada corrida sea corta (no exceda
-el timeout del job) y para no mandar todas las requests a Facebook de golpe.
+REPARTO AUTOMÁTICO (importante)
+-------------------------------
+Antes cada workflow tenía escrito a mano el rango de fuentes que le tocaba
+(offset/limit). Cada vez que se agregaban canales había que reajustar esos
+números a mano, y si no se hacía, un grupo terminaba con el doble de fuentes
+que los demás (llegó a tener 48 contra 20) y se acercaba al timeout del job.
+
+Ahora cada workflow solo dice "soy la parte N de 9" y el script calcula el
+rango a partir de fuentes.json:
+
+    python facebook_live_bolivia.py --grupo 3 --de 9 --out-suffix _grupo3
+
+Consecuencia práctica: para agregar canales solo se edita fuentes.json. Los
+workflows no se tocan. El reparto queda siempre parejo (hoy: 207 fuentes = 9
+grupos de 23) y ninguna fuente queda sin revisar.
+
+Si algún día 9 grupos quedan cortos, se copia un workflow más y se cambia
+"total: 9" por el número nuevo en todos ellos.
+
+ARRANQUES ESCALONADOS
+---------------------
+Los 9 grupos NO salen al mismo minuto. Arrancan cada 3 minutos dentro de cada
+media hora (grupo 1 en :00 y :30, grupo 2 en :03 y :33, y así hasta el grupo 9
+en :24 y :54). Antes los 7 grupos salían todos juntos, o sea 7 navegadores
+pegándole a Facebook en el mismo instante desde IPs de GitHub. Escalonados, en
+cualquier momento hay 3-4 corriendo en vez de 9, con la misma cobertura por
+media hora.
+
+Cada grupo tiene su propio "concurrency group" (no se pisan entre sí). Al
+terminar, cada uno combina todos los resultados parciales en los archivos
+finales lives_bolivia.json y resultado_facebook_bolivia.json.
+
+CONTENIDO DE fuentes.json
+-------------------------
 Todas las fuentes son de Facebook — se sacó el detector de YouTube que había
-(youtube_live.py, fuentes_youtube.json) para no mezclar plataformas en el
-mismo resultado. Cada fuente tiene un campo "pais" (ej. "Bolivia", "Argentina",
-"Internacional") para que la app que consuma los resultados pueda
-filtrar/agrupar por región.
+(youtube_live.py, fuentes_youtube.json) para no mezclar plataformas en el mismo
+resultado. Cada fuente tiene:
 
-Los grupos 1-4 y 6 son canales bolivianos (transmiten en horarios acotados, tipo
-noticieros; el 6 se agregó después con fuentes nuevas, separado para no alargar
-la corrida de 1-4). El grupo 7 son radios bolivianas. El grupo 5 son canales de
-noticias de la región (NTN24, CNN en Español, teleSUR, C5N, TN, Noticias Caracol,
-etc.) elegidos porque transmiten en vivo de forma continua o casi continua, para
-que siempre haya algo en vivo disponible aunque los canales bolivianos no estén
-emitiendo en ese momento.
+- "pais": "Bolivia", "Argentina", "Internacional", etc.
+- "categoria": tv / radio / noticias / usuario (es la que usa la app para agrupar)
+- "tipo_fuente" (opcional): "institucional" o "medio". Es informativo: sirve para
+  distinguir las cuentas oficiales (gobernaciones, alcaldías, tránsito, policía,
+  ABC) de los medios. La app puede ignorarlo sin problema.
 
-Los 7 workflows corren en paralelo, cada 30 minutos, cada uno con su propio
-"concurrency group" (no se pisan entre sí ni se bloquean unos a otros). Al
-terminar, cada uno también combina todos los resultados parciales en los
-archivos finales lives_bolivia.json y resultado_facebook_bolivia.json.
+Los grupos ya no tienen significado temático: son solo partes iguales de la
+lista. La agrupación por tema se hace con "pais"/"categoria" sobre el resultado
+combinado, que es lo que consume la app.
+
+SALUD DE FUENTES
+----------------
+Cada merge actualiza salud_fuentes.json, que lleva la cuenta de qué fuentes
+responden y cuáles no. Una página real, aunque esté offline, casi siempre deja
+alguna pista (foto de perfil o algún link de video); si una fuente no deja
+ninguna varias corridas seguidas, lo más probable es que la URL esté mal escrita
+o la página ya no sea pública.
+
+Ver las sospechosas: campo "sospechosas" de salud_fuentes.json (3+ corridas
+seguidas sin responder).
+
+Quitarlas de fuentes.json (manual, nunca lo hace el cron):
+
+    py facebook_live_bolivia.py --podar --min-fallas 6
 
 PASOS
 -----
@@ -47,16 +87,14 @@ PASOS
    fuentes.json
    requirements.txt
    .github/workflows/_probar-lives-grupo.yml
-   .github/workflows/probar-lives-grupo1.yml
-   .github/workflows/probar-lives-grupo2.yml
-   .github/workflows/probar-lives-grupo3.yml
-   .github/workflows/probar-lives-grupo4.yml
+   .github/workflows/probar-lives-grupo1.yml  (hasta grupo9.yml)
 
 3. Ve a la pestaña Actions.
-4. Entra a "Probar Facebook Live Bolivia - Grupo 1" (o cualquiera de los 5).
+4. Entra a "Probar Facebook Live Bolivia - Grupo 1" (o cualquier otro).
 5. Pulsa "Run workflow".
 6. Espera a que termine.
-7. Abre el run y mira el log "Ejecutar detector".
+7. Abre el run y mira el log "Ejecutar detector". La primera línea dice qué
+   fuentes le tocaron a ese grupo ("Grupo 3 de 9: fuentes 47-69 de 207").
 8. Al final podrás descargar el artefacto:
    resultados-facebook-live-bolivia-grupoN
 
@@ -64,9 +102,10 @@ Ese artefacto contiene:
 - resultado_facebook_bolivia_grupoN.json
 - lives_bolivia_grupoN.json
 
-Y en la raíz del repo quedan los combinados de los 4 grupos:
+Y en la raíz del repo quedan los combinados de todos los grupos:
 - resultado_facebook_bolivia.json
 - lives_bolivia.json
+- salud_fuentes.json
 
 IMPORTANTE
 ----------

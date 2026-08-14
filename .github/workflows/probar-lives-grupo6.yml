@@ -1,4 +1,4 @@
-name: Probar Facebook Live Bolivia - Grupo 6 (Nuevas fuentes nacionales)
+name: Probar Facebook Live Bolivia - Grupo 6
 
 on:
   workflow_dispatch:
@@ -9,10 +9,10 @@ on:
         required: false
         default: false
   schedule:
-    # Fuentes 84-117 de fuentes.json: 34 canales/radios bolivianos nuevos, agregados
-    # aparte de los grupos 1-4 para no aumentar el tiempo de corrida de esos grupos
-    # que ya venían funcionando bien. Corre junto a los otros grupos.
-    - cron: "0,30 * * * *"
+    # Parte 6 de 9 de fuentes.json. El script calcula qué fuentes le tocan
+    # (--grupo/--de), así que agregar canales no obliga a editar este archivo.
+    # Los grupos arrancan escalonados cada 3 minutos para no golpear Facebook en ráfaga.
+    - cron: "15,45 * * * *"
 
 jobs:
   escanear:
@@ -20,7 +20,6 @@ jobs:
       contents: write
     uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
-      grupo: grupo6
-      offset: 83
-      limit: 34
+      numero: 6
+      total: 9
       forzar: ${{ inputs.forzar == true }}

@@ -23,6 +23,7 @@ FUENTES_FILE = ROOT / "fuentes.json"
 RESULTADO_FILE = ROOT / "resultado_facebook_bolivia.json"
 LIVES_FILE = ROOT / "lives_bolivia.json"
 ESTADO_FILE = ROOT / ".facebook_live_estado.json"
+SALUD_FILE = ROOT / "salud_fuentes.json"
 
 # Detector conservador: no intenta ocultar Playwright, falsificar huellas,
 # rotar IPs/proxies ni evadir controles de Facebook.
@@ -439,6 +440,9 @@ def revisar(page, f):
     out = {
         "nombre": f.get("nombre"),
         "categoria": f.get("categoria"),
+        # Clasificación opcional ("institucional", "medio", ...). Es informativa: la app
+        # puede ignorarla sin problema, la agrupación visible sigue siendo "categoria".
+        "tipo_fuente": f.get("tipo_fuente"),
         "pais": f.get("pais"),
         "plataforma": "facebook",
         "url_fuente": f.get("url"),
@@ -565,6 +569,132 @@ def guardar(rows):
     )
 
 
+def rango_grupo(total, grupo, de):
+    """Reparte `total` fuentes en `de` grupos parejos y devuelve (offset, limit) del
+    grupo pedido (1-based). El resto se distribuye entre los primeros grupos, así que
+    ningún grupo queda con más de una fuente extra respecto de otro.
+
+    Esto reemplaza los offset/limit escritos a mano en cada workflow: al agregar
+    fuentes a fuentes.json el reparto se reacomoda solo, sin dejar un grupo gigante
+    (que se pasaba del timeout del job) ni fuentes sin revisar."""
+    if de < 1:
+        raise ValueError("--de debe ser 1 o más")
+    if not 1 <= grupo <= de:
+        raise ValueError(f"--grupo debe estar entre 1 y {de}")
+    base, resto = divmod(total, de)
+    offset = (grupo - 1) * base + min(grupo - 1, resto)
+    limit = base + (1 if grupo <= resto else 0)
+    return offset, limit
+
+
+def cargar_salud() -> dict:
+    try:
+        data = json.loads(SALUD_FILE.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            return data
+    except Exception:
+        pass
+    return {"fuentes": {}}
+
+
+def fuente_respondio(r):
+    """¿Facebook devolvió algo reconocible de esta fuente en esta corrida?
+
+    Una página real, aunque esté offline, casi siempre deja al menos una pista:
+    foto de perfil (Graph API u og:image) o algún link de video. Si no deja ninguna
+    y tampoco dio error de red, lo más probable es que la URL no exista o ya no
+    sea pública. Una sola corrida no alcanza para afirmarlo, por eso se cuentan
+    fallas seguidas."""
+    if r.get("estado") in ("live", "blocked"):
+        return True
+    return bool(r.get("icono_url") or r.get("video_id"))
+
+
+def actualizar_salud(rows):
+    """Lleva la cuenta, corrida a corrida, de qué fuentes responden y cuáles no.
+    Sirve para detectar URLs muertas o mal escritas sin tener que revisarlas a mano."""
+    salud = cargar_salud()
+    fuentes = salud.setdefault("fuentes", {})
+
+    for r in rows:
+        key = r.get("url_fuente") or r.get("nombre")
+        if not key:
+            continue
+        item = fuentes.setdefault(key, {
+            "nombre": r.get("nombre"),
+            "corridas": 0,
+            "ok": 0,
+            "fallas_seguidas": 0,
+            "ultima_vez_ok": None,
+        })
+        # El merge corre al final de CADA grupo, así que vuelve a leer resultados de
+        # grupos que no se re-escanearon. Sin este corte, una misma revisión se
+        # contaría una vez por grupo e inflaría las estadísticas.
+        if r.get("revisado_en") and r["revisado_en"] == item.get("ultimo_revisado_en"):
+            continue
+        item["ultimo_revisado_en"] = r.get("revisado_en")
+        item["nombre"] = r.get("nombre") or item.get("nombre")
+        item["corridas"] = item.get("corridas", 0) + 1
+        item["ultimo_estado"] = r.get("estado")
+        item["ultimo_error"] = r.get("error")
+        if fuente_respondio(r):
+            item["ok"] = item.get("ok", 0) + 1
+            item["fallas_seguidas"] = 0
+            item["ultima_vez_ok"] = now_iso()
+        else:
+            item["fallas_seguidas"] = item.get("fallas_seguidas", 0) + 1
+
+    sospechosas = sorted(
+        (
+            {"url": k, **v}
+            for k, v in fuentes.items()
+            if v.get("fallas_seguidas", 0) >= 3
+        ),
+        key=lambda x: -x["fallas_seguidas"],
+    )
+
+    salud["generado_en"] = now_iso()
+    salud["resumen"] = {
+        "fuentes_seguidas": len(fuentes),
+        "sospechosas": len(sospechosas),
+        "nunca_respondieron": sum(1 for v in fuentes.values() if not v.get("ok")),
+    }
+    salud["sospechosas"] = sospechosas
+    SALUD_FILE.write_text(
+        json.dumps(salud, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    if sospechosas:
+        print(f"Salud: {len(sospechosas)} fuentes sin responder 3+ corridas seguidas "
+              f"(ver {SALUD_FILE.name}; para quitarlas: --podar).")
+    return salud
+
+
+def podar(min_fallas):
+    """Saca de fuentes.json las fuentes que llevan N corridas seguidas sin responder.
+    Es manual a propósito: nunca se ejecuta desde el cron."""
+    salud = cargar_salud()
+    muertas = {
+        k for k, v in salud.get("fuentes", {}).items()
+        if v.get("fallas_seguidas", 0) >= min_fallas and not v.get("ultima_vez_ok")
+    }
+    if not muertas:
+        print(f"No hay fuentes con {min_fallas}+ fallas seguidas y ningún acierto previo. Nada que podar.")
+        return
+
+    fuentes = json.loads(FUENTES_FILE.read_text(encoding="utf-8"))
+    quedan = [f for f in fuentes if f.get("url") not in muertas]
+    for f in fuentes:
+        if f.get("url") in muertas:
+            print(f"Quitando: {f.get('nombre')} -> {f.get('url')}")
+
+    FUENTES_FILE.write_text(
+        json.dumps(quedan, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(f"Podadas {len(fuentes) - len(quedan)} fuentes. Quedan {len(quedan)}.")
+
+
 def merge_grupos(sufijos):
     """Combina los resultado_facebook_bolivia<sufijo>.json de cada grupo en los
     archivos finales (sin sufijo). No escanea nada, solo lee lo que ya está
@@ -582,6 +712,19 @@ def merge_grupos(sufijos):
             print(f"Aviso: no se pudo leer {f.name}: {e}")
 
     guardar(rows)
+    actualizar_salud(rows)
+
+    # Aviso de cobertura: si el combinado tiene menos fuentes que fuentes.json, algún
+    # grupo no publicó todavía (normal la primera corrida tras cambiar el reparto) o
+    # su job falló. Antes esto pasaba en silencio.
+    try:
+        total = len(json.loads(FUENTES_FILE.read_text(encoding="utf-8")))
+    except Exception:
+        total = None
+    if total is not None and len(rows) < total:
+        print(f"Aviso: el combinado trae {len(rows)} de {total} fuentes; "
+              f"faltan grupos por publicar sus resultados.")
+
     print(f"Merge listo: {len(rows)} fuentes combinadas de {len(sufijos)} grupos.")
     return rows
 
@@ -640,6 +783,9 @@ def scan(args):
 
     if args.limit:
         fuentes = fuentes[:args.limit]
+    elif args.limit == 0:
+        print("Aviso: --limit 0 no recorta nada (se revisa todo lo que quede después "
+              "de --offset). Para repartir en grupos parejos usá --grupo N --de T.")
 
     if not fuentes:
         print("No se encontraron fuentes")
@@ -724,6 +870,11 @@ def main():
     ap.add_argument("--limit", type=int)
     ap.add_argument("--offset", type=int, default=0,
                     help="Salta las primeras N fuentes antes de aplicar --limit (para repartir la lista en grupos).")
+    ap.add_argument("--grupo", type=int,
+                    help="Número de grupo a revisar (1..N). Se usa junto con --de; calcula "
+                         "solo el offset y el limit, sin tocar los workflows al agregar fuentes.")
+    ap.add_argument("--de", type=int,
+                    help="En cuántos grupos parejos se reparte fuentes.json.")
     ap.add_argument("--visible", action="store_true")
     ap.add_argument("--watch", type=int, metavar="SEGUNDOS")
 
@@ -744,12 +895,33 @@ def main():
     ap.add_argument("--merge", metavar="SUFIJOS",
                     help="No escanea nada: combina resultado_facebook_bolivia<sufijo>.json de cada grupo "
                          "(sufijos separados por coma, ej. _grupo1,_grupo2) en los archivos finales sin sufijo.")
+    ap.add_argument("--merge-de", type=int, metavar="N",
+                    help="Como --merge, pero arma solo la lista _grupo1.._grupoN.")
+    ap.add_argument("--podar", action="store_true",
+                    help="Quita de fuentes.json las fuentes que nunca respondieron en varias "
+                         "corridas seguidas (según salud_fuentes.json). Solo uso manual.")
+    ap.add_argument("--min-fallas", type=int, default=6,
+                    help="Cuántas corridas seguidas sin responder hacen falta para podar una fuente.")
 
     args = ap.parse_args()
+
+    if args.podar:
+        podar(max(2, args.min_fallas))
+        return
+
+    if args.merge_de:
+        merge_grupos([f"_grupo{i}" for i in range(1, args.merge_de + 1)])
+        return
 
     if args.merge:
         merge_grupos(args.merge.split(","))
         return
+
+    if args.de:
+        total = len(json.loads(FUENTES_FILE.read_text(encoding="utf-8")))
+        args.offset, args.limit = rango_grupo(total, args.grupo or 1, args.de)
+        print(f"Grupo {args.grupo or 1} de {args.de}: fuentes {args.offset + 1}-"
+              f"{args.offset + args.limit} de {total}.")
 
     global RESULTADO_FILE, LIVES_FILE
     if args.out_suffix:

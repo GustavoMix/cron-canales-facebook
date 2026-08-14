@@ -1,4 +1,4 @@
-name: Probar Facebook Live Bolivia - Grupo 1
+name: Probar Facebook Live Bolivia - Grupo 9
 
 on:
   workflow_dispatch:
@@ -9,10 +9,10 @@ on:
         required: false
         default: false
   schedule:
-    # Parte 1 de 9 de fuentes.json. El script calcula qué fuentes le tocan
+    # Parte 9 de 9 de fuentes.json. El script calcula qué fuentes le tocan
     # (--grupo/--de), así que agregar canales no obliga a editar este archivo.
     # Los grupos arrancan escalonados cada 3 minutos para no golpear Facebook en ráfaga.
-    - cron: "0,30 * * * *"
+    - cron: "24,54 * * * *"
 
 jobs:
   escanear:
@@ -20,6 +20,6 @@ jobs:
       contents: write
     uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
-      numero: 1
+      numero: 9
       total: 9
       forzar: ${{ inputs.forzar == true }}

@@ -9,8 +9,10 @@ on:
         required: false
         default: false
   schedule:
-    # Fuentes 43-63 de fuentes.json. Los 4 grupos corren cada media hora, en paralelo.
-    - cron: "0,30 * * * *"
+    # Parte 3 de 9 de fuentes.json. El script calcula qué fuentes le tocan
+    # (--grupo/--de), así que agregar canales no obliga a editar este archivo.
+    # Los grupos arrancan escalonados cada 3 minutos para no golpear Facebook en ráfaga.
+    - cron: "6,36 * * * *"
 
 jobs:
   escanear:
@@ -18,7 +20,6 @@ jobs:
       contents: write
     uses: ./.github/workflows/_probar-lives-grupo.yml
     with:
-      grupo: grupo3
-      offset: 42
-      limit: 21
+      numero: 3
+      total: 9
       forzar: ${{ inputs.forzar == true }}

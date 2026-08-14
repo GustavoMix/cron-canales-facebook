@@ -6,19 +6,23 @@ FACEBOOK LIVE BOLIVIA - PRUEBA LOCAL
 4. Para revisar todas las fuentes de fuentes.json: revisar_todas_una_vez.bat
 5. Para repetir de forma conservadora: vigilar_cada_15_minutos.bat
 
-En GitHub Actions, fuentes.json se reparte en 7 grupos que corren en paralelo
+En GitHub Actions, fuentes.json se reparte en 9 grupos que corren escalonados
 cada 30 minutos (ver GITHUB_ACTIONS.txt) para no exceder el timeout del job ni
 mandar de golpe todas las requests a Facebook. Todas las fuentes son de
 Facebook (se sacó el detector de YouTube que había, para no mezclar
-plataformas). Los grupos 1-4 y 6 son canales bolivianos (el 6 se agregó
-después con fuentes nuevas, aparte de 1-4 para no alargar esas corridas); el
-grupo 7 son radios bolivianas; el grupo 5 son canales de noticias regionales/
-internacionales de transmisión continua, agregados para que siempre haya algo
-en vivo aunque los canales bolivianos no estén emitiendo en ese momento.
+plataformas).
+
+El reparto lo calcula el script solo (--grupo N --de 9): para agregar canales
+alcanza con editar fuentes.json, los workflows no se tocan. Los grupos son
+partes iguales de la lista, sin significado temático; para agrupar por tema se
+usan los campos "pais" y "categoria" del resultado combinado.
 
 Archivos de salida:
 - resultado_facebook_bolivia.json: todas las fuentes
 - lives_bolivia.json: solamente transmisiones detectadas como activas
+- salud_fuentes.json: qué fuentes responden y cuáles no (para detectar URLs
+  muertas o mal escritas). Para quitar las muertas:
+  py facebook_live_bolivia.py --podar --min-fallas 6
 
 Puedes editar fuentes.json y agregar cualquier URL:
 - https://www.facebook.com/usuario

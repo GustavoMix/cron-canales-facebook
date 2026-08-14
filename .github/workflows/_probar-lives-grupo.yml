@@ -3,13 +3,12 @@ name: Escanear grupo de fuentes (reusable)
 on:
   workflow_call:
     inputs:
-      grupo:
-        required: true
-        type: string
-      offset:
+      numero:
+        description: "Número de grupo (1..total)"
         required: true
         type: number
-      limit:
+      total:
+        description: "En cuántos grupos se reparte fuentes.json"
         required: true
         type: number
       forzar:
@@ -21,13 +20,18 @@ permissions:
   contents: write
 
 concurrency:
-  group: probar-lives-${{ inputs.grupo }}
+  group: probar-lives-grupo${{ inputs.numero }}
   cancel-in-progress: false
+
+env:
+  # El reparto lo calcula el script a partir de --grupo/--de, así que agregar fuentes
+  # a fuentes.json NO obliga a tocar ningún workflow: los grupos se reacomodan solos.
+  GRUPO: grupo${{ inputs.numero }}
 
 jobs:
   detectar-lives:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Descargar repositorio
@@ -63,9 +67,9 @@ jobs:
             FORZAR_FLAG="--force"
           fi
           python facebook_live_bolivia.py \
-            --offset "${{ inputs.offset }}" \
-            --limit "${{ inputs.limit }}" \
-            --out-suffix "_${{ inputs.grupo }}" \
+            --grupo "${{ inputs.numero }}" \
+            --de "${{ inputs.total }}" \
+            --out-suffix "_$GRUPO" \
             $FORZAR_FLAG
 
       - name: Mostrar resumen
@@ -74,16 +78,16 @@ jobs:
           echo "=== Archivos generados ==="
           ls -lah *.json 2>/dev/null || true
           echo "=== Lives detectados en este grupo ==="
-          cat "lives_bolivia_${{ inputs.grupo }}.json" 2>/dev/null || true
+          cat "lives_bolivia_$GRUPO.json" 2>/dev/null || true
 
       - name: Guardar resultados como artefacto
         if: always()
         uses: actions/upload-artifact@v5
         with:
-          name: resultados-facebook-live-bolivia-${{ inputs.grupo }}
+          name: resultados-facebook-live-bolivia-grupo${{ inputs.numero }}
           path: |
-            resultado_facebook_bolivia_${{ inputs.grupo }}.json
-            lives_bolivia_${{ inputs.grupo }}.json
+            resultado_facebook_bolivia_grupo${{ inputs.numero }}.json
+            lives_bolivia_grupo${{ inputs.numero }}.json
           if-no-files-found: warn
           retention-days: 7
 
@@ -91,17 +95,17 @@ jobs:
         if: always()
         shell: bash
         run: |
-          if [ ! -f "lives_bolivia_${{ inputs.grupo }}.json" ]; then
-            echo "No hay lives_bolivia_${{ inputs.grupo }}.json que publicar."
+          if [ ! -f "lives_bolivia_$GRUPO.json" ]; then
+            echo "No hay lives_bolivia_$GRUPO.json que publicar."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "lives_bolivia_${{ inputs.grupo }}.json" "resultado_facebook_bolivia_${{ inputs.grupo }}.json"
+          git add "lives_bolivia_$GRUPO.json" "resultado_facebook_bolivia_$GRUPO.json"
           if git diff --cached --quiet; then
             echo "Sin cambios en los resultados de este grupo, no se hace commit."
           else
-            git commit -m "Actualizar resultados de ${{ inputs.grupo }} [skip ci]"
+            git commit -m "Actualizar resultados de $GRUPO [skip ci]"
             for i in 1 2 3 4 5; do
               git pull --rebase origin main && git push origin HEAD:main && break
               echo "Push falló (posible carrera con otro grupo), reintentando ($i)..."
@@ -114,8 +118,8 @@ jobs:
         shell: bash
         run: |
           git pull --rebase origin main || true
-          python facebook_live_bolivia.py --merge "_grupo1,_grupo2,_grupo3,_grupo4,_grupo5,_grupo6,_grupo7"
-          git add lives_bolivia.json resultado_facebook_bolivia.json
+          python facebook_live_bolivia.py --merge-de "${{ inputs.total }}"
+          git add lives_bolivia.json resultado_facebook_bolivia.json salud_fuentes.json
           if git diff --cached --quiet; then
             echo "Sin cambios en el combinado, no se hace commit."
           else
