@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-18T15:04:26.540579+00:00",
+  "generado_en": "2026-08-18T15:58:32.617898+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 3,
+  "en_vivo": 4,
   "resultados": [
     {
       "nombre": "La Patria (Oruro)",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:53:52.300562+00:00",
+      "revisado_en": "2026-08-18T15:48:21.809641+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:54:12.275701+00:00",
+      "revisado_en": "2026-08-18T15:48:41.174640+00:00",
       "error": null
     },
     {
@@ -74,24 +74,26 @@
       "tipo": "pagina",
       "identificador": "multimediostv",
       "icono_url": "https://graph.facebook.com/multimediostv/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Multimedios Televisión",
-      "video_id": "2283263112485570",
-      "url_video": "https://www.facebook.com/100044487187245/videos/2283263112485570",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1055798206995666",
+      "url_video": "https://www.facebook.com/100044487187245/videos/1055798206995666",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/multimediostv/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 5600,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:54:32.296022+00:00",
+      "revisado_en": "2026-08-18T15:49:00.272351+00:00",
       "error": null
     },
     {
@@ -104,26 +106,24 @@
       "tipo": "pagina",
       "identificador": "OnceNoticiasTV",
       "icono_url": "https://graph.facebook.com/OnceNoticiasTV/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Once Noticias",
-      "video_id": "1053091620854559",
-      "url_video": "https://www.facebook.com/100050664391420/videos/1053091620854559",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/OnceNoticiasTV/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 35000,
+      "video_id": "1362264176020110",
+      "url_video": "https://www.facebook.com/100050664391420/videos/1362264176020110",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:54:51.939778+00:00",
+      "revisado_en": "2026-08-18T15:49:15.651680+00:00",
       "error": null
     },
     {
@@ -153,7 +153,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:55:07.988239+00:00",
+      "revisado_en": "2026-08-18T15:49:34.839095+00:00",
       "error": null
     },
     {
@@ -171,9 +171,11 @@
       "titulo": "eltrece",
       "video_id": "1054505770662573",
       "url_video": "https://www.facebook.com/100044331851333/videos/1054505770662573",
-      "confianza": 0,
+      "confianza": 30,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -183,7 +185,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:55:28.322588+00:00",
+      "revisado_en": "2026-08-18T15:49:54.724895+00:00",
       "error": null
     },
     {
@@ -215,7 +217,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:55:53.448371+00:00",
+      "revisado_en": "2026-08-18T15:50:18.550134+00:00",
       "error": null
     },
     {
@@ -247,7 +249,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:56:14.189944+00:00",
+      "revisado_en": "2026-08-18T15:50:38.629132+00:00",
       "error": null
     },
     {
@@ -279,7 +281,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:56:34.541194+00:00",
+      "revisado_en": "2026-08-18T15:50:58.286521+00:00",
       "error": null
     },
     {
@@ -311,7 +313,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:56:52.907931+00:00",
+      "revisado_en": "2026-08-18T15:51:16.420584+00:00",
       "error": null
     },
     {
@@ -338,7 +340,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:57:11.051818+00:00",
+      "revisado_en": "2026-08-18T15:51:34.452291+00:00",
       "error": null
     },
     {
@@ -371,7 +373,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:57:29.383889+00:00",
+      "revisado_en": "2026-08-18T15:51:52.528794+00:00",
       "error": null
     },
     {
@@ -404,7 +406,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:57:47.945543+00:00",
+      "revisado_en": "2026-08-18T15:52:10.972980+00:00",
       "error": null
     },
     {
@@ -431,7 +433,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:58:06.634185+00:00",
+      "revisado_en": "2026-08-18T15:52:29.138353+00:00",
       "error": null
     },
     {
@@ -458,7 +460,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:58:24.778956+00:00",
+      "revisado_en": "2026-08-18T15:52:47.295309+00:00",
       "error": null
     },
     {
@@ -490,7 +492,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:58:43.480227+00:00",
+      "revisado_en": "2026-08-18T15:53:05.456691+00:00",
       "error": null
     },
     {
@@ -522,7 +524,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:58:59.571702+00:00",
+      "revisado_en": "2026-08-18T15:53:21.286698+00:00",
       "error": null
     },
     {
@@ -555,7 +557,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:59:17.845357+00:00",
+      "revisado_en": "2026-08-18T15:53:39.396838+00:00",
       "error": null
     },
     {
@@ -582,7 +584,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:59:36.034946+00:00",
+      "revisado_en": "2026-08-18T15:53:57.432478+00:00",
       "error": null
     },
     {
@@ -614,7 +616,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T14:59:54.074428+00:00",
+      "revisado_en": "2026-08-18T15:54:15.447884+00:00",
       "error": null
     },
     {
@@ -641,7 +643,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:00:12.316063+00:00",
+      "revisado_en": "2026-08-18T15:54:33.484196+00:00",
       "error": null
     },
     {
@@ -653,7 +655,7 @@
       "url_fuente": "https://www.facebook.com/ecuadortv/",
       "tipo": "pagina",
       "identificador": "ecuadortv",
-      "icono_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/468989931_497764299954707_7953632772193426665_n.jpg?stp=dst-jpg_tt6&cstp=mx720x741&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KoxV33Onbl0Q7kNvwHtQGO5&_nc_oc=AdpdAIRf38_3Za0wh8rVLE0IrhbUXbUmwokWX-ZxWrXoCTL6qL_yWqR1jQwZcKAt8Rw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=5RHn1p6vO6mGSV30wOqGyg&_nc_ss=7f289&oh=00_AQEdBcMisbm81dJQc_FRT_vf0AH7ulZwKFJ6cMegZmVOmQ&oe=6A8A5438",
+      "icono_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/468989931_497764299954707_7953632772193426665_n.jpg?stp=dst-jpg_tt6&cstp=mx720x741&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KoxV33Onbl0Q7kNvwEHykaj&_nc_oc=AdqQAIIMDEK64fJmnLSfGHMWLDh1Acl2FedxChw6W7LFnxd67eDNuGVbTC5igE6BF74&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=heDLCsZIB4p0MDR9SJiSPg&_nc_ss=7f289&oh=00_AQEq62JrdryPWEBBEdQAdJkz_JdbzyOTm80UOfXS5g6KUg&oe=6A8A5438",
       "en_vivo": false,
       "estado": "offline",
       "titulo": null,
@@ -667,7 +669,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:00:30.495564+00:00",
+      "revisado_en": "2026-08-18T15:54:51.411194+00:00",
       "error": null
     },
     {
@@ -699,7 +701,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:00:49.108625+00:00",
+      "revisado_en": "2026-08-18T15:55:09.415267+00:00",
       "error": null
     },
     {
@@ -732,7 +734,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:01:07.666337+00:00",
+      "revisado_en": "2026-08-18T15:55:27.607291+00:00",
       "error": null
     },
     {
@@ -765,7 +767,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:01:26.017151+00:00",
+      "revisado_en": "2026-08-18T15:55:45.680495+00:00",
       "error": null
     },
     {
@@ -798,7 +800,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:01:44.529506+00:00",
+      "revisado_en": "2026-08-18T15:56:03.731069+00:00",
       "error": null
     },
     {
@@ -813,22 +815,19 @@
       "icono_url": "https://graph.facebook.com/tcsnoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Tcs Noticias",
-      "video_id": "2659670851135660",
-      "url_video": "https://www.facebook.com/100064331185759/videos/2659670851135660",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:02:02.867758+00:00",
+      "revisado_en": "2026-08-18T15:56:21.896090+00:00",
       "error": null
     },
     {
@@ -840,7 +839,7 @@
       "url_fuente": "https://www.facebook.com/tvnnoticias.panama/",
       "tipo": "pagina",
       "identificador": "tvnnoticias.panama",
-      "icono_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=H0FCSPch1BYQ7kNvwHWRbut&_nc_oc=AdrsqGFQvluKH__2K_BlDXBQ-CPd8HLguu-c03GhqAIl1Oueu7sJvjJThCkJOWvnQwU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_ss=7f289&oh=00_AQG16dRPz1UBK-khbA7l4ZgCDmNljEsjTexhKhNCFqFC4g&oe=6AABE2FA",
+      "icono_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=H0FCSPch1BYQ7kNvwENUkMA&_nc_oc=AdoQnzIavee_J3V1trCtOPZV2cI2miqETq_vPxuinkUl9KIJwEklalLL7_msSj95VMc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_ss=7f289&oh=00_AQGagvEXI8MzqQYX1-mscU3DE9qFm_R0qszj_aXPEPzqug&oe=6AABE2FA",
       "en_vivo": false,
       "estado": "offline",
       "titulo": null,
@@ -854,7 +853,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:02:22.596045+00:00",
+      "revisado_en": "2026-08-18T15:56:39.989944+00:00",
       "error": null
     },
     {
@@ -869,22 +868,19 @@
       "icono_url": "https://graph.facebook.com/TReporta/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Telemetro Reporta",
-      "video_id": "1575605064308935",
-      "url_video": "https://www.facebook.com/100031192604599/videos/1575605064308935",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:02:40.696145+00:00",
+      "revisado_en": "2026-08-18T15:56:57.918391+00:00",
       "error": null
     },
     {
@@ -899,22 +895,19 @@
       "icono_url": "https://graph.facebook.com/CubavisionTVOficial/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Cubavisión El canal de todos",
-      "video_id": "28724722577116003",
-      "url_video": "https://www.facebook.com/100063653545699/videos/28724722577116003",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:02:59.837123+00:00",
+      "revisado_en": "2026-08-18T15:57:15.890950+00:00",
       "error": null
     },
     {
@@ -929,22 +922,25 @@
       "icono_url": "https://graph.facebook.com/noticentrowapa/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Noticentro por WAPA",
-      "video_id": "2047286025911903",
-      "url_video": "https://www.facebook.com/100064513673592/videos/2047286025911903",
-      "confianza": 0,
+      "titulo": "40:36",
+      "video_id": "2177315323215166",
+      "url_video": "https://www.facebook.com/100064513673592/videos/2177315323215166",
+      "confianza": -270,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:03:19.809652+00:00",
+      "revisado_en": "2026-08-18T15:57:33.954640+00:00",
       "error": null
     },
     {
@@ -959,22 +955,19 @@
       "icono_url": "https://graph.facebook.com/BloombergLinea/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Bloomberg Línea",
-      "video_id": "2023461568253912",
-      "url_video": "https://www.facebook.com/100066852344261/videos/2023461568253912",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:03:38.765436+00:00",
+      "revisado_en": "2026-08-18T15:57:52.036864+00:00",
       "error": null
     },
     {
@@ -987,24 +980,26 @@
       "tipo": "pagina",
       "identificador": "CFVBSinCompostura",
       "icono_url": "https://graph.facebook.com/CFVBSinCompostura/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Carlos Valverde Sin Compostura",
-      "video_id": "1060589590228072",
-      "url_video": "https://www.facebook.com/100070299666911/videos/1060589590228072",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1628213129003848",
+      "url_video": "https://www.facebook.com/100070299666911/videos/1628213129003848",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/CFVBSinCompostura/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 367000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:03:58.890594+00:00",
+      "revisado_en": "2026-08-18T15:58:09.986417+00:00",
       "error": null
     },
     {
@@ -1020,8 +1015,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "Radio Fórmula",
-      "video_id": "1368272508713820",
-      "url_video": "https://www.facebook.com/100077369027841/videos/1368272508713820",
+      "video_id": "1750802772480908",
+      "url_video": "https://www.facebook.com/100077369027841/videos/1750802772480908",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/RadioFormulaMX/live/",
       "motivos": [
@@ -1036,7 +1031,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T15:04:18.254109+00:00",
+      "revisado_en": "2026-08-18T15:58:25.340585+00:00",
       "error": null
     }
   ]
