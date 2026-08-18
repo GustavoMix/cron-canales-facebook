@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-18T10:59:14.146264+00:00",
+  "generado_en": "2026-08-18T11:02:22.983715+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 12,
+  "en_vivo": 14,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -7325,7 +7325,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:54:04.296835+00:00",
+      "revisado_en": "2026-08-18T10:51:42.729536+00:00",
       "error": null
     },
     {
@@ -7355,7 +7355,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:54:23.809303+00:00",
+      "revisado_en": "2026-08-18T10:52:03.674405+00:00",
       "error": null
     },
     {
@@ -7385,7 +7385,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:54:43.436949+00:00",
+      "revisado_en": "2026-08-18T10:52:23.877705+00:00",
       "error": null
     },
     {
@@ -7415,7 +7415,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:55:03.014335+00:00",
+      "revisado_en": "2026-08-18T10:52:46.769931+00:00",
       "error": null
     },
     {
@@ -7447,7 +7447,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:55:22.356031+00:00",
+      "revisado_en": "2026-08-18T10:53:06.669410+00:00",
       "error": null
     },
     {
@@ -7479,7 +7479,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:55:40.870503+00:00",
+      "revisado_en": "2026-08-18T10:53:26.496780+00:00",
       "error": null
     },
     {
@@ -7509,7 +7509,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:55:59.854603+00:00",
+      "revisado_en": "2026-08-18T10:53:46.541231+00:00",
       "error": null
     },
     {
@@ -7524,22 +7524,25 @@
       "icono_url": "https://graph.facebook.com/lafmcolombia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "La FM",
-      "video_id": "1315249134101864",
-      "url_video": "https://www.facebook.com/100064600125853/videos/1315249134101864",
-      "confianza": 0,
+      "titulo": "6:49:03",
+      "video_id": "1618646763032741",
+      "url_video": "https://www.facebook.com/100064600125853/videos/1618646763032741",
+      "confianza": -270,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:56:20.235114+00:00",
+      "revisado_en": "2026-08-18T10:54:07.412425+00:00",
       "error": null
     },
     {
@@ -7573,7 +7576,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:56:39.492424+00:00",
+      "revisado_en": "2026-08-18T10:54:25.858900+00:00",
       "error": null
     },
     {
@@ -7605,7 +7608,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:56:58.596529+00:00",
+      "revisado_en": "2026-08-18T10:54:45.252127+00:00",
       "error": null
     },
     {
@@ -7618,28 +7621,26 @@
       "tipo": "pagina",
       "identificador": "RadioBioBio",
       "icono_url": "https://graph.facebook.com/RadioBioBio/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "🔴 En vivo | Radiograma Matinal | Lunes 17 de Agosto 2026",
-      "video_id": "2583553702049962",
-      "url_video": "https://www.facebook.com/100064470470473/videos/2583553702049962",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Bio Bio",
+      "video_id": "2481403498949911",
+      "url_video": "https://www.facebook.com/100064470470473/videos/2481403498949911",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioBioBio/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 232000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:57:17.727735+00:00",
+      "revisado_en": "2026-08-18T10:55:04.795559+00:00",
       "error": null
     },
     {
@@ -7673,7 +7674,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:57:35.892600+00:00",
+      "revisado_en": "2026-08-18T10:55:21.691698+00:00",
       "error": null
     },
     {
@@ -7706,7 +7707,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:57:54.164350+00:00",
+      "revisado_en": "2026-08-18T10:55:40.236405+00:00",
       "error": null
     },
     {
@@ -7738,7 +7739,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:58:12.269104+00:00",
+      "revisado_en": "2026-08-18T10:55:58.755166+00:00",
       "error": null
     },
     {
@@ -7765,7 +7766,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:58:30.369612+00:00",
+      "revisado_en": "2026-08-18T10:56:17.228399+00:00",
       "error": null
     },
     {
@@ -7798,7 +7799,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:58:48.286220+00:00",
+      "revisado_en": "2026-08-18T10:56:35.563609+00:00",
       "error": null
     },
     {
@@ -7826,7 +7827,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:59:06.519512+00:00",
+      "revisado_en": "2026-08-18T10:56:54.114202+00:00",
       "error": null
     },
     {
@@ -7853,7 +7854,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:59:25.016589+00:00",
+      "revisado_en": "2026-08-18T10:57:14.195649+00:00",
       "error": null
     },
     {
@@ -7881,7 +7882,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T09:59:42.869495+00:00",
+      "revisado_en": "2026-08-18T10:57:32.490146+00:00",
       "error": null
     },
     {
@@ -7908,7 +7909,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:00:01.390775+00:00",
+      "revisado_en": "2026-08-18T10:57:50.816562+00:00",
       "error": null
     },
     {
@@ -7936,7 +7937,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:00:19.365679+00:00",
+      "revisado_en": "2026-08-18T10:58:09.130548+00:00",
       "error": null
     },
     {
@@ -7968,7 +7969,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:00:37.524473+00:00",
+      "revisado_en": "2026-08-18T10:58:28.045936+00:00",
       "error": null
     },
     {
@@ -8000,7 +8001,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:00:55.664825+00:00",
+      "revisado_en": "2026-08-18T10:58:46.550567+00:00",
       "error": null
     },
     {
@@ -8032,7 +8033,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:01:13.870245+00:00",
+      "revisado_en": "2026-08-18T10:59:05.039195+00:00",
       "error": null
     },
     {
@@ -8066,7 +8067,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:01:32.240863+00:00",
+      "revisado_en": "2026-08-18T10:59:23.612684+00:00",
       "error": null
     },
     {
@@ -8094,7 +8095,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:01:50.311796+00:00",
+      "revisado_en": "2026-08-18T10:59:42.081183+00:00",
       "error": null
     },
     {
@@ -8120,7 +8121,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:02:08.563791+00:00",
+      "revisado_en": "2026-08-18T11:00:00.343719+00:00",
       "error": null
     },
     {
@@ -8147,7 +8148,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:02:27.273606+00:00",
+      "revisado_en": "2026-08-18T11:00:19.088432+00:00",
       "error": null
     },
     {
@@ -8180,7 +8181,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:02:45.213513+00:00",
+      "revisado_en": "2026-08-18T11:00:37.581029+00:00",
       "error": null
     },
     {
@@ -8207,7 +8208,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:03:03.128673+00:00",
+      "revisado_en": "2026-08-18T11:00:56.099756+00:00",
       "error": null
     },
     {
@@ -8239,7 +8240,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:03:21.174336+00:00",
+      "revisado_en": "2026-08-18T11:01:14.495197+00:00",
       "error": null
     },
     {
@@ -8272,7 +8273,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:03:39.418362+00:00",
+      "revisado_en": "2026-08-18T11:01:33.095588+00:00",
       "error": null
     },
     {
@@ -8305,7 +8306,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:03:57.494926+00:00",
+      "revisado_en": "2026-08-18T11:01:52.021340+00:00",
       "error": null
     },
     {
@@ -8318,26 +8319,26 @@
       "tipo": "pagina",
       "identificador": "SATELPaginaOficial1",
       "icono_url": "https://graph.facebook.com/SATELPaginaOficial1/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:23:01",
-      "video_id": "1045003618508595",
-      "url_video": "https://www.facebook.com/100063592901533/videos/1045003618508595",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "SATEL Televisión",
+      "video_id": "1323630323179114",
+      "url_video": "https://www.facebook.com/100063592901533/videos/1323630323179114",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/SATELPaginaOficial1/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 10000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T10:04:15.523928+00:00",
+      "revisado_en": "2026-08-18T11:02:10.502776+00:00",
       "error": null
     },
     {
