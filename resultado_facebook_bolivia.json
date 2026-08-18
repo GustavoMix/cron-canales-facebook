@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-18T19:52:49.163797+00:00",
+  "generado_en": "2026-08-18T19:53:13.005956+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 23,
+  "en_vivo": 25,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -5270,7 +5270,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:04:07.313374+00:00",
+      "revisado_en": "2026-08-18T19:43:07.204996+00:00",
       "error": null
     },
     {
@@ -5283,24 +5283,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "899579606553766",
-      "url_video": "https://www.facebook.com/100064283455585/videos/899579606553766",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1468947465012407",
+      "url_video": "https://www.facebook.com/100064283455585/videos/1468947465012407",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:04:27.113821+00:00",
+      "revisado_en": "2026-08-18T19:43:26.324705+00:00",
       "error": null
     },
     {
@@ -5333,7 +5335,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:04:47.041058+00:00",
+      "revisado_en": "2026-08-18T19:43:41.704283+00:00",
       "error": null
     },
     {
@@ -5363,7 +5365,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:05:06.796549+00:00",
+      "revisado_en": "2026-08-18T19:44:00.778736+00:00",
       "error": null
     },
     {
@@ -5393,7 +5395,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:05:27.149015+00:00",
+      "revisado_en": "2026-08-18T19:44:20.140226+00:00",
       "error": null
     },
     {
@@ -5423,7 +5425,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:05:48.202238+00:00",
+      "revisado_en": "2026-08-18T19:44:39.499838+00:00",
       "error": null
     },
     {
@@ -5453,7 +5455,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:06:08.073377+00:00",
+      "revisado_en": "2026-08-18T19:44:58.077433+00:00",
       "error": null
     },
     {
@@ -5468,26 +5470,24 @@
       "icono_url": "https://graph.facebook.com/MunicipioLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "🔴 EN VIVO🔴 VISITA MERCADO LANZA",
-      "video_id": "1073046411794690",
-      "url_video": "https://www.facebook.com/100066961159396/videos/1073046411794690",
-      "confianza": -240,
+      "titulo": "Gobierno Autónomo Municipal de La Paz",
+      "video_id": "1644187253832940",
+      "url_video": "https://www.facebook.com/100066961159396/videos/1644187253832940",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
-        "aria_live"
+        "debil:🔴 en vivo"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:06:28.602097+00:00",
+      "revisado_en": "2026-08-18T19:45:17.920860+00:00",
       "error": null
     },
     {
@@ -5502,19 +5502,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "999735681697660",
+      "url_video": "https://www.facebook.com/100064127555592/videos/999735681697660",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:06:47.098487+00:00",
+      "revisado_en": "2026-08-18T19:45:37.075633+00:00",
       "error": null
     },
     {
@@ -5548,7 +5551,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:07:05.167767+00:00",
+      "revisado_en": "2026-08-18T19:45:57.019402+00:00",
       "error": null
     },
     {
@@ -5563,7 +5566,7 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "47,3 mil reproducciones",
+      "titulo": "47,4 mil reproducciones",
       "video_id": "1318795216728250",
       "url_video": "https://www.facebook.com/100069139572852/videos/1318795216728250",
       "confianza": -240,
@@ -5582,7 +5585,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:07:23.555318+00:00",
+      "revisado_en": "2026-08-18T19:46:14.980780+00:00",
       "error": null
     },
     {
@@ -5608,7 +5611,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:07:42.003810+00:00",
+      "revisado_en": "2026-08-18T19:46:33.042959+00:00",
       "error": null
     },
     {
@@ -5640,7 +5643,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:08:00.707482+00:00",
+      "revisado_en": "2026-08-18T19:46:50.690555+00:00",
       "error": null
     },
     {
@@ -5667,7 +5670,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:08:19.810385+00:00",
+      "revisado_en": "2026-08-18T19:47:08.643399+00:00",
       "error": null
     },
     {
@@ -5699,7 +5702,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:08:38.141095+00:00",
+      "revisado_en": "2026-08-18T19:47:26.431014+00:00",
       "error": null
     },
     {
@@ -5726,7 +5729,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:08:57.231074+00:00",
+      "revisado_en": "2026-08-18T19:47:44.725891+00:00",
       "error": null
     },
     {
@@ -5754,7 +5757,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:09:15.382765+00:00",
+      "revisado_en": "2026-08-18T19:48:02.500110+00:00",
       "error": null
     },
     {
@@ -5781,7 +5784,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:09:34.408379+00:00",
+      "revisado_en": "2026-08-18T19:48:20.330003+00:00",
       "error": null
     },
     {
@@ -5813,7 +5816,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:09:52.456785+00:00",
+      "revisado_en": "2026-08-18T19:48:38.020729+00:00",
       "error": null
     },
     {
@@ -5846,7 +5849,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:10:11.540253+00:00",
+      "revisado_en": "2026-08-18T19:48:56.323290+00:00",
       "error": null
     },
     {
@@ -5859,27 +5862,27 @@
       "tipo": "pagina",
       "identificador": "FidesTV",
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "4:27:53",
-      "video_id": "2301091600647413",
-      "url_video": "https://www.facebook.com/100063710400583/videos/2301091600647413",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "fidestv",
+      "video_id": "4545730609078362",
+      "url_video": "https://www.facebook.com/100063710400583/videos/4545730609078362",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:10:29.955671+00:00",
+      "revisado_en": "2026-08-18T19:49:14.293227+00:00",
       "error": null
     },
     {
@@ -5911,7 +5914,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:10:48.600039+00:00",
+      "revisado_en": "2026-08-18T19:49:28.188840+00:00",
       "error": null
     },
     {
@@ -5926,9 +5929,9 @@
       "icono_url": "https://graph.facebook.com/radiofidescb/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:02:46",
-      "video_id": "1062586746163226",
-      "url_video": "https://www.facebook.com/100037288484799/videos/1062586746163226",
+      "titulo": "🦆🎉\"EL REVENTÓN\" 🦆",
+      "video_id": "1594629415373148",
+      "url_video": "https://www.facebook.com/100037288484799/videos/1594629415373148",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5943,7 +5946,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:11:03.290542+00:00",
+      "revisado_en": "2026-08-18T19:49:42.780897+00:00",
       "error": null
     },
     {
@@ -5975,7 +5978,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:11:21.634664+00:00",
+      "revisado_en": "2026-08-18T19:50:00.864605+00:00",
       "error": null
     },
     {
@@ -6002,7 +6005,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:11:39.702957+00:00",
+      "revisado_en": "2026-08-18T19:50:18.743126+00:00",
       "error": null
     },
     {
@@ -6036,7 +6039,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:11:57.767785+00:00",
+      "revisado_en": "2026-08-18T19:50:36.543774+00:00",
       "error": null
     },
     {
@@ -6062,7 +6065,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:12:16.185360+00:00",
+      "revisado_en": "2026-08-18T19:50:54.571587+00:00",
       "error": null
     },
     {
@@ -6094,7 +6097,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:12:33.894544+00:00",
+      "revisado_en": "2026-08-18T19:51:12.105828+00:00",
       "error": null
     },
     {
@@ -6127,7 +6130,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:12:52.259449+00:00",
+      "revisado_en": "2026-08-18T19:51:30.062455+00:00",
       "error": null
     },
     {
@@ -6161,7 +6164,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:13:10.606063+00:00",
+      "revisado_en": "2026-08-18T19:51:48.150419+00:00",
       "error": null
     },
     {
@@ -6189,7 +6192,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:13:29.121349+00:00",
+      "revisado_en": "2026-08-18T19:52:06.141680+00:00",
       "error": null
     },
     {
@@ -6216,7 +6219,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:13:47.437953+00:00",
+      "revisado_en": "2026-08-18T19:52:24.039936+00:00",
       "error": null
     },
     {
@@ -6243,7 +6246,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:14:05.553836+00:00",
+      "revisado_en": "2026-08-18T19:52:42.144458+00:00",
       "error": null
     },
     {
@@ -6276,7 +6279,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-18T19:14:23.616196+00:00",
+      "revisado_en": "2026-08-18T19:53:00.127606+00:00",
       "error": null
     },
     {
