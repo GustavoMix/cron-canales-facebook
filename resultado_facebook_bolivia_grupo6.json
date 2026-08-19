@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-19T14:09:08.143383+00:00",
+  "generado_en": "2026-08-19T15:11:06.389044+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 4,
+  "en_vivo": 6,
   "resultados": [
     {
       "nombre": "Telemundo (Teledoce)",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T13:59:02.249174+00:00",
+      "revisado_en": "2026-08-19T15:00:53.437078+00:00",
       "error": null
     },
     {
@@ -63,7 +63,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T13:59:21.694661+00:00",
+      "revisado_en": "2026-08-19T15:01:12.647075+00:00",
       "error": null
     },
     {
@@ -95,7 +95,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T13:59:41.042441+00:00",
+      "revisado_en": "2026-08-19T15:01:32.147616+00:00",
       "error": null
     },
     {
@@ -125,7 +125,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:00:00.477694+00:00",
+      "revisado_en": "2026-08-19T15:01:51.748341+00:00",
       "error": null
     },
     {
@@ -155,7 +155,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:00:20.316424+00:00",
+      "revisado_en": "2026-08-19T15:02:12.140733+00:00",
       "error": null
     },
     {
@@ -185,7 +185,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:00:39.301847+00:00",
+      "revisado_en": "2026-08-19T15:02:31.486283+00:00",
       "error": null
     },
     {
@@ -215,7 +215,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:00:58.383438+00:00",
+      "revisado_en": "2026-08-19T15:02:50.646592+00:00",
       "error": null
     },
     {
@@ -228,28 +228,26 @@
       "tipo": "pagina",
       "identificador": "MunicipioLaPaz",
       "icono_url": "https://graph.facebook.com/MunicipioLaPaz/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "🔴EN VIVO🔴 INSPECCIÓN CENTRO DE SALUD VILLA NUEVA POTOSÍ",
-      "video_id": "1372916771672386",
-      "url_video": "https://www.facebook.com/100066961159396/videos/1372916771672386",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Gobierno Autónomo Municipal de La Paz",
+      "video_id": "4175252029434200",
+      "url_video": "https://www.facebook.com/100066961159396/videos/4175252029434200",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 4100,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:01:18.643203+00:00",
+      "revisado_en": "2026-08-19T15:03:10.828911+00:00",
       "error": null
     },
     {
@@ -264,19 +262,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "987069596176714",
+      "url_video": "https://www.facebook.com/100064127555592/videos/987069596176714",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:01:36.892128+00:00",
+      "revisado_en": "2026-08-19T15:03:28.026214+00:00",
       "error": null
     },
     {
@@ -291,26 +292,25 @@
       "icono_url": "https://graph.facebook.com/gobernaciondelapaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "11:34",
-      "video_id": "1540260217378090",
-      "url_video": "https://www.facebook.com/100064362385017/videos/1540260217378090",
-      "confianza": -240,
+      "titulo": "Gobierno Autónomo Departamental de La Paz",
+      "video_id": "27941572318866454",
+      "url_video": "https://www.facebook.com/100064362385017/videos/27941572318866454",
+      "confianza": 60,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo ",
-        "debil:🔴 en vivo",
-        "aria_live"
+        "debil:🔴 en vivo"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:01:54.889284+00:00",
+      "revisado_en": "2026-08-19T15:03:47.725046+00:00",
       "error": null
     },
     {
@@ -323,26 +323,24 @@
       "tipo": "pagina",
       "identificador": "ElAltoAlcaldia",
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Gobierno Autónomo Municipal de El Alto",
-      "video_id": "1061436856830932",
-      "url_video": "https://www.facebook.com/100069139572852/videos/1061436856830932",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/ElAltoAlcaldia/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 4900,
+      "video_id": "4486151228320337",
+      "url_video": "https://www.facebook.com/100069139572852/videos/4486151228320337",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:02:13.114628+00:00",
+      "revisado_en": "2026-08-19T15:04:07.362660+00:00",
       "error": null
     },
     {
@@ -368,7 +366,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:02:28.564242+00:00",
+      "revisado_en": "2026-08-19T15:04:26.763042+00:00",
       "error": null
     },
     {
@@ -383,9 +381,9 @@
       "icono_url": "https://graph.facebook.com/GobernacionDeCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "59:19",
-      "video_id": "1532782134796390",
-      "url_video": "https://www.facebook.com/100064851841761/videos/1532782134796390",
+      "titulo": "22:56",
+      "video_id": "1067061272635976",
+      "url_video": "https://www.facebook.com/100064851841761/videos/1067061272635976",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -400,7 +398,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:02:46.496657+00:00",
+      "revisado_en": "2026-08-19T15:04:44.423481+00:00",
       "error": null
     },
     {
@@ -427,7 +425,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:03:04.865066+00:00",
+      "revisado_en": "2026-08-19T15:05:02.693484+00:00",
       "error": null
     },
     {
@@ -459,7 +457,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:03:22.822653+00:00",
+      "revisado_en": "2026-08-19T15:05:20.828609+00:00",
       "error": null
     },
     {
@@ -486,7 +484,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:03:41.160964+00:00",
+      "revisado_en": "2026-08-19T15:05:39.350909+00:00",
       "error": null
     },
     {
@@ -514,7 +512,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:03:59.123827+00:00",
+      "revisado_en": "2026-08-19T15:05:57.234437+00:00",
       "error": null
     },
     {
@@ -541,7 +539,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:04:17.338062+00:00",
+      "revisado_en": "2026-08-19T15:06:15.492724+00:00",
       "error": null
     },
     {
@@ -573,7 +571,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:04:35.380999+00:00",
+      "revisado_en": "2026-08-19T15:06:33.469896+00:00",
       "error": null
     },
     {
@@ -605,7 +603,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:04:53.773833+00:00",
+      "revisado_en": "2026-08-19T15:06:51.738989+00:00",
       "error": null
     },
     {
@@ -638,7 +636,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:05:08.688744+00:00",
+      "revisado_en": "2026-08-19T15:07:08.579332+00:00",
       "error": null
     },
     {
@@ -654,8 +652,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "El Deber Radio",
-      "video_id": "28292674183703491",
-      "url_video": "https://www.facebook.com/100072454578597/videos/28292674183703491",
+      "video_id": "1805850080835890",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1805850080835890",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
@@ -670,7 +668,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:05:23.687624+00:00",
+      "revisado_en": "2026-08-19T15:07:24.065488+00:00",
       "error": null
     },
     {
@@ -683,26 +681,26 @@
       "tipo": "pagina",
       "identificador": "radiofidescb",
       "icono_url": "https://graph.facebook.com/radiofidescb/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "🟧 DOSIS DE FÚTBOL EN LA MAÑANA DE FIDES ☕",
-      "video_id": "1108303545473120",
-      "url_video": "https://www.facebook.com/100037288484799/videos/1108303545473120",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Fides Cochabamba",
+      "video_id": "1642195350814318",
+      "url_video": "https://www.facebook.com/100037288484799/videos/1642195350814318",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/radiofidescb/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 2700,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:05:38.476226+00:00",
+      "revisado_en": "2026-08-19T15:07:40.636639+00:00",
       "error": null
     },
     {
@@ -734,7 +732,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:05:56.607891+00:00",
+      "revisado_en": "2026-08-19T15:07:57.103809+00:00",
       "error": null
     },
     {
@@ -761,7 +759,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:06:14.549471+00:00",
+      "revisado_en": "2026-08-19T15:08:15.175582+00:00",
       "error": null
     },
     {
@@ -795,7 +793,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:06:32.524517+00:00",
+      "revisado_en": "2026-08-19T15:08:33.152274+00:00",
       "error": null
     },
     {
@@ -821,7 +819,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:06:51.271051+00:00",
+      "revisado_en": "2026-08-19T15:08:51.318762+00:00",
       "error": null
     },
     {
@@ -834,26 +832,26 @@
       "tipo": "pagina",
       "identificador": "gobiernomunicipaldepotosi",
       "icono_url": "https://graph.facebook.com/gobiernomunicipaldepotosi/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "Venta de Metros lineales para dueños de casa en el recorrido de la entrada de Ch'utillos 2026.",
-      "video_id": "1370765057949128",
-      "url_video": "https://www.facebook.com/100064692309114/videos/1370765057949128",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Gobierno Autónomo Municipal de Potosí",
+      "video_id": "2529465450906158",
+      "url_video": "https://www.facebook.com/100064692309114/videos/2529465450906158",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/gobiernomunicipaldepotosi/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 3500,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:07:09.009115+00:00",
+      "revisado_en": "2026-08-19T15:09:08.873312+00:00",
       "error": null
     },
     {
@@ -868,9 +866,9 @@
       "icono_url": "https://graph.facebook.com/GobChuquisaca/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "31:29",
-      "video_id": "1479586167442463",
-      "url_video": "https://www.facebook.com/100050259109305/videos/1479586167442463",
+      "titulo": "19:18",
+      "video_id": "2254419565406081",
+      "url_video": "https://www.facebook.com/100050259109305/videos/2254419565406081",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -886,7 +884,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:07:27.175313+00:00",
+      "revisado_en": "2026-08-19T15:09:25.094083+00:00",
       "error": null
     },
     {
@@ -920,7 +918,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:07:45.456925+00:00",
+      "revisado_en": "2026-08-19T15:09:43.424574+00:00",
       "error": null
     },
     {
@@ -948,7 +946,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:08:03.671227+00:00",
+      "revisado_en": "2026-08-19T15:10:01.842933+00:00",
       "error": null
     },
     {
@@ -975,7 +973,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:08:21.731979+00:00",
+      "revisado_en": "2026-08-19T15:10:20.147101+00:00",
       "error": null
     },
     {
@@ -1002,7 +1000,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:08:39.758169+00:00",
+      "revisado_en": "2026-08-19T15:10:38.136545+00:00",
       "error": null
     },
     {
@@ -1035,7 +1033,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T14:08:57.786221+00:00",
+      "revisado_en": "2026-08-19T15:10:56.158207+00:00",
       "error": null
     }
   ]
