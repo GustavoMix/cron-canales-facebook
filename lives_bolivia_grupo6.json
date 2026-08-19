@@ -1,37 +1,38 @@
 {
-  "generado_en": "2026-08-19T19:08:48.027810+00:00",
-  "cantidad": 2,
+  "generado_en": "2026-08-19T21:56:16.878653+00:00",
+  "cantidad": 3,
   "lives": [
     {
-      "nombre": "Azteca Noticias",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "México",
+      "nombre": "Fides TV",
+      "categoria": "tv",
+      "tipo_fuente": "medio",
+      "pais": "Bolivia",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/AztecaNoticias/",
+      "url_fuente": "https://www.facebook.com/FidesTV/",
       "tipo": "pagina",
-      "identificador": "AztecaNoticias",
-      "icono_url": "https://graph.facebook.com/AztecaNoticias/picture?type=large",
+      "identificador": "FidesTV",
+      "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "Azteca Noticias",
-      "video_id": "1366190409061979",
-      "url_video": "https://www.facebook.com/100069563637018/videos/1366190409061979",
+      "titulo": "fidestv",
+      "video_id": "919605667335481",
+      "url_video": "https://www.facebook.com/100063710400583/videos/919605667335481",
       "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/AztecaNoticias/live/",
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
         "aria_live"
       ],
-      "espectadores": 520000,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
         "html_broadcast_id",
         "html_is_live_streaming",
         "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T18:59:20.487719+00:00",
+      "revisado_en": "2026-08-19T21:52:21.120657+00:00",
       "error": null
     },
     {
@@ -47,8 +48,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "El Deber Radio",
-      "video_id": "2332802567255467",
-      "url_video": "https://www.facebook.com/100072454578597/videos/2332802567255467",
+      "video_id": "1052370880999273",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1052370880999273",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
@@ -63,7 +64,40 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-19T19:04:57.748538+00:00",
+      "revisado_en": "2026-08-19T21:52:36.065903+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Gobernación de Chuquisaca",
+      "categoria": "noticias",
+      "tipo_fuente": "institucional",
+      "pais": "Bolivia",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/GobChuquisaca/",
+      "tipo": "pagina",
+      "identificador": "GobChuquisaca",
+      "icono_url": "https://graph.facebook.com/GobChuquisaca/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Gobernación de Chuquisaca",
+      "video_id": "1417431783583409",
+      "url_video": "https://www.facebook.com/100050259109305/videos/1417431783583409",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/GobChuquisaca/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1900,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live",
+        "texto_en_directo"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-19T21:54:39.230525+00:00",
       "error": null
     }
   ]
