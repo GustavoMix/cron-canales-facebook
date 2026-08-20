@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-20T23:00:06.758622+00:00",
+  "generado_en": "2026-08-20T23:24:00.519767+00:00",
   "fuentes_revisadas": 34,
   "en_vivo": 3,
   "resultados": [
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:49:40.923959+00:00",
+      "revisado_en": "2026-08-20T23:13:35.452231+00:00",
       "error": null
     },
     {
@@ -58,10 +58,11 @@
         "html_is_currently_live",
         "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_broadcast_status",
+        "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:50:01.087462+00:00",
+      "revisado_en": "2026-08-20T23:13:55.500451+00:00",
       "error": null
     },
     {
@@ -74,26 +75,26 @@
       "tipo": "pagina",
       "identificador": "exafm",
       "icono_url": "https://graph.facebook.com/exafm/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Exafm",
-      "video_id": "1995593017757720",
-      "url_video": "https://www.facebook.com/100064403391181/videos/1995593017757720",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/exafm/live/",
+      "video_id": "1377285497164665",
+      "url_video": "https://www.facebook.com/100064403391181/videos/1377285497164665",
+      "confianza": 30,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "debil: en vivo "
       ],
-      "espectadores": 2000,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:50:21.160436+00:00",
+      "revisado_en": "2026-08-20T23:14:15.659137+00:00",
       "error": null
     },
     {
@@ -123,7 +124,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:50:38.046875+00:00",
+      "revisado_en": "2026-08-20T23:14:36.302533+00:00",
       "error": null
     },
     {
@@ -153,7 +154,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:50:58.223474+00:00",
+      "revisado_en": "2026-08-20T23:14:56.000407+00:00",
       "error": null
     },
     {
@@ -185,7 +186,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:51:17.369292+00:00",
+      "revisado_en": "2026-08-20T23:15:15.048018+00:00",
       "error": null
     },
     {
@@ -215,7 +216,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:51:36.865646+00:00",
+      "revisado_en": "2026-08-20T23:15:34.558158+00:00",
       "error": null
     },
     {
@@ -245,7 +246,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:51:56.765841+00:00",
+      "revisado_en": "2026-08-20T23:15:54.643001+00:00",
       "error": null
     },
     {
@@ -260,22 +261,26 @@
       "icono_url": "https://graph.facebook.com/rcnradio/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "RCN Radio",
-      "video_id": "2276989326475094",
-      "url_video": "https://www.facebook.com/100064869814929/videos/2276989326475094",
-      "confianza": 0,
+      "titulo": "52:14",
+      "video_id": "1726872515183352",
+      "url_video": "https://www.facebook.com/100064869814929/videos/1726872515183352",
+      "confianza": -240,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "debil:🔴 en vivo",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:52:17.018080+00:00",
+      "revisado_en": "2026-08-20T23:16:14.677115+00:00",
       "error": null
     },
     {
@@ -307,7 +312,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:52:37.621404+00:00",
+      "revisado_en": "2026-08-20T23:16:33.837172+00:00",
       "error": null
     },
     {
@@ -339,7 +344,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:52:57.868648+00:00",
+      "revisado_en": "2026-08-20T23:16:53.139732+00:00",
       "error": null
     },
     {
@@ -373,7 +378,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:53:13.938088+00:00",
+      "revisado_en": "2026-08-20T23:17:10.024487+00:00",
       "error": null
     },
     {
@@ -406,7 +411,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:53:32.193534+00:00",
+      "revisado_en": "2026-08-20T23:17:28.548682+00:00",
       "error": null
     },
     {
@@ -438,7 +443,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:53:50.438741+00:00",
+      "revisado_en": "2026-08-20T23:17:46.820491+00:00",
       "error": null
     },
     {
@@ -465,7 +470,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:54:08.796078+00:00",
+      "revisado_en": "2026-08-20T23:18:05.333714+00:00",
       "error": null
     },
     {
@@ -498,7 +503,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:54:26.885917+00:00",
+      "revisado_en": "2026-08-20T23:18:23.485657+00:00",
       "error": null
     },
     {
@@ -526,7 +531,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:54:45.252349+00:00",
+      "revisado_en": "2026-08-20T23:18:41.715428+00:00",
       "error": null
     },
     {
@@ -553,7 +558,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:55:03.556879+00:00",
+      "revisado_en": "2026-08-20T23:19:00.265611+00:00",
       "error": null
     },
     {
@@ -581,7 +586,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:55:22.335597+00:00",
+      "revisado_en": "2026-08-20T23:19:18.260818+00:00",
       "error": null
     },
     {
@@ -608,7 +613,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:55:40.626432+00:00",
+      "revisado_en": "2026-08-20T23:19:37.042627+00:00",
       "error": null
     },
     {
@@ -636,7 +641,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:55:58.719258+00:00",
+      "revisado_en": "2026-08-20T23:19:55.102426+00:00",
       "error": null
     },
     {
@@ -668,7 +673,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:56:17.157659+00:00",
+      "revisado_en": "2026-08-20T23:20:13.430479+00:00",
       "error": null
     },
     {
@@ -700,7 +705,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:56:35.525580+00:00",
+      "revisado_en": "2026-08-20T23:20:32.393272+00:00",
       "error": null
     },
     {
@@ -732,7 +737,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:56:53.284810+00:00",
+      "revisado_en": "2026-08-20T23:20:48.094327+00:00",
       "error": null
     },
     {
@@ -764,7 +769,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:57:11.536557+00:00",
+      "revisado_en": "2026-08-20T23:21:07.216776+00:00",
       "error": null
     },
     {
@@ -792,7 +797,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:57:29.781238+00:00",
+      "revisado_en": "2026-08-20T23:21:25.443560+00:00",
       "error": null
     },
     {
@@ -818,7 +823,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:57:48.013856+00:00",
+      "revisado_en": "2026-08-20T23:21:44.114166+00:00",
       "error": null
     },
     {
@@ -845,7 +850,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:58:06.716249+00:00",
+      "revisado_en": "2026-08-20T23:22:02.694280+00:00",
       "error": null
     },
     {
@@ -878,7 +883,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:58:24.763030+00:00",
+      "revisado_en": "2026-08-20T23:22:20.897885+00:00",
       "error": null
     },
     {
@@ -905,7 +910,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:58:42.869379+00:00",
+      "revisado_en": "2026-08-20T23:22:39.334125+00:00",
       "error": null
     },
     {
@@ -937,7 +942,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:59:01.086466+00:00",
+      "revisado_en": "2026-08-20T23:22:57.469527+00:00",
       "error": null
     },
     {
@@ -950,26 +955,26 @@
       "tipo": "pagina",
       "identificador": "radiotvichilo",
       "icono_url": "https://graph.facebook.com/radiotvichilo/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "Gobierno municipal de Yapacani, lanza una convocatoria pública para la conformacion del equipo multidisciplinario de la defensoría.",
-      "video_id": "1399827712079945",
-      "url_video": "https://www.facebook.com/100064812333553/videos/1399827712079945",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Television Ichilo",
+      "video_id": "2517153255419448",
+      "url_video": "https://www.facebook.com/100064812333553/videos/2517153255419448",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/radiotvichilo/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 2600,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:59:19.777837+00:00",
+      "revisado_en": "2026-08-20T23:23:15.756602+00:00",
       "error": null
     },
     {
@@ -1002,7 +1007,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:59:38.056022+00:00",
+      "revisado_en": "2026-08-20T23:23:31.829294+00:00",
       "error": null
     },
     {
@@ -1034,7 +1039,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T22:59:56.111182+00:00",
+      "revisado_en": "2026-08-20T23:23:50.114854+00:00",
       "error": null
     }
   ]
