@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-20T13:34:58.528267+00:00",
+  "generado_en": "2026-08-20T13:45:06.986577+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 36,
+  "en_vivo": 35,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -5267,7 +5267,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:16:22.509569+00:00",
+      "revisado_en": "2026-08-20T13:34:35.201637+00:00",
       "error": null
     },
     {
@@ -5280,26 +5280,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "CDN 37",
-      "video_id": "2098343427753731",
-      "url_video": "https://www.facebook.com/100064283455585/videos/2098343427753731",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "video_id": "899579606553766",
+      "url_video": "https://www.facebook.com/100064283455585/videos/899579606553766",
+      "confianza": 30,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "debil: en vivo "
       ],
-      "espectadores": 1000,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:16:43.102425+00:00",
+      "revisado_en": "2026-08-20T13:34:54.876187+00:00",
       "error": null
     },
     {
@@ -5331,7 +5331,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:17:00.663702+00:00",
+      "revisado_en": "2026-08-20T13:35:14.938961+00:00",
       "error": null
     },
     {
@@ -5347,8 +5347,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Azteca Noticias",
-      "video_id": "1034625412880818",
-      "url_video": "https://www.facebook.com/100069563637018/videos/1034625412880818",
+      "video_id": "1590297356098701",
+      "url_video": "https://www.facebook.com/100069563637018/videos/1590297356098701",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -5361,7 +5361,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:17:21.662617+00:00",
+      "revisado_en": "2026-08-20T13:35:34.483168+00:00",
       "error": null
     },
     {
@@ -5391,7 +5391,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:17:42.200252+00:00",
+      "revisado_en": "2026-08-20T13:35:54.557873+00:00",
       "error": null
     },
     {
@@ -5407,8 +5407,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
-      "video_id": "954675655437286",
-      "url_video": "https://www.facebook.com/100069181930821/videos/954675655437286",
+      "video_id": "1752253279050594",
+      "url_video": "https://www.facebook.com/100069181930821/videos/1752253279050594",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -5421,7 +5421,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:18:01.447870+00:00",
+      "revisado_en": "2026-08-20T13:36:13.830621+00:00",
       "error": null
     },
     {
@@ -5451,7 +5451,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:18:20.862762+00:00",
+      "revisado_en": "2026-08-20T13:36:33.543991+00:00",
       "error": null
     },
     {
@@ -5484,7 +5484,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:18:41.419029+00:00",
+      "revisado_en": "2026-08-20T13:36:54.370822+00:00",
       "error": null
     },
     {
@@ -5499,19 +5499,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "987069596176714",
+      "url_video": "https://www.facebook.com/100064127555592/videos/987069596176714",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:19:00.916076+00:00",
+      "revisado_en": "2026-08-20T13:37:15.064922+00:00",
       "error": null
     },
     {
@@ -5545,7 +5548,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:19:19.310606+00:00",
+      "revisado_en": "2026-08-20T13:37:34.554871+00:00",
       "error": null
     },
     {
@@ -5560,7 +5563,7 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "3,9 mil reproducciones",
+      "titulo": "4,1 mil reproducciones",
       "video_id": "1318795216728250",
       "url_video": "https://www.facebook.com/100069139572852/videos/1318795216728250",
       "confianza": -240,
@@ -5579,7 +5582,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:19:37.728525+00:00",
+      "revisado_en": "2026-08-20T13:37:53.091654+00:00",
       "error": null
     },
     {
@@ -5605,7 +5608,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:19:56.426765+00:00",
+      "revisado_en": "2026-08-20T13:38:11.650982+00:00",
       "error": null
     },
     {
@@ -5637,7 +5640,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:20:14.205192+00:00",
+      "revisado_en": "2026-08-20T13:38:29.546067+00:00",
       "error": null
     },
     {
@@ -5664,7 +5667,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:20:32.795304+00:00",
+      "revisado_en": "2026-08-20T13:38:48.252754+00:00",
       "error": null
     },
     {
@@ -5696,7 +5699,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:20:50.963086+00:00",
+      "revisado_en": "2026-08-20T13:39:06.976239+00:00",
       "error": null
     },
     {
@@ -5723,7 +5726,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:21:09.815691+00:00",
+      "revisado_en": "2026-08-20T13:39:25.806714+00:00",
       "error": null
     },
     {
@@ -5751,7 +5754,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:21:27.959321+00:00",
+      "revisado_en": "2026-08-20T13:39:44.111555+00:00",
       "error": null
     },
     {
@@ -5778,7 +5781,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:21:46.478283+00:00",
+      "revisado_en": "2026-08-20T13:40:02.482679+00:00",
       "error": null
     },
     {
@@ -5810,7 +5813,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:22:04.794830+00:00",
+      "revisado_en": "2026-08-20T13:40:20.765533+00:00",
       "error": null
     },
     {
@@ -5823,26 +5826,27 @@
       "tipo": "pagina",
       "identificador": "ATBDigital",
       "icono_url": "https://graph.facebook.com/ATBDigital/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "ATB Digital",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "1:27:11",
       "video_id": "1312534607461740",
       "url_video": "https://www.facebook.com/61566333384347/videos/1312534607461740",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/ATBDigital/live/",
+      "confianza": -270,
+      "ruta_detectada": null,
       "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": 1600,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:22:23.443783+00:00",
+      "revisado_en": "2026-08-20T13:40:39.625028+00:00",
       "error": null
     },
     {
@@ -5858,8 +5862,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "fidestv",
-      "video_id": "1391623772912843",
-      "url_video": "https://www.facebook.com/100063710400583/videos/1391623772912843",
+      "video_id": "1676829363419488",
+      "url_video": "https://www.facebook.com/100063710400583/videos/1676829363419488",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
@@ -5875,7 +5879,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:22:38.657153+00:00",
+      "revisado_en": "2026-08-20T13:40:58.250915+00:00",
       "error": null
     },
     {
@@ -5891,8 +5895,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "El Deber Radio",
-      "video_id": "1634064005044893",
-      "url_video": "https://www.facebook.com/100072454578597/videos/1634064005044893",
+      "video_id": "1539142750832876",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1539142750832876",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
@@ -5907,7 +5911,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:22:53.664378+00:00",
+      "revisado_en": "2026-08-20T13:41:14.745379+00:00",
       "error": null
     },
     {
@@ -5922,7 +5926,7 @@
       "icono_url": "https://graph.facebook.com/radiofidescb/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "22:48",
+      "titulo": "🟧 DOSIS DE FÚTBOL EN LA MAÑANA DE FIDES ☕",
       "video_id": "1355536943400750",
       "url_video": "https://www.facebook.com/100037288484799/videos/1355536943400750",
       "confianza": -270,
@@ -5940,7 +5944,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:23:09.627501+00:00",
+      "revisado_en": "2026-08-20T13:41:31.154304+00:00",
       "error": null
     },
     {
@@ -5967,7 +5971,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:23:28.072294+00:00",
+      "revisado_en": "2026-08-20T13:41:49.645984+00:00",
       "error": null
     },
     {
@@ -5994,7 +5998,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:23:46.282755+00:00",
+      "revisado_en": "2026-08-20T13:42:07.926830+00:00",
       "error": null
     },
     {
@@ -6028,7 +6032,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:24:04.703609+00:00",
+      "revisado_en": "2026-08-20T13:42:28.073091+00:00",
       "error": null
     },
     {
@@ -6054,7 +6058,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:24:23.271670+00:00",
+      "revisado_en": "2026-08-20T13:42:46.654770+00:00",
       "error": null
     },
     {
@@ -6069,9 +6073,9 @@
       "icono_url": "https://graph.facebook.com/gobiernomunicipaldepotosi/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "venta de metros, informe",
-      "video_id": "1711426593401018",
-      "url_video": "https://www.facebook.com/100064692309114/videos/1711426593401018",
+      "titulo": "12:22",
+      "video_id": "1099229459299290",
+      "url_video": "https://www.facebook.com/100064692309114/videos/1099229459299290",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -6086,7 +6090,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:24:40.865407+00:00",
+      "revisado_en": "2026-08-20T13:43:04.337812+00:00",
       "error": null
     },
     {
@@ -6099,29 +6103,27 @@
       "tipo": "pagina",
       "identificador": "GobChuquisaca",
       "icono_url": "https://graph.facebook.com/GobChuquisaca/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "4:36:35",
-      "video_id": "1090194333380700",
-      "url_video": "https://www.facebook.com/100050259109305/videos/1090194333380700",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Gobernación de Chuquisaca",
+      "video_id": "4651039461840011",
+      "url_video": "https://www.facebook.com/100050259109305/videos/4651039461840011",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/GobChuquisaca/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1900,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:24:59.329211+00:00",
+      "revisado_en": "2026-08-20T13:43:22.835032+00:00",
       "error": null
     },
     {
@@ -6155,7 +6157,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:25:17.733901+00:00",
+      "revisado_en": "2026-08-20T13:43:39.495719+00:00",
       "error": null
     },
     {
@@ -6183,7 +6185,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:25:36.213785+00:00",
+      "revisado_en": "2026-08-20T13:43:57.986880+00:00",
       "error": null
     },
     {
@@ -6210,7 +6212,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:25:54.844376+00:00",
+      "revisado_en": "2026-08-20T13:44:16.552078+00:00",
       "error": null
     },
     {
@@ -6237,7 +6239,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:26:13.076042+00:00",
+      "revisado_en": "2026-08-20T13:44:34.959532+00:00",
       "error": null
     },
     {
@@ -6270,7 +6272,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-20T12:26:31.370079+00:00",
+      "revisado_en": "2026-08-20T13:44:53.344828+00:00",
       "error": null
     },
     {
