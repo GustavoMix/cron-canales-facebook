@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-21T10:09:13.690833+00:00",
+  "generado_en": "2026-08-21T11:05:56.298269+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 2,
+  "en_vivo": 4,
   "resultados": [
     {
       "nombre": "Punto Tv Tarija",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T09:58:40.476550+00:00",
+      "revisado_en": "2026-08-21T10:55:43.753605+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T09:59:01.174784+00:00",
+      "revisado_en": "2026-08-21T10:56:04.222561+00:00",
       "error": null
     },
     {
@@ -94,7 +94,7 @@
         "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T09:59:21.110982+00:00",
+      "revisado_en": "2026-08-21T10:56:24.653503+00:00",
       "error": null
     },
     {
@@ -120,7 +120,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T09:59:41.109356+00:00",
+      "revisado_en": "2026-08-21T10:56:44.898678+00:00",
       "error": null
     },
     {
@@ -150,7 +150,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T09:59:59.156732+00:00",
+      "revisado_en": "2026-08-21T10:57:02.480543+00:00",
       "error": null
     },
     {
@@ -183,7 +183,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:00:19.044328+00:00",
+      "revisado_en": "2026-08-21T10:57:21.636433+00:00",
       "error": null
     },
     {
@@ -209,7 +209,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:00:40.665567+00:00",
+      "revisado_en": "2026-08-21T10:57:43.043036+00:00",
       "error": null
     },
     {
@@ -224,22 +224,24 @@
       "icono_url": "https://graph.facebook.com/RadioOmasuyo/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Rádio Omasuyo",
-      "video_id": "1056045714057798",
-      "url_video": "https://www.facebook.com/100063699212995/videos/1056045714057798",
-      "confianza": 0,
+      "titulo": "1:17:38",
+      "video_id": "960614137050310",
+      "url_video": "https://www.facebook.com/100063699212995/videos/960614137050310",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:00:58.407231+00:00",
+      "revisado_en": "2026-08-21T10:58:00.595799+00:00",
       "error": null
     },
     {
@@ -273,7 +275,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:01:18.522636+00:00",
+      "revisado_en": "2026-08-21T10:58:18.776112+00:00",
       "error": null
     },
     {
@@ -305,7 +307,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:01:37.313470+00:00",
+      "revisado_en": "2026-08-21T10:58:37.138022+00:00",
       "error": null
     },
     {
@@ -318,26 +320,26 @@
       "tipo": "pagina",
       "identificador": "RadioActivaSP",
       "icono_url": "https://graph.facebook.com/RadioActivaSP/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:50:48",
-      "video_id": "2153861259344970",
-      "url_video": "https://www.facebook.com/61551202363351/videos/2153861259344970",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Activa SP",
+      "video_id": "1060553220066791",
+      "url_video": "https://www.facebook.com/61551202363351/videos/1060553220066791",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioActivaSP/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 2300,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:01:56.129897+00:00",
+      "revisado_en": "2026-08-21T10:58:55.678076+00:00",
       "error": null
     },
     {
@@ -350,26 +352,26 @@
       "tipo": "pagina",
       "identificador": "100090506256593",
       "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "3:12:04",
-      "video_id": "2127416734826744",
-      "url_video": "https://www.facebook.com/100090506256593/videos/2127416734826744",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Adonia Brasil",
+      "video_id": "1051500217617870",
+      "url_video": "https://www.facebook.com/100090506256593/videos/1051500217617870",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/100090506256593/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 8700,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:02:15.272440+00:00",
+      "revisado_en": "2026-08-21T10:59:11.753659+00:00",
       "error": null
     },
     {
@@ -396,7 +398,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:02:34.127179+00:00",
+      "revisado_en": "2026-08-21T10:59:26.856173+00:00",
       "error": null
     },
     {
@@ -428,7 +430,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:02:52.772923+00:00",
+      "revisado_en": "2026-08-21T10:59:44.818681+00:00",
       "error": null
     },
     {
@@ -461,7 +463,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:03:11.507635+00:00",
+      "revisado_en": "2026-08-21T11:00:02.960199+00:00",
       "error": null
     },
     {
@@ -493,7 +495,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:03:30.201561+00:00",
+      "revisado_en": "2026-08-21T11:00:21.394703+00:00",
       "error": null
     },
     {
@@ -525,7 +527,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:03:48.822716+00:00",
+      "revisado_en": "2026-08-21T11:00:39.574798+00:00",
       "error": null
     },
     {
@@ -552,7 +554,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:04:07.549667+00:00",
+      "revisado_en": "2026-08-21T11:00:58.254939+00:00",
       "error": null
     },
     {
@@ -579,7 +581,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:04:26.080295+00:00",
+      "revisado_en": "2026-08-21T11:01:16.171397+00:00",
       "error": null
     },
     {
@@ -611,7 +613,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:04:44.512800+00:00",
+      "revisado_en": "2026-08-21T11:01:34.023008+00:00",
       "error": null
     },
     {
@@ -643,7 +645,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:04:59.680381+00:00",
+      "revisado_en": "2026-08-21T11:01:49.771324+00:00",
       "error": null
     },
     {
@@ -675,7 +677,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:05:18.307593+00:00",
+      "revisado_en": "2026-08-21T11:02:07.784861+00:00",
       "error": null
     },
     {
@@ -707,7 +709,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:05:37.301332+00:00",
+      "revisado_en": "2026-08-21T11:02:26.036524+00:00",
       "error": null
     },
     {
@@ -740,7 +742,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:05:56.029458+00:00",
+      "revisado_en": "2026-08-21T11:02:44.159753+00:00",
       "error": null
     },
     {
@@ -773,7 +775,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:06:14.741936+00:00",
+      "revisado_en": "2026-08-21T11:03:02.382866+00:00",
       "error": null
     },
     {
@@ -806,7 +808,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:06:33.444076+00:00",
+      "revisado_en": "2026-08-21T11:03:20.424624+00:00",
       "error": null
     },
     {
@@ -838,7 +840,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:06:52.245991+00:00",
+      "revisado_en": "2026-08-21T11:03:39.254566+00:00",
       "error": null
     },
     {
@@ -870,7 +872,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:07:11.020713+00:00",
+      "revisado_en": "2026-08-21T11:03:57.597180+00:00",
       "error": null
     },
     {
@@ -903,7 +905,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:07:29.824996+00:00",
+      "revisado_en": "2026-08-21T11:04:15.890370+00:00",
       "error": null
     },
     {
@@ -930,7 +932,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:07:48.504470+00:00",
+      "revisado_en": "2026-08-21T11:04:33.931587+00:00",
       "error": null
     },
     {
@@ -958,7 +960,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:08:07.002779+00:00",
+      "revisado_en": "2026-08-21T11:04:51.791751+00:00",
       "error": null
     },
     {
@@ -985,7 +987,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:08:25.810162+00:00",
+      "revisado_en": "2026-08-21T11:05:10.078258+00:00",
       "error": null
     },
     {
@@ -1018,7 +1020,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:08:43.937878+00:00",
+      "revisado_en": "2026-08-21T11:05:27.949411+00:00",
       "error": null
     },
     {
@@ -1050,7 +1052,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-21T10:09:02.679783+00:00",
+      "revisado_en": "2026-08-21T11:05:46.143268+00:00",
       "error": null
     }
   ]
