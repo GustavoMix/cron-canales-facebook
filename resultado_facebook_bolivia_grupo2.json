@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-22T19:31:28.802743+00:00",
+  "generado_en": "2026-08-22T19:56:24.944486+00:00",
   "fuentes_revisadas": 35,
-  "en_vivo": 3,
+  "en_vivo": 5,
   "resultados": [
     {
       "nombre": "Tele Bolivia",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:20:49.142106+00:00",
+      "revisado_en": "2026-08-22T19:45:50.640758+00:00",
       "error": null
     },
     {
@@ -44,24 +44,26 @@
       "tipo": "pagina",
       "identificador": "TvSucreUSFX",
       "icono_url": "https://graph.facebook.com/TvSucreUSFX/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Televisión Universitaria - SUCRE",
-      "video_id": "2434934000323315",
-      "url_video": "https://www.facebook.com/100064156385235/videos/2434934000323315",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1085591347217887",
+      "url_video": "https://www.facebook.com/100064156385235/videos/1085591347217887",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/TvSucreUSFX/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 8900,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:21:10.066670+00:00",
+      "revisado_en": "2026-08-22T19:46:10.935236+00:00",
       "error": null
     },
     {
@@ -91,7 +93,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:21:29.447551+00:00",
+      "revisado_en": "2026-08-22T19:46:26.087460+00:00",
       "error": null
     },
     {
@@ -121,7 +123,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:21:48.775770+00:00",
+      "revisado_en": "2026-08-22T19:46:45.720702+00:00",
       "error": null
     },
     {
@@ -153,7 +155,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:22:08.373338+00:00",
+      "revisado_en": "2026-08-22T19:47:05.291343+00:00",
       "error": null
     },
     {
@@ -179,7 +181,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:22:25.723761+00:00",
+      "revisado_en": "2026-08-22T19:47:22.007695+00:00",
       "error": null
     },
     {
@@ -209,7 +211,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:22:43.587782+00:00",
+      "revisado_en": "2026-08-22T19:47:40.057555+00:00",
       "error": null
     },
     {
@@ -239,7 +241,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:23:03.073880+00:00",
+      "revisado_en": "2026-08-22T19:47:59.302928+00:00",
       "error": null
     },
     {
@@ -254,24 +256,22 @@
       "icono_url": "https://graph.facebook.com/BENITVTRINIDAD/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "13:25",
-      "video_id": "877079071870854",
-      "url_video": "https://www.facebook.com/100063476355377/videos/877079071870854",
-      "confianza": -370,
+      "titulo": "Beni Tv",
+      "video_id": "1091114033867985",
+      "url_video": "https://www.facebook.com/100063476355377/videos/1091114033867985",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:23:22.754374+00:00",
+      "revisado_en": "2026-08-22T19:48:18.927739+00:00",
       "error": null
     },
     {
@@ -298,7 +298,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:23:41.576244+00:00",
+      "revisado_en": "2026-08-22T19:48:38.508952+00:00",
       "error": null
     },
     {
@@ -330,7 +330,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:24:00.017799+00:00",
+      "revisado_en": "2026-08-22T19:48:56.934769+00:00",
       "error": null
     },
     {
@@ -362,7 +362,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:24:18.342055+00:00",
+      "revisado_en": "2026-08-22T19:49:15.338913+00:00",
       "error": null
     },
     {
@@ -394,7 +394,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:24:37.074781+00:00",
+      "revisado_en": "2026-08-22T19:49:33.928195+00:00",
       "error": null
     },
     {
@@ -427,7 +427,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:24:56.234614+00:00",
+      "revisado_en": "2026-08-22T19:49:52.543018+00:00",
       "error": null
     },
     {
@@ -459,7 +459,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:25:14.780369+00:00",
+      "revisado_en": "2026-08-22T19:50:11.256911+00:00",
       "error": null
     },
     {
@@ -486,7 +486,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:25:33.281852+00:00",
+      "revisado_en": "2026-08-22T19:50:29.774872+00:00",
       "error": null
     },
     {
@@ -518,7 +518,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:25:51.648016+00:00",
+      "revisado_en": "2026-08-22T19:50:48.525153+00:00",
       "error": null
     },
     {
@@ -545,7 +545,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:26:10.226696+00:00",
+      "revisado_en": "2026-08-22T19:51:07.093696+00:00",
       "error": null
     },
     {
@@ -572,7 +572,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:26:28.686069+00:00",
+      "revisado_en": "2026-08-22T19:51:25.318156+00:00",
       "error": null
     },
     {
@@ -588,8 +588,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "Radio Kawsachun Coca",
-      "video_id": "1835199424313509",
-      "url_video": "https://www.facebook.com/100070320483013/videos/1835199424313509",
+      "video_id": "1043738645141344",
+      "url_video": "https://www.facebook.com/100070320483013/videos/1043738645141344",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/RadioKawsachunCoca/live/",
       "motivos": [
@@ -604,7 +604,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:26:47.042230+00:00",
+      "revisado_en": "2026-08-22T19:51:43.726737+00:00",
       "error": null
     },
     {
@@ -636,7 +636,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:27:03.257762+00:00",
+      "revisado_en": "2026-08-22T19:52:00.755133+00:00",
       "error": null
     },
     {
@@ -662,7 +662,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:27:18.652025+00:00",
+      "revisado_en": "2026-08-22T19:52:16.533351+00:00",
       "error": null
     },
     {
@@ -675,28 +675,26 @@
       "tipo": "pagina",
       "identificador": "RadioSantaCruzB",
       "icono_url": "https://graph.facebook.com/RadioSantaCruzB/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "49:50",
-      "video_id": "900500179800881",
-      "url_video": "https://www.facebook.com/100044320305180/videos/900500179800881",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Santa Cruz",
+      "video_id": "1784690442884409",
+      "url_video": "https://www.facebook.com/100044320305180/videos/1784690442884409",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioSantaCruzB/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 7900,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:27:36.957550+00:00",
+      "revisado_en": "2026-08-22T19:52:34.750785+00:00",
       "error": null
     },
     {
@@ -722,7 +720,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:27:55.897563+00:00",
+      "revisado_en": "2026-08-22T19:52:51.159377+00:00",
       "error": null
     },
     {
@@ -754,7 +752,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:28:13.887787+00:00",
+      "revisado_en": "2026-08-22T19:53:08.846410+00:00",
       "error": null
     },
     {
@@ -786,7 +784,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:28:32.490359+00:00",
+      "revisado_en": "2026-08-22T19:53:27.436707+00:00",
       "error": null
     },
     {
@@ -813,7 +811,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:28:50.973494+00:00",
+      "revisado_en": "2026-08-22T19:53:45.861936+00:00",
       "error": null
     },
     {
@@ -846,7 +844,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:29:09.290172+00:00",
+      "revisado_en": "2026-08-22T19:54:04.118939+00:00",
       "error": null
     },
     {
@@ -879,7 +877,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:29:27.819186+00:00",
+      "revisado_en": "2026-08-22T19:54:23.141559+00:00",
       "error": null
     },
     {
@@ -906,7 +904,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:29:46.268003+00:00",
+      "revisado_en": "2026-08-22T19:54:41.633290+00:00",
       "error": null
     },
     {
@@ -938,7 +936,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:30:04.853573+00:00",
+      "revisado_en": "2026-08-22T19:55:00.050744+00:00",
       "error": null
     },
     {
@@ -964,7 +962,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:30:23.457247+00:00",
+      "revisado_en": "2026-08-22T19:55:19.168288+00:00",
       "error": null
     },
     {
@@ -997,7 +995,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:30:41.473346+00:00",
+      "revisado_en": "2026-08-22T19:55:37.190430+00:00",
       "error": null
     },
     {
@@ -1024,7 +1022,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:31:00.032078+00:00",
+      "revisado_en": "2026-08-22T19:55:55.897809+00:00",
       "error": null
     },
     {
@@ -1057,7 +1055,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T19:31:18.248931+00:00",
+      "revisado_en": "2026-08-22T19:56:14.454226+00:00",
       "error": null
     }
   ]
