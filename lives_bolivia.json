@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-08-23T01:47:48.682960+00:00",
-  "cantidad": 16,
+  "generado_en": "2026-08-23T02:07:37.160755+00:00",
+  "cantidad": 18,
   "lives": [
     {
       "nombre": "UNITEL",
@@ -291,26 +291,59 @@
       "error": null
     },
     {
-      "nombre": "Noticias RCN",
+      "nombre": "Noticias Caracol",
       "categoria": "noticias",
       "tipo_fuente": null,
       "pais": "Colombia",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/NoticiasRCN",
+      "url_fuente": "https://www.facebook.com/NoticiasCaracol",
       "tipo": "pagina",
-      "identificador": "NoticiasRCN",
-      "icono_url": "https://graph.facebook.com/NoticiasRCN/picture?type=large",
+      "identificador": "NoticiasCaracol",
+      "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "Noticias RCN",
-      "video_id": "1377918433786162",
-      "url_video": "https://www.facebook.com/100066620978482/videos/1377918433786162",
+      "titulo": "Noticias Caracol",
+      "video_id": "928864450272731",
+      "url_video": "https://www.facebook.com/100064733554773/videos/928864450272731",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
+      "motivos": [
+        "debil: en vivo ",
+        "aria_live"
+      ],
+      "espectadores": 54000,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-23T01:59:06.676406+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Teleamazonas",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Ecuador",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/TeleamazonasEcuador",
+      "tipo": "pagina",
+      "identificador": "TeleamazonasEcuador",
+      "icono_url": "https://graph.facebook.com/TeleamazonasEcuador/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Teleamazonas",
+      "video_id": "1720445475874534",
+      "url_video": "https://www.facebook.com/100064569558722/videos/1720445475874534",
       "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/NoticiasRCN/live/",
+      "ruta_detectada": "https://www.facebook.com/TeleamazonasEcuador/live/",
       "motivos": [
         "aria_live"
       ],
-      "espectadores": 11000,
+      "espectadores": 12000,
       "marcadores": [
         "html_is_live",
         "html_broadcast_id",
@@ -319,7 +352,39 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-22T23:55:53.025422+00:00",
+      "revisado_en": "2026-08-23T02:01:45.471874+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Canal 13 Chile",
+      "categoria": "tv",
+      "tipo_fuente": null,
+      "pais": "Chile",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/el13CL/",
+      "tipo": "pagina",
+      "identificador": "el13CL",
+      "icono_url": "https://graph.facebook.com/el13CL/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Canal 13",
+      "video_id": "1038086419133223",
+      "url_video": "https://www.facebook.com/100044177392161/videos/1038086419133223",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/el13CL/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 28000,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-23T02:03:38.892746+00:00",
       "error": null
     },
     {
