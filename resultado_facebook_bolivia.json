@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-24T13:20:02.509402+00:00",
+  "generado_en": "2026-08-24T13:20:14.667890+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 38,
+  "en_vivo": 40,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -3188,7 +3188,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:40:26.941956+00:00",
+      "revisado_en": "2026-08-24T13:09:54.188044+00:00",
       "error": null
     },
     {
@@ -3201,24 +3201,26 @@
       "tipo": "pagina",
       "identificador": "100053105275832",
       "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "RADIO LOYOLA FIDES SUCRE",
-      "video_id": "1615752730171463",
-      "url_video": "https://www.facebook.com/100053105275832/videos/1615752730171463",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "2271528646956601",
+      "url_video": "https://www.facebook.com/100053105275832/videos/2271528646956601",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/100053105275832/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:40:46.819674+00:00",
+      "revisado_en": "2026-08-24T13:10:14.420609+00:00",
       "error": null
     },
     {
@@ -3245,7 +3247,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:41:06.480273+00:00",
+      "revisado_en": "2026-08-24T13:10:31.177793+00:00",
       "error": null
     },
     {
@@ -3272,7 +3274,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:41:24.729776+00:00",
+      "revisado_en": "2026-08-24T13:10:49.768156+00:00",
       "error": null
     },
     {
@@ -3302,7 +3304,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:41:43.087581+00:00",
+      "revisado_en": "2026-08-24T13:11:08.130105+00:00",
       "error": null
     },
     {
@@ -3334,7 +3336,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:42:03.385306+00:00",
+      "revisado_en": "2026-08-24T13:11:27.537393+00:00",
       "error": null
     },
     {
@@ -3364,7 +3366,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:42:22.960785+00:00",
+      "revisado_en": "2026-08-24T13:11:47.298426+00:00",
       "error": null
     },
     {
@@ -3379,24 +3381,22 @@
       "icono_url": "https://graph.facebook.com/SuperFm101.5/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:10:09",
-      "video_id": "3245242335674357",
-      "url_video": "https://www.facebook.com/100034227321858/videos/3245242335674357",
-      "confianza": -370,
+      "titulo": "Radio Súper FM 101.5 de Trinidad, Beni, Bolivia",
+      "video_id": "1612912583602054",
+      "url_video": "https://www.facebook.com/100034227321858/videos/1612912583602054",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:42:42.696602+00:00",
+      "revisado_en": "2026-08-24T13:12:07.200431+00:00",
       "error": null
     },
     {
@@ -3411,26 +3411,23 @@
       "icono_url": "https://graph.facebook.com/Radio.Bendita.Trinidad.Bolivia.OFFICIAL/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:24:24",
+      "titulo": "1:24:25",
       "video_id": "915489887626855",
-      "url_video": "https://www.facebook.com/100057622352400/videos/915489887626855",
-      "confianza": -240,
+      "url_video": "https://www.facebook.com/Radio.Bendita.Trinidad.Bolivia.OFFICIAL/videos/en-vivo/915489887626855/",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n",
-        "aria_live"
+        "debil:\nen vivo\n"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:43:01.253835+00:00",
+      "revisado_en": "2026-08-24T13:12:27.097969+00:00",
       "error": null
     },
     {
@@ -3462,7 +3459,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:43:20.421384+00:00",
+      "revisado_en": "2026-08-24T13:12:46.549374+00:00",
       "error": null
     },
     {
@@ -3494,7 +3491,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:43:39.284733+00:00",
+      "revisado_en": "2026-08-24T13:13:04.914357+00:00",
       "error": null
     },
     {
@@ -3507,26 +3504,27 @@
       "tipo": "pagina",
       "identificador": "calientesantacruz",
       "icono_url": "https://graph.facebook.com/calientesantacruz/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Radio Caliente en Vivo",
-      "video_id": "1003204312764727",
-      "url_video": "https://www.facebook.com/100063500036706/videos/1003204312764727",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/calientesantacruz/live/",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "1:45:13",
+      "video_id": "1556871448821231",
+      "url_video": "https://www.facebook.com/100063500036706/videos/1556871448821231",
+      "confianza": -270,
+      "ruta_detectada": null,
       "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": 3400,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:44:00.866643+00:00",
+      "revisado_en": "2026-08-24T13:13:23.901854+00:00",
       "error": null
     },
     {
@@ -3552,7 +3550,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:44:19.049672+00:00",
+      "revisado_en": "2026-08-24T13:13:42.141059+00:00",
       "error": null
     },
     {
@@ -3579,7 +3577,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:44:36.744757+00:00",
+      "revisado_en": "2026-08-24T13:13:59.856975+00:00",
       "error": null
     },
     {
@@ -3592,27 +3590,26 @@
       "tipo": "pagina",
       "identificador": "radiogentebolivia",
       "icono_url": "https://graph.facebook.com/radiogentebolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:23:41",
-      "video_id": "1832785868102881",
-      "url_video": "https://www.facebook.com/100079594758801/videos/1832785868102881",
-      "confianza": -270,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Gente",
+      "video_id": "1487624410067625",
+      "url_video": "https://www.facebook.com/100079594758801/videos/1487624410067625",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/radiogentebolivia/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 2000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:44:55.318958+00:00",
+      "revisado_en": "2026-08-24T13:14:18.804073+00:00",
       "error": null
     },
     {
@@ -3638,7 +3635,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:45:13.647827+00:00",
+      "revisado_en": "2026-08-24T13:14:34.211333+00:00",
       "error": null
     },
     {
@@ -3670,7 +3667,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:45:31.331842+00:00",
+      "revisado_en": "2026-08-24T13:14:52.680186+00:00",
       "error": null
     },
     {
@@ -3697,7 +3694,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:45:50.189638+00:00",
+      "revisado_en": "2026-08-24T13:15:11.009926+00:00",
       "error": null
     },
     {
@@ -3713,8 +3710,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "Radio La Cruz del Sur Bolivia",
-      "video_id": "2499542873898716",
-      "url_video": "https://www.facebook.com/100057042829598/videos/2499542873898716",
+      "video_id": "1932892410696847",
+      "url_video": "https://www.facebook.com/100057042829598/videos/1932892410696847",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/cruzdelsurbolivia/live/",
       "motivos": [
@@ -3729,7 +3726,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:46:08.599074+00:00",
+      "revisado_en": "2026-08-24T13:15:29.399286+00:00",
       "error": null
     },
     {
@@ -3756,7 +3753,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:46:26.436349+00:00",
+      "revisado_en": "2026-08-24T13:15:45.497239+00:00",
       "error": null
     },
     {
@@ -3769,28 +3766,26 @@
       "tipo": "pagina",
       "identificador": "ecoradiobolivia",
       "icono_url": "https://graph.facebook.com/ecoradiobolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "3:24:26",
-      "video_id": "1836803874155885",
-      "url_video": "https://www.facebook.com/100063653526354/videos/1836803874155885",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "ECO Live Streaming Bolivia",
+      "video_id": "1060494476732304",
+      "url_video": "https://www.facebook.com/100063653526354/videos/1060494476732304",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/ecoradiobolivia/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:46:44.967446+00:00",
+      "revisado_en": "2026-08-24T13:16:04.101919+00:00",
       "error": null
     },
     {
@@ -3822,7 +3817,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:47:04.236386+00:00",
+      "revisado_en": "2026-08-24T13:16:20.099699+00:00",
       "error": null
     },
     {
@@ -3854,7 +3849,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:47:23.798038+00:00",
+      "revisado_en": "2026-08-24T13:16:38.678805+00:00",
       "error": null
     },
     {
@@ -3886,7 +3881,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:47:43.175266+00:00",
+      "revisado_en": "2026-08-24T13:16:57.411121+00:00",
       "error": null
     },
     {
@@ -3913,7 +3908,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:48:02.793982+00:00",
+      "revisado_en": "2026-08-24T13:17:15.678151+00:00",
       "error": null
     },
     {
@@ -3940,7 +3935,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:48:20.929391+00:00",
+      "revisado_en": "2026-08-24T13:17:33.794534+00:00",
       "error": null
     },
     {
@@ -3972,7 +3967,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:48:39.111889+00:00",
+      "revisado_en": "2026-08-24T13:17:51.819862+00:00",
       "error": null
     },
     {
@@ -4006,7 +4001,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:48:57.418085+00:00",
+      "revisado_en": "2026-08-24T13:18:10.048321+00:00",
       "error": null
     },
     {
@@ -4033,7 +4028,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:49:16.005672+00:00",
+      "revisado_en": "2026-08-24T13:18:28.994018+00:00",
       "error": null
     },
     {
@@ -4059,7 +4054,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:49:34.092380+00:00",
+      "revisado_en": "2026-08-24T13:18:47.111740+00:00",
       "error": null
     },
     {
@@ -4092,7 +4087,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:49:51.750877+00:00",
+      "revisado_en": "2026-08-24T13:19:04.826068+00:00",
       "error": null
     },
     {
@@ -4120,7 +4115,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:50:10.072381+00:00",
+      "revisado_en": "2026-08-24T13:19:23.172466+00:00",
       "error": null
     },
     {
@@ -4152,7 +4147,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:50:28.375174+00:00",
+      "revisado_en": "2026-08-24T13:19:41.286908+00:00",
       "error": null
     },
     {
@@ -4184,7 +4179,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-24T11:50:46.652822+00:00",
+      "revisado_en": "2026-08-24T13:19:59.523354+00:00",
       "error": null
     },
     {
