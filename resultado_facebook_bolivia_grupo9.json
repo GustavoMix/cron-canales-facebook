@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-25T15:44:29.215444+00:00",
+  "generado_en": "2026-08-25T16:35:17.470363+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 3,
   "resultados": [
     {
       "nombre": "Punto Tv Tarija",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:33:51.935921+00:00",
+      "revisado_en": "2026-08-25T16:24:55.192287+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:34:12.738148+00:00",
+      "revisado_en": "2026-08-25T16:25:15.331229+00:00",
       "error": null
     },
     {
@@ -91,7 +91,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:34:32.517964+00:00",
+      "revisado_en": "2026-08-25T16:25:34.788994+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:34:52.271503+00:00",
+      "revisado_en": "2026-08-25T16:25:54.681156+00:00",
       "error": null
     },
     {
@@ -147,7 +147,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:35:10.454599+00:00",
+      "revisado_en": "2026-08-25T16:26:12.678354+00:00",
       "error": null
     },
     {
@@ -179,7 +179,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:35:30.243872+00:00",
+      "revisado_en": "2026-08-25T16:26:32.116617+00:00",
       "error": null
     },
     {
@@ -205,7 +205,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:35:50.363944+00:00",
+      "revisado_en": "2026-08-25T16:26:52.002554+00:00",
       "error": null
     },
     {
@@ -218,26 +218,26 @@
       "tipo": "pagina",
       "identificador": "RadioOmasuyo",
       "icono_url": "https://graph.facebook.com/RadioOmasuyo/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "4:18:40",
-      "video_id": "1346206597718824",
-      "url_video": "https://www.facebook.com/100063699212995/videos/1346206597718824",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Rádio Omasuyo",
+      "video_id": "2193084294575237",
+      "url_video": "https://www.facebook.com/100063699212995/videos/2193084294575237",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioOmasuyo/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1600,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:36:08.229285+00:00",
+      "revisado_en": "2026-08-25T16:27:09.554336+00:00",
       "error": null
     },
     {
@@ -250,28 +250,26 @@
       "tipo": "pagina",
       "identificador": "lavozdebrassp",
       "icono_url": "https://graph.facebook.com/lavozdebrassp/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:16:30",
-      "video_id": "1313929880620369",
-      "url_video": "https://www.facebook.com/100063598809172/videos/1313929880620369",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio La Voz de Bras",
+      "video_id": "1063364872981483",
+      "url_video": "https://www.facebook.com/100063598809172/videos/1063364872981483",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/lavozdebrassp/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1500,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:36:27.064255+00:00",
+      "revisado_en": "2026-08-25T16:27:25.962170+00:00",
       "error": null
     },
     {
@@ -286,24 +284,22 @@
       "icono_url": "https://graph.facebook.com/americalatinaradio/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:17:04",
-      "video_id": "2379938422541280",
-      "url_video": "https://www.facebook.com/100083266484605/videos/2379938422541280",
-      "confianza": -370,
+      "titulo": "Radio America Látina",
+      "video_id": "1101908312508757",
+      "url_video": "https://www.facebook.com/100083266484605/videos/1101908312508757",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:36:45.895851+00:00",
+      "revisado_en": "2026-08-25T16:27:41.379259+00:00",
       "error": null
     },
     {
@@ -335,7 +331,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:37:04.715766+00:00",
+      "revisado_en": "2026-08-25T16:28:01.364133+00:00",
       "error": null
     },
     {
@@ -367,7 +363,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:37:23.523029+00:00",
+      "revisado_en": "2026-08-25T16:28:19.946952+00:00",
       "error": null
     },
     {
@@ -394,7 +390,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:37:42.320442+00:00",
+      "revisado_en": "2026-08-25T16:28:38.488313+00:00",
       "error": null
     },
     {
@@ -426,7 +422,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:38:00.939955+00:00",
+      "revisado_en": "2026-08-25T16:28:56.730805+00:00",
       "error": null
     },
     {
@@ -439,27 +435,26 @@
       "tipo": "pagina",
       "identificador": "61559049486842",
       "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:05:53",
-      "video_id": "1777963789895539",
-      "url_video": "https://www.facebook.com/61559049486842/videos/1777963789895539",
-      "confianza": -270,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Fórmula-Sp (Las dedicadas)",
+      "video_id": "1736596887551967",
+      "url_video": "https://www.facebook.com/61559049486842/videos/1736596887551967",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/61559049486842/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
         "aria_live"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:38:19.677213+00:00",
+      "revisado_en": "2026-08-25T16:29:15.449188+00:00",
       "error": null
     },
     {
@@ -491,7 +486,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:38:38.607013+00:00",
+      "revisado_en": "2026-08-25T16:29:32.528944+00:00",
       "error": null
     },
     {
@@ -523,7 +518,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:38:57.326044+00:00",
+      "revisado_en": "2026-08-25T16:29:51.012228+00:00",
       "error": null
     },
     {
@@ -550,7 +545,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:39:16.226988+00:00",
+      "revisado_en": "2026-08-25T16:30:09.643189+00:00",
       "error": null
     },
     {
@@ -577,7 +572,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:39:34.873785+00:00",
+      "revisado_en": "2026-08-25T16:30:27.992875+00:00",
       "error": null
     },
     {
@@ -611,7 +606,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:39:53.511121+00:00",
+      "revisado_en": "2026-08-25T16:30:46.317192+00:00",
       "error": null
     },
     {
@@ -643,7 +638,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:40:12.451975+00:00",
+      "revisado_en": "2026-08-25T16:31:04.942357+00:00",
       "error": null
     },
     {
@@ -675,7 +670,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:40:31.453609+00:00",
+      "revisado_en": "2026-08-25T16:31:23.425955+00:00",
       "error": null
     },
     {
@@ -707,7 +702,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:40:50.426540+00:00",
+      "revisado_en": "2026-08-25T16:31:41.886486+00:00",
       "error": null
     },
     {
@@ -740,7 +735,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:41:09.383531+00:00",
+      "revisado_en": "2026-08-25T16:32:00.468190+00:00",
       "error": null
     },
     {
@@ -773,7 +768,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:41:28.356871+00:00",
+      "revisado_en": "2026-08-25T16:32:18.951060+00:00",
       "error": null
     },
     {
@@ -806,7 +801,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:41:47.362252+00:00",
+      "revisado_en": "2026-08-25T16:32:37.603458+00:00",
       "error": null
     },
     {
@@ -839,7 +834,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:42:06.277543+00:00",
+      "revisado_en": "2026-08-25T16:32:56.451241+00:00",
       "error": null
     },
     {
@@ -871,7 +866,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:42:25.278072+00:00",
+      "revisado_en": "2026-08-25T16:33:15.248030+00:00",
       "error": null
     },
     {
@@ -903,7 +898,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:42:44.583176+00:00",
+      "revisado_en": "2026-08-25T16:33:33.774814+00:00",
       "error": null
     },
     {
@@ -930,7 +925,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:43:03.483987+00:00",
+      "revisado_en": "2026-08-25T16:33:52.656635+00:00",
       "error": null
     },
     {
@@ -958,7 +953,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:43:22.104759+00:00",
+      "revisado_en": "2026-08-25T16:34:11.284878+00:00",
       "error": null
     },
     {
@@ -985,7 +980,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:43:40.772682+00:00",
+      "revisado_en": "2026-08-25T16:34:29.844380+00:00",
       "error": null
     },
     {
@@ -1018,7 +1013,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:43:59.014329+00:00",
+      "revisado_en": "2026-08-25T16:34:48.136839+00:00",
       "error": null
     },
     {
@@ -1050,7 +1045,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-25T15:44:18.152776+00:00",
+      "revisado_en": "2026-08-25T16:35:06.758272+00:00",
       "error": null
     }
   ]
