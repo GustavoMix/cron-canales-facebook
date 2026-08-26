@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-26T04:22:16.256617+00:00",
+  "generado_en": "2026-08-26T04:31:13.234414+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 6,
+  "en_vivo": 7,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -4225,7 +4225,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:15:13.799872+00:00",
+      "revisado_en": "2026-08-26T04:20:31.767095+00:00",
       "error": null
     },
     {
@@ -4255,7 +4255,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:15:33.327130+00:00",
+      "revisado_en": "2026-08-26T04:20:51.885484+00:00",
       "error": null
     },
     {
@@ -4286,7 +4286,7 @@
         "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:15:52.498989+00:00",
+      "revisado_en": "2026-08-26T04:21:11.497682+00:00",
       "error": null
     },
     {
@@ -4316,7 +4316,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:16:11.847156+00:00",
+      "revisado_en": "2026-08-26T04:21:31.713069+00:00",
       "error": null
     },
     {
@@ -4329,24 +4329,26 @@
       "tipo": "pagina",
       "identificador": "adnnoticiasmx",
       "icono_url": "https://graph.facebook.com/adnnoticiasmx/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "ADN40Mx",
-      "video_id": "1659613258930762",
-      "url_video": "https://www.facebook.com/100064814259846/videos/1659613258930762",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1089336783613287",
+      "url_video": "https://www.facebook.com/100064814259846/videos/1089336783613287",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/adnnoticiasmx/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 4600,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:16:30.801357+00:00",
+      "revisado_en": "2026-08-26T04:21:51.088140+00:00",
       "error": null
     },
     {
@@ -4372,7 +4374,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:16:49.610485+00:00",
+      "revisado_en": "2026-08-26T04:22:07.256093+00:00",
       "error": null
     },
     {
@@ -4404,7 +4406,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:17:08.417846+00:00",
+      "revisado_en": "2026-08-26T04:22:25.675166+00:00",
       "error": null
     },
     {
@@ -4436,7 +4438,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:17:29.125493+00:00",
+      "revisado_en": "2026-08-26T04:22:46.542812+00:00",
       "error": null
     },
     {
@@ -4451,22 +4453,25 @@
       "icono_url": "https://graph.facebook.com/NoticiasRCN/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Noticias RCN",
-      "video_id": "1069318592230845",
-      "url_video": "https://www.facebook.com/100066620978482/videos/1069318592230845",
-      "confianza": 0,
+      "titulo": "3:03:11",
+      "video_id": "1427166605981839",
+      "url_video": "https://www.facebook.com/100066620978482/videos/1427166605981839",
+      "confianza": -270,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:17:50.253841+00:00",
+      "revisado_en": "2026-08-26T04:23:08.926075+00:00",
       "error": null
     },
     {
@@ -4481,159 +4486,9 @@
       "icono_url": "https://graph.facebook.com/canalnoficial/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Canal N",
-      "video_id": "1089244540124183",
-      "url_video": "https://www.facebook.com/100077037503464/videos/1089244540124183",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-08-26T03:18:10.283126+00:00",
-      "error": null
-    },
-    {
-      "nombre": "ATV+ Noticias",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "Perú",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/atvmasnoticias",
-      "tipo": "pagina",
-      "identificador": "atvmasnoticias",
-      "icono_url": "https://graph.facebook.com/atvmasnoticias/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "ATV+ Noticias",
-      "video_id": "2091411307843908",
-      "url_video": "https://www.facebook.com/100064303707240/videos/2091411307843908",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-08-26T03:18:29.928690+00:00",
-      "error": null
-    },
-    {
-      "nombre": "América Noticias",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "Perú",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/americanoticiasoficial",
-      "tipo": "pagina",
-      "identificador": "americanoticiasoficial",
-      "icono_url": "https://graph.facebook.com/americanoticiasoficial/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "América Noticias",
-      "video_id": "1725213248686067",
-      "url_video": "https://www.facebook.com/100064666600512/videos/1725213248686067",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-08-26T03:18:50.835656+00:00",
-      "error": null
-    },
-    {
-      "nombre": "Globovisión",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "Venezuela",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/globovision",
-      "tipo": "pagina",
-      "identificador": "globovision",
-      "icono_url": "https://graph.facebook.com/globovision/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "Globovisión",
-      "video_id": "200017871476834",
-      "url_video": "https://www.facebook.com/100080698981101/videos/200017871476834",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "marcadores": [
-        "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-08-26T03:19:10.961172+00:00",
-      "error": null
-    },
-    {
-      "nombre": "VPItv",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "Venezuela",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/vpitv",
-      "tipo": "pagina",
-      "identificador": "vpitv",
-      "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "VPI Tv",
-      "video_id": "1525542519619667",
-      "url_video": "https://www.facebook.com/100081504459614/videos/1525542519619667",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-08-26T03:19:30.970279+00:00",
-      "error": null
-    },
-    {
-      "nombre": "Ecuavisa",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "Ecuador",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/ecuavisa",
-      "tipo": "pagina",
-      "identificador": "ecuavisa",
-      "icono_url": "https://graph.facebook.com/ecuavisa/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "36:11",
-      "video_id": "1085186517566978",
-      "url_video": "https://www.facebook.com/100044422029746/videos/1085186517566978",
+      "titulo": "32:01",
+      "video_id": "1083553385142550",
+      "url_video": "https://www.facebook.com/100077037503464/videos/1083553385142550",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -4648,7 +4503,161 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:19:50.800088+00:00",
+      "revisado_en": "2026-08-26T04:23:27.602433+00:00",
+      "error": null
+    },
+    {
+      "nombre": "ATV+ Noticias",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Perú",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/atvmasnoticias",
+      "tipo": "pagina",
+      "identificador": "atvmasnoticias",
+      "icono_url": "https://graph.facebook.com/atvmasnoticias/picture?type=large",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "[#ENVIVO] Mantente informado del acontecer nacional y mundial en ATV+ Noticias",
+      "video_id": "918323238334105",
+      "url_video": "https://www.facebook.com/100064303707240/videos/918323238334105",
+      "confianza": -370,
+      "ruta_detectada": null,
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-26T04:23:46.624695+00:00",
+      "error": null
+    },
+    {
+      "nombre": "América Noticias",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Perú",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/americanoticiasoficial",
+      "tipo": "pagina",
+      "identificador": "americanoticiasoficial",
+      "icono_url": "https://graph.facebook.com/americanoticiasoficial/picture?type=large",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "8:00:10",
+      "video_id": "2047536285853937",
+      "url_video": "https://www.facebook.com/100064666600512/videos/2047536285853937",
+      "confianza": -240,
+      "ruta_detectada": null,
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "debil:🔴 en vivo",
+        "aria_live"
+      ],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-26T04:24:05.052629+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Globovisión",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Venezuela",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/globovision",
+      "tipo": "pagina",
+      "identificador": "globovision",
+      "icono_url": "https://graph.facebook.com/globovision/picture?type=large",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-26T04:24:23.813438+00:00",
+      "error": null
+    },
+    {
+      "nombre": "VPItv",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Venezuela",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/vpitv",
+      "tipo": "pagina",
+      "identificador": "vpitv",
+      "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "1:00:59",
+      "video_id": "1057436323923498",
+      "url_video": "https://www.facebook.com/100081504459614/videos/1057436323923498",
+      "confianza": -270,
+      "ruta_detectada": null,
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "aria_live"
+      ],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-08-26T04:24:42.304656+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Ecuavisa",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Ecuador",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/ecuavisa",
+      "tipo": "pagina",
+      "identificador": "ecuavisa",
+      "icono_url": "https://graph.facebook.com/ecuavisa/picture?type=large",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live"
+      ],
+      "muro_login": true,
+      "revisado_en": "2026-08-26T04:25:01.072723+00:00",
       "error": null
     },
     {
@@ -4680,7 +4689,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:20:09.066389+00:00",
+      "revisado_en": "2026-08-26T04:25:19.521586+00:00",
       "error": null
     },
     {
@@ -4713,7 +4722,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:20:27.340644+00:00",
+      "revisado_en": "2026-08-26T04:25:38.343400+00:00",
       "error": null
     },
     {
@@ -4740,7 +4749,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:20:45.668884+00:00",
+      "revisado_en": "2026-08-26T04:25:57.004682+00:00",
       "error": null
     },
     {
@@ -4756,8 +4765,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "RPP Noticias",
-      "video_id": "4635354620033159",
-      "url_video": "https://www.facebook.com/100070382080379/videos/4635354620033159",
+      "video_id": "1088657620510755",
+      "url_video": "https://www.facebook.com/100070382080379/videos/1088657620510755",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/rppnoticias/live/",
       "motivos": [
@@ -4772,7 +4781,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:21:03.946056+00:00",
+      "revisado_en": "2026-08-26T04:26:15.492416+00:00",
       "error": null
     },
     {
@@ -4806,7 +4815,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:21:20.084947+00:00",
+      "revisado_en": "2026-08-26T04:26:33.176494+00:00",
       "error": null
     },
     {
@@ -4838,7 +4847,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:21:38.515017+00:00",
+      "revisado_en": "2026-08-26T04:26:52.027596+00:00",
       "error": null
     },
     {
@@ -4870,7 +4879,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:21:56.736762+00:00",
+      "revisado_en": "2026-08-26T04:27:10.967948+00:00",
       "error": null
     },
     {
@@ -4902,7 +4911,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:22:12.252806+00:00",
+      "revisado_en": "2026-08-26T04:27:28.466868+00:00",
       "error": null
     },
     {
@@ -4935,7 +4944,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:22:30.873819+00:00",
+      "revisado_en": "2026-08-26T04:27:47.632727+00:00",
       "error": null
     },
     {
@@ -4968,7 +4977,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:22:49.569980+00:00",
+      "revisado_en": "2026-08-26T04:28:07.332731+00:00",
       "error": null
     },
     {
@@ -5000,7 +5009,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:23:07.724524+00:00",
+      "revisado_en": "2026-08-26T04:28:26.009250+00:00",
       "error": null
     },
     {
@@ -5032,7 +5041,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:23:25.955272+00:00",
+      "revisado_en": "2026-08-26T04:28:44.934086+00:00",
       "error": null
     },
     {
@@ -5059,7 +5068,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:23:44.183357+00:00",
+      "revisado_en": "2026-08-26T04:29:04.126951+00:00",
       "error": null
     },
     {
@@ -5092,7 +5101,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:24:02.363951+00:00",
+      "revisado_en": "2026-08-26T04:29:23.486247+00:00",
       "error": null
     },
     {
@@ -5125,7 +5134,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:24:20.908726+00:00",
+      "revisado_en": "2026-08-26T04:29:42.039679+00:00",
       "error": null
     },
     {
@@ -5153,7 +5162,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:24:39.047099+00:00",
+      "revisado_en": "2026-08-26T04:30:01.469091+00:00",
       "error": null
     },
     {
@@ -5186,7 +5195,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:24:57.426705+00:00",
+      "revisado_en": "2026-08-26T04:30:20.942030+00:00",
       "error": null
     },
     {
@@ -5213,7 +5222,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:25:15.811274+00:00",
+      "revisado_en": "2026-08-26T04:30:40.779353+00:00",
       "error": null
     },
     {
@@ -5245,7 +5254,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T03:25:33.902365+00:00",
+      "revisado_en": "2026-08-26T04:31:00.088789+00:00",
       "error": null
     },
     {
