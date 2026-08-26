@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-26T10:09:38.263278+00:00",
+  "generado_en": "2026-08-26T10:12:43.725259+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 1,
+  "en_vivo": 3,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -7335,7 +7335,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:06:41.419193+00:00",
+      "revisado_en": "2026-08-26T10:02:10.798309+00:00",
       "error": null
     },
     {
@@ -7365,7 +7365,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:07:01.384992+00:00",
+      "revisado_en": "2026-08-26T10:02:32.582248+00:00",
       "error": null
     },
     {
@@ -7397,7 +7397,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:07:21.401264+00:00",
+      "revisado_en": "2026-08-26T10:02:53.468674+00:00",
       "error": null
     },
     {
@@ -7427,7 +7427,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:07:42.014288+00:00",
+      "revisado_en": "2026-08-26T10:03:14.373279+00:00",
       "error": null
     },
     {
@@ -7457,7 +7457,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:08:02.104948+00:00",
+      "revisado_en": "2026-08-26T10:03:34.557205+00:00",
       "error": null
     },
     {
@@ -7489,7 +7489,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:08:21.316538+00:00",
+      "revisado_en": "2026-08-26T10:03:53.762373+00:00",
       "error": null
     },
     {
@@ -7519,7 +7519,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:08:40.618852+00:00",
+      "revisado_en": "2026-08-26T10:04:13.324827+00:00",
       "error": null
     },
     {
@@ -7534,22 +7534,25 @@
       "icono_url": "https://graph.facebook.com/lafmcolombia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "La FM",
-      "video_id": "1280487866299287",
-      "url_video": "https://www.facebook.com/100064600125853/videos/1280487866299287",
-      "confianza": 0,
+      "titulo": "6:49:03",
+      "video_id": "1618646763032741",
+      "url_video": "https://www.facebook.com/100064600125853/videos/1618646763032741",
+      "confianza": -270,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:08:59.832353+00:00",
+      "revisado_en": "2026-08-26T10:04:33.044383+00:00",
       "error": null
     },
     {
@@ -7583,7 +7586,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:09:18.941985+00:00",
+      "revisado_en": "2026-08-26T10:04:52.139114+00:00",
       "error": null
     },
     {
@@ -7615,7 +7618,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:09:37.870328+00:00",
+      "revisado_en": "2026-08-26T10:05:11.110671+00:00",
       "error": null
     },
     {
@@ -7628,28 +7631,26 @@
       "tipo": "pagina",
       "identificador": "RadioBioBio",
       "icono_url": "https://graph.facebook.com/RadioBioBio/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:38:36",
-      "video_id": "2261907981273752",
-      "url_video": "https://www.facebook.com/100064470470473/videos/2261907981273752",
-      "confianza": -240,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Bio Bio",
+      "video_id": "3922010884612701",
+      "url_video": "https://www.facebook.com/100064470470473/videos/3922010884612701",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioBioBio/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 232000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:09:57.917313+00:00",
+      "revisado_en": "2026-08-26T10:05:30.439037+00:00",
       "error": null
     },
     {
@@ -7683,7 +7684,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:10:16.321174+00:00",
+      "revisado_en": "2026-08-26T10:05:46.777482+00:00",
       "error": null
     },
     {
@@ -7716,7 +7717,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:10:34.751315+00:00",
+      "revisado_en": "2026-08-26T10:06:05.284135+00:00",
       "error": null
     },
     {
@@ -7748,7 +7749,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:10:53.166166+00:00",
+      "revisado_en": "2026-08-26T10:06:23.841696+00:00",
       "error": null
     },
     {
@@ -7775,7 +7776,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:11:11.502567+00:00",
+      "revisado_en": "2026-08-26T10:06:42.348841+00:00",
       "error": null
     },
     {
@@ -7808,7 +7809,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:11:29.690802+00:00",
+      "revisado_en": "2026-08-26T10:07:00.563046+00:00",
       "error": null
     },
     {
@@ -7836,7 +7837,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:11:48.389946+00:00",
+      "revisado_en": "2026-08-26T10:07:19.117026+00:00",
       "error": null
     },
     {
@@ -7863,7 +7864,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:12:06.697854+00:00",
+      "revisado_en": "2026-08-26T10:07:37.488821+00:00",
       "error": null
     },
     {
@@ -7891,7 +7892,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:12:24.722893+00:00",
+      "revisado_en": "2026-08-26T10:07:55.711912+00:00",
       "error": null
     },
     {
@@ -7918,7 +7919,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:12:43.074900+00:00",
+      "revisado_en": "2026-08-26T10:08:13.845546+00:00",
       "error": null
     },
     {
@@ -7946,7 +7947,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:13:01.130784+00:00",
+      "revisado_en": "2026-08-26T10:08:31.974335+00:00",
       "error": null
     },
     {
@@ -7978,7 +7979,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:13:19.622995+00:00",
+      "revisado_en": "2026-08-26T10:08:50.479376+00:00",
       "error": null
     },
     {
@@ -7991,26 +7992,26 @@
       "tipo": "pagina",
       "identificador": "NotiUno630",
       "icono_url": "https://graph.facebook.com/NotiUno630/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "30:32",
-      "video_id": "1607164981117592",
-      "url_video": "https://www.facebook.com/100067061222124/videos/1607164981117592",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "NotiUno 630",
+      "video_id": "1380357937408188",
+      "url_video": "https://www.facebook.com/100067061222124/videos/1380357937408188",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/NotiUno630/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1900,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:13:37.978651+00:00",
+      "revisado_en": "2026-08-26T10:09:08.875356+00:00",
       "error": null
     },
     {
@@ -8042,7 +8043,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:13:56.408025+00:00",
+      "revisado_en": "2026-08-26T10:09:24.983701+00:00",
       "error": null
     },
     {
@@ -8075,7 +8076,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:14:15.133023+00:00",
+      "revisado_en": "2026-08-26T10:09:43.333912+00:00",
       "error": null
     },
     {
@@ -8103,7 +8104,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:14:33.417286+00:00",
+      "revisado_en": "2026-08-26T10:10:01.732692+00:00",
       "error": null
     },
     {
@@ -8129,7 +8130,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:14:51.930951+00:00",
+      "revisado_en": "2026-08-26T10:10:21.416338+00:00",
       "error": null
     },
     {
@@ -8156,7 +8157,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:15:10.284897+00:00",
+      "revisado_en": "2026-08-26T10:10:39.867079+00:00",
       "error": null
     },
     {
@@ -8189,7 +8190,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:15:28.412383+00:00",
+      "revisado_en": "2026-08-26T10:10:58.078533+00:00",
       "error": null
     },
     {
@@ -8216,7 +8217,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:15:46.627308+00:00",
+      "revisado_en": "2026-08-26T10:11:16.374400+00:00",
       "error": null
     },
     {
@@ -8248,7 +8249,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:16:04.885066+00:00",
+      "revisado_en": "2026-08-26T10:11:34.420109+00:00",
       "error": null
     },
     {
@@ -8281,7 +8282,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:16:23.385547+00:00",
+      "revisado_en": "2026-08-26T10:11:53.016580+00:00",
       "error": null
     },
     {
@@ -8313,7 +8314,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:16:41.756712+00:00",
+      "revisado_en": "2026-08-26T10:12:11.426976+00:00",
       "error": null
     },
     {
@@ -8345,7 +8346,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T09:17:00.155886+00:00",
+      "revisado_en": "2026-08-26T10:12:30.190992+00:00",
       "error": null
     },
     {
