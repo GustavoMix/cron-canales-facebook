@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-26T07:15:50.071256+00:00",
+  "generado_en": "2026-08-26T07:20:25.865213+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 1,
+  "en_vivo": 2,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -6291,7 +6291,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:53:42.656979+00:00",
+      "revisado_en": "2026-08-26T07:09:55.726467+00:00",
       "error": null
     },
     {
@@ -6304,17 +6304,18 @@
       "tipo": "pagina",
       "identificador": "ImagenTVNoticias",
       "icono_url": "https://graph.facebook.com/ImagenTVNoticias/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Imagen Noticias",
-      "video_id": "1784135446347522",
-      "url_video": "https://www.facebook.com/100068309486301/videos/1784135446347522",
-      "confianza": 30,
-      "ruta_detectada": null,
+      "video_id": "2317642372373969",
+      "url_video": "https://www.facebook.com/100068309486301/videos/2317642372373969",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/ImagenTVNoticias/videos/",
       "motivos": [
-        "debil: en vivo "
+        "debil: en vivo ",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 31000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -6323,7 +6324,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:54:02.720233+00:00",
+      "revisado_en": "2026-08-26T07:10:15.032134+00:00",
       "error": null
     },
     {
@@ -6353,7 +6354,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:54:22.108483+00:00",
+      "revisado_en": "2026-08-26T07:10:35.593396+00:00",
       "error": null
     },
     {
@@ -6383,7 +6384,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:54:41.720993+00:00",
+      "revisado_en": "2026-08-26T07:10:55.022592+00:00",
       "error": null
     },
     {
@@ -6413,7 +6414,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:55:01.080293+00:00",
+      "revisado_en": "2026-08-26T07:11:14.180804+00:00",
       "error": null
     },
     {
@@ -6428,9 +6429,9 @@
       "icono_url": "https://graph.facebook.com/eltrecetv/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "eltrece",
-      "video_id": "889033307326033",
-      "url_video": "https://www.facebook.com/100044331851333/videos/889033307326033",
+      "titulo": "Iniciar sesión",
+      "video_id": "1683839472703117",
+      "url_video": "https://www.facebook.com/eltrecetv/videos/lio-ferro-y-luc%C3%ADa-palazzo-cerraron-la-noche-en-esmisue%C3%B1o-con-un-tema-dif%C3%ADcil/1683839472703117",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -6443,7 +6444,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:55:21.849043+00:00",
+      "revisado_en": "2026-08-26T07:11:34.766324+00:00",
       "error": null
     },
     {
@@ -6473,7 +6474,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:55:46.757646+00:00",
+      "revisado_en": "2026-08-26T07:11:58.809243+00:00",
       "error": null
     },
     {
@@ -6488,26 +6489,23 @@
       "icono_url": "https://graph.facebook.com/tvn.cl/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "21:26",
-      "video_id": "1036873805718606",
-      "url_video": "https://www.facebook.com/100044160593195/videos/1036873805718606",
-      "confianza": -240,
+      "titulo": "Iniciar sesión",
+      "video_id": "1711879006535470",
+      "url_video": "https://www.facebook.com/tvn.cl/videos/c%C3%B3mo-reducir-la-brecha-social-con-la-iala-inteligencia-artificial-puede-actuar-c/1711879006535470",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
-        "aria_live"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status",
+        "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:56:07.588540+00:00",
+      "revisado_en": "2026-08-26T07:12:19.034225+00:00",
       "error": null
     },
     {
@@ -6522,24 +6520,24 @@
       "icono_url": "https://graph.facebook.com/citytv.com.co/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "18:09",
-      "video_id": "964894559456247",
-      "url_video": "https://www.facebook.com/100064642395672/videos/964894559456247",
-      "confianza": -370,
+      "titulo": "Citytv.com.co",
+      "video_id": "1438926874765591",
+      "url_video": "https://www.facebook.com/100064642395672/videos/1438926874765591",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:56:25.833685+00:00",
+      "revisado_en": "2026-08-26T07:12:39.027357+00:00",
       "error": null
     },
     {
@@ -6571,7 +6569,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:56:44.309540+00:00",
+      "revisado_en": "2026-08-26T07:12:58.633216+00:00",
       "error": null
     },
     {
@@ -6598,7 +6596,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:57:02.449802+00:00",
+      "revisado_en": "2026-08-26T07:13:16.800603+00:00",
       "error": null
     },
     {
@@ -6631,7 +6629,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:57:20.360758+00:00",
+      "revisado_en": "2026-08-26T07:13:34.742759+00:00",
       "error": null
     },
     {
@@ -6664,7 +6662,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:57:38.785110+00:00",
+      "revisado_en": "2026-08-26T07:13:53.347177+00:00",
       "error": null
     },
     {
@@ -6691,7 +6689,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:57:56.985371+00:00",
+      "revisado_en": "2026-08-26T07:14:11.580822+00:00",
       "error": null
     },
     {
@@ -6718,7 +6716,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:58:14.844348+00:00",
+      "revisado_en": "2026-08-26T07:14:29.508288+00:00",
       "error": null
     },
     {
@@ -6751,7 +6749,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:58:32.834743+00:00",
+      "revisado_en": "2026-08-26T07:14:47.569419+00:00",
       "error": null
     },
     {
@@ -6783,7 +6781,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:58:51.070055+00:00",
+      "revisado_en": "2026-08-26T07:15:05.794967+00:00",
       "error": null
     },
     {
@@ -6816,7 +6814,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:59:09.148291+00:00",
+      "revisado_en": "2026-08-26T07:15:23.970307+00:00",
       "error": null
     },
     {
@@ -6843,7 +6841,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:59:27.140423+00:00",
+      "revisado_en": "2026-08-26T07:15:42.053629+00:00",
       "error": null
     },
     {
@@ -6875,7 +6873,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T05:59:45.113270+00:00",
+      "revisado_en": "2026-08-26T07:16:00.012382+00:00",
       "error": null
     },
     {
@@ -6902,7 +6900,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:00:03.040320+00:00",
+      "revisado_en": "2026-08-26T07:16:18.114810+00:00",
       "error": null
     },
     {
@@ -6914,7 +6912,7 @@
       "url_fuente": "https://www.facebook.com/ecuadortv/",
       "tipo": "pagina",
       "identificador": "ecuadortv",
-      "icono_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/468989931_497764299954707_7953632772193426665_n.jpg?stp=dst-jpg_tt6&cstp=mx720x741&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V0OudZJmBOwQ7kNvwHlwQLM&_nc_oc=AdoC1f3h2bhD35OFXRww3XtSpv0afKE1dWRcknWU5iCbBPO7wQSWFyC8-e5kzgWsbQ0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=c3OELApvPx24TSXlfJ8e2g&_nc_ss=7f289&oh=00_AQFxIhudSXG94RlYgWIzdCYolbtlG-ksQ4ijBWVyyoxlUQ&oe=6A946FB8",
+      "icono_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/468989931_497764299954707_7953632772193426665_n.jpg?stp=dst-jpg_tt6&cstp=mx720x741&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V0OudZJmBOwQ7kNvwHn7agU&_nc_oc=Adq7u9KLhYgbkz5xSmdq_sm-B9yAbfl3iVzahnvqOw9-iPi6T583HJIKL3nha8zeRVM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=S7oCs6_AOjd1_ckV7m7s1g&_nc_ss=7f289&oh=00_AQHHVwvb6bi2E_RSBFFkkblvXvYGcXFAyrBvq_wwBW5RrQ&oe=6A946FB8",
       "en_vivo": false,
       "estado": "offline",
       "titulo": null,
@@ -6928,7 +6926,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:00:20.940950+00:00",
+      "revisado_en": "2026-08-26T07:16:36.085909+00:00",
       "error": null
     },
     {
@@ -6960,7 +6958,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:00:38.688621+00:00",
+      "revisado_en": "2026-08-26T07:16:54.081444+00:00",
       "error": null
     },
     {
@@ -6993,7 +6991,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:00:56.680667+00:00",
+      "revisado_en": "2026-08-26T07:17:12.278767+00:00",
       "error": null
     },
     {
@@ -7025,7 +7023,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:01:15.244655+00:00",
+      "revisado_en": "2026-08-26T07:17:30.456901+00:00",
       "error": null
     },
     {
@@ -7057,7 +7055,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:01:33.875579+00:00",
+      "revisado_en": "2026-08-26T07:17:48.537214+00:00",
       "error": null
     },
     {
@@ -7084,7 +7082,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:01:52.156001+00:00",
+      "revisado_en": "2026-08-26T07:18:06.721600+00:00",
       "error": null
     },
     {
@@ -7096,7 +7094,7 @@
       "url_fuente": "https://www.facebook.com/tvnnoticias.panama/",
       "tipo": "pagina",
       "identificador": "tvnnoticias.panama",
-      "icono_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=WCZpYz9yyPkQ7kNvwEB83th&_nc_oc=AdpFVzFhn7qOQ_XyZlUbt4qUDsuo4VzSi38NZj8gQZwItaExvjD61llVCkgIoytIwlM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_ss=7f289&oh=00_AQF56Clo7grslUO2D4G8YdTrrbKoOqRYn1FMbf20QS0Q8Q&oe=6AB5FE7A",
+      "icono_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=WCZpYz9yyPkQ7kNvwHCMejA&_nc_oc=AdrFWL4_IluLrXT4K-NlzfMD4qb4LNqG0RYf0IQpZTHTjw9onocxs_knugxPWI9ItD4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_ss=7f289&oh=00_AQFL-PZyoB4yhhbUuu4frQzTe-o7sOuEceHS3e7CL1uAtQ&oe=6AB5FE7A",
       "en_vivo": false,
       "estado": "offline",
       "titulo": null,
@@ -7110,7 +7108,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:02:10.069932+00:00",
+      "revisado_en": "2026-08-26T07:18:24.701227+00:00",
       "error": null
     },
     {
@@ -7137,7 +7135,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:02:27.916125+00:00",
+      "revisado_en": "2026-08-26T07:18:42.533513+00:00",
       "error": null
     },
     {
@@ -7164,7 +7162,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:02:45.781171+00:00",
+      "revisado_en": "2026-08-26T07:19:00.493900+00:00",
       "error": null
     },
     {
@@ -7198,7 +7196,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:03:03.698658+00:00",
+      "revisado_en": "2026-08-26T07:19:18.497220+00:00",
       "error": null
     },
     {
@@ -7225,7 +7223,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:03:21.742643+00:00",
+      "revisado_en": "2026-08-26T07:19:36.614334+00:00",
       "error": null
     },
     {
@@ -7257,7 +7255,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:03:39.772498+00:00",
+      "revisado_en": "2026-08-26T07:19:54.631071+00:00",
       "error": null
     },
     {
@@ -7290,7 +7288,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-26T06:03:57.839728+00:00",
+      "revisado_en": "2026-08-26T07:20:12.882435+00:00",
       "error": null
     },
     {
