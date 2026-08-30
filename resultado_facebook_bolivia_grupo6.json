@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-08-30T21:18:29.488139+00:00",
+  "generado_en": "2026-08-30T23:42:26.447189+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 2,
+  "en_vivo": 5,
   "resultados": [
     {
       "nombre": "Telemundo (Teledoce)",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:08:05.749448+00:00",
+      "revisado_en": "2026-08-30T23:31:36.129079+00:00",
       "error": null
     },
     {
@@ -44,24 +44,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "1535840883721652",
-      "url_video": "https://www.facebook.com/100064283455585/videos/1535840883721652",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "892026407084179",
+      "url_video": "https://www.facebook.com/100064283455585/videos/892026407084179",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:08:26.728842+00:00",
+      "revisado_en": "2026-08-30T23:31:55.060967+00:00",
       "error": null
     },
     {
@@ -91,7 +93,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:08:46.893088+00:00",
+      "revisado_en": "2026-08-30T23:32:10.295493+00:00",
       "error": null
     },
     {
@@ -121,7 +123,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:09:07.160710+00:00",
+      "revisado_en": "2026-08-30T23:32:29.927144+00:00",
       "error": null
     },
     {
@@ -151,7 +153,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:09:26.806620+00:00",
+      "revisado_en": "2026-08-30T23:32:50.009193+00:00",
       "error": null
     },
     {
@@ -181,7 +183,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:09:45.784208+00:00",
+      "revisado_en": "2026-08-30T23:33:09.135864+00:00",
       "error": null
     },
     {
@@ -193,7 +195,7 @@
       "url_fuente": "https://www.facebook.com/100064953363078/",
       "tipo": "pagina",
       "identificador": "100064953363078",
-      "icono_url": "https://seeklogo.com/images/P/policia-boliviana-logo-6D6E0297DB-seeklogo.com.png?v=638257979190000000",
+      "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Policía Boliviana",
@@ -213,7 +215,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:10:05.161522+00:00",
+      "revisado_en": "2026-08-30T23:33:28.559020+00:00",
       "error": null
     },
     {
@@ -245,7 +247,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:10:24.874359+00:00",
+      "revisado_en": "2026-08-30T23:33:55.724615+00:00",
       "error": null
     },
     {
@@ -272,7 +274,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:10:45.742028+00:00",
+      "revisado_en": "2026-08-30T23:34:17.079234+00:00",
       "error": null
     },
     {
@@ -306,7 +308,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:11:03.765563+00:00",
+      "revisado_en": "2026-08-30T23:34:35.029521+00:00",
       "error": null
     },
     {
@@ -340,7 +342,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:11:22.000624+00:00",
+      "revisado_en": "2026-08-30T23:34:53.351357+00:00",
       "error": null
     },
     {
@@ -366,7 +368,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:11:40.245536+00:00",
+      "revisado_en": "2026-08-30T23:35:11.546738+00:00",
       "error": null
     },
     {
@@ -381,24 +383,22 @@
       "icono_url": "https://graph.facebook.com/GobernacionDeCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Gobernador Leonardo Loza, inspecciona la comunidad de Columayu",
+      "titulo": "Gobernación de Cochabamba",
       "video_id": "1604148114631090",
       "url_video": "https://www.facebook.com/100064851841761/videos/1604148114631090",
-      "confianza": -370,
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:11:58.217274+00:00",
+      "revisado_en": "2026-08-30T23:35:36.982091+00:00",
       "error": null
     },
     {
@@ -413,19 +413,22 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Dirección Departamental de Tránsito Cochabamba",
+      "video_id": "1513664569120671",
+      "url_video": "https://www.facebook.com/100081290618129/videos/1513664569120671",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:12:16.424253+00:00",
+      "revisado_en": "2026-08-30T23:35:56.050893+00:00",
       "error": null
     },
     {
@@ -440,24 +443,22 @@
       "icono_url": "https://graph.facebook.com/PoliciaBolivianaCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "CONFERENCIA DE PRENSA.",
-      "video_id": "881693228113442",
-      "url_video": "https://www.facebook.com/100044909052561/videos/881693228113442",
-      "confianza": -370,
+      "titulo": "Comando Departamental De Policía Cochabamba",
+      "video_id": "1087425767116206",
+      "url_video": "https://www.facebook.com/100044909052561/videos/1087425767116206",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:12:34.435099+00:00",
+      "revisado_en": "2026-08-30T23:36:23.085582+00:00",
       "error": null
     },
     {
@@ -472,19 +473,22 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Terminal De Buses Cochabamba S.A",
+      "video_id": "1319293046749121",
+      "url_video": "https://www.facebook.com/61550249115565/videos/1319293046749121",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:12:52.897687+00:00",
+      "revisado_en": "2026-08-30T23:36:42.145533+00:00",
       "error": null
     },
     {
@@ -499,20 +503,22 @@
       "icono_url": "https://graph.facebook.com/gamscs/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Gobierno Autónomo Municipal de Santa Cruz de la Sierra",
+      "video_id": "1379591257703032",
+      "url_video": "https://www.facebook.com/100064851544130/videos/1379591257703032",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:13:10.980712+00:00",
+      "revisado_en": "2026-08-30T23:37:08.798223+00:00",
       "error": null
     },
     {
@@ -527,19 +533,22 @@
       "icono_url": "https://graph.facebook.com/SecretariaMunicipalDeTransitoyTransporte/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Secretaría Municipal de Tránsito y Transporte",
+      "video_id": "1061244553323348",
+      "url_video": "https://www.facebook.com/100067144184747/videos/1061244553323348",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:13:29.795137+00:00",
+      "revisado_en": "2026-08-30T23:37:27.570790+00:00",
       "error": null
     },
     {
@@ -571,7 +580,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:13:47.853552+00:00",
+      "revisado_en": "2026-08-30T23:37:46.312682+00:00",
       "error": null
     },
     {
@@ -603,7 +612,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:14:06.985721+00:00",
+      "revisado_en": "2026-08-30T23:38:04.515361+00:00",
       "error": null
     },
     {
@@ -616,27 +625,27 @@
       "tipo": "pagina",
       "identificador": "FidesTV",
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:03:37",
-      "video_id": "1082789057563790",
-      "url_video": "https://www.facebook.com/100063710400583/videos/1082789057563790",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "fidestv",
+      "video_id": "1381674353473506",
+      "url_video": "https://www.facebook.com/100063710400583/videos/1381674353473506",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:14:22.280628+00:00",
+      "revisado_en": "2026-08-30T23:38:19.443825+00:00",
       "error": null
     },
     {
@@ -668,7 +677,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:14:41.077923+00:00",
+      "revisado_en": "2026-08-30T23:38:34.476299+00:00",
       "error": null
     },
     {
@@ -701,7 +710,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:14:59.563417+00:00",
+      "revisado_en": "2026-08-30T23:38:52.710612+00:00",
       "error": null
     },
     {
@@ -728,7 +737,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:15:17.758039+00:00",
+      "revisado_en": "2026-08-30T23:39:10.913164+00:00",
       "error": null
     },
     {
@@ -755,7 +764,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:15:35.766448+00:00",
+      "revisado_en": "2026-08-30T23:39:28.833732+00:00",
       "error": null
     },
     {
@@ -789,7 +798,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:15:53.789817+00:00",
+      "revisado_en": "2026-08-30T23:39:46.776688+00:00",
       "error": null
     },
     {
@@ -815,7 +824,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:16:11.854765+00:00",
+      "revisado_en": "2026-08-30T23:40:04.869322+00:00",
       "error": null
     },
     {
@@ -847,7 +856,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:16:29.533372+00:00",
+      "revisado_en": "2026-08-30T23:40:30.340757+00:00",
       "error": null
     },
     {
@@ -860,28 +869,27 @@
       "tipo": "pagina",
       "identificador": "GobChuquisaca",
       "icono_url": "https://graph.facebook.com/GobChuquisaca/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:55:47",
-      "video_id": "1068388875592961",
-      "url_video": "https://www.facebook.com/100050259109305/videos/1068388875592961",
-      "confianza": -270,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Gobernación de Chuquisaca",
+      "video_id": "1426560452694510",
+      "url_video": "https://www.facebook.com/100050259109305/videos/1426560452694510",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/GobChuquisaca/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1900,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:16:47.794697+00:00",
+      "revisado_en": "2026-08-30T23:40:48.530421+00:00",
       "error": null
     },
     {
@@ -913,7 +921,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:17:06.031628+00:00",
+      "revisado_en": "2026-08-30T23:41:03.997691+00:00",
       "error": null
     },
     {
@@ -941,7 +949,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:17:24.263526+00:00",
+      "revisado_en": "2026-08-30T23:41:22.215098+00:00",
       "error": null
     },
     {
@@ -973,7 +981,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:17:42.453497+00:00",
+      "revisado_en": "2026-08-30T23:41:40.212715+00:00",
       "error": null
     },
     {
@@ -1000,7 +1008,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:18:00.582842+00:00",
+      "revisado_en": "2026-08-30T23:41:58.248269+00:00",
       "error": null
     },
     {
@@ -1034,7 +1042,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-08-30T21:18:19.363715+00:00",
+      "revisado_en": "2026-08-30T23:42:16.265472+00:00",
       "error": null
     }
   ]
