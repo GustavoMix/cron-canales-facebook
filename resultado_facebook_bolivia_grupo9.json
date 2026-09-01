@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-01T18:51:22.616691+00:00",
+  "generado_en": "2026-09-01T21:40:44.484628+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 5,
+  "en_vivo": 1,
   "resultados": [
     {
       "nombre": "Punto Tv Tarija",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:40:37.279644+00:00",
+      "revisado_en": "2026-09-01T21:30:14.888246+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:40:58.903866+00:00",
+      "revisado_en": "2026-09-01T21:30:35.734987+00:00",
       "error": null
     },
     {
@@ -91,7 +91,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:41:19.679265+00:00",
+      "revisado_en": "2026-09-01T21:30:55.254317+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:41:41.092523+00:00",
+      "revisado_en": "2026-09-01T21:31:15.063963+00:00",
       "error": null
     },
     {
@@ -147,7 +147,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:41:59.404665+00:00",
+      "revisado_en": "2026-09-01T21:31:33.028063+00:00",
       "error": null
     },
     {
@@ -163,23 +163,24 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "Radio Ambana Br",
-      "video_id": "1547590813350161",
-      "url_video": "https://www.facebook.com/100076314423042/videos/1547590813350161",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/RedAmbana/live/",
+      "video_id": "1795063175175271",
+      "url_video": "https://www.facebook.com/100076314423042/videos/1795063175175271",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/RedAmbana/videos/",
       "motivos": [
+        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 5000,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:42:20.182551+00:00",
+      "revisado_en": "2026-09-01T21:31:52.534328+00:00",
       "error": null
     },
     {
@@ -205,7 +206,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:42:37.023845+00:00",
+      "revisado_en": "2026-09-01T21:32:13.946035+00:00",
       "error": null
     },
     {
@@ -218,26 +219,26 @@
       "tipo": "pagina",
       "identificador": "RadioOmasuyo",
       "icono_url": "https://graph.facebook.com/RadioOmasuyo/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Rádio Omasuyo",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "3:54:55",
       "video_id": "2027845421186958",
       "url_video": "https://www.facebook.com/100063699212995/videos/2027845421186958",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/RadioOmasuyo/live/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 5700,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:42:54.954958+00:00",
+      "revisado_en": "2026-09-01T21:32:31.858439+00:00",
       "error": null
     },
     {
@@ -250,27 +251,28 @@
       "tipo": "pagina",
       "identificador": "lavozdebrassp",
       "icono_url": "https://graph.facebook.com/lavozdebrassp/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Radio La Voz de Bras",
-      "video_id": "2224123595052251",
-      "url_video": "https://www.facebook.com/100063598809172/videos/2224123595052251",
-      "confianza": 130,
-      "ruta_detectada": "https://www.facebook.com/lavozdebrassp/videos/",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "23:22",
+      "video_id": "1435682811811953",
+      "url_video": "https://www.facebook.com/100063598809172/videos/1435682811811953",
+      "confianza": -240,
+      "ruta_detectada": null,
       "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
         "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": 4400,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:43:11.992192+00:00",
+      "revisado_en": "2026-09-01T21:32:50.727789+00:00",
       "error": null
     },
     {
@@ -302,7 +304,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:43:34.327368+00:00",
+      "revisado_en": "2026-09-01T21:33:09.287986+00:00",
       "error": null
     },
     {
@@ -334,7 +336,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:43:53.675619+00:00",
+      "revisado_en": "2026-09-01T21:33:27.869267+00:00",
       "error": null
     },
     {
@@ -366,7 +368,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:44:12.779615+00:00",
+      "revisado_en": "2026-09-01T21:33:46.456355+00:00",
       "error": null
     },
     {
@@ -393,7 +395,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:44:31.753062+00:00",
+      "revisado_en": "2026-09-01T21:34:05.006594+00:00",
       "error": null
     },
     {
@@ -425,7 +427,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:44:50.292346+00:00",
+      "revisado_en": "2026-09-01T21:34:23.387187+00:00",
       "error": null
     },
     {
@@ -458,7 +460,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:45:09.514277+00:00",
+      "revisado_en": "2026-09-01T21:34:42.015411+00:00",
       "error": null
     },
     {
@@ -490,7 +492,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:45:28.795575+00:00",
+      "revisado_en": "2026-09-01T21:35:00.597816+00:00",
       "error": null
     },
     {
@@ -503,26 +505,28 @@
       "tipo": "pagina",
       "identificador": "silescom",
       "icono_url": "https://graph.facebook.com/silescom/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "RADIO MAR FM bolivia",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "1:45:03",
       "video_id": "1589392676190932",
       "url_video": "https://www.facebook.com/100063767961801/videos/1589392676190932",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/silescom/live/",
+      "confianza": -240,
+      "ruta_detectada": null,
       "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": 1200,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:45:48.008776+00:00",
+      "revisado_en": "2026-09-01T21:35:19.132853+00:00",
       "error": null
     },
     {
@@ -549,7 +553,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:46:07.490924+00:00",
+      "revisado_en": "2026-09-01T21:35:37.706791+00:00",
       "error": null
     },
     {
@@ -576,7 +580,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:46:26.347365+00:00",
+      "revisado_en": "2026-09-01T21:35:55.963946+00:00",
       "error": null
     },
     {
@@ -610,7 +614,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:46:44.982277+00:00",
+      "revisado_en": "2026-09-01T21:36:14.343594+00:00",
       "error": null
     },
     {
@@ -642,7 +646,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:47:04.086002+00:00",
+      "revisado_en": "2026-09-01T21:36:32.898493+00:00",
       "error": null
     },
     {
@@ -655,26 +659,26 @@
       "tipo": "pagina",
       "identificador": "100090247746734",
       "icono_url": null,
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Zona Leste Tu Radio",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "1:43:55",
       "video_id": "1093399229925687",
       "url_video": "https://www.facebook.com/100090247746734/videos/1093399229925687",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/100090247746734/live/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:47:22.816366+00:00",
+      "revisado_en": "2026-09-01T21:36:51.286833+00:00",
       "error": null
     },
     {
@@ -706,7 +710,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:47:41.039698+00:00",
+      "revisado_en": "2026-09-01T21:37:10.066360+00:00",
       "error": null
     },
     {
@@ -739,7 +743,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:48:00.537068+00:00",
+      "revisado_en": "2026-09-01T21:37:28.619557+00:00",
       "error": null
     },
     {
@@ -772,7 +776,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:48:19.737259+00:00",
+      "revisado_en": "2026-09-01T21:37:47.150020+00:00",
       "error": null
     },
     {
@@ -804,7 +808,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:48:38.612016+00:00",
+      "revisado_en": "2026-09-01T21:38:05.773247+00:00",
       "error": null
     },
     {
@@ -836,7 +840,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:48:57.906072+00:00",
+      "revisado_en": "2026-09-01T21:38:24.387652+00:00",
       "error": null
     },
     {
@@ -868,7 +872,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:49:17.122267+00:00",
+      "revisado_en": "2026-09-01T21:38:42.940432+00:00",
       "error": null
     },
     {
@@ -900,7 +904,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:49:36.082517+00:00",
+      "revisado_en": "2026-09-01T21:39:01.573323+00:00",
       "error": null
     },
     {
@@ -927,7 +931,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:49:55.091175+00:00",
+      "revisado_en": "2026-09-01T21:39:20.200709+00:00",
       "error": null
     },
     {
@@ -955,7 +959,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:50:13.952811+00:00",
+      "revisado_en": "2026-09-01T21:39:38.541768+00:00",
       "error": null
     },
     {
@@ -982,7 +986,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:50:33.624396+00:00",
+      "revisado_en": "2026-09-01T21:39:57.080338+00:00",
       "error": null
     },
     {
@@ -1015,7 +1019,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:50:52.211045+00:00",
+      "revisado_en": "2026-09-01T21:40:15.309701+00:00",
       "error": null
     },
     {
@@ -1047,7 +1051,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-01T18:51:11.347475+00:00",
+      "revisado_en": "2026-09-01T21:40:33.870239+00:00",
       "error": null
     }
   ]
