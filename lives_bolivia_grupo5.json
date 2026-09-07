@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-09-07T21:38:09.319146+00:00",
-  "cantidad": 2,
+  "generado_en": "2026-09-07T23:54:52.483453+00:00",
+  "cantidad": 4,
   "lives": [
     {
       "nombre": "N+ (antes Foro TV)",
@@ -32,30 +32,63 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-07T21:29:34.158516+00:00",
+      "revisado_en": "2026-09-07T23:46:00.262800+00:00",
       "error": null
     },
     {
-      "nombre": "RPP Noticias",
+      "nombre": "Noticias Caracol",
       "categoria": "noticias",
       "tipo_fuente": null,
-      "pais": "Perú",
+      "pais": "Colombia",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/rppnoticias/",
+      "url_fuente": "https://www.facebook.com/NoticiasCaracol",
       "tipo": "pagina",
-      "identificador": "rppnoticias",
-      "icono_url": "https://graph.facebook.com/rppnoticias/picture?type=large",
+      "identificador": "NoticiasCaracol",
+      "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "RPP Noticias",
-      "video_id": "4073715449592522",
-      "url_video": "https://www.facebook.com/100070382080379/videos/4073715449592522",
+      "titulo": "Noticias Caracol",
+      "video_id": "1569795394439638",
+      "url_video": "https://www.facebook.com/100064733554773/videos/1569795394439638",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
+      "motivos": [
+        "debil: en vivo ",
+        "aria_live"
+      ],
+      "espectadores": 82000,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-07T23:46:23.192375+00:00",
+      "error": null
+    },
+    {
+      "nombre": "VPItv",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Venezuela",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/vpitv",
+      "tipo": "pagina",
+      "identificador": "vpitv",
+      "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "VPI Tv",
+      "video_id": "1733329941301458",
+      "url_video": "https://www.facebook.com/100081504459614/videos/1733329941301458",
       "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/rppnoticias/live/",
+      "ruta_detectada": "https://www.facebook.com/vpitv/live/",
       "motivos": [
         "aria_live"
       ],
-      "espectadores": 300000,
+      "espectadores": 11000,
       "marcadores": [
         "html_is_live",
         "html_broadcast_id",
@@ -64,7 +97,39 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-07T21:33:27.018164+00:00",
+      "revisado_en": "2026-09-07T23:48:24.742965+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Canal 13 Chile",
+      "categoria": "tv",
+      "tipo_fuente": null,
+      "pais": "Chile",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/el13CL/",
+      "tipo": "pagina",
+      "identificador": "el13CL",
+      "icono_url": "https://graph.facebook.com/el13CL/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Canal 13",
+      "video_id": "1005983589124407",
+      "url_video": "https://www.facebook.com/100044177392161/videos/1005983589124407",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/el13CL/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 28000,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-07T23:50:59.447341+00:00",
       "error": null
     }
   ]
