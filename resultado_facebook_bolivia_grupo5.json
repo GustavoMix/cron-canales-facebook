@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-08T20:23:50.517917+00:00",
+  "generado_en": "2026-09-08T23:09:28.068373+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 2,
+  "en_vivo": 3,
   "resultados": [
     {
       "nombre": "LN+",
@@ -19,19 +19,22 @@
       "titulo": "La Nación Más",
       "video_id": "27498533819825471",
       "url_video": "https://www.facebook.com/100067948082507/videos/27498533819825471",
-      "confianza": 0,
+      "confianza": 30,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_currently_live",
         "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_broadcast_status",
+        "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:13:02.733325+00:00",
+      "revisado_en": "2026-09-08T22:57:11.664982+00:00",
       "error": null
     },
     {
@@ -61,7 +64,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:13:24.367831+00:00",
+      "revisado_en": "2026-09-08T22:57:32.722627+00:00",
       "error": null
     },
     {
@@ -92,7 +95,7 @@
         "texto_espectadores"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:13:43.814998+00:00",
+      "revisado_en": "2026-09-08T22:57:53.217875+00:00",
       "error": null
     },
     {
@@ -122,7 +125,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:14:03.645369+00:00",
+      "revisado_en": "2026-09-08T22:58:14.436791+00:00",
       "error": null
     },
     {
@@ -140,9 +143,11 @@
       "titulo": "ADN40Mx",
       "video_id": "951395767436397",
       "url_video": "https://www.facebook.com/100064814259846/videos/951395767436397",
-      "confianza": 0,
+      "confianza": 30,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -152,7 +157,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:14:24.125550+00:00",
+      "revisado_en": "2026-09-08T22:58:34.705090+00:00",
       "error": null
     },
     {
@@ -178,7 +183,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:14:45.390647+00:00",
+      "revisado_en": "2026-09-08T22:58:56.994871+00:00",
       "error": null
     },
     {
@@ -210,7 +215,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:15:05.397827+00:00",
+      "revisado_en": "2026-09-08T22:59:16.473216+00:00",
       "error": null
     },
     {
@@ -223,26 +228,27 @@
       "tipo": "pagina",
       "identificador": "NoticiasCaracol",
       "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:28:42",
-      "video_id": "4399366590327519",
-      "url_video": "https://www.facebook.com/NoticiasCaracol/videos/4399366590327519/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Noticias Caracol",
+      "video_id": "1569795394439638",
+      "url_video": "https://www.facebook.com/100064733554773/videos/1569795394439638",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "debil: en vivo ",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 82000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:15:26.263897+00:00",
+      "revisado_en": "2026-09-08T22:59:37.391739+00:00",
       "error": null
     },
     {
@@ -274,7 +280,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:15:45.619265+00:00",
+      "revisado_en": "2026-09-08T23:00:04.783546+00:00",
       "error": null
     },
     {
@@ -289,24 +295,22 @@
       "icono_url": "https://graph.facebook.com/canalnoficial/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "32:01",
-      "video_id": "1083553385142550",
-      "url_video": "https://www.facebook.com/canalnoficial/videos/1083553385142550/",
-      "confianza": -370,
+      "titulo": "Canal N",
+      "video_id": "38619814287632285",
+      "url_video": "https://www.facebook.com/100077037503464/videos/38619814287632285",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:16:02.261097+00:00",
+      "revisado_en": "2026-09-08T23:00:22.837541+00:00",
       "error": null
     },
     {
@@ -321,24 +325,22 @@
       "icono_url": "https://graph.facebook.com/atvmasnoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "590 visualizaciones",
-      "video_id": "918323238334105",
-      "url_video": "https://www.facebook.com/atvmasnoticias/videos/918323238334105/",
-      "confianza": -370,
+      "titulo": "ATV+ Noticias",
+      "video_id": "1137010156465411",
+      "url_video": "https://www.facebook.com/100064303707240/videos/1137010156465411",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:16:21.548414+00:00",
+      "revisado_en": "2026-09-08T23:00:44.174046+00:00",
       "error": null
     },
     {
@@ -353,24 +355,22 @@
       "icono_url": "https://graph.facebook.com/americanoticiasoficial/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "#CelebraPerú Mamá Pillicha",
-      "video_id": "2501413103306088",
-      "url_video": "https://www.facebook.com/americanoticiasoficial/videos/2501413103306088/",
-      "confianza": -370,
+      "titulo": "América Noticias",
+      "video_id": "1576643694475439",
+      "url_video": "https://www.facebook.com/100064666600512/videos/1576643694475439",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:16:40.636358+00:00",
+      "revisado_en": "2026-09-08T23:01:08.331074+00:00",
       "error": null
     },
     {
@@ -385,19 +385,22 @@
       "icono_url": "https://graph.facebook.com/globovision/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Globovisión",
+      "video_id": "10153684200743578",
+      "url_video": "https://www.facebook.com/100080698981101/videos/10153684200743578",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:16:59.997098+00:00",
+      "revisado_en": "2026-09-08T23:01:30.152772+00:00",
       "error": null
     },
     {
@@ -412,24 +415,24 @@
       "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "26:43",
-      "video_id": "1381794117445815",
-      "url_video": "https://www.facebook.com/vpitv/videos/1381794117445815/",
-      "confianza": -370,
+      "titulo": "VPI Tv",
+      "video_id": "1879359416803763",
+      "url_video": "https://www.facebook.com/100081504459614/videos/1879359416803763",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:17:19.037925+00:00",
+      "revisado_en": "2026-09-08T23:01:50.461345+00:00",
       "error": null
     },
     {
@@ -444,24 +447,22 @@
       "icono_url": "https://graph.facebook.com/ecuavisa/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "35:05",
-      "video_id": "950473207415211",
-      "url_video": "https://www.facebook.com/ecuavisa/videos/950473207415211/",
-      "confianza": -370,
+      "titulo": "hace aproximadamente una hora",
+      "video_id": "1865935374781605",
+      "url_video": "https://www.facebook.com/ecuavisa/videos/-m%C3%A1s-cerca-de-la-medicina-pedi%C3%A1trica-especializadanicklaus-childrens-hospital-in/1865935374781605/",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:17:38.350626+00:00",
+      "revisado_en": "2026-09-08T23:02:13.371573+00:00",
       "error": null
     },
     {
@@ -476,24 +477,22 @@
       "icono_url": "https://graph.facebook.com/TeleamazonasEcuador/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "40:35",
-      "video_id": "28691268410485926",
-      "url_video": "https://www.facebook.com/TeleamazonasEcuador/videos/28691268410485926/",
-      "confianza": -370,
+      "titulo": "Teleamazonas",
+      "video_id": "1759621508498113",
+      "url_video": "https://www.facebook.com/100064569558722/videos/1759621508498113",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:17:57.541359+00:00",
+      "revisado_en": "2026-09-08T23:02:33.852016+00:00",
       "error": null
     },
     {
@@ -508,24 +507,22 @@
       "icono_url": "https://graph.facebook.com/SNTParaguay/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:31:14",
-      "video_id": "1705863001547916",
-      "url_video": "https://www.facebook.com/SNTParaguay/videos/1705863001547916/",
-      "confianza": -370,
+      "titulo": "SNT Cerro Corá (Oficial)",
+      "video_id": "913560798442187",
+      "url_video": "https://www.facebook.com/100064530198709/videos/913560798442187",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:18:16.809109+00:00",
+      "revisado_en": "2026-09-08T23:02:54.569574+00:00",
       "error": null
     },
     {
@@ -540,19 +537,22 @@
       "icono_url": "https://graph.facebook.com/c9nparaguay/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "C9N Paraguay",
+      "video_id": "1851292825856040",
+      "url_video": "https://www.facebook.com/100069048266333/videos/1851292825856040",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:18:36.071512+00:00",
+      "revisado_en": "2026-09-08T23:03:14.972672+00:00",
       "error": null
     },
     {
@@ -567,25 +567,22 @@
       "icono_url": "https://graph.facebook.com/rppnoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:01:15",
-      "video_id": "1445462123754832",
-      "url_video": "https://www.facebook.com/rppnoticias/videos/1445462123754832/",
-      "confianza": -340,
+      "titulo": "RPP Noticias",
+      "video_id": "2491500734666972",
+      "url_video": "https://www.facebook.com/100070382080379/videos/2491500734666972",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:18:55.082726+00:00",
+      "revisado_en": "2026-09-08T23:03:35.541144+00:00",
       "error": null
     },
     {
@@ -600,25 +597,22 @@
       "icono_url": "https://graph.facebook.com/LatinaNoticias.pe/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "INCENDIO EN ALMACÉN MOVILIZA A MÁS DE 10 UNIDADES DE BOMBEROS",
-      "video_id": "1390367066016309",
-      "url_video": "https://www.facebook.com/LatinaNoticias.pe/videos/1390367066016309/",
-      "confianza": -340,
+      "titulo": "Latina Noticias",
+      "video_id": "1778019560101829",
+      "url_video": "https://www.facebook.com/100064538596159/videos/1778019560101829",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:19:14.209673+00:00",
+      "revisado_en": "2026-09-08T23:03:58.553096+00:00",
       "error": null
     },
     {
@@ -633,14 +627,12 @@
       "icono_url": "https://graph.facebook.com/noticias.tvperu/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "🔴 EN VIVO | Histórico hallazgo en Chan Chan.",
-      "video_id": "1083363044240934",
-      "url_video": "https://www.facebook.com/noticias.tvperu/videos/1083363044240934/",
-      "confianza": -340,
+      "titulo": "TVPerú Noticias",
+      "video_id": "969146656219808",
+      "url_video": "https://www.facebook.com/100064860121277/videos/969146656219808",
+      "confianza": 60,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo ",
         "debil:🔴 en vivo"
       ],
@@ -648,10 +640,12 @@
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:19:33.282805+00:00",
+      "revisado_en": "2026-09-08T23:04:20.611734+00:00",
       "error": null
     },
     {
@@ -664,26 +658,27 @@
       "tipo": "pagina",
       "identificador": "el13CL",
       "icono_url": "https://graph.facebook.com/el13CL/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "4:14:31",
-      "video_id": "1005983589124407",
-      "url_video": "https://www.facebook.com/el13CL/videos/1005983589124407/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Canal 13",
+      "video_id": "2231391231038737",
+      "url_video": "https://www.facebook.com/100044177392161/videos/2231391231038737",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/el13CL/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "debil: en vivo ",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 9200,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:19:52.110984+00:00",
+      "revisado_en": "2026-09-08T23:04:41.453681+00:00",
       "error": null
     },
     {
@@ -698,24 +693,24 @@
       "icono_url": "https://graph.facebook.com/teletrece/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "8:00:00",
-      "video_id": "1474575589698256",
-      "url_video": "https://www.facebook.com/teletrece/videos/1474575589698256/",
-      "confianza": -370,
+      "titulo": "6,3 mill. seguidores • 59 seguidos",
+      "video_id": "2595459097579760",
+      "url_video": "https://www.facebook.com/100044589842175/videos/2595459097579760",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:20:11.963859+00:00",
+      "revisado_en": "2026-09-08T23:05:05.618380+00:00",
       "error": null
     },
     {
@@ -730,24 +725,22 @@
       "icono_url": "https://graph.facebook.com/chilevision/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:18:17",
-      "video_id": "150649256939807",
-      "url_video": "https://www.facebook.com/chilevision/videos/150649256939807/",
-      "confianza": -370,
+      "titulo": "Chilevisión",
+      "video_id": "1082962040779102",
+      "url_video": "https://www.facebook.com/100044512956180/videos/1082962040779102",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:20:31.446959+00:00",
+      "revisado_en": "2026-09-08T23:05:27.170077+00:00",
       "error": null
     },
     {
@@ -762,24 +755,22 @@
       "icono_url": "https://graph.facebook.com/BBCnewsMundo/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "59:24",
-      "video_id": "4422632007954580",
-      "url_video": "https://www.facebook.com/BBCnewsMundo/videos/4422632007954580/",
-      "confianza": -370,
+      "titulo": "BBC News Mundo",
+      "video_id": "1552386866021112",
+      "url_video": "https://www.facebook.com/100044349883197/videos/1552386866021112",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:20:50.818383+00:00",
+      "revisado_en": "2026-09-08T23:05:48.065520+00:00",
       "error": null
     },
     {
@@ -794,25 +785,22 @@
       "icono_url": "https://graph.facebook.com/Univision/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "3:29:42",
-      "video_id": "1635719564739014",
-      "url_video": "https://www.facebook.com/Univision/videos/1635719564739014/",
-      "confianza": -340,
+      "titulo": "Univision",
+      "video_id": "1072431271810582",
+      "url_video": "https://www.facebook.com/100064843146311/videos/1072431271810582",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:21:09.670715+00:00",
+      "revisado_en": "2026-09-08T23:06:08.371369+00:00",
       "error": null
     },
     {
@@ -827,24 +815,22 @@
       "icono_url": "https://graph.facebook.com/UnivisionNews/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "17:18",
-      "video_id": "1027793050241006",
-      "url_video": "https://www.facebook.com/UnivisionNews/videos/1027793050241006/",
-      "confianza": -370,
+      "titulo": "Univision News",
+      "video_id": "2507010309568068",
+      "url_video": "https://www.facebook.com/100063767731189/videos/2507010309568068",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:21:28.504683+00:00",
+      "revisado_en": "2026-09-08T23:06:32.397918+00:00",
       "error": null
     },
     {
@@ -859,19 +845,22 @@
       "icono_url": "https://graph.facebook.com/NCRNoticiasCostaRica/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "NCR - Noticias Costa Rica",
+      "video_id": "1412160384186924",
+      "url_video": "https://www.facebook.com/100064704515095/videos/1412160384186924",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:21:47.339851+00:00",
+      "revisado_en": "2026-09-08T23:06:52.163042+00:00",
       "error": null
     },
     {
@@ -884,26 +873,24 @@
       "tipo": "pagina",
       "identificador": "noticiasrepretelcostarica",
       "icono_url": "https://graph.facebook.com/noticiasrepretelcostarica/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Noticias Repretel Costa Rica",
-      "video_id": "2204798680077992",
-      "url_video": "https://www.facebook.com/100064836782535/videos/2204798680077992",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/noticiasrepretelcostarica/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 492000,
+      "video_id": "901343602753592",
+      "url_video": "https://www.facebook.com/100064836782535/videos/901343602753592",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:22:06.058475+00:00",
+      "revisado_en": "2026-09-08T23:07:12.203771+00:00",
       "error": null
     },
     {
@@ -918,24 +905,22 @@
       "icono_url": "https://graph.facebook.com/teleticacom/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "18:24",
-      "video_id": "1644226257064117",
-      "url_video": "https://www.facebook.com/teleticacom/videos/1644226257064117/",
-      "confianza": -370,
+      "titulo": "Teletica.com",
+      "video_id": "1633729777689210",
+      "url_video": "https://www.facebook.com/100069988591403/videos/1633729777689210",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:22:22.237410+00:00",
+      "revisado_en": "2026-09-08T23:07:32.628226+00:00",
       "error": null
     },
     {
@@ -950,20 +935,22 @@
       "icono_url": "https://graph.facebook.com/caracolradio/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Caracol Radio",
+      "video_id": "2592754987835274",
+      "url_video": "https://www.facebook.com/100070948693622/videos/2592754987835274",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:22:41.297280+00:00",
+      "revisado_en": "2026-09-08T23:07:52.797929+00:00",
       "error": null
     },
     {
@@ -978,24 +965,22 @@
       "icono_url": "https://graph.facebook.com/bluradio/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "46:22",
-      "video_id": "1551214729715695",
-      "url_video": "https://www.facebook.com/bluradio/videos/1551214729715695/",
-      "confianza": -370,
+      "titulo": "Blu Radio",
+      "video_id": "1295240179266956",
+      "url_video": "https://www.facebook.com/100064786446242/videos/1295240179266956",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:23:00.487526+00:00",
+      "revisado_en": "2026-09-08T23:08:19.860050+00:00",
       "error": null
     },
     {
@@ -1010,19 +995,22 @@
       "icono_url": "https://graph.facebook.com/lasextanoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "laSexta l Noticias",
+      "video_id": "1568582958095442",
+      "url_video": "https://www.facebook.com/100064456283606/videos/1568582958095442",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:23:20.332077+00:00",
+      "revisado_en": "2026-09-08T23:08:40.379338+00:00",
       "error": null
     },
     {
@@ -1037,24 +1025,24 @@
       "icono_url": "https://graph.facebook.com/teledoce/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Sorteo correspondiente al miércoles 02 de setiembre",
-      "video_id": "1922148445581501",
-      "url_video": "https://www.facebook.com/teledoce/videos/1922148445581501/",
-      "confianza": -370,
+      "titulo": "Teledoce",
+      "video_id": "2836690793397373",
+      "url_video": "https://www.facebook.com/100044552944356/videos/2836690793397373",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-08T20:23:39.331547+00:00",
+      "revisado_en": "2026-09-08T23:08:59.863741+00:00",
       "error": null
     }
   ]
