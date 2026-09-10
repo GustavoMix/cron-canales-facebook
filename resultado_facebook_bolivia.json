@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-10T05:30:28.111953+00:00",
+  "generado_en": "2026-09-10T05:31:02.825271+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 15,
+  "en_vivo": 13,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -5243,7 +5243,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:16:18.527969+00:00",
+      "revisado_en": "2026-09-10T05:20:38.945325+00:00",
       "error": null
     },
     {
@@ -5273,7 +5273,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:16:37.928387+00:00",
+      "revisado_en": "2026-09-10T05:20:58.365927+00:00",
       "error": null
     },
     {
@@ -5303,7 +5303,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:16:57.293937+00:00",
+      "revisado_en": "2026-09-10T05:21:18.266077+00:00",
       "error": null
     },
     {
@@ -5316,24 +5316,26 @@
       "tipo": "pagina",
       "identificador": "AztecaNoticias",
       "icono_url": "https://graph.facebook.com/AztecaNoticias/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Azteca Noticias",
-      "video_id": "2196522801278989",
-      "url_video": "https://www.facebook.com/100069563637018/videos/2196522801278989",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "4568115560090302",
+      "url_video": "https://www.facebook.com/100069563637018/videos/4568115560090302",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/AztecaNoticias/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 530000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:17:16.963167+00:00",
+      "revisado_en": "2026-09-10T05:21:38.779039+00:00",
       "error": null
     },
     {
@@ -5365,7 +5367,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:17:36.535555+00:00",
+      "revisado_en": "2026-09-10T05:21:54.692676+00:00",
       "error": null
     },
     {
@@ -5395,7 +5397,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:17:55.551780+00:00",
+      "revisado_en": "2026-09-10T05:22:14.014126+00:00",
       "error": null
     },
     {
@@ -5427,7 +5429,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:18:16.076520+00:00",
+      "revisado_en": "2026-09-10T05:22:33.410584+00:00",
       "error": null
     },
     {
@@ -5460,7 +5462,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:18:38.421445+00:00",
+      "revisado_en": "2026-09-10T05:22:56.011144+00:00",
       "error": null
     },
     {
@@ -5475,22 +5477,19 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Agencia Municipal de Noticias",
-      "video_id": "1094551503533768",
-      "url_video": "https://www.facebook.com/100064127555592/videos/1094551503533768",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:18:59.370068+00:00",
+      "revisado_en": "2026-09-10T05:23:17.268696+00:00",
       "error": null
     },
     {
@@ -5505,22 +5504,24 @@
       "icono_url": "https://graph.facebook.com/gobernaciondelapaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Gobierno Autónomo Departamental de La Paz",
-      "video_id": "1098000875984841",
-      "url_video": "https://www.facebook.com/100064362385017/videos/1098000875984841",
-      "confianza": 0,
+      "titulo": "22:16",
+      "video_id": "1088452640424266",
+      "url_video": "https://www.facebook.com/gobernaciondelapaz/videos/1088452640424266/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:19:19.101485+00:00",
+      "revisado_en": "2026-09-10T05:23:35.208293+00:00",
       "error": null
     },
     {
@@ -5535,22 +5536,25 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Gobierno Autónomo Municipal de El Alto",
-      "video_id": "1790395878950149",
-      "url_video": "https://www.facebook.com/100069139572852/videos/1790395878950149",
-      "confianza": 0,
+      "titulo": "5 mil visualizaciones",
+      "video_id": "2342091476599492",
+      "url_video": "https://www.facebook.com/ElAltoAlcaldia/videos/2342091476599492/",
+      "confianza": -340,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
+        "debil:🔴 en vivo"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:19:38.178943+00:00",
+      "revisado_en": "2026-09-10T05:23:53.378288+00:00",
       "error": null
     },
     {
@@ -5576,7 +5580,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:19:57.386855+00:00",
+      "revisado_en": "2026-09-10T05:24:11.554679+00:00",
       "error": null
     },
     {
@@ -5608,7 +5612,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:20:15.367745+00:00",
+      "revisado_en": "2026-09-10T05:24:29.275140+00:00",
       "error": null
     },
     {
@@ -5635,7 +5639,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:20:33.579493+00:00",
+      "revisado_en": "2026-09-10T05:24:47.456602+00:00",
       "error": null
     },
     {
@@ -5667,7 +5671,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:20:51.718390+00:00",
+      "revisado_en": "2026-09-10T05:25:05.396305+00:00",
       "error": null
     },
     {
@@ -5694,7 +5698,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:21:10.003867+00:00",
+      "revisado_en": "2026-09-10T05:25:23.760579+00:00",
       "error": null
     },
     {
@@ -5722,7 +5726,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:21:28.096179+00:00",
+      "revisado_en": "2026-09-10T05:25:41.683464+00:00",
       "error": null
     },
     {
@@ -5749,7 +5753,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:21:46.473772+00:00",
+      "revisado_en": "2026-09-10T05:26:00.414413+00:00",
       "error": null
     },
     {
@@ -5781,7 +5785,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:22:04.527885+00:00",
+      "revisado_en": "2026-09-10T05:26:18.325723+00:00",
       "error": null
     },
     {
@@ -5794,26 +5798,26 @@
       "tipo": "pagina",
       "identificador": "ATBDigital",
       "icono_url": "https://graph.facebook.com/ATBDigital/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "ATB Digital",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "2:19:07",
       "video_id": "1628308125401113",
-      "url_video": "https://www.facebook.com/61566333384347/videos/1628308125401113",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/ATBDigital/live/",
+      "url_video": "https://www.facebook.com/ATBDigital/videos/1628308125401113/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 1600,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:22:22.833334+00:00",
+      "revisado_en": "2026-09-10T05:26:36.689050+00:00",
       "error": null
     },
     {
@@ -5846,7 +5850,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:22:38.467244+00:00",
+      "revisado_en": "2026-09-10T05:26:54.764320+00:00",
       "error": null
     },
     {
@@ -5859,26 +5863,26 @@
       "tipo": "pagina",
       "identificador": "eldeberradio",
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "El Deber Radio",
-      "video_id": "1632775838245774",
-      "url_video": "https://www.facebook.com/100072454578597/videos/1632775838245774",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "1:00:20",
+      "video_id": "1566341271904124",
+      "url_video": "https://www.facebook.com/eldeberradio/videos/1566341271904124/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 7300,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:22:57.170171+00:00",
+      "revisado_en": "2026-09-10T05:27:13.229851+00:00",
       "error": null
     },
     {
@@ -5910,7 +5914,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:23:12.752551+00:00",
+      "revisado_en": "2026-09-10T05:27:31.548157+00:00",
       "error": null
     },
     {
@@ -5923,26 +5927,26 @@
       "tipo": "pagina",
       "identificador": "GADTarija",
       "icono_url": "https://graph.facebook.com/GADTarija/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Gobierno Autónomo Departamental de Tarija",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "31:08",
       "video_id": "1094458969724314",
-      "url_video": "https://www.facebook.com/100064661863467/videos/1094458969724314",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/GADTarija/live/",
+      "url_video": "https://www.facebook.com/GADTarija/videos/1094458969724314/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 1600,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:23:30.845501+00:00",
+      "revisado_en": "2026-09-10T05:27:49.466077+00:00",
       "error": null
     },
     {
@@ -5969,7 +5973,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:23:45.871856+00:00",
+      "revisado_en": "2026-09-10T05:28:07.395498+00:00",
       "error": null
     },
     {
@@ -6001,7 +6005,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:24:04.149986+00:00",
+      "revisado_en": "2026-09-10T05:28:25.673108+00:00",
       "error": null
     },
     {
@@ -6027,7 +6031,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:24:22.265890+00:00",
+      "revisado_en": "2026-09-10T05:28:43.615045+00:00",
       "error": null
     },
     {
@@ -6060,7 +6064,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:24:39.892788+00:00",
+      "revisado_en": "2026-09-10T05:29:01.152020+00:00",
       "error": null
     },
     {
@@ -6093,7 +6097,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:24:58.109418+00:00",
+      "revisado_en": "2026-09-10T05:29:19.272216+00:00",
       "error": null
     },
     {
@@ -6108,7 +6112,7 @@
       "icono_url": "https://graph.facebook.com/MunicipiodeSucreBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2,6 mil visualizaciones",
+      "titulo": "4,2 mil visualizaciones",
       "video_id": "4729028977423147",
       "url_video": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/4729028977423147/",
       "confianza": -370,
@@ -6125,7 +6129,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:25:16.348605+00:00",
+      "revisado_en": "2026-09-10T05:29:37.326702+00:00",
       "error": null
     },
     {
@@ -6153,7 +6157,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:25:34.621399+00:00",
+      "revisado_en": "2026-09-10T05:29:55.381982+00:00",
       "error": null
     },
     {
@@ -6185,7 +6189,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:25:52.912040+00:00",
+      "revisado_en": "2026-09-10T05:30:13.534512+00:00",
       "error": null
     },
     {
@@ -6212,7 +6216,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:26:11.076055+00:00",
+      "revisado_en": "2026-09-10T05:30:31.784328+00:00",
       "error": null
     },
     {
@@ -6245,7 +6249,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-10T00:26:29.139980+00:00",
+      "revisado_en": "2026-09-10T05:30:49.738467+00:00",
       "error": null
     },
     {
