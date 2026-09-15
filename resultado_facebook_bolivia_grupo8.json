@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-15T06:24:01.303931+00:00",
+  "generado_en": "2026-09-15T12:04:51.063145+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 2,
+  "en_vivo": 5,
   "resultados": [
     {
       "nombre": "W Radio México",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:13:03.376035+00:00",
+      "revisado_en": "2026-09-15T11:54:07.277346+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:13:24.554669+00:00",
+      "revisado_en": "2026-09-15T11:54:27.763586+00:00",
       "error": null
     },
     {
@@ -91,7 +91,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:13:46.182686+00:00",
+      "revisado_en": "2026-09-15T11:54:48.613249+00:00",
       "error": null
     },
     {
@@ -121,7 +121,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:14:08.403036+00:00",
+      "revisado_en": "2026-09-15T11:55:09.923447+00:00",
       "error": null
     },
     {
@@ -137,8 +137,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Radio Continental",
-      "video_id": "1985808508803307",
-      "url_video": "https://www.facebook.com/100064370842337/videos/1985808508803307",
+      "video_id": "1589160129361366",
+      "url_video": "https://www.facebook.com/100064370842337/videos/1589160129361366",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -151,7 +151,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:14:28.551820+00:00",
+      "revisado_en": "2026-09-15T11:55:30.180936+00:00",
       "error": null
     },
     {
@@ -183,7 +183,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:14:49.048398+00:00",
+      "revisado_en": "2026-09-15T11:55:49.647991+00:00",
       "error": null
     },
     {
@@ -216,7 +216,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:15:09.139899+00:00",
+      "revisado_en": "2026-09-15T11:56:09.550951+00:00",
       "error": null
     },
     {
@@ -231,20 +231,22 @@
       "icono_url": "https://graph.facebook.com/lafmcolombia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "La FM",
+      "video_id": "1064363749723409",
+      "url_video": "https://www.facebook.com/100064600125853/videos/1064363749723409",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:15:31.078121+00:00",
+      "revisado_en": "2026-09-15T11:56:30.971411+00:00",
       "error": null
     },
     {
@@ -276,7 +278,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:15:51.193348+00:00",
+      "revisado_en": "2026-09-15T11:56:52.155181+00:00",
       "error": null
     },
     {
@@ -308,7 +310,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:16:11.407737+00:00",
+      "revisado_en": "2026-09-15T11:57:12.230502+00:00",
       "error": null
     },
     {
@@ -321,27 +323,26 @@
       "tipo": "pagina",
       "identificador": "RadioBioBio",
       "icono_url": "https://graph.facebook.com/RadioBioBio/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:38:48",
-      "video_id": "1046286728235328",
-      "url_video": "https://www.facebook.com/RadioBioBio/videos/1046286728235328/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Bio Bio",
+      "video_id": "914546421378422",
+      "url_video": "https://www.facebook.com/100064470470473/videos/914546421378422",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioBioBio/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 232000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:16:32.478520+00:00",
+      "revisado_en": "2026-09-15T11:57:32.600179+00:00",
       "error": null
     },
     {
@@ -374,7 +375,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:16:51.557367+00:00",
+      "revisado_en": "2026-09-15T11:57:49.364743+00:00",
       "error": null
     },
     {
@@ -406,7 +407,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:17:10.745994+00:00",
+      "revisado_en": "2026-09-15T11:58:08.132641+00:00",
       "error": null
     },
     {
@@ -439,7 +440,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:17:29.410893+00:00",
+      "revisado_en": "2026-09-15T11:58:26.945308+00:00",
       "error": null
     },
     {
@@ -466,7 +467,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:17:48.219213+00:00",
+      "revisado_en": "2026-09-15T11:58:45.723479+00:00",
       "error": null
     },
     {
@@ -479,27 +480,27 @@
       "tipo": "pagina",
       "identificador": "ondacero",
       "icono_url": "https://graph.facebook.com/ondacero/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Onda Cero",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "6:32:18",
       "video_id": "1550822813020368",
-      "url_video": "https://www.facebook.com/100064276435706/videos/1550822813020368",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/ondacero/live/",
+      "url_video": "https://www.facebook.com/ondacero/videos/1550822813020368/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 54000,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:18:06.882341+00:00",
+      "revisado_en": "2026-09-15T11:59:04.331059+00:00",
       "error": null
     },
     {
@@ -527,7 +528,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:18:24.122786+00:00",
+      "revisado_en": "2026-09-15T11:59:23.361584+00:00",
       "error": null
     },
     {
@@ -554,7 +555,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:18:43.602943+00:00",
+      "revisado_en": "2026-09-15T11:59:42.457910+00:00",
       "error": null
     },
     {
@@ -582,7 +583,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:19:02.861762+00:00",
+      "revisado_en": "2026-09-15T12:00:01.072956+00:00",
       "error": null
     },
     {
@@ -609,7 +610,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:19:22.300774+00:00",
+      "revisado_en": "2026-09-15T12:00:19.889006+00:00",
       "error": null
     },
     {
@@ -637,7 +638,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:19:40.970055+00:00",
+      "revisado_en": "2026-09-15T12:00:38.547121+00:00",
       "error": null
     },
     {
@@ -669,7 +670,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:20:00.370707+00:00",
+      "revisado_en": "2026-09-15T12:00:57.650137+00:00",
       "error": null
     },
     {
@@ -682,26 +683,26 @@
       "tipo": "pagina",
       "identificador": "NotiUno630",
       "icono_url": "https://graph.facebook.com/NotiUno630/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "32:16",
-      "video_id": "1827938961702676",
-      "url_video": "https://www.facebook.com/NotiUno630/videos/1827938961702676/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "NotiUno 630",
+      "video_id": "992253113371834",
+      "url_video": "https://www.facebook.com/100067061222124/videos/992253113371834",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/NotiUno630/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1900,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:20:19.213220+00:00",
+      "revisado_en": "2026-09-15T12:01:16.397826+00:00",
       "error": null
     },
     {
@@ -733,7 +734,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:20:38.246108+00:00",
+      "revisado_en": "2026-09-15T12:01:32.991522+00:00",
       "error": null
     },
     {
@@ -765,7 +766,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:20:58.107938+00:00",
+      "revisado_en": "2026-09-15T12:01:52.426145+00:00",
       "error": null
     },
     {
@@ -793,7 +794,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:21:16.850799+00:00",
+      "revisado_en": "2026-09-15T12:02:11.361670+00:00",
       "error": null
     },
     {
@@ -806,26 +807,26 @@
       "tipo": "pagina",
       "identificador": "RADIOACTIVA919",
       "icono_url": "https://graph.facebook.com/RADIOACTIVA919/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "56:22",
-      "video_id": "1070450652631501",
-      "url_video": "https://www.facebook.com/RADIOACTIVA919/videos/1070450652631501/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "RADIO ACTIVA BOLIVIA",
+      "video_id": "1666658518210934",
+      "url_video": "https://www.facebook.com/100063471345886/videos/1666658518210934",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RADIOACTIVA919/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1500,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:21:37.384601+00:00",
+      "revisado_en": "2026-09-15T12:02:30.933244+00:00",
       "error": null
     },
     {
@@ -852,7 +853,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:21:56.270956+00:00",
+      "revisado_en": "2026-09-15T12:02:48.591084+00:00",
       "error": null
     },
     {
@@ -884,7 +885,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:22:15.169359+00:00",
+      "revisado_en": "2026-09-15T12:03:07.463757+00:00",
       "error": null
     },
     {
@@ -911,7 +912,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:22:34.309988+00:00",
+      "revisado_en": "2026-09-15T12:03:26.320524+00:00",
       "error": null
     },
     {
@@ -943,7 +944,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:22:53.182927+00:00",
+      "revisado_en": "2026-09-15T12:03:45.217617+00:00",
       "error": null
     },
     {
@@ -975,7 +976,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:23:12.417939+00:00",
+      "revisado_en": "2026-09-15T12:04:04.185759+00:00",
       "error": null
     },
     {
@@ -1007,7 +1008,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:23:31.313443+00:00",
+      "revisado_en": "2026-09-15T12:04:23.405779+00:00",
       "error": null
     },
     {
@@ -1020,26 +1021,26 @@
       "tipo": "pagina",
       "identificador": "SATELPaginaOficial1",
       "icono_url": "https://graph.facebook.com/SATELPaginaOficial1/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "44:56",
-      "video_id": "1511929417368807",
-      "url_video": "https://www.facebook.com/SATELPaginaOficial1/videos/1511929417368807/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "SATEL Televisión",
+      "video_id": "1068070485968687",
+      "url_video": "https://www.facebook.com/100063592901533/videos/1068070485968687",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/SATELPaginaOficial1/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 11000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-15T06:23:50.380755+00:00",
+      "revisado_en": "2026-09-15T12:04:42.609978+00:00",
       "error": null
     }
   ]
