@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-18T06:23:30.905088+00:00",
+  "generado_en": "2026-09-18T11:42:22.666932+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 3,
+  "en_vivo": 7,
   "resultados": [
     {
       "nombre": "Punto Tv Tarija",
@@ -17,8 +17,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Punto Tv Tarija",
-      "video_id": "1088731020785069",
-      "url_video": "https://www.facebook.com/100068138313628/videos/1088731020785069",
+      "video_id": "1394679689455121",
+      "url_video": "https://www.facebook.com/100068138313628/videos/1394679689455121",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:12:58.978193+00:00",
+      "revisado_en": "2026-09-18T11:32:21.559795+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:13:18.851211+00:00",
+      "revisado_en": "2026-09-18T11:32:41.415350+00:00",
       "error": null
     },
     {
@@ -91,7 +91,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:13:37.801328+00:00",
+      "revisado_en": "2026-09-18T11:33:00.562632+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:13:56.855717+00:00",
+      "revisado_en": "2026-09-18T11:33:19.740806+00:00",
       "error": null
     },
     {
@@ -147,7 +147,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:14:14.466234+00:00",
+      "revisado_en": "2026-09-18T11:33:37.352717+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:14:33.469198+00:00",
+      "revisado_en": "2026-09-18T11:33:56.586562+00:00",
       "error": null
     },
     {
@@ -206,7 +206,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:14:53.691941+00:00",
+      "revisado_en": "2026-09-18T11:34:16.652327+00:00",
       "error": null
     },
     {
@@ -219,24 +219,26 @@
       "tipo": "pagina",
       "identificador": "RadioOmasuyo",
       "icono_url": "https://graph.facebook.com/RadioOmasuyo/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Rádio Omasuyo",
-      "video_id": "1591698329419494",
-      "url_video": "https://www.facebook.com/100063699212995/videos/1591698329419494",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1082267394657511",
+      "url_video": "https://www.facebook.com/100063699212995/videos/1082267394657511",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioOmasuyo/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 29000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:15:11.125920+00:00",
+      "revisado_en": "2026-09-18T11:34:34.100766+00:00",
       "error": null
     },
     {
@@ -269,7 +271,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:15:30.474452+00:00",
+      "revisado_en": "2026-09-18T11:34:49.091936+00:00",
       "error": null
     },
     {
@@ -299,7 +301,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:15:50.861905+00:00",
+      "revisado_en": "2026-09-18T11:35:10.086258+00:00",
       "error": null
     },
     {
@@ -314,22 +316,24 @@
       "icono_url": "https://graph.facebook.com/RadioActivaSP/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Radio Activa SP",
-      "video_id": "1100280725853775",
-      "url_video": "https://www.facebook.com/61551202363351/videos/1100280725853775",
-      "confianza": 0,
+      "titulo": "2:18:45",
+      "video_id": "1105168425266011",
+      "url_video": "https://www.facebook.com/RadioActivaSP/videos/1105168425266011/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:16:09.886852+00:00",
+      "revisado_en": "2026-09-18T11:35:29.295341+00:00",
       "error": null
     },
     {
@@ -342,24 +346,26 @@
       "tipo": "pagina",
       "identificador": "100090506256593",
       "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Radio Adonia Brasil",
-      "video_id": "1118537010684256",
-      "url_video": "https://www.facebook.com/100090506256593/videos/1118537010684256",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1119591597397669",
+      "url_video": "https://www.facebook.com/100090506256593/videos/1119591597397669",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/100090506256593/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:16:29.870275+00:00",
+      "revisado_en": "2026-09-18T11:35:47.316334+00:00",
       "error": null
     },
     {
@@ -386,7 +392,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:16:49.123120+00:00",
+      "revisado_en": "2026-09-18T11:36:02.817560+00:00",
       "error": null
     },
     {
@@ -401,22 +407,24 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Radio Tv Ritmo Caliente-Brasil",
+      "titulo": "12:05",
       "video_id": "1750525256279094",
-      "url_video": "https://www.facebook.com/100063134004030/videos/1750525256279094",
-      "confianza": 0,
+      "url_video": "https://www.facebook.com/100063134004030/videos/1750525256279094/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:17:07.271574+00:00",
+      "revisado_en": "2026-09-18T11:36:20.701475+00:00",
       "error": null
     },
     {
@@ -431,22 +439,24 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Radio Fórmula-Sp (Las dedicadas)",
+      "titulo": "1:50:11",
       "video_id": "2281502945942574",
-      "url_video": "https://www.facebook.com/61559049486842/videos/2281502945942574",
-      "confianza": 0,
+      "url_video": "https://www.facebook.com/61559049486842/videos/2281502945942574/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:17:26.199004+00:00",
+      "revisado_en": "2026-09-18T11:36:38.824451+00:00",
       "error": null
     },
     {
@@ -461,22 +471,24 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Radio UniSterio tv Bolívia",
-      "video_id": "912304991663765",
-      "url_video": "https://www.facebook.com/100078724182479/videos/912304991663765",
-      "confianza": 0,
+      "titulo": "2:58:22",
+      "video_id": "1387918789607379",
+      "url_video": "https://www.facebook.com/100078724182479/videos/1387918789607379/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:17:45.923165+00:00",
+      "revisado_en": "2026-09-18T11:36:56.762450+00:00",
       "error": null
     },
     {
@@ -491,24 +503,25 @@
       "icono_url": "https://graph.facebook.com/silescom/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "RADIO MAR FM bolivia",
-      "video_id": "1063341436541301",
-      "url_video": "https://www.facebook.com/100063767961801/videos/1063341436541301",
-      "confianza": 30,
+      "titulo": "49:27",
+      "video_id": "2325445854859482",
+      "url_video": "https://www.facebook.com/silescom/videos/2325445854859482/",
+      "confianza": -340,
       "ruta_detectada": null,
       "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo ",
         "debil:\nen vivo\n"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:18:05.109351+00:00",
+      "revisado_en": "2026-09-18T11:37:14.690934+00:00",
       "error": null
     },
     {
@@ -523,22 +536,19 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Tv bolivia sin fronteras \"oficial\"",
-      "video_id": "1599532698387585",
-      "url_video": "https://www.facebook.com/100068018322957/videos/1599532698387585",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:18:24.439541+00:00",
+      "revisado_en": "2026-09-18T11:37:32.694480+00:00",
       "error": null
     },
     {
@@ -553,22 +563,19 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Radio Bolivia Sin Fronteras",
-      "video_id": "1757954972072607",
-      "url_video": "https://www.facebook.com/61561537086744/videos/1757954972072607",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:18:43.125916+00:00",
+      "revisado_en": "2026-09-18T11:37:50.516565+00:00",
       "error": null
     },
     {
@@ -584,24 +591,23 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "RADIO CAPINOTA",
-      "video_id": "2136601656892099",
-      "url_video": "https://www.facebook.com/100063940756164/videos/2136601656892099",
-      "confianza": 130,
-      "ruta_detectada": "https://www.facebook.com/www.radiocapinota.net/videos/",
+      "video_id": "1441664284482599",
+      "url_video": "https://www.facebook.com/100063940756164/videos/1441664284482599",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/www.radiocapinota.net/live/",
       "motivos": [
-        "debil:\nen vivo\n",
         "aria_live"
       ],
-      "espectadores": 4900,
+      "espectadores": 3500,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:19:01.886310+00:00",
+      "revisado_en": "2026-09-18T11:38:08.465406+00:00",
       "error": null
     },
     {
@@ -616,23 +622,24 @@
       "icono_url": "https://graph.facebook.com/RitmoVirtual/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Ritmo Virtual Brasil",
-      "video_id": "4659239950988844",
-      "url_video": "https://www.facebook.com/100025019007203/videos/4659239950988844",
-      "confianza": 0,
+      "titulo": "58:10",
+      "video_id": "3893398097635511",
+      "url_video": "https://www.facebook.com/RitmoVirtual/videos/3893398097635511/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status",
-        "texto_en_directo"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:19:21.956351+00:00",
+      "revisado_en": "2026-09-18T11:38:23.784549+00:00",
       "error": null
     },
     {
@@ -647,22 +654,24 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Zona Leste Tu Radio",
+      "titulo": "1:39:21",
       "video_id": "1755935005686217",
-      "url_video": "https://www.facebook.com/100090247746734/videos/1755935005686217",
-      "confianza": 0,
+      "url_video": "https://www.facebook.com/100090247746734/videos/1755935005686217/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:19:40.918689+00:00",
+      "revisado_en": "2026-09-18T11:38:41.843176+00:00",
       "error": null
     },
     {
@@ -677,22 +686,24 @@
       "icono_url": "https://graph.facebook.com/Radiowebinfinita/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Radio Web Infinita",
-      "video_id": "1485282833347711",
-      "url_video": "https://www.facebook.com/100083138120743/videos/1485282833347711",
-      "confianza": 0,
+      "titulo": "59:07",
+      "video_id": "1084642707446580",
+      "url_video": "https://www.facebook.com/Radiowebinfinita/videos/1084642707446580/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:20:00.200723+00:00",
+      "revisado_en": "2026-09-18T11:38:59.774395+00:00",
       "error": null
     },
     {
@@ -705,27 +716,26 @@
       "tipo": "pagina",
       "identificador": "bolivianewssaopaulo",
       "icono_url": "https://graph.facebook.com/bolivianewssaopaulo/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:42:33",
-      "video_id": "1394766168790482",
-      "url_video": "https://www.facebook.com/bolivianewssaopaulo/videos/1394766168790482/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Bolivia News Internacional",
+      "video_id": "1723090732323591",
+      "url_video": "https://www.facebook.com/100076295815540/videos/1723090732323591",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/bolivianewssaopaulo/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:20:20.003741+00:00",
+      "revisado_en": "2026-09-18T11:39:17.798646+00:00",
       "error": null
     },
     {
@@ -738,27 +748,26 @@
       "tipo": "pagina",
       "identificador": "Bolianewssaopaulo",
       "icono_url": "https://graph.facebook.com/Bolianewssaopaulo/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:42:33",
-      "video_id": "1379720854316020",
-      "url_video": "https://www.facebook.com/Bolianewssaopaulo/videos/1379720854316020/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Portal Bolivia News",
+      "video_id": "1449390597057477",
+      "url_video": "https://www.facebook.com/100069487123362/videos/1449390597057477",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/Bolianewssaopaulo/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:20:38.131972+00:00",
+      "revisado_en": "2026-09-18T11:39:33.256717+00:00",
       "error": null
     },
     {
@@ -790,7 +799,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:20:56.157502+00:00",
+      "revisado_en": "2026-09-18T11:39:48.284157+00:00",
       "error": null
     },
     {
@@ -822,7 +831,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:21:14.174120+00:00",
+      "revisado_en": "2026-09-18T11:40:06.305819+00:00",
       "error": null
     },
     {
@@ -854,7 +863,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:21:32.276483+00:00",
+      "revisado_en": "2026-09-18T11:40:24.367030+00:00",
       "error": null
     },
     {
@@ -886,7 +895,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:21:50.214439+00:00",
+      "revisado_en": "2026-09-18T11:40:42.397724+00:00",
       "error": null
     },
     {
@@ -913,7 +922,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:22:08.805704+00:00",
+      "revisado_en": "2026-09-18T11:41:00.424709+00:00",
       "error": null
     },
     {
@@ -941,7 +950,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:22:26.846604+00:00",
+      "revisado_en": "2026-09-18T11:41:18.927938+00:00",
       "error": null
     },
     {
@@ -968,7 +977,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:22:44.750112+00:00",
+      "revisado_en": "2026-09-18T11:41:36.803765+00:00",
       "error": null
     },
     {
@@ -1000,7 +1009,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:23:02.676918+00:00",
+      "revisado_en": "2026-09-18T11:41:54.631781+00:00",
       "error": null
     },
     {
@@ -1032,7 +1041,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T06:23:20.836676+00:00",
+      "revisado_en": "2026-09-18T11:42:12.685006+00:00",
       "error": null
     }
   ]
