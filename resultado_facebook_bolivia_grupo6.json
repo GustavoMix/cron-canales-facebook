@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-18T21:54:27.046138+00:00",
+  "generado_en": "2026-09-18T23:48:16.834730+00:00",
   "fuentes_revisadas": 34,
   "en_vivo": 2,
   "resultados": [
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:44:11.089341+00:00",
+      "revisado_en": "2026-09-18T23:38:02.955564+00:00",
       "error": null
     },
     {
@@ -44,24 +44,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "28458015873847985",
-      "url_video": "https://www.facebook.com/100064283455585/videos/28458015873847985",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1620492289785512",
+      "url_video": "https://www.facebook.com/100064283455585/videos/1620492289785512",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:44:30.912736+00:00",
+      "revisado_en": "2026-09-18T23:38:22.078759+00:00",
       "error": null
     },
     {
@@ -92,7 +94,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:44:50.511169+00:00",
+      "revisado_en": "2026-09-18T23:38:39.270356+00:00",
       "error": null
     },
     {
@@ -122,7 +124,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:45:10.290165+00:00",
+      "revisado_en": "2026-09-18T23:38:58.713447+00:00",
       "error": null
     },
     {
@@ -154,7 +156,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:45:30.629564+00:00",
+      "revisado_en": "2026-09-18T23:39:19.021054+00:00",
       "error": null
     },
     {
@@ -184,7 +186,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:45:49.306504+00:00",
+      "revisado_en": "2026-09-18T23:39:39.666802+00:00",
       "error": null
     },
     {
@@ -214,7 +216,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:46:08.769431+00:00",
+      "revisado_en": "2026-09-18T23:39:58.813913+00:00",
       "error": null
     },
     {
@@ -227,26 +229,24 @@
       "tipo": "pagina",
       "identificador": "MunicipioLaPaz",
       "icono_url": "https://graph.facebook.com/MunicipioLaPaz/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Gobierno Autónomo Municipal de La Paz",
-      "video_id": "1392635462377852",
-      "url_video": "https://www.facebook.com/100066961159396/videos/1392635462377852",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 4100,
+      "video_id": "1582978226642178",
+      "url_video": "https://www.facebook.com/100066961159396/videos/1582978226642178",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:46:29.353285+00:00",
+      "revisado_en": "2026-09-18T23:40:19.338328+00:00",
       "error": null
     },
     {
@@ -261,22 +261,19 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Agencia Municipal de Noticias",
-      "video_id": "1362692909318069",
-      "url_video": "https://www.facebook.com/100064127555592/videos/1362692909318069",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:46:44.350721+00:00",
+      "revisado_en": "2026-09-18T23:40:38.552056+00:00",
       "error": null
     },
     {
@@ -291,9 +288,9 @@
       "icono_url": "https://graph.facebook.com/gobernaciondelapaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "15:37",
-      "video_id": "2560663814377328",
-      "url_video": "https://www.facebook.com/gobernaciondelapaz/videos/2560663814377328/",
+      "titulo": "22:05",
+      "video_id": "1016757761429932",
+      "url_video": "https://www.facebook.com/gobernaciondelapaz/videos/1016757761429932/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -308,7 +305,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:47:03.228720+00:00",
+      "revisado_en": "2026-09-18T23:40:56.523872+00:00",
       "error": null
     },
     {
@@ -340,7 +337,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:47:21.396526+00:00",
+      "revisado_en": "2026-09-18T23:41:14.876641+00:00",
       "error": null
     },
     {
@@ -366,7 +363,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:47:39.258616+00:00",
+      "revisado_en": "2026-09-18T23:41:33.068589+00:00",
       "error": null
     },
     {
@@ -398,7 +395,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:47:57.059761+00:00",
+      "revisado_en": "2026-09-18T23:41:50.898256+00:00",
       "error": null
     },
     {
@@ -425,7 +422,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:48:15.276749+00:00",
+      "revisado_en": "2026-09-18T23:42:09.076900+00:00",
       "error": null
     },
     {
@@ -457,7 +454,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:48:33.162445+00:00",
+      "revisado_en": "2026-09-18T23:42:27.221031+00:00",
       "error": null
     },
     {
@@ -484,7 +481,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:48:51.340860+00:00",
+      "revisado_en": "2026-09-18T23:42:45.351247+00:00",
       "error": null
     },
     {
@@ -512,7 +509,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:49:09.275655+00:00",
+      "revisado_en": "2026-09-18T23:43:03.458739+00:00",
       "error": null
     },
     {
@@ -539,7 +536,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:49:28.184691+00:00",
+      "revisado_en": "2026-09-18T23:43:21.633725+00:00",
       "error": null
     },
     {
@@ -571,7 +568,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:49:46.147348+00:00",
+      "revisado_en": "2026-09-18T23:43:39.748853+00:00",
       "error": null
     },
     {
@@ -603,7 +600,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:50:05.962596+00:00",
+      "revisado_en": "2026-09-18T23:43:58.276113+00:00",
       "error": null
     },
     {
@@ -618,9 +615,9 @@
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:45:21",
-      "video_id": "1344493844422722",
-      "url_video": "https://www.facebook.com/FidesTV/videos/1344493844422722/",
+      "titulo": "1:01:01",
+      "video_id": "1578555516614016",
+      "url_video": "https://www.facebook.com/FidesTV/videos/1578555516614016/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -636,7 +633,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:50:24.110908+00:00",
+      "revisado_en": "2026-09-18T23:44:16.513628+00:00",
       "error": null
     },
     {
@@ -652,8 +649,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "El Deber Radio",
-      "video_id": "1116607517388605",
-      "url_video": "https://www.facebook.com/100072454578597/videos/1116607517388605",
+      "video_id": "1114723134572214",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1114723134572214",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
@@ -668,7 +665,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:50:42.767733+00:00",
+      "revisado_en": "2026-09-18T23:44:34.535689+00:00",
       "error": null
     },
     {
@@ -700,7 +697,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:50:58.317840+00:00",
+      "revisado_en": "2026-09-18T23:44:49.733638+00:00",
       "error": null
     },
     {
@@ -732,7 +729,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:51:16.296864+00:00",
+      "revisado_en": "2026-09-18T23:45:07.640710+00:00",
       "error": null
     },
     {
@@ -759,7 +756,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:51:34.390488+00:00",
+      "revisado_en": "2026-09-18T23:45:25.596641+00:00",
       "error": null
     },
     {
@@ -792,7 +789,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:51:52.539169+00:00",
+      "revisado_en": "2026-09-18T23:45:43.650183+00:00",
       "error": null
     },
     {
@@ -818,7 +815,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:52:10.685550+00:00",
+      "revisado_en": "2026-09-18T23:46:01.662104+00:00",
       "error": null
     },
     {
@@ -850,7 +847,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:52:28.314202+00:00",
+      "revisado_en": "2026-09-18T23:46:19.175105+00:00",
       "error": null
     },
     {
@@ -882,7 +879,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:52:46.409952+00:00",
+      "revisado_en": "2026-09-18T23:46:37.177179+00:00",
       "error": null
     },
     {
@@ -914,7 +911,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:53:04.460984+00:00",
+      "revisado_en": "2026-09-18T23:46:55.182818+00:00",
       "error": null
     },
     {
@@ -942,7 +939,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:53:22.477392+00:00",
+      "revisado_en": "2026-09-18T23:47:13.141644+00:00",
       "error": null
     },
     {
@@ -957,7 +954,7 @@
       "icono_url": "https://graph.facebook.com/GAMTDD/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "3 mil visualizaciones",
+      "titulo": "3,4 mil visualizaciones",
       "video_id": "1528223669333039",
       "url_video": "https://www.facebook.com/GAMTDD/videos/1528223669333039/",
       "confianza": -370,
@@ -974,7 +971,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:53:40.414292+00:00",
+      "revisado_en": "2026-09-18T23:47:31.118074+00:00",
       "error": null
     },
     {
@@ -1001,7 +998,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:53:58.658546+00:00",
+      "revisado_en": "2026-09-18T23:47:48.971849+00:00",
       "error": null
     },
     {
@@ -1016,7 +1013,7 @@
       "icono_url": "https://graph.facebook.com/cobija.gob/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "7 mil visualizaciones",
+      "titulo": "7,1 mil visualizaciones",
       "video_id": "4318470565068282",
       "url_video": "https://www.facebook.com/cobija.gob/videos/4318470565068282/",
       "confianza": -340,
@@ -1034,7 +1031,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-18T21:54:16.967738+00:00",
+      "revisado_en": "2026-09-18T23:48:06.920541+00:00",
       "error": null
     }
   ]
