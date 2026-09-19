@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-19T20:43:33.387055+00:00",
+  "generado_en": "2026-09-19T22:38:31.781249+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 1,
   "resultados": [
     {
       "nombre": "LN+",
@@ -33,7 +33,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:33:23.285891+00:00",
+      "revisado_en": "2026-09-19T22:28:06.374284+00:00",
       "error": null
     },
     {
@@ -63,7 +63,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:33:41.927837+00:00",
+      "revisado_en": "2026-09-19T22:28:26.520035+00:00",
       "error": null
     },
     {
@@ -95,7 +95,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:34:00.439608+00:00",
+      "revisado_en": "2026-09-19T22:28:45.376045+00:00",
       "error": null
     },
     {
@@ -127,7 +127,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:34:19.291601+00:00",
+      "revisado_en": "2026-09-19T22:29:04.829652+00:00",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:34:38.815209+00:00",
+      "revisado_en": "2026-09-19T22:29:24.642487+00:00",
       "error": null
     },
     {
@@ -183,7 +183,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:34:57.724624+00:00",
+      "revisado_en": "2026-09-19T22:29:43.520454+00:00",
       "error": null
     },
     {
@@ -215,7 +215,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:35:16.175204+00:00",
+      "revisado_en": "2026-09-19T22:30:02.327906+00:00",
       "error": null
     },
     {
@@ -228,26 +228,27 @@
       "tipo": "pagina",
       "identificador": "NoticiasCaracol",
       "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:28:42",
-      "video_id": "4399366590327519",
-      "url_video": "https://www.facebook.com/NoticiasCaracol/videos/4399366590327519/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Noticias Caracol",
+      "video_id": "1697151754716125",
+      "url_video": "https://www.facebook.com/100064733554773/videos/1697151754716125",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "debil: en vivo ",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 110000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:35:35.175423+00:00",
+      "revisado_en": "2026-09-19T22:30:21.485112+00:00",
       "error": null
     },
     {
@@ -262,25 +263,24 @@
       "icono_url": "https://graph.facebook.com/NoticiasRCN/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:01:48",
-      "video_id": "1782615026200446",
-      "url_video": "https://www.facebook.com/NoticiasRCN/videos/1782615026200446/",
-      "confianza": -340,
+      "titulo": "Noticias RCN",
+      "video_id": "1600058907771024",
+      "url_video": "https://www.facebook.com/100066620978482/videos/1600058907771024",
+      "confianza": 30,
       "ruta_detectada": null,
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
         "debil:🔴 en vivo"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:35:53.479579+00:00",
+      "revisado_en": "2026-09-19T22:30:44.312812+00:00",
       "error": null
     },
     {
@@ -312,7 +312,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:36:11.408514+00:00",
+      "revisado_en": "2026-09-19T22:31:04.129638+00:00",
       "error": null
     },
     {
@@ -344,7 +344,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:36:29.493748+00:00",
+      "revisado_en": "2026-09-19T22:31:22.331019+00:00",
       "error": null
     },
     {
@@ -376,7 +376,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:36:47.553433+00:00",
+      "revisado_en": "2026-09-19T22:31:40.580720+00:00",
       "error": null
     },
     {
@@ -403,7 +403,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:37:05.640222+00:00",
+      "revisado_en": "2026-09-19T22:31:58.614621+00:00",
       "error": null
     },
     {
@@ -435,7 +435,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:37:23.381082+00:00",
+      "revisado_en": "2026-09-19T22:32:16.504677+00:00",
       "error": null
     },
     {
@@ -467,7 +467,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:37:41.558742+00:00",
+      "revisado_en": "2026-09-19T22:32:34.449053+00:00",
       "error": null
     },
     {
@@ -499,7 +499,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:37:59.307124+00:00",
+      "revisado_en": "2026-09-19T22:32:52.978246+00:00",
       "error": null
     },
     {
@@ -531,7 +531,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:38:17.126474+00:00",
+      "revisado_en": "2026-09-19T22:33:11.179061+00:00",
       "error": null
     },
     {
@@ -558,7 +558,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:38:34.876403+00:00",
+      "revisado_en": "2026-09-19T22:33:29.523587+00:00",
       "error": null
     },
     {
@@ -591,7 +591,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:38:52.575434+00:00",
+      "revisado_en": "2026-09-19T22:33:48.396495+00:00",
       "error": null
     },
     {
@@ -623,7 +623,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:39:10.276728+00:00",
+      "revisado_en": "2026-09-19T22:34:06.488269+00:00",
       "error": null
     },
     {
@@ -656,7 +656,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:39:28.242819+00:00",
+      "revisado_en": "2026-09-19T22:34:24.579089+00:00",
       "error": null
     },
     {
@@ -688,7 +688,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:39:46.132737+00:00",
+      "revisado_en": "2026-09-19T22:34:42.646861+00:00",
       "error": null
     },
     {
@@ -720,7 +720,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:40:04.459027+00:00",
+      "revisado_en": "2026-09-19T22:35:01.163159+00:00",
       "error": null
     },
     {
@@ -752,7 +752,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:40:22.730358+00:00",
+      "revisado_en": "2026-09-19T22:35:19.638491+00:00",
       "error": null
     },
     {
@@ -779,7 +779,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:40:42.886821+00:00",
+      "revisado_en": "2026-09-19T22:35:38.097749+00:00",
       "error": null
     },
     {
@@ -812,7 +812,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:41:00.682408+00:00",
+      "revisado_en": "2026-09-19T22:35:56.081037+00:00",
       "error": null
     },
     {
@@ -839,7 +839,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:41:18.478553+00:00",
+      "revisado_en": "2026-09-19T22:36:14.117770+00:00",
       "error": null
     },
     {
@@ -866,7 +866,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:41:36.154390+00:00",
+      "revisado_en": "2026-09-19T22:36:32.279419+00:00",
       "error": null
     },
     {
@@ -898,7 +898,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:41:53.817217+00:00",
+      "revisado_en": "2026-09-19T22:36:50.361161+00:00",
       "error": null
     },
     {
@@ -930,7 +930,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:42:11.871983+00:00",
+      "revisado_en": "2026-09-19T22:37:08.583084+00:00",
       "error": null
     },
     {
@@ -958,7 +958,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:42:29.832921+00:00",
+      "revisado_en": "2026-09-19T22:37:26.783476+00:00",
       "error": null
     },
     {
@@ -986,7 +986,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:42:47.793176+00:00",
+      "revisado_en": "2026-09-19T22:37:45.156755+00:00",
       "error": null
     },
     {
@@ -1013,7 +1013,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:43:05.859432+00:00",
+      "revisado_en": "2026-09-19T22:38:03.388719+00:00",
       "error": null
     },
     {
@@ -1045,7 +1045,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T20:43:23.524242+00:00",
+      "revisado_en": "2026-09-19T22:38:21.519519+00:00",
       "error": null
     }
   ]
