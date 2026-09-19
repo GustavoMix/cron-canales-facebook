@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-19T18:08:05.335845+00:00",
+  "generado_en": "2026-09-19T18:13:00.096711+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 25,
+  "en_vivo": 24,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -5250,7 +5250,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:49:19.034530+00:00",
+      "revisado_en": "2026-09-19T18:02:34.820061+00:00",
       "error": null
     },
     {
@@ -5280,7 +5280,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:49:38.466216+00:00",
+      "revisado_en": "2026-09-19T18:02:54.431571+00:00",
       "error": null
     },
     {
@@ -5311,7 +5311,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:49:57.900492+00:00",
+      "revisado_en": "2026-09-19T18:03:13.893352+00:00",
       "error": null
     },
     {
@@ -5324,24 +5324,26 @@
       "tipo": "pagina",
       "identificador": "AztecaNoticias",
       "icono_url": "https://graph.facebook.com/AztecaNoticias/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Azteca Noticias",
-      "video_id": "1114336228199158",
-      "url_video": "https://www.facebook.com/100069563637018/videos/1114336228199158",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1107476658444407",
+      "url_video": "https://www.facebook.com/100069563637018/videos/1107476658444407",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/AztecaNoticias/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 3900,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:50:18.709126+00:00",
+      "revisado_en": "2026-09-19T18:03:33.485042+00:00",
       "error": null
     },
     {
@@ -5373,7 +5375,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:50:37.941622+00:00",
+      "revisado_en": "2026-09-19T18:03:49.313508+00:00",
       "error": null
     },
     {
@@ -5403,7 +5405,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:50:57.201481+00:00",
+      "revisado_en": "2026-09-19T18:04:08.767589+00:00",
       "error": null
     },
     {
@@ -5433,7 +5435,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:51:16.151822+00:00",
+      "revisado_en": "2026-09-19T18:04:28.046688+00:00",
       "error": null
     },
     {
@@ -5446,26 +5448,28 @@
       "tipo": "pagina",
       "identificador": "MunicipioLaPaz",
       "icono_url": "https://graph.facebook.com/MunicipioLaPaz/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "747 visualizaciones",
-      "video_id": "1370828421707216",
-      "url_video": "https://www.facebook.com/MunicipioLaPaz/videos/1370828421707216/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Gobierno Autónomo Municipal de La Paz",
+      "video_id": "924833006938704",
+      "url_video": "https://www.facebook.com/100066961159396/videos/924833006938704",
+      "confianza": 160,
+      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "debil: en vivo ",
+        "debil:🔴 en vivo",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 42000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:51:36.854609+00:00",
+      "revisado_en": "2026-09-19T18:04:48.376997+00:00",
       "error": null
     },
     {
@@ -5480,19 +5484,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "1362692909318069",
+      "url_video": "https://www.facebook.com/100064127555592/videos/1362692909318069",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:51:55.005564+00:00",
+      "revisado_en": "2026-09-19T18:05:09.670537+00:00",
       "error": null
     },
     {
@@ -5507,24 +5514,22 @@
       "icono_url": "https://graph.facebook.com/gobernaciondelapaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "11:08",
-      "video_id": "1386919646349682",
-      "url_video": "https://www.facebook.com/gobernaciondelapaz/videos/1386919646349682/",
-      "confianza": -370,
+      "titulo": "Gobierno Autónomo Departamental de La Paz",
+      "video_id": "2227269258192480",
+      "url_video": "https://www.facebook.com/100064362385017/videos/2227269258192480",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:52:12.904045+00:00",
+      "revisado_en": "2026-09-19T18:05:28.761694+00:00",
       "error": null
     },
     {
@@ -5539,9 +5544,65 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "10:55",
-      "video_id": "1768546210950128",
-      "url_video": "https://www.facebook.com/ElAltoAlcaldia/videos/1768546210950128/",
+      "titulo": "Gobierno Autónomo Municipal de El Alto",
+      "video_id": "1408134878167894",
+      "url_video": "https://www.facebook.com/100069139572852/videos/1408134878167894",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-19T18:05:48.083892+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Gobierno Autónomo Municipal de Cochabamba",
+      "categoria": "noticias",
+      "tipo_fuente": "institucional",
+      "pais": "Bolivia",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/gamcochabamba/",
+      "tipo": "pagina",
+      "identificador": "gamcochabamba",
+      "icono_url": "https://www.imesapi.es/wp-content/uploads/2017/08/logo-cochabamba.jpg",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
+      "marcadores": [
+        "html_is_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-19T18:06:07.507796+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Gobernación de Cochabamba",
+      "categoria": "noticias",
+      "tipo_fuente": "institucional",
+      "pais": "Bolivia",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/GobernacionDeCochabamba/",
+      "tipo": "pagina",
+      "identificador": "GobernacionDeCochabamba",
+      "icono_url": "https://graph.facebook.com/GobernacionDeCochabamba/picture?type=large",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "21:00",
+      "video_id": "3239692893028781",
+      "url_video": "https://www.facebook.com/GobernacionDeCochabamba/videos/3239692893028781/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5556,65 +5617,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:52:30.874829+00:00",
-      "error": null
-    },
-    {
-      "nombre": "Gobierno Autónomo Municipal de Cochabamba",
-      "categoria": "noticias",
-      "tipo_fuente": "institucional",
-      "pais": "Bolivia",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/gamcochabamba/",
-      "tipo": "pagina",
-      "identificador": "gamcochabamba",
-      "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
-      "marcadores": [
-        "html_is_live"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-09-19T14:52:49.020958+00:00",
-      "error": null
-    },
-    {
-      "nombre": "Gobernación de Cochabamba",
-      "categoria": "noticias",
-      "tipo_fuente": "institucional",
-      "pais": "Bolivia",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/GobernacionDeCochabamba/",
-      "tipo": "pagina",
-      "identificador": "GobernacionDeCochabamba",
-      "icono_url": "https://graph.facebook.com/GobernacionDeCochabamba/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Gobernación de Cochabamba",
-      "video_id": "1465587462054348",
-      "url_video": "https://www.facebook.com/100064851841761/videos/1465587462054348",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/GobernacionDeCochabamba/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 1900,
-      "marcadores": [
-        "html_is_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-09-19T14:53:07.027722+00:00",
+      "revisado_en": "2026-09-19T18:06:26.355609+00:00",
       "error": null
     },
     {
@@ -5641,7 +5644,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:53:22.068230+00:00",
+      "revisado_en": "2026-09-19T18:06:44.626178+00:00",
       "error": null
     },
     {
@@ -5673,7 +5676,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:53:39.911939+00:00",
+      "revisado_en": "2026-09-19T18:07:03.361257+00:00",
       "error": null
     },
     {
@@ -5700,7 +5703,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:53:57.941827+00:00",
+      "revisado_en": "2026-09-19T18:07:21.404864+00:00",
       "error": null
     },
     {
@@ -5728,7 +5731,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:54:16.017331+00:00",
+      "revisado_en": "2026-09-19T18:07:40.812572+00:00",
       "error": null
     },
     {
@@ -5755,7 +5758,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:54:33.892521+00:00",
+      "revisado_en": "2026-09-19T18:07:59.275639+00:00",
       "error": null
     },
     {
@@ -5787,7 +5790,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:54:51.852706+00:00",
+      "revisado_en": "2026-09-19T18:08:17.244870+00:00",
       "error": null
     },
     {
@@ -5819,7 +5822,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:55:10.073506+00:00",
+      "revisado_en": "2026-09-19T18:08:35.351558+00:00",
       "error": null
     },
     {
@@ -5834,9 +5837,9 @@
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "58:13",
-      "video_id": "1729538258148024",
-      "url_video": "https://www.facebook.com/FidesTV/videos/1729538258148024/",
+      "titulo": "1:00:36",
+      "video_id": "1063329686337373",
+      "url_video": "https://www.facebook.com/FidesTV/videos/1063329686337373/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5852,7 +5855,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:55:28.067115+00:00",
+      "revisado_en": "2026-09-19T18:08:53.886702+00:00",
       "error": null
     },
     {
@@ -5868,8 +5871,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "El Deber Radio",
-      "video_id": "2898159173874482",
-      "url_video": "https://www.facebook.com/100072454578597/videos/2898159173874482",
+      "video_id": "4906067899621390",
+      "url_video": "https://www.facebook.com/100072454578597/videos/4906067899621390",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
@@ -5884,7 +5887,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:55:46.144631+00:00",
+      "revisado_en": "2026-09-19T18:09:12.070915+00:00",
       "error": null
     },
     {
@@ -5897,26 +5900,26 @@
       "tipo": "pagina",
       "identificador": "radiofidescb",
       "icono_url": "https://graph.facebook.com/radiofidescb/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Radio Fides Cochabamba",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "⬛ ¿AFECTA LA ELIMINACIÓN DE LA SUBVENCIÓN AL TRANSPORTES?",
       "video_id": "963361746809297",
-      "url_video": "https://www.facebook.com/100037288484799/videos/963361746809297",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/radiofidescb/live/",
+      "url_video": "https://www.facebook.com/radiofidescb/videos/963361746809297/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 2700,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:56:01.277816+00:00",
+      "revisado_en": "2026-09-19T18:09:27.591972+00:00",
       "error": null
     },
     {
@@ -5948,7 +5951,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:56:16.758949+00:00",
+      "revisado_en": "2026-09-19T18:09:46.146603+00:00",
       "error": null
     },
     {
@@ -5975,7 +5978,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:56:34.671029+00:00",
+      "revisado_en": "2026-09-19T18:10:04.317940+00:00",
       "error": null
     },
     {
@@ -6008,7 +6011,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:56:52.613707+00:00",
+      "revisado_en": "2026-09-19T18:10:22.352264+00:00",
       "error": null
     },
     {
@@ -6020,7 +6023,7 @@
       "url_fuente": "https://www.facebook.com/GobernacionDePotosi/",
       "tipo": "pagina",
       "identificador": "GobernacionDePotosi",
-      "icono_url": null,
+      "icono_url": "https://potosi.gob.bo/wp-content/uploads/2025/10/cropped-cropped-logo-vertical-gober.jpg",
       "en_vivo": false,
       "estado": "offline",
       "titulo": null,
@@ -6034,7 +6037,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:57:10.529427+00:00",
+      "revisado_en": "2026-09-19T18:10:40.298059+00:00",
       "error": null
     },
     {
@@ -6066,7 +6069,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:57:28.022384+00:00",
+      "revisado_en": "2026-09-19T18:10:59.226300+00:00",
       "error": null
     },
     {
@@ -6098,7 +6101,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:57:46.146781+00:00",
+      "revisado_en": "2026-09-19T18:11:17.351194+00:00",
       "error": null
     },
     {
@@ -6111,26 +6114,26 @@
       "tipo": "pagina",
       "identificador": "MunicipiodeSucreBolivia",
       "icono_url": "https://graph.facebook.com/MunicipiodeSucreBolivia/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Gobierno Autónomo Municipal de Sucre",
-      "video_id": "1620618132767087",
-      "url_video": "https://www.facebook.com/100064413800391/videos/1620618132767087",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/MunicipiodeSucreBolivia/live/",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "28:36",
+      "video_id": "971051649360209",
+      "url_video": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/971051649360209/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 2800,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:58:04.168493+00:00",
+      "revisado_en": "2026-09-19T18:11:35.366778+00:00",
       "error": null
     },
     {
@@ -6158,7 +6161,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:58:19.732587+00:00",
+      "revisado_en": "2026-09-19T18:11:53.379587+00:00",
       "error": null
     },
     {
@@ -6190,7 +6193,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:58:37.779420+00:00",
+      "revisado_en": "2026-09-19T18:12:11.332994+00:00",
       "error": null
     },
     {
@@ -6217,7 +6220,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:58:56.068995+00:00",
+      "revisado_en": "2026-09-19T18:12:29.443098+00:00",
       "error": null
     },
     {
@@ -6250,7 +6253,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-19T14:59:14.054274+00:00",
+      "revisado_en": "2026-09-19T18:12:47.424830+00:00",
       "error": null
     },
     {
