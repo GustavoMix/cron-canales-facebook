@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-09-21T20:42:55.452350+00:00",
-  "cantidad": 2,
+  "generado_en": "2026-09-21T23:43:56.643338+00:00",
+  "cantidad": 5,
   "lives": [
     {
       "nombre": "24 Horas TVN",
@@ -32,30 +32,63 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:33:21.363917+00:00",
+      "revisado_en": "2026-09-21T23:34:16.181577+00:00",
       "error": null
     },
     {
-      "nombre": "Noticias Repretel",
+      "nombre": "Noticias Caracol",
       "categoria": "noticias",
       "tipo_fuente": null,
-      "pais": "Costa Rica",
+      "pais": "Colombia",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/noticiasrepretelcostarica/",
+      "url_fuente": "https://www.facebook.com/NoticiasCaracol",
       "tipo": "pagina",
-      "identificador": "noticiasrepretelcostarica",
-      "icono_url": "https://graph.facebook.com/noticiasrepretelcostarica/picture?type=large",
+      "identificador": "NoticiasCaracol",
+      "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "Noticias Repretel Costa Rica",
-      "video_id": "1062748533238956",
-      "url_video": "https://www.facebook.com/100064836782535/videos/1062748533238956",
+      "titulo": "Noticias Caracol",
+      "video_id": "1697151754716125",
+      "url_video": "https://www.facebook.com/100064733554773/videos/1697151754716125",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
+      "motivos": [
+        "debil: en vivo ",
+        "aria_live"
+      ],
+      "espectadores": 349000,
+      "marcadores": [
+        "html_is_live",
+        "html_is_live_streaming",
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-21T23:35:55.141376+00:00",
+      "error": null
+    },
+    {
+      "nombre": "VPItv",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Venezuela",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/vpitv",
+      "tipo": "pagina",
+      "identificador": "vpitv",
+      "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "VPI Tv",
+      "video_id": "2179296793015950",
+      "url_video": "https://www.facebook.com/100081504459614/videos/2179296793015950",
       "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/noticiasrepretelcostarica/live/",
+      "ruta_detectada": "https://www.facebook.com/vpitv/live/",
       "motivos": [
         "aria_live"
       ],
-      "espectadores": 492000,
+      "espectadores": 11000,
       "marcadores": [
         "html_is_live",
         "html_broadcast_id",
@@ -64,7 +97,71 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:41:17.886424+00:00",
+      "revisado_en": "2026-09-21T23:37:50.477989+00:00",
+      "error": null
+    },
+    {
+      "nombre": "RPP Noticias",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Perú",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/rppnoticias/",
+      "tipo": "pagina",
+      "identificador": "rppnoticias",
+      "icono_url": "https://graph.facebook.com/rppnoticias/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "RPP Noticias",
+      "video_id": "2330797394416901",
+      "url_video": "https://www.facebook.com/100070382080379/videos/2330797394416901",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/rppnoticias/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 305000,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-21T23:39:18.500550+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Canal 13 Chile",
+      "categoria": "tv",
+      "tipo_fuente": null,
+      "pais": "Chile",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/el13CL/",
+      "tipo": "pagina",
+      "identificador": "el13CL",
+      "icono_url": "https://graph.facebook.com/el13CL/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Canal 13",
+      "video_id": "2512936785839154",
+      "url_video": "https://www.facebook.com/100044177392161/videos/2512936785839154",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/el13CL/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 29000,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-21T23:40:10.967571+00:00",
       "error": null
     }
   ]
