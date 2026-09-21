@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-21T23:38:36.909840+00:00",
+  "generado_en": "2026-09-21T23:44:00.413644+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 21,
+  "en_vivo": 24,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -4195,7 +4195,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:32:42.858700+00:00",
+      "revisado_en": "2026-09-21T23:33:37.685195+00:00",
       "error": null
     },
     {
@@ -4227,7 +4227,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:33:02.176551+00:00",
+      "revisado_en": "2026-09-21T23:33:57.092935+00:00",
       "error": null
     },
     {
@@ -4260,7 +4260,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:33:21.363917+00:00",
+      "revisado_en": "2026-09-21T23:34:16.181577+00:00",
       "error": null
     },
     {
@@ -4290,7 +4290,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:33:42.736813+00:00",
+      "revisado_en": "2026-09-21T23:34:37.209738+00:00",
       "error": null
     },
     {
@@ -4322,7 +4322,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:34:01.554314+00:00",
+      "revisado_en": "2026-09-21T23:34:56.037185+00:00",
       "error": null
     },
     {
@@ -4334,7 +4334,7 @@
       "url_fuente": "https://www.facebook.com/Milenio.NoticiasEnVivo",
       "tipo": "pagina",
       "identificador": "Milenio.NoticiasEnVivo",
-      "icono_url": "http://www.milenio.com/uploads/media/2018/04/27/milenio-tv-en-vivo.jpg",
+      "icono_url": "https://cdn.milenio.com/uploads/media/2025/02/20/milenio-television-en-vivo.jpg",
       "en_vivo": false,
       "estado": "offline",
       "titulo": null,
@@ -4348,7 +4348,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:34:20.601919+00:00",
+      "revisado_en": "2026-09-21T23:35:16.990768+00:00",
       "error": null
     },
     {
@@ -4366,11 +4366,9 @@
       "titulo": "18 mill. seguidores • 1 seguidos",
       "video_id": "987128954404747",
       "url_video": "https://www.facebook.com/100044462078349/videos/987128954404747",
-      "confianza": 30,
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -4380,7 +4378,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:34:38.959746+00:00",
+      "revisado_en": "2026-09-21T23:35:35.561907+00:00",
       "error": null
     },
     {
@@ -4393,26 +4391,27 @@
       "tipo": "pagina",
       "identificador": "NoticiasCaracol",
       "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:28:42",
-      "video_id": "4399366590327519",
-      "url_video": "https://www.facebook.com/NoticiasCaracol/videos/4399366590327519/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Noticias Caracol",
+      "video_id": "1697151754716125",
+      "url_video": "https://www.facebook.com/100064733554773/videos/1697151754716125",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "debil: en vivo ",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 349000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:34:57.860622+00:00",
+      "revisado_en": "2026-09-21T23:35:55.141376+00:00",
       "error": null
     },
     {
@@ -4427,25 +4426,22 @@
       "icono_url": "https://graph.facebook.com/NoticiasRCN/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:01:48",
-      "video_id": "1782615026200446",
-      "url_video": "https://www.facebook.com/NoticiasRCN/videos/1782615026200446/",
-      "confianza": -340,
+      "titulo": "Noticias RCN",
+      "video_id": "2257116518416968",
+      "url_video": "https://www.facebook.com/100066620978482/videos/2257116518416968",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:35:16.659485+00:00",
+      "revisado_en": "2026-09-21T23:36:18.052744+00:00",
       "error": null
     },
     {
@@ -4477,7 +4473,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:35:34.804172+00:00",
+      "revisado_en": "2026-09-21T23:36:37.646474+00:00",
       "error": null
     },
     {
@@ -4509,7 +4505,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:35:53.051566+00:00",
+      "revisado_en": "2026-09-21T23:36:55.906119+00:00",
       "error": null
     },
     {
@@ -4541,7 +4537,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:36:10.947001+00:00",
+      "revisado_en": "2026-09-21T23:37:14.199948+00:00",
       "error": null
     },
     {
@@ -4568,7 +4564,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:36:29.390400+00:00",
+      "revisado_en": "2026-09-21T23:37:32.397145+00:00",
       "error": null
     },
     {
@@ -4581,26 +4577,26 @@
       "tipo": "pagina",
       "identificador": "vpitv",
       "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "33:53",
-      "video_id": "1113794627677266",
-      "url_video": "https://www.facebook.com/vpitv/videos/1113794627677266/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "VPI Tv",
+      "video_id": "2179296793015950",
+      "url_video": "https://www.facebook.com/100081504459614/videos/2179296793015950",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/vpitv/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 11000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:36:47.354228+00:00",
+      "revisado_en": "2026-09-21T23:37:50.477989+00:00",
       "error": null
     },
     {
@@ -4632,7 +4628,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:37:05.222856+00:00",
+      "revisado_en": "2026-09-21T23:38:05.469710+00:00",
       "error": null
     },
     {
@@ -4664,7 +4660,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:37:23.407852+00:00",
+      "revisado_en": "2026-09-21T23:38:23.618602+00:00",
       "error": null
     },
     {
@@ -4696,7 +4692,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:37:41.338847+00:00",
+      "revisado_en": "2026-09-21T23:38:41.880493+00:00",
       "error": null
     },
     {
@@ -4723,7 +4719,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:37:59.569708+00:00",
+      "revisado_en": "2026-09-21T23:39:00.281017+00:00",
       "error": null
     },
     {
@@ -4736,27 +4732,26 @@
       "tipo": "pagina",
       "identificador": "rppnoticias",
       "icono_url": "https://graph.facebook.com/rppnoticias/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:05:13",
-      "video_id": "1106966121754881",
-      "url_video": "https://www.facebook.com/rppnoticias/videos/1106966121754881/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "RPP Noticias",
+      "video_id": "2330797394416901",
+      "url_video": "https://www.facebook.com/100070382080379/videos/2330797394416901",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/rppnoticias/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 305000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:38:17.450221+00:00",
+      "revisado_en": "2026-09-21T23:39:18.500550+00:00",
       "error": null
     },
     {
@@ -4788,7 +4783,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:38:35.509108+00:00",
+      "revisado_en": "2026-09-21T23:39:34.458255+00:00",
       "error": null
     },
     {
@@ -4803,9 +4798,9 @@
       "icono_url": "https://graph.facebook.com/noticias.tvperu/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "59:24",
-      "video_id": "1746561009730818",
-      "url_video": "https://www.facebook.com/noticias.tvperu/videos/1746561009730818/",
+      "titulo": "🔴 Actividad Oficial hoy, 21 de septiembre del 2026.",
+      "video_id": "1539195291225541",
+      "url_video": "https://www.facebook.com/noticias.tvperu/videos/1539195291225541/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -4820,7 +4815,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:38:53.318128+00:00",
+      "revisado_en": "2026-09-21T23:39:52.779059+00:00",
       "error": null
     },
     {
@@ -4833,26 +4828,26 @@
       "tipo": "pagina",
       "identificador": "el13CL",
       "icono_url": "https://graph.facebook.com/el13CL/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:02:40",
-      "video_id": "1429271825990926",
-      "url_video": "https://www.facebook.com/el13CL/videos/1429271825990926/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Canal 13",
+      "video_id": "2512936785839154",
+      "url_video": "https://www.facebook.com/100044177392161/videos/2512936785839154",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/el13CL/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 29000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:39:11.338870+00:00",
+      "revisado_en": "2026-09-21T23:40:10.967571+00:00",
       "error": null
     },
     {
@@ -4884,7 +4879,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:39:29.272529+00:00",
+      "revisado_en": "2026-09-21T23:40:26.146181+00:00",
       "error": null
     },
     {
@@ -4916,7 +4911,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:39:47.738546+00:00",
+      "revisado_en": "2026-09-21T23:40:44.508968+00:00",
       "error": null
     },
     {
@@ -4943,7 +4938,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:40:06.185693+00:00",
+      "revisado_en": "2026-09-21T23:41:02.877100+00:00",
       "error": null
     },
     {
@@ -4976,7 +4971,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:40:24.050311+00:00",
+      "revisado_en": "2026-09-21T23:41:20.865077+00:00",
       "error": null
     },
     {
@@ -5003,7 +4998,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:40:42.275351+00:00",
+      "revisado_en": "2026-09-21T23:41:39.003633+00:00",
       "error": null
     },
     {
@@ -5030,7 +5025,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:41:00.045852+00:00",
+      "revisado_en": "2026-09-21T23:41:57.096142+00:00",
       "error": null
     },
     {
@@ -5043,26 +5038,26 @@
       "tipo": "pagina",
       "identificador": "noticiasrepretelcostarica",
       "icono_url": "https://graph.facebook.com/noticiasrepretelcostarica/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Noticias Repretel Costa Rica",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "47:17",
       "video_id": "1062748533238956",
-      "url_video": "https://www.facebook.com/100064836782535/videos/1062748533238956",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/noticiasrepretelcostarica/live/",
+      "url_video": "https://www.facebook.com/noticiasrepretelcostarica/videos/1062748533238956/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 492000,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:41:17.886424+00:00",
+      "revisado_en": "2026-09-21T23:42:15.106917+00:00",
       "error": null
     },
     {
@@ -5094,7 +5089,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:41:33.798688+00:00",
+      "revisado_en": "2026-09-21T23:42:33.512718+00:00",
       "error": null
     },
     {
@@ -5122,7 +5117,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:41:51.756745+00:00",
+      "revisado_en": "2026-09-21T23:42:51.726324+00:00",
       "error": null
     },
     {
@@ -5150,7 +5145,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:42:09.633586+00:00",
+      "revisado_en": "2026-09-21T23:43:09.987856+00:00",
       "error": null
     },
     {
@@ -5177,7 +5172,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:42:27.550109+00:00",
+      "revisado_en": "2026-09-21T23:43:28.061672+00:00",
       "error": null
     },
     {
@@ -5209,7 +5204,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T20:42:45.387689+00:00",
+      "revisado_en": "2026-09-21T23:43:46.171163+00:00",
       "error": null
     },
     {
