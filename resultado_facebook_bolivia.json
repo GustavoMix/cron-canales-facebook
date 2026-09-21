@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-21T16:45:23.531078+00:00",
+  "generado_en": "2026-09-21T17:04:50.551011+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 34,
+  "en_vivo": 35,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -2130,20 +2130,19 @@
       "tipo": "pagina",
       "identificador": "RadioSplendid",
       "icono_url": "https://graph.facebook.com/RadioSplendid/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "17:24",
-      "video_id": "28561435693540761",
-      "url_video": "https://www.facebook.com/RadioSplendid/videos/28561435693540761/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Splendid Bolivia",
+      "video_id": "1093655906537921",
+      "url_video": "https://www.facebook.com/100063679567723/videos/1093655906537921",
+      "confianza": 160,
+      "ruta_detectada": "https://www.facebook.com/RadioSplendid/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
         "debil: en vivo ",
-        "debil:\nen vivo\n"
+        "debil:\nen vivo\n",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1200,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -2152,7 +2151,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:00:16.858673+00:00",
+      "revisado_en": "2026-09-21T16:52:37.651012+00:00",
       "error": null
     },
     {
@@ -2167,22 +2166,18 @@
       "icono_url": "https://graph.facebook.com/ABI.Bolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Agencia Boliviana de Información",
-      "video_id": "1028276566739029",
-      "url_video": "https://www.facebook.com/100063559734944/videos/1028276566739029",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:00:36.825639+00:00",
+      "revisado_en": "2026-09-21T16:53:00.594620+00:00",
       "error": null
     },
     {
@@ -2212,7 +2207,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:00:57.177933+00:00",
+      "revisado_en": "2026-09-21T16:53:40.117095+00:00",
       "error": null
     },
     {
@@ -2225,24 +2220,26 @@
       "tipo": "pagina",
       "identificador": "PortalDeNoticiasBolivia",
       "icono_url": "https://graph.facebook.com/PortalDeNoticiasBolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Portal de Noticias Bolivia",
-      "video_id": "1560147779188959",
-      "url_video": "https://www.facebook.com/100066981000499/videos/1560147779188959",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
+      "video_id": "1487694693150487",
+      "url_video": "https://www.facebook.com/100066981000499/videos/1487694693150487",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/PortalDeNoticiasBolivia/live/",
+      "motivos": [
+        "aria_live"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:01:16.514436+00:00",
+      "revisado_en": "2026-09-21T16:54:00.620697+00:00",
       "error": null
     },
     {
@@ -2260,11 +2257,9 @@
       "titulo": "Bolivia en las Noticias",
       "video_id": "1745168343424227",
       "url_video": "https://www.facebook.com/100039587095601/videos/1745168343424227",
-      "confianza": 30,
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -2274,7 +2269,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:01:35.981943+00:00",
+      "revisado_en": "2026-09-21T16:54:17.018995+00:00",
       "error": null
     },
     {
@@ -2301,7 +2296,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:01:54.909512+00:00",
+      "revisado_en": "2026-09-21T16:54:36.501065+00:00",
       "error": null
     },
     {
@@ -2316,22 +2311,18 @@
       "icono_url": "https://graph.facebook.com/BoliviaMundNews/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Noticias de Bolivia y del Mundo",
-      "video_id": "2016221775750544",
-      "url_video": "https://www.facebook.com/100063873222467/videos/2016221775750544",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:02:12.913717+00:00",
+      "revisado_en": "2026-09-21T16:54:55.277532+00:00",
       "error": null
     },
     {
@@ -2361,7 +2352,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:02:32.861206+00:00",
+      "revisado_en": "2026-09-21T16:55:35.334120+00:00",
       "error": null
     },
     {
@@ -2376,24 +2367,18 @@
       "icono_url": "https://graph.facebook.com/lostiemposbol1/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "472 visualizaciones",
-      "video_id": "2192754417958000",
-      "url_video": "https://www.facebook.com/lostiemposbol1/videos/2192754417958000/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:02:52.738908+00:00",
+      "revisado_en": "2026-09-21T16:55:54.923859+00:00",
       "error": null
     },
     {
@@ -2408,24 +2393,18 @@
       "icono_url": "https://graph.facebook.com/correodelsur/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Habla el presidente Rodrigo Paz",
-      "video_id": "1765594407694344",
-      "url_video": "https://www.facebook.com/correodelsur/videos/1765594407694344/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:03:11.171773+00:00",
+      "revisado_en": "2026-09-21T16:56:16.670182+00:00",
       "error": null
     },
     {
@@ -2440,24 +2419,18 @@
       "icono_url": "https://graph.facebook.com/elpotosi.noticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "31:26",
-      "video_id": "1627881145400030",
-      "url_video": "https://www.facebook.com/elpotosi.noticias/videos/1627881145400030/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:03:29.641209+00:00",
+      "revisado_en": "2026-09-21T16:56:39.123990+00:00",
       "error": null
     },
     {
@@ -2472,24 +2445,18 @@
       "icono_url": "https://graph.facebook.com/elpais.bo/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "13:12",
-      "video_id": "1074717501946110",
-      "url_video": "https://www.facebook.com/elpais.bo/videos/1074717501946110/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:03:47.708615+00:00",
+      "revisado_en": "2026-09-21T16:57:04.454422+00:00",
       "error": null
     },
     {
@@ -2516,7 +2483,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:04:05.882284+00:00",
+      "revisado_en": "2026-09-21T16:57:26.961955+00:00",
       "error": null
     },
     {
@@ -2548,7 +2515,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:04:23.942340+00:00",
+      "revisado_en": "2026-09-21T16:57:49.582571+00:00",
       "error": null
     },
     {
@@ -2580,7 +2547,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:04:42.856461+00:00",
+      "revisado_en": "2026-09-21T16:58:08.858759+00:00",
       "error": null
     },
     {
@@ -2607,7 +2574,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:05:01.195872+00:00",
+      "revisado_en": "2026-09-21T16:58:27.056735+00:00",
       "error": null
     },
     {
@@ -2639,7 +2606,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:05:19.317981+00:00",
+      "revisado_en": "2026-09-21T16:58:45.180024+00:00",
       "error": null
     },
     {
@@ -2654,9 +2621,9 @@
       "icono_url": "https://graph.facebook.com/SolidariaBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "45:31",
-      "video_id": "2364578527622794",
-      "url_video": "https://www.facebook.com/SolidariaBolivia/videos/2364578527622794/",
+      "titulo": "1:46:29",
+      "video_id": "1623679679134148",
+      "url_video": "https://www.facebook.com/SolidariaBolivia/videos/1623679679134148/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -2671,7 +2638,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:05:37.793774+00:00",
+      "revisado_en": "2026-09-21T16:59:03.648143+00:00",
       "error": null
     },
     {
@@ -2703,7 +2670,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:05:56.378890+00:00",
+      "revisado_en": "2026-09-21T16:59:22.316497+00:00",
       "error": null
     },
     {
@@ -2730,7 +2697,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:06:14.679041+00:00",
+      "revisado_en": "2026-09-21T16:59:40.450590+00:00",
       "error": null
     },
     {
@@ -2756,7 +2723,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:06:32.672641+00:00",
+      "revisado_en": "2026-09-21T16:59:58.870986+00:00",
       "error": null
     },
     {
@@ -2782,7 +2749,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:06:50.289427+00:00",
+      "revisado_en": "2026-09-21T17:00:16.883449+00:00",
       "error": null
     },
     {
@@ -2808,7 +2775,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:07:08.127458+00:00",
+      "revisado_en": "2026-09-21T17:00:34.649737+00:00",
       "error": null
     },
     {
@@ -2835,7 +2802,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:07:25.709041+00:00",
+      "revisado_en": "2026-09-21T17:00:52.673850+00:00",
       "error": null
     },
     {
@@ -2867,7 +2834,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:07:43.783207+00:00",
+      "revisado_en": "2026-09-21T17:01:11.084909+00:00",
       "error": null
     },
     {
@@ -2894,7 +2861,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:08:02.907450+00:00",
+      "revisado_en": "2026-09-21T17:01:29.787372+00:00",
       "error": null
     },
     {
@@ -2909,24 +2876,18 @@
       "icono_url": "https://graph.facebook.com/paginasiete/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "8:00:00",
-      "video_id": "311560389513517",
-      "url_video": "https://www.facebook.com/paginasiete/videos/311560389513517/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:08:20.844876+00:00",
+      "revisado_en": "2026-09-21T17:01:47.946473+00:00",
       "error": null
     },
     {
@@ -2950,11 +2911,10 @@
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:08:39.507551+00:00",
+      "revisado_en": "2026-09-21T17:02:21.789490+00:00",
       "error": null
     },
     {
@@ -2969,24 +2929,18 @@
       "icono_url": "https://graph.facebook.com/ANFidesBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "57:26",
-      "video_id": "1433306015331904",
-      "url_video": "https://www.facebook.com/ANFidesBolivia/videos/1433306015331904/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:08:57.423767+00:00",
+      "revisado_en": "2026-09-21T17:02:40.368210+00:00",
       "error": null
     },
     {
@@ -3014,7 +2968,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:09:15.552471+00:00",
+      "revisado_en": "2026-09-21T17:03:05.187342+00:00",
       "error": null
     },
     {
@@ -3027,26 +2981,20 @@
       "tipo": "pagina",
       "identificador": "CcaCanal2",
       "icono_url": "https://graph.facebook.com/CcaCanal2/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Cca Canal 2 Cochabamba Corazón De America",
-      "video_id": "1072075309205514",
-      "url_video": "https://www.facebook.com/100063510552381/videos/1072075309205514",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/CcaCanal2/live/",
-      "motivos": [
-        "aria_live"
-      ],
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
+      "ruta_detectada": null,
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:09:33.452678+00:00",
+      "revisado_en": "2026-09-21T17:03:23.611776+00:00",
       "error": null
     },
     {
@@ -3061,24 +3009,18 @@
       "icono_url": "https://graph.facebook.com/DiarioOpinion/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:14:52",
-      "video_id": "1066819552863286",
-      "url_video": "https://www.facebook.com/DiarioOpinion/videos/1066819552863286/",
-      "confianza": -370,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
-        "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:09:50.975253+00:00",
+      "revisado_en": "2026-09-21T17:03:53.272248+00:00",
       "error": null
     },
     {
@@ -3093,9 +3035,9 @@
       "icono_url": "https://graph.facebook.com/imperialtvpotosi/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:35:55",
-      "video_id": "1042707162146732",
-      "url_video": "https://www.facebook.com/imperialtvpotosi/videos/1042707162146732/",
+      "titulo": "50:05",
+      "video_id": "4180275962270448",
+      "url_video": "https://www.facebook.com/imperialtvpotosi/videos/4180275962270448/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -3110,7 +3052,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:10:09.137878+00:00",
+      "revisado_en": "2026-09-21T17:04:18.586296+00:00",
       "error": null
     },
     {
@@ -3142,7 +3084,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T11:10:27.224405+00:00",
+      "revisado_en": "2026-09-21T17:04:36.891738+00:00",
       "error": null
     },
     {
