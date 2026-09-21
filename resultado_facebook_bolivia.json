@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-21T11:14:48.977589+00:00",
+  "generado_en": "2026-09-21T11:18:08.364898+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 11,
+  "en_vivo": 13,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -5238,7 +5238,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:31:49.509688+00:00",
+      "revisado_en": "2026-09-21T11:07:51.717042+00:00",
       "error": null
     },
     {
@@ -5251,24 +5251,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "1126031072404703",
-      "url_video": "https://www.facebook.com/100064283455585/videos/1126031072404703",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1641687897553178",
+      "url_video": "https://www.facebook.com/100064283455585/videos/1641687897553178",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:32:08.562144+00:00",
+      "revisado_en": "2026-09-21T11:08:11.963050+00:00",
       "error": null
     },
     {
@@ -5281,17 +5283,15 @@
       "tipo": "pagina",
       "identificador": "Canal4nicaraguanoticias",
       "icono_url": "https://graph.facebook.com/Canal4nicaraguanoticias/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Canal 4 Nicaragua",
-      "video_id": "1063389516594867",
-      "url_video": "https://www.facebook.com/100064761756326/videos/1063389516594867",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/Canal4nicaraguanoticias/videos/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 1500,
+      "video_id": "2168291053732640",
+      "url_video": "https://www.facebook.com/100064761756326/videos/2168291053732640",
+      "confianza": 0,
+      "ruta_detectada": null,
+      "motivos": [],
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -5301,7 +5301,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:32:27.667685+00:00",
+      "revisado_en": "2026-09-21T11:08:28.878252+00:00",
       "error": null
     },
     {
@@ -5325,7 +5325,7 @@
         "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": 63000,
+      "espectadores": 64000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -5334,7 +5334,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:32:48.501258+00:00",
+      "revisado_en": "2026-09-21T11:08:48.911987+00:00",
       "error": null
     },
     {
@@ -5366,7 +5366,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:33:09.726959+00:00",
+      "revisado_en": "2026-09-21T11:09:10.791721+00:00",
       "error": null
     },
     {
@@ -5382,8 +5382,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
-      "video_id": "874583147180195",
-      "url_video": "https://www.facebook.com/100069181930821/videos/874583147180195",
+      "video_id": "954675655437286",
+      "url_video": "https://www.facebook.com/100069181930821/videos/954675655437286",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -5396,7 +5396,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:33:28.437227+00:00",
+      "revisado_en": "2026-09-21T11:09:31.260622+00:00",
       "error": null
     },
     {
@@ -5426,7 +5426,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:33:47.218797+00:00",
+      "revisado_en": "2026-09-21T11:09:50.545614+00:00",
       "error": null
     },
     {
@@ -5442,25 +5442,23 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "Gobierno Autónomo Municipal de La Paz",
-      "video_id": "924833006938704",
-      "url_video": "https://www.facebook.com/100066961159396/videos/924833006938704",
-      "confianza": 160,
-      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/videos/",
+      "video_id": "2747440505724220",
+      "url_video": "https://www.facebook.com/100066961159396/videos/2747440505724220",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/live/",
       "motivos": [
-        "debil: en vivo ",
-        "debil:🔴 en vivo",
         "aria_live"
       ],
-      "espectadores": 47000,
+      "espectadores": 4100,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:34:07.336441+00:00",
+      "revisado_en": "2026-09-21T11:10:11.536410+00:00",
       "error": null
     },
     {
@@ -5475,19 +5473,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "1362692909318069",
+      "url_video": "https://www.facebook.com/100064127555592/videos/1362692909318069",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:34:27.915577+00:00",
+      "revisado_en": "2026-09-21T11:10:28.343799+00:00",
       "error": null
     },
     {
@@ -5519,7 +5520,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:34:45.688416+00:00",
+      "revisado_en": "2026-09-21T11:10:47.230204+00:00",
       "error": null
     },
     {
@@ -5551,7 +5552,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:35:03.499373+00:00",
+      "revisado_en": "2026-09-21T11:11:05.512209+00:00",
       "error": null
     },
     {
@@ -5577,7 +5578,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:35:21.412041+00:00",
+      "revisado_en": "2026-09-21T11:11:23.588919+00:00",
       "error": null
     },
     {
@@ -5609,7 +5610,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:35:39.327238+00:00",
+      "revisado_en": "2026-09-21T11:11:41.373834+00:00",
       "error": null
     },
     {
@@ -5636,7 +5637,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:35:57.264349+00:00",
+      "revisado_en": "2026-09-21T11:11:59.675916+00:00",
       "error": null
     },
     {
@@ -5668,7 +5669,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:36:14.969835+00:00",
+      "revisado_en": "2026-09-21T11:12:17.829566+00:00",
       "error": null
     },
     {
@@ -5695,7 +5696,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:36:32.869924+00:00",
+      "revisado_en": "2026-09-21T11:12:35.966152+00:00",
       "error": null
     },
     {
@@ -5723,7 +5724,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:36:50.963683+00:00",
+      "revisado_en": "2026-09-21T11:12:53.875696+00:00",
       "error": null
     },
     {
@@ -5750,7 +5751,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:37:08.883068+00:00",
+      "revisado_en": "2026-09-21T11:13:12.360855+00:00",
       "error": null
     },
     {
@@ -5765,7 +5766,7 @@
       "icono_url": "https://graph.facebook.com/GobSantaCruz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "497 visualizaciones",
+      "titulo": "538 visualizaciones",
       "video_id": "1108688555051555",
       "url_video": "https://www.facebook.com/GobSantaCruz/videos/1108688555051555/",
       "confianza": -370,
@@ -5782,7 +5783,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:37:26.627692+00:00",
+      "revisado_en": "2026-09-21T11:13:30.190097+00:00",
       "error": null
     },
     {
@@ -5814,7 +5815,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:37:44.565953+00:00",
+      "revisado_en": "2026-09-21T11:13:48.169675+00:00",
       "error": null
     },
     {
@@ -5827,27 +5828,27 @@
       "tipo": "pagina",
       "identificador": "FidesTV",
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "4:12:19",
-      "video_id": "1803519200650976",
-      "url_video": "https://www.facebook.com/FidesTV/videos/1803519200650976/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "fidestv",
+      "video_id": "1817246122622113",
+      "url_video": "https://www.facebook.com/100063710400583/videos/1817246122622113",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:38:02.780967+00:00",
+      "revisado_en": "2026-09-21T11:14:06.251145+00:00",
       "error": null
     },
     {
@@ -5860,26 +5861,26 @@
       "tipo": "pagina",
       "identificador": "eldeberradio",
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "56:36",
-      "video_id": "1096709436342443",
-      "url_video": "https://www.facebook.com/eldeberradio/videos/1096709436342443/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "El Deber Radio",
+      "video_id": "1564443814923804",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1564443814923804",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 7300,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:38:20.721042+00:00",
+      "revisado_en": "2026-09-21T11:14:21.507068+00:00",
       "error": null
     },
     {
@@ -5911,7 +5912,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:38:38.706262+00:00",
+      "revisado_en": "2026-09-21T11:14:36.598042+00:00",
       "error": null
     },
     {
@@ -5943,7 +5944,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:38:56.524708+00:00",
+      "revisado_en": "2026-09-21T11:14:54.647058+00:00",
       "error": null
     },
     {
@@ -5970,7 +5971,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:39:14.357309+00:00",
+      "revisado_en": "2026-09-21T11:15:12.623276+00:00",
       "error": null
     },
     {
@@ -6003,7 +6004,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:39:32.778965+00:00",
+      "revisado_en": "2026-09-21T11:15:30.475892+00:00",
       "error": null
     },
     {
@@ -6029,7 +6030,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:39:50.600898+00:00",
+      "revisado_en": "2026-09-21T11:15:48.446317+00:00",
       "error": null
     },
     {
@@ -6061,7 +6062,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:40:08.090724+00:00",
+      "revisado_en": "2026-09-21T11:16:06.031875+00:00",
       "error": null
     },
     {
@@ -6076,7 +6077,7 @@
       "icono_url": "https://graph.facebook.com/GobChuquisaca/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "487 visualizaciones",
+      "titulo": "573 visualizaciones",
       "video_id": "1007639082286404",
       "url_video": "https://www.facebook.com/GobChuquisaca/videos/1007639082286404/",
       "confianza": -370,
@@ -6093,7 +6094,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:40:26.013340+00:00",
+      "revisado_en": "2026-09-21T11:16:24.369538+00:00",
       "error": null
     },
     {
@@ -6125,7 +6126,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:40:43.877557+00:00",
+      "revisado_en": "2026-09-21T11:16:42.384705+00:00",
       "error": null
     },
     {
@@ -6153,7 +6154,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:41:01.946007+00:00",
+      "revisado_en": "2026-09-21T11:17:00.394841+00:00",
       "error": null
     },
     {
@@ -6185,7 +6186,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:41:19.709552+00:00",
+      "revisado_en": "2026-09-21T11:17:18.763527+00:00",
       "error": null
     },
     {
@@ -6212,7 +6213,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:41:37.574698+00:00",
+      "revisado_en": "2026-09-21T11:17:36.875907+00:00",
       "error": null
     },
     {
@@ -6227,7 +6228,7 @@
       "icono_url": "https://graph.facebook.com/cobija.gob/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "7,1 mil visualizaciones",
+      "titulo": "7,2 mil visualizaciones",
       "video_id": "4318470565068282",
       "url_video": "https://www.facebook.com/cobija.gob/videos/4318470565068282/",
       "confianza": -340,
@@ -6245,7 +6246,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-21T05:41:55.278280+00:00",
+      "revisado_en": "2026-09-21T11:17:55.143939+00:00",
       "error": null
     },
     {
