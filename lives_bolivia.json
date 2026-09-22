@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-09-22T18:59:44.685037+00:00",
-  "cantidad": 38,
+  "generado_en": "2026-09-22T19:06:50.124682+00:00",
+  "cantidad": 37,
   "lives": [
     {
       "nombre": "ATB Media",
@@ -613,38 +613,6 @@
       "error": null
     },
     {
-      "nombre": "CDN 37",
-      "categoria": "noticias",
-      "tipo_fuente": null,
-      "pais": "República Dominicana",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/cdn.com.do/",
-      "tipo": "pagina",
-      "identificador": "cdn.com.do",
-      "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "CDN 37",
-      "video_id": "4456916667972060",
-      "url_video": "https://www.facebook.com/100064283455585/videos/4456916667972060",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 1000,
-      "marcadores": [
-        "html_is_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-09-22T14:56:32.112381+00:00",
-      "error": null
-    },
-    {
       "nombre": "Azteca Noticias",
       "categoria": "noticias",
       "tipo_fuente": null,
@@ -674,7 +642,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-22T14:57:06.555362+00:00",
+      "revisado_en": "2026-09-22T18:57:10.646771+00:00",
       "error": null
     },
     {
@@ -690,16 +658,47 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "Gobierno Autónomo Municipal de La Paz",
-      "video_id": "924833006938704",
-      "url_video": "https://www.facebook.com/100066961159396/videos/924833006938704",
-      "confianza": 160,
-      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/videos/",
+      "video_id": "1110482631316329",
+      "url_video": "https://www.facebook.com/100066961159396/videos/1110482631316329",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/MunicipioLaPaz/live/",
       "motivos": [
-        "debil: en vivo ",
+        "aria_live"
+      ],
+      "espectadores": 4100,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-09-22T18:58:30.488550+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Comando Departamental de Policía Cochabamba",
+      "categoria": "noticias",
+      "tipo_fuente": "institucional",
+      "pais": "Bolivia",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/PoliciaBolivianaCochabamba/",
+      "tipo": "pagina",
+      "identificador": "PoliciaBolivianaCochabamba",
+      "icono_url": "https://graph.facebook.com/PoliciaBolivianaCochabamba/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Comando Departamental De Policía Cochabamba",
+      "video_id": "963402372742969",
+      "url_video": "https://www.facebook.com/100044909052561/videos/963402372742969",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/PoliciaBolivianaCochabamba/videos/",
+      "motivos": [
         "debil:🔴 en vivo",
         "aria_live"
       ],
-      "espectadores": 50000,
+      "espectadores": 21000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -708,95 +707,62 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-22T14:58:26.591906+00:00",
+      "revisado_en": "2026-09-22T19:00:40.122384+00:00",
       "error": null
     },
     {
-      "nombre": "Gobernación de Santa Cruz",
-      "categoria": "noticias",
-      "tipo_fuente": "institucional",
-      "pais": "Bolivia",
-      "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/GobSantaCruz/",
-      "tipo": "pagina",
-      "identificador": "GobSantaCruz",
-      "icono_url": "https://graph.facebook.com/GobSantaCruz/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Gobernación de Santa Cruz",
-      "video_id": "1114392694363351",
-      "url_video": "https://www.facebook.com/100064732924861/videos/1114392694363351",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/GobSantaCruz/live/",
-      "motivos": [
-        "aria_live"
-      ],
-      "espectadores": 56000,
-      "marcadores": [
-        "html_is_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status",
-        "html_is_currently_live"
-      ],
-      "muro_login": false,
-      "revisado_en": "2026-09-22T15:01:47.025203+00:00",
-      "error": null
-    },
-    {
-      "nombre": "Fides TV",
+      "nombre": "ATB Digital",
       "categoria": "tv",
       "tipo_fuente": "medio",
       "pais": "Bolivia",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/FidesTV/",
+      "url_fuente": "https://www.facebook.com/ATBDigital/",
       "tipo": "pagina",
-      "identificador": "FidesTV",
-      "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
+      "identificador": "ATBDigital",
+      "icono_url": "https://graph.facebook.com/ATBDigital/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "fidestv",
-      "video_id": "2138333427110348",
-      "url_video": "https://www.facebook.com/100063710400583/videos/2138333427110348",
+      "titulo": "ATB Digital",
+      "video_id": "2562880484134548",
+      "url_video": "https://www.facebook.com/61566333384347/videos/2562880484134548",
       "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
+      "ruta_detectada": "https://www.facebook.com/ATBDigital/videos/",
       "motivos": [
         "aria_live"
       ],
-      "espectadores": 1000,
+      "espectadores": 7300,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live",
-        "texto_en_directo"
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-22T15:02:20.167914+00:00",
+      "revisado_en": "2026-09-22T19:02:18.988344+00:00",
       "error": null
     },
     {
-      "nombre": "Gobierno Autónomo Departamental de Oruro",
-      "categoria": "noticias",
-      "tipo_fuente": "institucional",
+      "nombre": "El Deber Radio",
+      "categoria": "radio",
+      "tipo_fuente": "medio",
       "pais": "Bolivia",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/GobernacionDeOruro/",
+      "url_fuente": "https://www.facebook.com/eldeberradio/",
       "tipo": "pagina",
-      "identificador": "GobernacionDeOruro",
-      "icono_url": "https://graph.facebook.com/GobernacionDeOruro/picture?type=large",
+      "identificador": "eldeberradio",
+      "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "Gobierno Autónomo Departamental de Oruro - Bolivia",
-      "video_id": "4508916596093637",
-      "url_video": "https://www.facebook.com/100088682418450/videos/4508916596093637",
+      "titulo": "El Deber Radio",
+      "video_id": "3515308718632732",
+      "url_video": "https://www.facebook.com/100072454578597/videos/3515308718632732",
       "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/GobernacionDeOruro/live/",
+      "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
         "aria_live"
       ],
-      "espectadores": 21000,
+      "espectadores": 7300,
       "marcadores": [
         "html_is_live",
         "html_broadcast_id",
@@ -805,7 +771,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-22T15:03:47.739575+00:00",
+      "revisado_en": "2026-09-22T19:02:59.885590+00:00",
       "error": null
     },
     {
