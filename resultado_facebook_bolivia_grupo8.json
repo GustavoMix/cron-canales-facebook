@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-25T22:02:14.136282+00:00",
+  "generado_en": "2026-09-26T00:51:16.078500+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 2,
   "resultados": [
     {
       "nombre": "W Radio México",
@@ -16,9 +16,9 @@
       "icono_url": "https://graph.facebook.com/wradiomx/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "22:18",
-      "video_id": "965821035852557",
-      "url_video": "https://www.facebook.com/wradiomx/videos/c%C3%B3mo-hace-el-inegi-un-censo-nacional-y-qu%C3%A9-revela-sobre-la-poblaci%C3%B3n-de-m%C3%A9xico-a/965821035852557/",
+      "titulo": "W Radio",
+      "video_id": "1762303864892501",
+      "url_video": "https://www.facebook.com/100064870055041/videos/1762303864892501",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -27,10 +27,11 @@
         "html_is_live",
         "html_is_live_streaming",
         "html_is_currently_live",
+        "html_broadcast_id",
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:51:49.390438+00:00",
+      "revisado_en": "2026-09-26T00:41:08.325368+00:00",
       "error": null
     },
     {
@@ -61,7 +62,7 @@
         "texto_comento"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:52:08.631629+00:00",
+      "revisado_en": "2026-09-26T00:41:27.669329+00:00",
       "error": null
     },
     {
@@ -91,7 +92,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:52:37.551436+00:00",
+      "revisado_en": "2026-09-26T00:41:47.113727+00:00",
       "error": null
     },
     {
@@ -121,7 +122,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:52:57.587751+00:00",
+      "revisado_en": "2026-09-26T00:42:06.778239+00:00",
       "error": null
     },
     {
@@ -151,7 +152,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:53:16.736489+00:00",
+      "revisado_en": "2026-09-26T00:42:25.769285+00:00",
       "error": null
     },
     {
@@ -183,7 +184,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:53:35.418852+00:00",
+      "revisado_en": "2026-09-26T00:42:44.574350+00:00",
       "error": null
     },
     {
@@ -213,7 +214,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:53:54.353116+00:00",
+      "revisado_en": "2026-09-26T00:43:03.316398+00:00",
       "error": null
     },
     {
@@ -241,7 +242,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:54:13.890451+00:00",
+      "revisado_en": "2026-09-26T00:43:22.647099+00:00",
       "error": null
     },
     {
@@ -273,7 +274,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:54:31.855702+00:00",
+      "revisado_en": "2026-09-26T00:43:40.591576+00:00",
       "error": null
     },
     {
@@ -305,7 +306,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:54:50.229616+00:00",
+      "revisado_en": "2026-09-26T00:43:59.238099+00:00",
       "error": null
     },
     {
@@ -338,7 +339,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:55:08.954395+00:00",
+      "revisado_en": "2026-09-26T00:44:18.289093+00:00",
       "error": null
     },
     {
@@ -351,27 +352,26 @@
       "tipo": "pagina",
       "identificador": "Cooperativa",
       "icono_url": "https://graph.facebook.com/Cooperativa/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "15:19",
-      "video_id": "1402155721440640",
-      "url_video": "https://www.facebook.com/Cooperativa/videos/1402155721440640/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Cooperativa",
+      "video_id": "2261199681329995",
+      "url_video": "https://www.facebook.com/100067371517221/videos/2261199681329995",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/Cooperativa/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 6400,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:55:26.788925+00:00",
+      "revisado_en": "2026-09-26T00:44:36.259574+00:00",
       "error": null
     },
     {
@@ -403,7 +403,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:55:44.876582+00:00",
+      "revisado_en": "2026-09-26T00:44:51.728960+00:00",
       "error": null
     },
     {
@@ -418,9 +418,9 @@
       "icono_url": "https://graph.facebook.com/radionacionaldelperu/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "11:00",
-      "video_id": "1543459314202818",
-      "url_video": "https://www.facebook.com/radionacionaldelperu/videos/1543459314202818/",
+      "titulo": "🔴 Actividad Oficial hoy, 25 de septiembre del 2026.",
+      "video_id": "2096923964259101",
+      "url_video": "https://www.facebook.com/radionacionaldelperu/videos/2096923964259101/",
       "confianza": -340,
       "ruta_detectada": null,
       "motivos": [
@@ -436,7 +436,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:56:03.296987+00:00",
+      "revisado_en": "2026-09-26T00:45:09.748819+00:00",
       "error": null
     },
     {
@@ -463,7 +463,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:56:22.022374+00:00",
+      "revisado_en": "2026-09-26T00:45:27.658002+00:00",
       "error": null
     },
     {
@@ -495,7 +495,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:56:39.797610+00:00",
+      "revisado_en": "2026-09-26T00:45:45.419995+00:00",
       "error": null
     },
     {
@@ -523,7 +523,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:56:57.744651+00:00",
+      "revisado_en": "2026-09-26T00:46:03.307022+00:00",
       "error": null
     },
     {
@@ -550,7 +550,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:57:16.028652+00:00",
+      "revisado_en": "2026-09-26T00:46:21.117589+00:00",
       "error": null
     },
     {
@@ -578,7 +578,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:57:33.759558+00:00",
+      "revisado_en": "2026-09-26T00:46:39.292297+00:00",
       "error": null
     },
     {
@@ -605,7 +605,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:57:51.634855+00:00",
+      "revisado_en": "2026-09-26T00:46:57.292000+00:00",
       "error": null
     },
     {
@@ -633,7 +633,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:58:09.308059+00:00",
+      "revisado_en": "2026-09-26T00:47:15.041143+00:00",
       "error": null
     },
     {
@@ -665,7 +665,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:58:27.210419+00:00",
+      "revisado_en": "2026-09-26T00:47:33.051943+00:00",
       "error": null
     },
     {
@@ -697,7 +697,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:58:45.324216+00:00",
+      "revisado_en": "2026-09-26T00:47:50.974943+00:00",
       "error": null
     },
     {
@@ -729,7 +729,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:59:03.430226+00:00",
+      "revisado_en": "2026-09-26T00:48:08.883299+00:00",
       "error": null
     },
     {
@@ -744,9 +744,9 @@
       "icono_url": "https://graph.facebook.com/RadioYungasRY/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "12:07",
-      "video_id": "1077353871675870",
-      "url_video": "https://www.facebook.com/RadioYungasRY/videos/1077353871675870/",
+      "titulo": "16:37",
+      "video_id": "1071742565650611",
+      "url_video": "https://www.facebook.com/RadioYungasRY/videos/1071742565650611/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -761,7 +761,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:59:21.789236+00:00",
+      "revisado_en": "2026-09-26T00:48:27.036958+00:00",
       "error": null
     },
     {
@@ -793,7 +793,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:59:39.808269+00:00",
+      "revisado_en": "2026-09-26T00:48:44.797242+00:00",
       "error": null
     },
     {
@@ -825,7 +825,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T21:59:57.858939+00:00",
+      "revisado_en": "2026-09-26T00:49:03.063396+00:00",
       "error": null
     },
     {
@@ -852,7 +852,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:00:16.115924+00:00",
+      "revisado_en": "2026-09-26T00:49:21.131410+00:00",
       "error": null
     },
     {
@@ -884,7 +884,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:00:33.959061+00:00",
+      "revisado_en": "2026-09-26T00:49:38.853506+00:00",
       "error": null
     },
     {
@@ -911,7 +911,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:00:51.953053+00:00",
+      "revisado_en": "2026-09-26T00:49:56.828846+00:00",
       "error": null
     },
     {
@@ -943,7 +943,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:01:09.892181+00:00",
+      "revisado_en": "2026-09-26T00:50:14.670412+00:00",
       "error": null
     },
     {
@@ -975,7 +975,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:01:28.178089+00:00",
+      "revisado_en": "2026-09-26T00:50:32.610361+00:00",
       "error": null
     },
     {
@@ -1007,7 +1007,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:01:46.042326+00:00",
+      "revisado_en": "2026-09-26T00:50:50.702121+00:00",
       "error": null
     },
     {
@@ -1020,26 +1020,26 @@
       "tipo": "pagina",
       "identificador": "SATELPaginaOficial1",
       "icono_url": "https://graph.facebook.com/SATELPaginaOficial1/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "46:35",
-      "video_id": "1708965126869670",
-      "url_video": "https://www.facebook.com/SATELPaginaOficial1/videos/1708965126869670/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "SATEL Televisión",
+      "video_id": "1767572094498029",
+      "url_video": "https://www.facebook.com/100063592901533/videos/1767572094498029",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/SATELPaginaOficial1/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 11000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-25T22:02:04.266253+00:00",
+      "revisado_en": "2026-09-26T00:51:08.593592+00:00",
       "error": null
     }
   ]
