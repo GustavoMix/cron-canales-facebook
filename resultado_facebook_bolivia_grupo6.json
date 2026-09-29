@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-09-29T05:56:44.349439+00:00",
+  "generado_en": "2026-09-29T13:05:48.463569+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 1,
+  "en_vivo": 4,
   "resultados": [
     {
       "nombre": "Telemundo (Teledoce)",
@@ -17,8 +17,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Telemundo",
-      "video_id": "1415901074079835",
-      "url_video": "https://www.facebook.com/100064478240768/videos/1415901074079835",
+      "video_id": "1807237690428340",
+      "url_video": "https://www.facebook.com/100064478240768/videos/1807237690428340",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:46:19.505017+00:00",
+      "revisado_en": "2026-09-29T12:55:42.661270+00:00",
       "error": null
     },
     {
@@ -44,24 +44,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "3270937549760965",
-      "url_video": "https://www.facebook.com/100064283455585/videos/3270937549760965",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1424248459870272",
+      "url_video": "https://www.facebook.com/100064283455585/videos/1424248459870272",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:46:38.763627+00:00",
+      "revisado_en": "2026-09-29T12:56:02.805138+00:00",
       "error": null
     },
     {
@@ -92,7 +94,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:46:58.436541+00:00",
+      "revisado_en": "2026-09-29T12:56:18.435256+00:00",
       "error": null
     },
     {
@@ -108,8 +110,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Azteca Noticias",
-      "video_id": "1122843780081662",
-      "url_video": "https://www.facebook.com/100069563637018/videos/1122843780081662",
+      "video_id": "1589940505936655",
+      "url_video": "https://www.facebook.com/100069563637018/videos/1589940505936655",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -122,7 +124,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:47:17.944928+00:00",
+      "revisado_en": "2026-09-29T12:56:38.081795+00:00",
       "error": null
     },
     {
@@ -138,8 +140,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Administradora Boliviana de Carreteras",
-      "video_id": "1751016922772384",
-      "url_video": "https://www.facebook.com/100064395380966/videos/1751016922772384",
+      "video_id": "1661022512280799",
+      "url_video": "https://www.facebook.com/100064395380966/videos/1661022512280799",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -152,7 +154,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:47:37.742732+00:00",
+      "revisado_en": "2026-09-29T12:56:58.125292+00:00",
       "error": null
     },
     {
@@ -182,7 +184,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:47:57.171617+00:00",
+      "revisado_en": "2026-09-29T12:57:17.115760+00:00",
       "error": null
     },
     {
@@ -195,18 +197,17 @@
       "tipo": "pagina",
       "identificador": "100064953363078",
       "icono_url": "https://seeklogo.com/images/P/policia-boliviana-logo-6D6E0297DB-seeklogo.com.png?v=638257979190000000",
-      "en_vivo": true,
-      "estado": "live",
+      "en_vivo": false,
+      "estado": "offline",
       "titulo": "Policía Boliviana",
-      "video_id": "1441455654562435",
-      "url_video": "https://www.facebook.com/100064953363078/videos/1441455654562435",
-      "confianza": 130,
-      "ruta_detectada": "https://www.facebook.com/100064953363078/videos/",
+      "video_id": "1075056531800693",
+      "url_video": "https://www.facebook.com/100064953363078/videos/1075056531800693",
+      "confianza": 30,
+      "ruta_detectada": null,
       "motivos": [
-        "debil: en vivo ",
-        "aria_live"
+        "debil: en vivo "
       ],
-      "espectadores": 71000,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -215,7 +216,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:48:16.582812+00:00",
+      "revisado_en": "2026-09-29T12:57:36.313290+00:00",
       "error": null
     },
     {
@@ -241,7 +242,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:48:39.613256+00:00",
+      "revisado_en": "2026-09-29T12:57:56.503920+00:00",
       "error": null
     },
     {
@@ -256,22 +257,19 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Agencia Municipal de Noticias",
-      "video_id": "574420086666161",
-      "url_video": "https://www.facebook.com/100064127555592/videos/574420086666161",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_is_live_streaming",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:48:57.561817+00:00",
+      "revisado_en": "2026-09-29T12:58:14.122125+00:00",
       "error": null
     },
     {
@@ -286,22 +284,24 @@
       "icono_url": "https://graph.facebook.com/gobernaciondelapaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Gobierno Autónomo Departamental de La Paz",
-      "video_id": "4585470298402947",
-      "url_video": "https://www.facebook.com/100064362385017/videos/4585470298402947",
-      "confianza": 0,
+      "titulo": "21:27",
+      "video_id": "2964962800536850",
+      "url_video": "https://www.facebook.com/gobernaciondelapaz/videos/2964962800536850/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:49:17.284014+00:00",
+      "revisado_en": "2026-09-29T12:58:32.091498+00:00",
       "error": null
     },
     {
@@ -316,22 +316,24 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Gobierno Autónomo Municipal de El Alto",
-      "video_id": "2606813746419675",
-      "url_video": "https://www.facebook.com/100069139572852/videos/2606813746419675",
-      "confianza": 0,
+      "titulo": "10:55",
+      "video_id": "1768546210950128",
+      "url_video": "https://www.facebook.com/ElAltoAlcaldia/videos/1768546210950128/",
+      "confianza": -370,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live",
-        "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:49:37.044767+00:00",
+      "revisado_en": "2026-09-29T12:58:50.088194+00:00",
       "error": null
     },
     {
@@ -357,7 +359,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:49:56.856450+00:00",
+      "revisado_en": "2026-09-29T12:59:08.093012+00:00",
       "error": null
     },
     {
@@ -389,7 +391,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:50:14.403130+00:00",
+      "revisado_en": "2026-09-29T12:59:25.867680+00:00",
       "error": null
     },
     {
@@ -416,7 +418,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:50:32.445044+00:00",
+      "revisado_en": "2026-09-29T12:59:44.072980+00:00",
       "error": null
     },
     {
@@ -431,7 +433,7 @@
       "icono_url": "https://graph.facebook.com/PoliciaBolivianaCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "18 mil visualizaciones",
+      "titulo": "20,2 mil visualizaciones",
       "video_id": "965316799957259",
       "url_video": "https://www.facebook.com/PoliciaBolivianaCochabamba/videos/965316799957259/",
       "confianza": -370,
@@ -448,7 +450,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:50:50.512511+00:00",
+      "revisado_en": "2026-09-29T13:00:02.296868+00:00",
       "error": null
     },
     {
@@ -475,7 +477,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:51:08.956097+00:00",
+      "revisado_en": "2026-09-29T13:00:20.475373+00:00",
       "error": null
     },
     {
@@ -503,7 +505,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:51:26.932538+00:00",
+      "revisado_en": "2026-09-29T13:00:38.684385+00:00",
       "error": null
     },
     {
@@ -530,7 +532,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:51:44.819983+00:00",
+      "revisado_en": "2026-09-29T13:00:56.734063+00:00",
       "error": null
     },
     {
@@ -562,7 +564,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:52:02.860370+00:00",
+      "revisado_en": "2026-09-29T13:01:14.655381+00:00",
       "error": null
     },
     {
@@ -575,26 +577,26 @@
       "tipo": "pagina",
       "identificador": "ATBDigital",
       "icono_url": "https://graph.facebook.com/ATBDigital/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:00:30",
-      "video_id": "1713814269683604",
-      "url_video": "https://www.facebook.com/ATBDigital/videos/1713814269683604/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "ATB Digital",
+      "video_id": "1387563060024535",
+      "url_video": "https://www.facebook.com/61566333384347/videos/1387563060024535",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/ATBDigital/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1600,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:52:20.924739+00:00",
+      "revisado_en": "2026-09-29T13:01:32.779369+00:00",
       "error": null
     },
     {
@@ -607,27 +609,27 @@
       "tipo": "pagina",
       "identificador": "FidesTV",
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "59:18",
-      "video_id": "1556382499595574",
-      "url_video": "https://www.facebook.com/FidesTV/videos/1556382499595574/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "fidestv",
+      "video_id": "28091464457198708",
+      "url_video": "https://www.facebook.com/100063710400583/videos/28091464457198708",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:52:39.278642+00:00",
+      "revisado_en": "2026-09-29T13:01:48.638651+00:00",
       "error": null
     },
     {
@@ -642,9 +644,9 @@
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:05:54",
-      "video_id": "1146819317700624",
-      "url_video": "https://www.facebook.com/eldeberradio/videos/1146819317700624/",
+      "titulo": "52:23",
+      "video_id": "1619426699710704",
+      "url_video": "https://www.facebook.com/eldeberradio/videos/1619426699710704/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -659,7 +661,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:52:57.521646+00:00",
+      "revisado_en": "2026-09-29T13:02:04.547807+00:00",
       "error": null
     },
     {
@@ -672,26 +674,26 @@
       "tipo": "pagina",
       "identificador": "radiofidescb",
       "icono_url": "https://graph.facebook.com/radiofidescb/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "23:08",
-      "video_id": "1396337745944228",
-      "url_video": "https://www.facebook.com/radiofidescb/videos/1396337745944228/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Fides Cochabamba",
+      "video_id": "1474271597876945",
+      "url_video": "https://www.facebook.com/100037288484799/videos/1474271597876945",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/radiofidescb/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 2700,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:53:15.878827+00:00",
+      "revisado_en": "2026-09-29T13:02:22.611822+00:00",
       "error": null
     },
     {
@@ -723,7 +725,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:53:34.125376+00:00",
+      "revisado_en": "2026-09-29T13:02:37.726414+00:00",
       "error": null
     },
     {
@@ -750,7 +752,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:53:52.255067+00:00",
+      "revisado_en": "2026-09-29T13:02:55.659987+00:00",
       "error": null
     },
     {
@@ -783,7 +785,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:54:10.222475+00:00",
+      "revisado_en": "2026-09-29T13:03:13.744201+00:00",
       "error": null
     },
     {
@@ -809,7 +811,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:54:28.448782+00:00",
+      "revisado_en": "2026-09-29T13:03:31.881174+00:00",
       "error": null
     },
     {
@@ -842,7 +844,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:54:46.036196+00:00",
+      "revisado_en": "2026-09-29T13:03:49.456727+00:00",
       "error": null
     },
     {
@@ -857,9 +859,9 @@
       "icono_url": "https://graph.facebook.com/GobChuquisaca/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "27:49",
-      "video_id": "1117544844365202",
-      "url_video": "https://www.facebook.com/GobChuquisaca/videos/1117544844365202/",
+      "titulo": "29:27",
+      "video_id": "1741307450460836",
+      "url_video": "https://www.facebook.com/GobChuquisaca/videos/1741307450460836/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -874,7 +876,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:55:04.087381+00:00",
+      "revisado_en": "2026-09-29T13:04:07.737529+00:00",
       "error": null
     },
     {
@@ -889,9 +891,9 @@
       "icono_url": "https://graph.facebook.com/MunicipiodeSucreBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "58:26",
-      "video_id": "1813122506373239",
-      "url_video": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/1813122506373239/",
+      "titulo": "27:32",
+      "video_id": "2193744094910288",
+      "url_video": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/2193744094910288/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -906,7 +908,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:55:22.126533+00:00",
+      "revisado_en": "2026-09-29T13:04:26.047573+00:00",
       "error": null
     },
     {
@@ -934,7 +936,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:55:40.144169+00:00",
+      "revisado_en": "2026-09-29T13:04:44.091868+00:00",
       "error": null
     },
     {
@@ -966,7 +968,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:55:58.110678+00:00",
+      "revisado_en": "2026-09-29T13:05:02.020647+00:00",
       "error": null
     },
     {
@@ -993,7 +995,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:56:16.117644+00:00",
+      "revisado_en": "2026-09-29T13:05:20.098283+00:00",
       "error": null
     },
     {
@@ -1025,7 +1027,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-09-29T05:56:34.326594+00:00",
+      "revisado_en": "2026-09-29T13:05:38.071451+00:00",
       "error": null
     }
   ]
