@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-10-12T19:51:58.921408+00:00",
+  "generado_en": "2026-10-12T19:59:18.718756+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 23,
+  "en_vivo": 26,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -5210,8 +5210,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Telemundo",
-      "video_id": "1670628341405047",
-      "url_video": "https://www.facebook.com/100064478240768/videos/1670628341405047",
+      "video_id": "2332420690907228",
+      "url_video": "https://www.facebook.com/100064478240768/videos/2332420690907228",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -5224,7 +5224,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:47:24.023722+00:00",
+      "revisado_en": "2026-10-12T19:49:01.657041+00:00",
       "error": null
     },
     {
@@ -5237,24 +5237,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "1937234837116664",
-      "url_video": "https://www.facebook.com/100064283455585/videos/1937234837116664",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1834185004275845",
+      "url_video": "https://www.facebook.com/100064283455585/videos/1834185004275845",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:47:43.650519+00:00",
+      "revisado_en": "2026-10-12T19:49:21.512131+00:00",
       "error": null
     },
     {
@@ -5285,7 +5287,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:48:03.080646+00:00",
+      "revisado_en": "2026-10-12T19:49:36.929084+00:00",
       "error": null
     },
     {
@@ -5315,7 +5317,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:48:23.024189+00:00",
+      "revisado_en": "2026-10-12T19:49:57.091006+00:00",
       "error": null
     },
     {
@@ -5345,7 +5347,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:48:42.467769+00:00",
+      "revisado_en": "2026-10-12T19:50:17.729505+00:00",
       "error": null
     },
     {
@@ -5361,8 +5363,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
-      "video_id": "874583147180195",
-      "url_video": "https://www.facebook.com/100069181930821/videos/874583147180195",
+      "video_id": "954675655437286",
+      "url_video": "https://www.facebook.com/100069181930821/videos/954675655437286",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -5375,7 +5377,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:49:01.465099+00:00",
+      "revisado_en": "2026-10-12T19:50:36.924499+00:00",
       "error": null
     },
     {
@@ -5405,7 +5407,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:49:20.576988+00:00",
+      "revisado_en": "2026-10-12T19:50:56.100117+00:00",
       "error": null
     },
     {
@@ -5431,7 +5433,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:49:42.343522+00:00",
+      "revisado_en": "2026-10-12T19:51:16.841757+00:00",
       "error": null
     },
     {
@@ -5446,19 +5448,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "3158810041116769",
+      "url_video": "https://www.facebook.com/100064127555592/videos/3158810041116769",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:50:00.445204+00:00",
+      "revisado_en": "2026-10-12T19:51:34.384483+00:00",
       "error": null
     },
     {
@@ -5490,7 +5495,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:50:18.305831+00:00",
+      "revisado_en": "2026-10-12T19:51:53.666126+00:00",
       "error": null
     },
     {
@@ -5505,9 +5510,9 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "5,2 mil visualizaciones",
-      "video_id": "5478181545739826",
-      "url_video": "https://www.facebook.com/ElAltoAlcaldia/videos/5478181545739826/",
+      "titulo": "13:28",
+      "video_id": "1577624613665112",
+      "url_video": "https://www.facebook.com/ElAltoAlcaldia/videos/1577624613665112/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5522,7 +5527,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:50:36.269522+00:00",
+      "revisado_en": "2026-10-12T19:52:11.827495+00:00",
       "error": null
     },
     {
@@ -5548,7 +5553,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:50:54.180594+00:00",
+      "revisado_en": "2026-10-12T19:52:30.515986+00:00",
       "error": null
     },
     {
@@ -5563,9 +5568,9 @@
       "icono_url": "https://graph.facebook.com/GobernacionDeCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "17:06",
-      "video_id": "4297779203867971",
-      "url_video": "https://www.facebook.com/GobernacionDeCochabamba/videos/4297779203867971/",
+      "titulo": "Gobernador Leonardo Loza entrega puente cajón en la OTB Buganbilla, Villa Tunari, distrito 1",
+      "video_id": "1088650710640011",
+      "url_video": "https://www.facebook.com/GobernacionDeCochabamba/videos/1088650710640011/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5580,7 +5585,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:51:11.602303+00:00",
+      "revisado_en": "2026-10-12T19:52:48.044030+00:00",
       "error": null
     },
     {
@@ -5607,7 +5612,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:51:29.623166+00:00",
+      "revisado_en": "2026-10-12T19:53:06.311614+00:00",
       "error": null
     },
     {
@@ -5622,9 +5627,9 @@
       "icono_url": "https://graph.facebook.com/PoliciaBolivianaCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "16,8 mil visualizaciones",
-      "video_id": "1673793614327394",
-      "url_video": "https://www.facebook.com/PoliciaBolivianaCochabamba/videos/1673793614327394/",
+      "titulo": "13:26",
+      "video_id": "4413503028909477",
+      "url_video": "https://www.facebook.com/PoliciaBolivianaCochabamba/videos/4413503028909477/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5639,7 +5644,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:51:47.665088+00:00",
+      "revisado_en": "2026-10-12T19:53:24.561505+00:00",
       "error": null
     },
     {
@@ -5666,7 +5671,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:52:05.573639+00:00",
+      "revisado_en": "2026-10-12T19:53:43.065801+00:00",
       "error": null
     },
     {
@@ -5694,7 +5699,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:52:23.378103+00:00",
+      "revisado_en": "2026-10-12T19:54:01.202978+00:00",
       "error": null
     },
     {
@@ -5721,7 +5726,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:52:41.836053+00:00",
+      "revisado_en": "2026-10-12T19:54:19.913170+00:00",
       "error": null
     },
     {
@@ -5753,7 +5758,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:52:59.801934+00:00",
+      "revisado_en": "2026-10-12T19:54:38.052500+00:00",
       "error": null
     },
     {
@@ -5768,9 +5773,9 @@
       "icono_url": "https://graph.facebook.com/ATBDigital/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "7:34:15",
-      "video_id": "1417493469815927",
-      "url_video": "https://www.facebook.com/ATBDigital/videos/1417493469815927/",
+      "titulo": "58:35",
+      "video_id": "4335708506681838",
+      "url_video": "https://www.facebook.com/ATBDigital/videos/4335708506681838/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5785,7 +5790,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:53:17.808036+00:00",
+      "revisado_en": "2026-10-12T19:54:56.449806+00:00",
       "error": null
     },
     {
@@ -5798,27 +5803,27 @@
       "tipo": "pagina",
       "identificador": "FidesTV",
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:13:46",
-      "video_id": "1846338879866451",
-      "url_video": "https://www.facebook.com/FidesTV/videos/1846338879866451/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "fidestv",
+      "video_id": "1524804609686468",
+      "url_video": "https://www.facebook.com/100063710400583/videos/1524804609686468",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:53:35.740337+00:00",
+      "revisado_en": "2026-10-12T19:55:14.642745+00:00",
       "error": null
     },
     {
@@ -5831,26 +5836,26 @@
       "tipo": "pagina",
       "identificador": "eldeberradio",
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "#LoÚLtimo | ATRACO EN UNA JOYERIA LA POLICÍA SE ENCUENTRA TOMANDO DECLARACIÓN A LOS TESTIGOS",
-      "video_id": "1147450027841803",
-      "url_video": "https://www.facebook.com/eldeberradio/videos/1147450027841803/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "El Deber Radio",
+      "video_id": "1092804320189030",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1092804320189030",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 7300,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:53:53.801852+00:00",
+      "revisado_en": "2026-10-12T19:55:29.905760+00:00",
       "error": null
     },
     {
@@ -5865,9 +5870,9 @@
       "icono_url": "https://graph.facebook.com/radiofidescb/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:20:56",
-      "video_id": "1100446659056646",
-      "url_video": "https://www.facebook.com/radiofidescb/videos/1100446659056646/",
+      "titulo": "1:00:53",
+      "video_id": "1081147821403048",
+      "url_video": "https://www.facebook.com/radiofidescb/videos/1081147821403048/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5882,7 +5887,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:54:12.031577+00:00",
+      "revisado_en": "2026-10-12T19:55:46.124476+00:00",
       "error": null
     },
     {
@@ -5914,7 +5919,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:54:30.154884+00:00",
+      "revisado_en": "2026-10-12T19:56:04.342564+00:00",
       "error": null
     },
     {
@@ -5941,7 +5946,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:54:48.111131+00:00",
+      "revisado_en": "2026-10-12T19:56:22.572490+00:00",
       "error": null
     },
     {
@@ -5973,7 +5978,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:55:06.066902+00:00",
+      "revisado_en": "2026-10-12T19:56:40.710004+00:00",
       "error": null
     },
     {
@@ -5999,7 +6004,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:55:24.058106+00:00",
+      "revisado_en": "2026-10-12T19:56:58.815161+00:00",
       "error": null
     },
     {
@@ -6014,16 +6019,15 @@
       "icono_url": "https://graph.facebook.com/gobiernomunicipaldepotosi/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "26:39",
-      "video_id": "1637271234717698",
-      "url_video": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1637271234717698/",
-      "confianza": -340,
+      "titulo": "Conferencia de prensa",
+      "video_id": "1079792724901828",
+      "url_video": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1079792724901828/",
+      "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
         "pasado:en vivo anteriores",
         "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n"
+        "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
@@ -6032,7 +6036,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:55:41.629500+00:00",
+      "revisado_en": "2026-10-12T19:57:16.309115+00:00",
       "error": null
     },
     {
@@ -6064,7 +6068,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:55:59.510384+00:00",
+      "revisado_en": "2026-10-12T19:57:34.547328+00:00",
       "error": null
     },
     {
@@ -6079,9 +6083,9 @@
       "icono_url": "https://graph.facebook.com/MunicipiodeSucreBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "25:41",
-      "video_id": "1418042496433023",
-      "url_video": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/1418042496433023/",
+      "titulo": "14,9 mil visualizaciones",
+      "video_id": "1125832756582040",
+      "url_video": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/1125832756582040/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -6096,7 +6100,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:56:17.590617+00:00",
+      "revisado_en": "2026-10-12T19:57:52.729513+00:00",
       "error": null
     },
     {
@@ -6124,7 +6128,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:56:35.719882+00:00",
+      "revisado_en": "2026-10-12T19:58:11.018417+00:00",
       "error": null
     },
     {
@@ -6156,7 +6160,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:56:53.689359+00:00",
+      "revisado_en": "2026-10-12T19:58:29.493218+00:00",
       "error": null
     },
     {
@@ -6183,7 +6187,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:57:11.740844+00:00",
+      "revisado_en": "2026-10-12T19:58:47.765507+00:00",
       "error": null
     },
     {
@@ -6198,7 +6202,7 @@
       "icono_url": "https://graph.facebook.com/cobija.gob/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "6,9 mil visualizaciones",
+      "titulo": "7,1 mil visualizaciones",
       "video_id": "28403981305971096",
       "url_video": "https://www.facebook.com/cobija.gob/videos/28403981305971096/",
       "confianza": -340,
@@ -6216,7 +6220,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-12T09:57:29.642845+00:00",
+      "revisado_en": "2026-10-12T19:59:05.949537+00:00",
       "error": null
     },
     {
