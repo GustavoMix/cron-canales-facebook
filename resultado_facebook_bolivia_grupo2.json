@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-10-19T21:30:26.592741+00:00",
+  "generado_en": "2026-10-20T00:40:49.633180+00:00",
   "fuentes_revisadas": 35,
-  "en_vivo": 2,
+  "en_vivo": 3,
   "resultados": [
     {
       "nombre": "Tele Bolivia",
@@ -17,8 +17,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Tele Bolivia",
-      "video_id": "1675999930615619",
-      "url_video": "https://www.facebook.com/100064379723652/videos/1675999930615619",
+      "video_id": "1874921867209893",
+      "url_video": "https://www.facebook.com/100064379723652/videos/1874921867209893",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:20:05.606589+00:00",
+      "revisado_en": "2026-10-20T00:30:25.864495+00:00",
       "error": null
     },
     {
@@ -44,24 +44,26 @@
       "tipo": "pagina",
       "identificador": "TvSucreUSFX",
       "icono_url": "https://graph.facebook.com/TvSucreUSFX/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Televisión Universitaria - SUCRE",
-      "video_id": "28887790827521777",
-      "url_video": "https://www.facebook.com/100064156385235/videos/28887790827521777",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1090855277084175",
+      "url_video": "https://www.facebook.com/100064156385235/videos/1090855277084175",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/TvSucreUSFX/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 8900,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:20:24.678033+00:00",
+      "revisado_en": "2026-10-20T00:30:45.259572+00:00",
       "error": null
     },
     {
@@ -87,7 +89,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:20:43.629100+00:00",
+      "revisado_en": "2026-10-20T00:31:00.710743+00:00",
       "error": null
     },
     {
@@ -117,7 +119,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:21:02.223461+00:00",
+      "revisado_en": "2026-10-20T00:31:18.723597+00:00",
       "error": null
     },
     {
@@ -147,7 +149,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:21:21.289849+00:00",
+      "revisado_en": "2026-10-20T00:31:38.248864+00:00",
       "error": null
     },
     {
@@ -173,7 +175,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:21:40.975412+00:00",
+      "revisado_en": "2026-10-20T00:31:57.920092+00:00",
       "error": null
     },
     {
@@ -203,7 +205,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:21:58.419621+00:00",
+      "revisado_en": "2026-10-20T00:32:15.394913+00:00",
       "error": null
     },
     {
@@ -218,19 +220,22 @@
       "icono_url": "https://graph.facebook.com/BENITELEVISION/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Beni tv",
+      "video_id": "1359059707537615",
+      "url_video": "https://www.facebook.com/100089699217221/videos/1359059707537615",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:22:17.183264+00:00",
+      "revisado_en": "2026-10-20T00:32:33.961614+00:00",
       "error": null
     },
     {
@@ -263,7 +268,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:22:35.074949+00:00",
+      "revisado_en": "2026-10-20T00:32:53.116811+00:00",
       "error": null
     },
     {
@@ -290,7 +295,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:22:53.619092+00:00",
+      "revisado_en": "2026-10-20T00:33:11.172073+00:00",
       "error": null
     },
     {
@@ -317,7 +322,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:23:11.504303+00:00",
+      "revisado_en": "2026-10-20T00:33:29.181248+00:00",
       "error": null
     },
     {
@@ -349,7 +354,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:23:29.222557+00:00",
+      "revisado_en": "2026-10-20T00:33:47.165041+00:00",
       "error": null
     },
     {
@@ -381,7 +386,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:23:47.155989+00:00",
+      "revisado_en": "2026-10-20T00:34:05.259677+00:00",
       "error": null
     },
     {
@@ -413,7 +418,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:24:05.452355+00:00",
+      "revisado_en": "2026-10-20T00:34:23.445964+00:00",
       "error": null
     },
     {
@@ -426,26 +431,26 @@
       "tipo": "pagina",
       "identificador": "TVUCanal21",
       "icono_url": "https://graph.facebook.com/TVUCanal21/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "38:08",
-      "video_id": "1170919245370166",
-      "url_video": "https://www.facebook.com/TVUCanal21/videos/1170919245370166/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "TVU PANDO",
+      "video_id": "1670065254753644",
+      "url_video": "https://www.facebook.com/100064163974953/videos/1670065254753644",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/TVUCanal21/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 11000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:24:23.494269+00:00",
+      "revisado_en": "2026-10-20T00:34:41.620239+00:00",
       "error": null
     },
     {
@@ -472,7 +477,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:24:41.421298+00:00",
+      "revisado_en": "2026-10-20T00:34:57.898422+00:00",
       "error": null
     },
     {
@@ -500,7 +505,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:24:59.504707+00:00",
+      "revisado_en": "2026-10-20T00:35:15.801714+00:00",
       "error": null
     },
     {
@@ -527,7 +532,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:25:17.584009+00:00",
+      "revisado_en": "2026-10-20T00:35:33.739091+00:00",
       "error": null
     },
     {
@@ -554,7 +559,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:25:35.228052+00:00",
+      "revisado_en": "2026-10-20T00:35:51.537868+00:00",
       "error": null
     },
     {
@@ -567,26 +572,26 @@
       "tipo": "pagina",
       "identificador": "RadioKawsachunCoca",
       "icono_url": "https://graph.facebook.com/RadioKawsachunCoca/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "212 visualizaciones",
-      "video_id": "1696032755324033",
-      "url_video": "https://www.facebook.com/RadioKawsachunCoca/videos/1696032755324033/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio Kawsachun Coca",
+      "video_id": "1066046853098127",
+      "url_video": "https://www.facebook.com/100070320483013/videos/1066046853098127",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioKawsachunCoca/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 266000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:25:53.181557+00:00",
+      "revisado_en": "2026-10-20T00:36:09.658518+00:00",
       "error": null
     },
     {
@@ -618,7 +623,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:26:11.095415+00:00",
+      "revisado_en": "2026-10-20T00:36:26.971850+00:00",
       "error": null
     },
     {
@@ -631,26 +636,26 @@
       "tipo": "pagina",
       "identificador": "RadioOriental96.1",
       "icono_url": "https://graph.facebook.com/RadioOriental96.1/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Radio Oriental Fm 96.1",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "2:06:00",
       "video_id": "1111962151412829",
-      "url_video": "https://www.facebook.com/100064742254928/videos/1111962151412829",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/RadioOriental96.1/live/",
+      "url_video": "https://www.facebook.com/RadioOriental96.1/videos/1111962151412829/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:26:28.966363+00:00",
+      "revisado_en": "2026-10-20T00:36:45.008393+00:00",
       "error": null
     },
     {
@@ -683,7 +688,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:26:43.770776+00:00",
+      "revisado_en": "2026-10-20T00:37:02.996426+00:00",
       "error": null
     },
     {
@@ -715,7 +720,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:27:01.850030+00:00",
+      "revisado_en": "2026-10-20T00:37:21.077094+00:00",
       "error": null
     },
     {
@@ -747,7 +752,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:27:19.969317+00:00",
+      "revisado_en": "2026-10-20T00:37:39.365023+00:00",
       "error": null
     },
     {
@@ -762,9 +767,9 @@
       "icono_url": "https://graph.facebook.com/radioaclopotosi/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:44:21",
-      "video_id": "1144080394633005",
-      "url_video": "https://www.facebook.com/radioaclopotosi/videos/1144080394633005/",
+      "titulo": "54:49",
+      "video_id": "1412670894373441",
+      "url_video": "https://www.facebook.com/radioaclopotosi/videos/1412670894373441/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -779,7 +784,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:27:37.964171+00:00",
+      "revisado_en": "2026-10-20T00:37:57.296274+00:00",
       "error": null
     },
     {
@@ -806,7 +811,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:27:55.958643+00:00",
+      "revisado_en": "2026-10-20T00:38:16.080686+00:00",
       "error": null
     },
     {
@@ -839,7 +844,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:28:13.760483+00:00",
+      "revisado_en": "2026-10-20T00:38:33.862534+00:00",
       "error": null
     },
     {
@@ -852,26 +857,26 @@
       "tipo": "pagina",
       "identificador": "100064301191042",
       "icono_url": null,
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "Radio ACLO Tarija",
-      "video_id": "1831149881358983",
-      "url_video": "https://www.facebook.com/100064301191042/videos/1831149881358983",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/100064301191042/live/",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "56:05",
+      "video_id": "1118928180517246",
+      "url_video": "https://www.facebook.com/100064301191042/videos/1118928180517246/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 2500,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:28:31.735947+00:00",
+      "revisado_en": "2026-10-20T00:38:51.770022+00:00",
       "error": null
     },
     {
@@ -898,7 +903,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:28:46.815682+00:00",
+      "revisado_en": "2026-10-20T00:39:09.657661+00:00",
       "error": null
     },
     {
@@ -926,7 +931,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:29:04.633160+00:00",
+      "revisado_en": "2026-10-20T00:39:27.596167+00:00",
       "error": null
     },
     {
@@ -952,7 +957,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:29:23.035025+00:00",
+      "revisado_en": "2026-10-20T00:39:45.902995+00:00",
       "error": null
     },
     {
@@ -967,9 +972,9 @@
       "icono_url": "https://graph.facebook.com/Pio12Cbba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:02:31",
-      "video_id": "2984508355259570",
-      "url_video": "https://www.facebook.com/Pio12Cbba/videos/2984508355259570/",
+      "titulo": "1:02:57",
+      "video_id": "28236771806001119",
+      "url_video": "https://www.facebook.com/Pio12Cbba/videos/28236771806001119/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -985,7 +990,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:29:40.436746+00:00",
+      "revisado_en": "2026-10-20T00:40:03.405878+00:00",
       "error": null
     },
     {
@@ -1012,7 +1017,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:29:58.534554+00:00",
+      "revisado_en": "2026-10-20T00:40:21.397549+00:00",
       "error": null
     },
     {
@@ -1044,7 +1049,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-19T21:30:16.660932+00:00",
+      "revisado_en": "2026-10-20T00:40:39.607757+00:00",
       "error": null
     }
   ]
