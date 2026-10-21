@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-10-21T06:13:47.555170+00:00",
+  "generado_en": "2026-10-21T12:02:06.069490+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 1,
   "resultados": [
     {
       "nombre": "Telemundo (Teledoce)",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:02:58.033729+00:00",
+      "revisado_en": "2026-10-21T11:51:55.160270+00:00",
       "error": null
     },
     {
@@ -44,24 +44,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "1010913672024342",
-      "url_video": "https://www.facebook.com/100064283455585/videos/1010913672024342",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "4074516842841617",
+      "url_video": "https://www.facebook.com/100064283455585/videos/4074516842841617",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:03:18.555563+00:00",
+      "revisado_en": "2026-10-21T11:52:14.921202+00:00",
       "error": null
     },
     {
@@ -76,26 +78,23 @@
       "icono_url": "https://graph.facebook.com/Canal4nicaraguanoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "🔴🎶 ¡MASAYA SE LLENA DE RITMO Y TRADICIÓN! 🇳🇮❤️🖤",
-      "video_id": "1908839823811389",
-      "url_video": "https://www.facebook.com/Canal4nicaraguanoticias/videos/1908839823811389/",
-      "confianza": -340,
+      "titulo": "Canal 4 Nicaragua",
+      "video_id": "1298808751522895",
+      "url_video": "https://www.facebook.com/100064761756326/videos/1298808751522895",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:🔴 en vivo"
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
         "html_is_currently_live",
-        "texto_en_directo"
+        "texto_en_directo",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:03:38.417782+00:00",
+      "revisado_en": "2026-10-21T11:52:30.452574+00:00",
       "error": null
     },
     {
@@ -125,7 +124,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:04:21.963041+00:00",
+      "revisado_en": "2026-10-21T11:52:49.915719+00:00",
       "error": null
     },
     {
@@ -155,7 +154,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:04:42.239424+00:00",
+      "revisado_en": "2026-10-21T11:53:09.866969+00:00",
       "error": null
     },
     {
@@ -185,7 +184,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:05:01.690086+00:00",
+      "revisado_en": "2026-10-21T11:53:28.743079+00:00",
       "error": null
     },
     {
@@ -217,7 +216,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:05:21.566839+00:00",
+      "revisado_en": "2026-10-21T11:53:48.053855+00:00",
       "error": null
     },
     {
@@ -243,7 +242,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:05:41.666701+00:00",
+      "revisado_en": "2026-10-21T11:54:09.267113+00:00",
       "error": null
     },
     {
@@ -270,7 +269,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:05:59.452150+00:00",
+      "revisado_en": "2026-10-21T11:54:26.879685+00:00",
       "error": null
     },
     {
@@ -302,7 +301,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:06:17.467404+00:00",
+      "revisado_en": "2026-10-21T11:54:44.905172+00:00",
       "error": null
     },
     {
@@ -317,7 +316,7 @@
       "icono_url": "https://graph.facebook.com/ElAltoAlcaldia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "26,3 mil visualizaciones",
+      "titulo": "32,9 mil visualizaciones",
       "video_id": "1845436349822381",
       "url_video": "https://www.facebook.com/ElAltoAlcaldia/videos/1845436349822381/",
       "confianza": -370,
@@ -334,7 +333,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:06:35.632580+00:00",
+      "revisado_en": "2026-10-21T11:55:02.888413+00:00",
       "error": null
     },
     {
@@ -360,7 +359,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:06:53.727272+00:00",
+      "revisado_en": "2026-10-21T11:55:21.099694+00:00",
       "error": null
     },
     {
@@ -392,7 +391,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:07:11.567856+00:00",
+      "revisado_en": "2026-10-21T11:55:38.549345+00:00",
       "error": null
     },
     {
@@ -419,7 +418,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:07:29.783987+00:00",
+      "revisado_en": "2026-10-21T11:55:56.528878+00:00",
       "error": null
     },
     {
@@ -451,7 +450,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:07:47.806845+00:00",
+      "revisado_en": "2026-10-21T11:56:14.331513+00:00",
       "error": null
     },
     {
@@ -478,7 +477,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:08:06.082149+00:00",
+      "revisado_en": "2026-10-21T11:56:32.466249+00:00",
       "error": null
     },
     {
@@ -506,7 +505,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:08:24.148166+00:00",
+      "revisado_en": "2026-10-21T11:56:50.496294+00:00",
       "error": null
     },
     {
@@ -533,7 +532,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:08:42.544731+00:00",
+      "revisado_en": "2026-10-21T11:57:08.477203+00:00",
       "error": null
     },
     {
@@ -565,7 +564,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:09:00.649343+00:00",
+      "revisado_en": "2026-10-21T11:57:26.383995+00:00",
       "error": null
     },
     {
@@ -597,7 +596,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:09:18.747030+00:00",
+      "revisado_en": "2026-10-21T11:57:44.289857+00:00",
       "error": null
     },
     {
@@ -630,7 +629,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:09:37.026973+00:00",
+      "revisado_en": "2026-10-21T11:58:02.309164+00:00",
       "error": null
     },
     {
@@ -645,9 +644,9 @@
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:01:42",
-      "video_id": "1926630041646288",
-      "url_video": "https://www.facebook.com/eldeberradio/videos/1926630041646288/",
+      "titulo": "1:51:40",
+      "video_id": "2868283463564457",
+      "url_video": "https://www.facebook.com/eldeberradio/videos/2868283463564457/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -662,7 +661,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:09:55.348054+00:00",
+      "revisado_en": "2026-10-21T11:58:20.419275+00:00",
       "error": null
     },
     {
@@ -694,7 +693,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:10:13.483751+00:00",
+      "revisado_en": "2026-10-21T11:58:38.594955+00:00",
       "error": null
     },
     {
@@ -726,7 +725,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:10:31.728745+00:00",
+      "revisado_en": "2026-10-21T11:58:56.530211+00:00",
       "error": null
     },
     {
@@ -753,7 +752,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:10:49.787529+00:00",
+      "revisado_en": "2026-10-21T11:59:14.493545+00:00",
       "error": null
     },
     {
@@ -786,7 +785,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:11:12.615920+00:00",
+      "revisado_en": "2026-10-21T11:59:32.461855+00:00",
       "error": null
     },
     {
@@ -812,7 +811,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:11:30.697149+00:00",
+      "revisado_en": "2026-10-21T11:59:50.430595+00:00",
       "error": null
     },
     {
@@ -845,7 +844,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:11:48.290841+00:00",
+      "revisado_en": "2026-10-21T12:00:07.938753+00:00",
       "error": null
     },
     {
@@ -878,7 +877,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:12:06.479272+00:00",
+      "revisado_en": "2026-10-21T12:00:25.973614+00:00",
       "error": null
     },
     {
@@ -910,7 +909,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:12:24.588584+00:00",
+      "revisado_en": "2026-10-21T12:00:44.043827+00:00",
       "error": null
     },
     {
@@ -938,7 +937,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:12:42.727334+00:00",
+      "revisado_en": "2026-10-21T12:01:02.086376+00:00",
       "error": null
     },
     {
@@ -970,7 +969,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:13:01.105409+00:00",
+      "revisado_en": "2026-10-21T12:01:20.195874+00:00",
       "error": null
     },
     {
@@ -997,7 +996,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:13:19.195469+00:00",
+      "revisado_en": "2026-10-21T12:01:38.014396+00:00",
       "error": null
     },
     {
@@ -1030,7 +1029,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-21T06:13:37.367497+00:00",
+      "revisado_en": "2026-10-21T12:01:55.904757+00:00",
       "error": null
     }
   ]
