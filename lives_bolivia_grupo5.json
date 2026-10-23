@@ -1,38 +1,69 @@
 {
-  "generado_en": "2026-10-23T06:09:00.111324+00:00",
-  "cantidad": 1,
+  "generado_en": "2026-10-23T11:40:37.335179+00:00",
+  "cantidad": 2,
   "lives": [
     {
-      "nombre": "Noticias Caracol",
+      "nombre": "VPItv",
       "categoria": "noticias",
       "tipo_fuente": null,
-      "pais": "Colombia",
+      "pais": "Venezuela",
       "plataforma": "facebook",
-      "url_fuente": "https://www.facebook.com/NoticiasCaracol",
+      "url_fuente": "https://www.facebook.com/vpitv",
       "tipo": "pagina",
-      "identificador": "NoticiasCaracol",
-      "icono_url": "https://graph.facebook.com/NoticiasCaracol/picture?type=large",
+      "identificador": "vpitv",
+      "icono_url": "https://graph.facebook.com/vpitv/picture?type=large",
       "en_vivo": true,
       "estado": "live",
-      "titulo": "Noticias Caracol",
-      "video_id": "1100053722942236",
-      "url_video": "https://www.facebook.com/100064733554773/videos/1100053722942236",
-      "confianza": 130,
-      "ruta_detectada": "https://www.facebook.com/NoticiasCaracol/videos/",
+      "titulo": "VPI Tv",
+      "video_id": "1854811099029306",
+      "url_video": "https://www.facebook.com/100081504459614/videos/1854811099029306",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/vpitv/live/",
       "motivos": [
-        "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": 61000,
+      "espectadores": 12000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-10-23T06:00:48.585923+00:00",
+      "revisado_en": "2026-10-23T11:34:29.417983+00:00",
+      "error": null
+    },
+    {
+      "nombre": "Teleamazonas",
+      "categoria": "noticias",
+      "tipo_fuente": null,
+      "pais": "Ecuador",
+      "plataforma": "facebook",
+      "url_fuente": "https://www.facebook.com/TeleamazonasEcuador",
+      "tipo": "pagina",
+      "identificador": "TeleamazonasEcuador",
+      "icono_url": "https://graph.facebook.com/TeleamazonasEcuador/picture?type=large",
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Teleamazonas",
+      "video_id": "3806541789509797",
+      "url_video": "https://www.facebook.com/100064569558722/videos/3806541789509797",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/TeleamazonasEcuador/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 12000,
+      "marcadores": [
+        "html_is_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
+      ],
+      "muro_login": false,
+      "revisado_en": "2026-10-23T11:35:03.080563+00:00",
       "error": null
     }
   ]
