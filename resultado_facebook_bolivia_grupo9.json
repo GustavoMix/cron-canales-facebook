@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-11-05T07:42:31.683409+00:00",
+  "generado_en": "2026-11-05T16:14:50.026995+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 4,
   "resultados": [
     {
       "nombre": "Punto Tv Tarija",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:32:11.836936+00:00",
+      "revisado_en": "2026-11-05T16:04:44.994109+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:32:32.917886+00:00",
+      "revisado_en": "2026-11-05T16:05:05.568805+00:00",
       "error": null
     },
     {
@@ -77,8 +77,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Brújula Digital Bolivia",
-      "video_id": "1699033941847304",
-      "url_video": "https://www.facebook.com/100063674373306/videos/1699033941847304",
+      "video_id": "1768833610879978",
+      "url_video": "https://www.facebook.com/100063674373306/videos/1768833610879978",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -91,7 +91,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:32:52.342340+00:00",
+      "revisado_en": "2026-11-05T16:05:25.718806+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:33:12.718392+00:00",
+      "revisado_en": "2026-11-05T16:05:46.015175+00:00",
       "error": null
     },
     {
@@ -147,7 +147,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:33:30.681142+00:00",
+      "revisado_en": "2026-11-05T16:06:03.404892+00:00",
       "error": null
     },
     {
@@ -179,7 +179,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:33:49.997491+00:00",
+      "revisado_en": "2026-11-05T16:06:22.440695+00:00",
       "error": null
     },
     {
@@ -205,7 +205,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:34:09.581999+00:00",
+      "revisado_en": "2026-11-05T16:06:42.021581+00:00",
       "error": null
     },
     {
@@ -218,26 +218,26 @@
       "tipo": "pagina",
       "identificador": "RadioOmasuyo",
       "icono_url": "https://graph.facebook.com/RadioOmasuyo/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:20:23",
-      "video_id": "2554015241738873",
-      "url_video": "https://www.facebook.com/RadioOmasuyo/videos/2554015241738873/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Rádio Omasuyo",
+      "video_id": "29087614937555995",
+      "url_video": "https://www.facebook.com/100063699212995/videos/29087614937555995",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/RadioOmasuyo/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 29000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:34:27.194114+00:00",
+      "revisado_en": "2026-11-05T16:06:59.375906+00:00",
       "error": null
     },
     {
@@ -250,27 +250,26 @@
       "tipo": "pagina",
       "identificador": "lavozdebrassp",
       "icono_url": "https://graph.facebook.com/lavozdebrassp/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:20:40",
-      "video_id": "1646366423820927",
-      "url_video": "https://www.facebook.com/lavozdebrassp/videos/1646366423820927/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Radio La Voz de Bras",
+      "video_id": "1141984835292451",
+      "url_video": "https://www.facebook.com/100063598809172/videos/1141984835292451",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/lavozdebrassp/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1600,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:34:45.513375+00:00",
+      "revisado_en": "2026-11-05T16:07:15.037935+00:00",
       "error": null
     },
     {
@@ -302,7 +301,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:35:03.781924+00:00",
+      "revisado_en": "2026-11-05T16:07:30.566778+00:00",
       "error": null
     },
     {
@@ -334,7 +333,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:35:22.617809+00:00",
+      "revisado_en": "2026-11-05T16:07:48.606360+00:00",
       "error": null
     },
     {
@@ -349,9 +348,9 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "3:15:21",
-      "video_id": "2673843163070732",
-      "url_video": "https://www.facebook.com/100090506256593/videos/2673843163070732/",
+      "titulo": "3:47:41",
+      "video_id": "2311551706310517",
+      "url_video": "https://www.facebook.com/100090506256593/videos/2311551706310517/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -366,7 +365,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:35:40.777440+00:00",
+      "revisado_en": "2026-11-05T16:08:06.789209+00:00",
       "error": null
     },
     {
@@ -393,7 +392,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:35:59.052926+00:00",
+      "revisado_en": "2026-11-05T16:08:24.668446+00:00",
       "error": null
     },
     {
@@ -425,7 +424,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:36:17.112610+00:00",
+      "revisado_en": "2026-11-05T16:08:42.496006+00:00",
       "error": null
     },
     {
@@ -440,9 +439,9 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "3:04:58",
-      "video_id": "1162068356247320",
-      "url_video": "https://www.facebook.com/61559049486842/videos/1162068356247320/",
+      "titulo": "2:44:30",
+      "video_id": "1478299324213850",
+      "url_video": "https://www.facebook.com/61559049486842/videos/1478299324213850/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -457,7 +456,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:36:35.409984+00:00",
+      "revisado_en": "2026-11-05T16:09:00.376517+00:00",
       "error": null
     },
     {
@@ -489,7 +488,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:36:53.678099+00:00",
+      "revisado_en": "2026-11-05T16:09:18.357035+00:00",
       "error": null
     },
     {
@@ -521,7 +520,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:37:11.864051+00:00",
+      "revisado_en": "2026-11-05T16:09:36.362040+00:00",
       "error": null
     },
     {
@@ -548,7 +547,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:37:30.195631+00:00",
+      "revisado_en": "2026-11-05T16:09:54.403785+00:00",
       "error": null
     },
     {
@@ -575,7 +574,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:37:48.228830+00:00",
+      "revisado_en": "2026-11-05T16:10:12.283866+00:00",
       "error": null
     },
     {
@@ -608,7 +607,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:38:06.404873+00:00",
+      "revisado_en": "2026-11-05T16:10:30.180502+00:00",
       "error": null
     },
     {
@@ -635,7 +634,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:38:25.002630+00:00",
+      "revisado_en": "2026-11-05T16:10:49.131186+00:00",
       "error": null
     },
     {
@@ -667,7 +666,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:38:43.137043+00:00",
+      "revisado_en": "2026-11-05T16:11:07.178311+00:00",
       "error": null
     },
     {
@@ -682,9 +681,9 @@
       "icono_url": "https://graph.facebook.com/Radiowebinfinita/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:47:08",
-      "video_id": "29342150135397087",
-      "url_video": "https://www.facebook.com/Radiowebinfinita/videos/29342150135397087/",
+      "titulo": "1:45:52",
+      "video_id": "983381371512743",
+      "url_video": "https://www.facebook.com/Radiowebinfinita/videos/983381371512743/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -699,7 +698,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:39:01.360244+00:00",
+      "revisado_en": "2026-11-05T16:11:25.401766+00:00",
       "error": null
     },
     {
@@ -731,7 +730,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:39:19.685515+00:00",
+      "revisado_en": "2026-11-05T16:11:44.126136+00:00",
       "error": null
     },
     {
@@ -759,7 +758,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:39:37.835231+00:00",
+      "revisado_en": "2026-11-05T16:12:02.218880+00:00",
       "error": null
     },
     {
@@ -772,26 +771,26 @@
       "tipo": "pagina",
       "identificador": "LeoProduccionesBrasill",
       "icono_url": "https://graph.facebook.com/LeoProduccionesBrasill/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "5:03:29",
-      "video_id": "2394921327981390",
-      "url_video": "https://www.facebook.com/LeoProduccionesBrasill/videos/2394921327981390/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Leo producciones Brasil",
+      "video_id": "1855388322157527",
+      "url_video": "https://www.facebook.com/100070949126255/videos/1855388322157527",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/LeoProduccionesBrasill/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 32000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:39:55.979540+00:00",
+      "revisado_en": "2026-11-05T16:12:20.323010+00:00",
       "error": null
     },
     {
@@ -804,26 +803,26 @@
       "tipo": "pagina",
       "identificador": "LeoProduccionesBrasil",
       "icono_url": "https://graph.facebook.com/LeoProduccionesBrasil/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:01:50",
-      "video_id": "1440607384889860",
-      "url_video": "https://www.facebook.com/LeoProduccionesBrasil/videos/1440607384889860/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Leo Producciones Brasil internacional",
+      "video_id": "1947877819517540",
+      "url_video": "https://www.facebook.com/100044674262870/videos/1947877819517540",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/LeoProduccionesBrasil/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:40:14.213373+00:00",
+      "revisado_en": "2026-11-05T16:12:36.160861+00:00",
       "error": null
     },
     {
@@ -855,7 +854,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:40:32.684517+00:00",
+      "revisado_en": "2026-11-05T16:12:51.613683+00:00",
       "error": null
     },
     {
@@ -887,7 +886,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:40:50.941762+00:00",
+      "revisado_en": "2026-11-05T16:13:09.697658+00:00",
       "error": null
     },
     {
@@ -914,7 +913,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:41:09.212626+00:00",
+      "revisado_en": "2026-11-05T16:13:27.902553+00:00",
       "error": null
     },
     {
@@ -946,7 +945,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:41:27.367543+00:00",
+      "revisado_en": "2026-11-05T16:13:45.872375+00:00",
       "error": null
     },
     {
@@ -973,7 +972,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:41:45.516024+00:00",
+      "revisado_en": "2026-11-05T16:14:04.073363+00:00",
       "error": null
     },
     {
@@ -1000,7 +999,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:42:03.455488+00:00",
+      "revisado_en": "2026-11-05T16:14:21.942551+00:00",
       "error": null
     },
     {
@@ -1027,7 +1026,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-05T07:42:21.624199+00:00",
+      "revisado_en": "2026-11-05T16:14:39.955705+00:00",
       "error": null
     }
   ]
