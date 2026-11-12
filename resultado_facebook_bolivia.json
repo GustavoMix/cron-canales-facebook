@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-11-12T16:20:39.231279+00:00",
+  "generado_en": "2026-11-12T17:09:56.493865+00:00",
   "fuentes_revisadas": 308,
-  "en_vivo": 28,
+  "en_vivo": 34,
   "resultados": [
     {
       "nombre": "UNITEL",
@@ -25,7 +25,7 @@
         "debil: en vivo ",
         "aria_live"
       ],
-      "espectadores": 76000,
+      "espectadores": 77000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -34,7 +34,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:30:00.408624+00:00",
+      "revisado_en": "2026-11-12T16:59:14.613982+00:00",
       "error": null
     },
     {
@@ -49,22 +49,25 @@
       "icono_url": "https://graph.facebook.com/RedUnotv/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Red Uno de Bolivia",
-      "video_id": "2236516550600823",
-      "url_video": "https://www.facebook.com/100069128365699/videos/2236516550600823",
-      "confianza": 0,
+      "titulo": "🔴 EN VIVO | Papa León XIV dirige un mensaje al pueblo peruano desde la Catedral de Lima",
+      "video_id": "1007133669099989",
+      "url_video": "https://www.facebook.com/RedUnotv/videos/-en-vivo-papa-le%C3%B3n-xiv-dirige-un-mensaje-al-pueblo-peruano-desde-la-catedral-de-/1007133669099989/",
+      "confianza": 60,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "debil: en vivo ",
+        "debil:🔴 en vivo"
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:30:22.115721+00:00",
+      "revisado_en": "2026-11-12T16:59:36.704813+00:00",
       "error": null
     },
     {
@@ -94,7 +97,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:30:41.379761+00:00",
+      "revisado_en": "2026-11-12T16:59:57.089778+00:00",
       "error": null
     },
     {
@@ -109,7 +112,7 @@
       "icono_url": "https://graph.facebook.com/NoticiasBolivision/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Noticias Bolivisión",
+      "titulo": "Indicador de estado activo",
       "video_id": "2361512981268797",
       "url_video": "https://www.facebook.com/100064673952559/videos/2361512981268797",
       "confianza": 0,
@@ -124,7 +127,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:31:01.251157+00:00",
+      "revisado_en": "2026-11-12T17:00:17.230117+00:00",
       "error": null
     },
     {
@@ -137,24 +140,26 @@
       "tipo": "pagina",
       "identificador": "BTVCanalOficial",
       "icono_url": "https://graph.facebook.com/BTVCanalOficial/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Bolivia Tv Oficial",
-      "video_id": "2165338234079438",
-      "url_video": "https://www.facebook.com/61551650560470/videos/2165338234079438",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1172219608713092",
+      "url_video": "https://www.facebook.com/61551650560470/videos/1172219608713092",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/BTVCanalOficial/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 5800,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:31:20.377635+00:00",
+      "revisado_en": "2026-11-12T17:00:37.415218+00:00",
       "error": null
     },
     {
@@ -172,9 +177,11 @@
       "titulo": "ATB Media",
       "video_id": "1762261678791482",
       "url_video": "https://www.facebook.com/61566630702281/videos/1762261678791482",
-      "confianza": 0,
+      "confianza": 30,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -184,7 +191,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:31:39.836185+00:00",
+      "revisado_en": "2026-11-12T17:00:53.251111+00:00",
       "error": null
     },
     {
@@ -197,24 +204,26 @@
       "tipo": "pagina",
       "identificador": "rtpbolivia",
       "icono_url": "https://graph.facebook.com/rtpbolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "RTP Bolivia",
-      "video_id": "1457607712923621",
-      "url_video": "https://www.facebook.com/100069549241506/videos/1457607712923621",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1501187721858329",
+      "url_video": "https://www.facebook.com/100069549241506/videos/1501187721858329",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/rtpbolivia/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 4400,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:31:58.859735+00:00",
+      "revisado_en": "2026-11-12T17:01:13.150506+00:00",
       "error": null
     },
     {
@@ -229,24 +238,22 @@
       "icono_url": "https://graph.facebook.com/patboliviahd/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:03:34",
-      "video_id": "1437444884644075",
-      "url_video": "https://www.facebook.com/patboliviahd/videos/1437444884644075/",
-      "confianza": -370,
+      "titulo": "Pat Bolivia",
+      "video_id": "1845046660015125",
+      "url_video": "https://www.facebook.com/100064473170863/videos/1845046660015125",
+      "confianza": 0,
       "ruta_detectada": null,
-      "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
-      ],
+      "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:32:18.896004+00:00",
+      "revisado_en": "2026-11-12T17:01:31.101515+00:00",
       "error": null
     },
     {
@@ -272,7 +279,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:32:37.345134+00:00",
+      "revisado_en": "2026-11-12T17:01:50.648397+00:00",
       "error": null
     },
     {
@@ -304,7 +311,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:32:55.930018+00:00",
+      "revisado_en": "2026-11-12T17:02:08.989759+00:00",
       "error": null
     },
     {
@@ -317,26 +324,26 @@
       "tipo": "pagina",
       "identificador": "F10HD",
       "icono_url": "https://graph.facebook.com/F10HD/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "2:00:37",
-      "video_id": "1743329790732957",
-      "url_video": "https://www.facebook.com/F10HD/videos/1743329790732957/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "F10 HD - Bolivia",
+      "video_id": "2346270089440882",
+      "url_video": "https://www.facebook.com/100064116755698/videos/2346270089440882",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/F10HD/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 12000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:33:14.864083+00:00",
+      "revisado_en": "2026-11-12T17:02:28.091305+00:00",
       "error": null
     },
     {
@@ -349,27 +356,26 @@
       "tipo": "pagina",
       "identificador": "canalpalenquetv",
       "icono_url": "https://graph.facebook.com/canalpalenquetv/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "53:59",
-      "video_id": "41053169480949176",
-      "url_video": "https://www.facebook.com/canalpalenquetv/videos/41053169480949176/",
-      "confianza": -340,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "Palenque TV 6.1",
+      "video_id": "1004589322014007",
+      "url_video": "https://www.facebook.com/100064945260159/videos/1004589322014007",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/canalpalenquetv/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo ",
-        "debil:\nen vivo\n"
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 9100,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:33:33.434880+00:00",
+      "revisado_en": "2026-11-12T17:02:43.778656+00:00",
       "error": null
     },
     {
@@ -401,7 +407,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:33:51.896292+00:00",
+      "revisado_en": "2026-11-12T17:03:00.189048+00:00",
       "error": null
     },
     {
@@ -416,9 +422,9 @@
       "icono_url": "https://graph.facebook.com/telecbolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:03:24",
-      "video_id": "1092299297143836",
-      "url_video": "https://www.facebook.com/telecbolivia/videos/1092299297143836/",
+      "titulo": "54:53",
+      "video_id": "2085127718825735",
+      "url_video": "https://www.facebook.com/telecbolivia/videos/2085127718825735/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -433,7 +439,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:34:10.265273+00:00",
+      "revisado_en": "2026-11-12T17:03:18.825573+00:00",
       "error": null
     },
     {
@@ -448,9 +454,9 @@
       "icono_url": "https://graph.facebook.com/UnivalleTelevision/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "57:03",
-      "video_id": "1777007420260233",
-      "url_video": "https://www.facebook.com/UnivalleTelevision/videos/1777007420260233/",
+      "titulo": "Buenos días a todos UNV",
+      "video_id": "1667419254823837",
+      "url_video": "https://www.facebook.com/UnivalleTelevision/videos/1667419254823837/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -465,7 +471,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:34:28.841626+00:00",
+      "revisado_en": "2026-11-12T17:03:37.349441+00:00",
       "error": null
     },
     {
@@ -492,7 +498,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:34:47.423214+00:00",
+      "revisado_en": "2026-11-12T17:03:55.736441+00:00",
       "error": null
     },
     {
@@ -507,9 +513,9 @@
       "icono_url": "https://graph.facebook.com/RadioFidesBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "59:39",
-      "video_id": "1454707160105405",
-      "url_video": "https://www.facebook.com/RadioFidesBolivia/videos/1454707160105405/",
+      "titulo": "4:29:13",
+      "video_id": "1864088681275773",
+      "url_video": "https://www.facebook.com/RadioFidesBolivia/videos/1864088681275773/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -525,7 +531,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:35:05.650570+00:00",
+      "revisado_en": "2026-11-12T17:04:14.249880+00:00",
       "error": null
     },
     {
@@ -538,26 +544,26 @@
       "tipo": "pagina",
       "identificador": "GrupoELDEBER",
       "icono_url": "https://graph.facebook.com/GrupoELDEBER/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "50:44",
-      "video_id": "1185875483922712",
-      "url_video": "https://www.facebook.com/GrupoELDEBER/videos/1185875483922712/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "EL DEBER",
+      "video_id": "998730699326121",
+      "url_video": "https://www.facebook.com/100064353956929/videos/998730699326121",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/GrupoELDEBER/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 12000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:35:24.117761+00:00",
+      "revisado_en": "2026-11-12T17:04:32.768512+00:00",
       "error": null
     },
     {
@@ -584,7 +590,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:35:42.824247+00:00",
+      "revisado_en": "2026-11-12T17:04:48.479742+00:00",
       "error": null
     },
     {
@@ -610,7 +616,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:36:01.221631+00:00",
+      "revisado_en": "2026-11-12T17:05:06.800473+00:00",
       "error": null
     },
     {
@@ -625,9 +631,9 @@
       "icono_url": "https://graph.facebook.com/livemoisesvelascorodriguez/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:55:41",
-      "video_id": "1129712303365881",
-      "url_video": "https://www.facebook.com/livemoisesvelascorodriguez/videos/1129712303365881/",
+      "titulo": "2:12:44",
+      "video_id": "1192660289998264",
+      "url_video": "https://www.facebook.com/livemoisesvelascorodriguez/videos/1192660289998264/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -642,7 +648,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:36:19.506204+00:00",
+      "revisado_en": "2026-11-12T17:05:25.363725+00:00",
       "error": null
     },
     {
@@ -655,26 +661,26 @@
       "tipo": "profile_id",
       "identificador": "100083098042355",
       "icono_url": null,
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "5:07:09",
-      "video_id": "2360537704764971",
-      "url_video": "https://www.facebook.com/100083098042355/videos/2360537704764971/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "El poder boliviano",
+      "video_id": "2700821700378887",
+      "url_video": "https://www.facebook.com/100083098042355/videos/2700821700378887",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/100083098042355/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 63000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:36:37.940491+00:00",
+      "revisado_en": "2026-11-12T17:05:44.010994+00:00",
       "error": null
     },
     {
@@ -689,9 +695,9 @@
       "icono_url": "https://graph.facebook.com/VictorHugoBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "51:53",
-      "video_id": "1134928785837909",
-      "url_video": "https://www.facebook.com/VictorHugoBolivia/videos/1134928785837909/",
+      "titulo": "1:02:34",
+      "video_id": "2452710365138117",
+      "url_video": "https://www.facebook.com/VictorHugoBolivia/videos/2452710365138117/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -706,7 +712,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:36:56.290944+00:00",
+      "revisado_en": "2026-11-12T17:06:00.624963+00:00",
       "error": null
     },
     {
@@ -721,9 +727,9 @@
       "icono_url": "https://graph.facebook.com/TeleEstrellaHDBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "55:19",
-      "video_id": "1140102095686078",
-      "url_video": "https://www.facebook.com/TeleEstrellaHDBolivia/videos/1140102095686078/",
+      "titulo": "59:41",
+      "video_id": "1439444011670879",
+      "url_video": "https://www.facebook.com/TeleEstrellaHDBolivia/videos/1439444011670879/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -738,7 +744,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:37:14.742065+00:00",
+      "revisado_en": "2026-11-12T17:06:19.104804+00:00",
       "error": null
     },
     {
@@ -765,7 +771,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:37:33.158402+00:00",
+      "revisado_en": "2026-11-12T17:06:37.796507+00:00",
       "error": null
     },
     {
@@ -780,9 +786,9 @@
       "icono_url": "https://graph.facebook.com/FapTvBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "59:06",
-      "video_id": "1624643509114650",
-      "url_video": "https://www.facebook.com/FapTvBolivia/videos/1624643509114650/",
+      "titulo": "52:13",
+      "video_id": "1145013388009746",
+      "url_video": "https://www.facebook.com/FapTvBolivia/videos/1145013388009746/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -797,7 +803,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:37:51.532001+00:00",
+      "revisado_en": "2026-11-12T17:06:56.416456+00:00",
       "error": null
     },
     {
@@ -824,7 +830,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:38:09.910141+00:00",
+      "revisado_en": "2026-11-12T17:07:15.078085+00:00",
       "error": null
     },
     {
@@ -839,9 +845,9 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "16:07",
-      "video_id": "3194808244243910",
-      "url_video": "https://www.facebook.com/100080287069606/videos/3194808244243910/",
+      "titulo": "Entrega de materiales e insumos agropecuarios en el municipio de Omereque.",
+      "video_id": "2339043347004057",
+      "url_video": "https://www.facebook.com/100080287069606/videos/2339043347004057/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -856,7 +862,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:38:28.220970+00:00",
+      "revisado_en": "2026-11-12T17:07:33.514692+00:00",
       "error": null
     },
     {
@@ -889,7 +895,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:38:46.671618+00:00",
+      "revisado_en": "2026-11-12T17:07:52.026625+00:00",
       "error": null
     },
     {
@@ -915,7 +921,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:39:05.106020+00:00",
+      "revisado_en": "2026-11-12T17:08:10.600897+00:00",
       "error": null
     },
     {
@@ -947,7 +953,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:39:22.961342+00:00",
+      "revisado_en": "2026-11-12T17:08:28.509356+00:00",
       "error": null
     },
     {
@@ -973,7 +979,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:39:41.351218+00:00",
+      "revisado_en": "2026-11-12T17:08:47.276128+00:00",
       "error": null
     },
     {
@@ -1000,7 +1006,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:39:59.252163+00:00",
+      "revisado_en": "2026-11-12T17:09:05.242583+00:00",
       "error": null
     },
     {
@@ -1032,7 +1038,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:40:17.603322+00:00",
+      "revisado_en": "2026-11-12T17:09:23.493480+00:00",
       "error": null
     },
     {
@@ -1047,9 +1053,9 @@
       "icono_url": "https://graph.facebook.com/canal13tvvision/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "26:09",
-      "video_id": "4129897907317451",
-      "url_video": "https://www.facebook.com/canal13tvvision/videos/4129897907317451/",
+      "titulo": "51:21",
+      "video_id": "2127956451442755",
+      "url_video": "https://www.facebook.com/canal13tvvision/videos/2127956451442755/",
       "confianza": -340,
       "ruta_detectada": null,
       "motivos": [
@@ -1065,7 +1071,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-12T08:40:36.077596+00:00",
+      "revisado_en": "2026-11-12T17:09:42.003060+00:00",
       "error": null
     },
     {
