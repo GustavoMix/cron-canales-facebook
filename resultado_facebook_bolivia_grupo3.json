@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-11-13T10:52:42.507745+00:00",
+  "generado_en": "2026-11-13T18:37:16.074394+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 1,
   "resultados": [
     {
       "nombre": "Radio Splendid Bolivia",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:42:27.021696+00:00",
+      "revisado_en": "2026-11-13T18:26:55.459743+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:42:46.936463+00:00",
+      "revisado_en": "2026-11-13T18:27:15.324985+00:00",
       "error": null
     },
     {
@@ -91,7 +91,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:43:05.835829+00:00",
+      "revisado_en": "2026-11-13T18:27:34.465577+00:00",
       "error": null
     },
     {
@@ -121,7 +121,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:43:25.370768+00:00",
+      "revisado_en": "2026-11-13T18:27:53.683182+00:00",
       "error": null
     },
     {
@@ -151,7 +151,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:43:44.588185+00:00",
+      "revisado_en": "2026-11-13T18:28:13.076629+00:00",
       "error": null
     },
     {
@@ -178,7 +178,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:44:03.906953+00:00",
+      "revisado_en": "2026-11-13T18:28:32.206682+00:00",
       "error": null
     },
     {
@@ -208,7 +208,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:44:22.080801+00:00",
+      "revisado_en": "2026-11-13T18:28:50.647185+00:00",
       "error": null
     },
     {
@@ -221,26 +221,27 @@
       "tipo": "pagina",
       "identificador": "larazonnoticiasbolivia",
       "icono_url": "https://graph.facebook.com/larazonnoticiasbolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "1:03:04",
-      "video_id": "39748014894841872",
-      "url_video": "https://www.facebook.com/larazonnoticiasbolivia/videos/39748014894841872/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "La Razón Noticias Bolivia",
+      "video_id": "1086154054268001",
+      "url_video": "https://www.facebook.com/100028848326946/videos/1086154054268001",
+      "confianza": 130,
+      "ruta_detectada": "https://www.facebook.com/larazonnoticiasbolivia/videos/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "debil: en vivo ",
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 4000,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:44:40.963112+00:00",
+      "revisado_en": "2026-11-13T18:29:09.586702+00:00",
       "error": null
     },
     {
@@ -255,9 +256,9 @@
       "icono_url": "https://graph.facebook.com/lostiemposbol1/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "459 visualizaciones",
-      "video_id": "1789409466078067",
-      "url_video": "https://www.facebook.com/lostiemposbol1/videos/1789409466078067/",
+      "titulo": "34:58",
+      "video_id": "1175183001855546",
+      "url_video": "https://www.facebook.com/lostiemposbol1/videos/1175183001855546/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -272,7 +273,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:44:59.328587+00:00",
+      "revisado_en": "2026-11-13T18:29:31.687235+00:00",
       "error": null
     },
     {
@@ -287,9 +288,9 @@
       "icono_url": "https://graph.facebook.com/correodelsur/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "43,7 mil visualizaciones",
-      "video_id": "1909304517116041",
-      "url_video": "https://www.facebook.com/correodelsur/videos/1909304517116041/",
+      "titulo": "29:07",
+      "video_id": "1162789716394577",
+      "url_video": "https://www.facebook.com/correodelsur/videos/1162789716394577/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -304,7 +305,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:45:17.417445+00:00",
+      "revisado_en": "2026-11-13T18:29:49.920571+00:00",
       "error": null
     },
     {
@@ -319,7 +320,7 @@
       "icono_url": "https://graph.facebook.com/elpotosi.noticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "7,7 mil visualizaciones",
+      "titulo": "8,2 mil visualizaciones",
       "video_id": "3688457747989094",
       "url_video": "https://www.facebook.com/elpotosi.noticias/videos/3688457747989094/",
       "confianza": -370,
@@ -336,7 +337,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:45:35.688180+00:00",
+      "revisado_en": "2026-11-13T18:30:08.158190+00:00",
       "error": null
     },
     {
@@ -368,7 +369,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:45:54.066654+00:00",
+      "revisado_en": "2026-11-13T18:30:26.420345+00:00",
       "error": null
     },
     {
@@ -395,7 +396,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:46:12.172779+00:00",
+      "revisado_en": "2026-11-13T18:30:44.613005+00:00",
       "error": null
     },
     {
@@ -410,9 +411,9 @@
       "icono_url": "https://pbs.twimg.com/profile_images/1064967710965157893/RJfg4fel.jpg",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "49:11",
-      "video_id": "2605638486621378",
-      "url_video": "https://www.facebook.com/100033841465119/videos/2605638486621378/",
+      "titulo": "55:59",
+      "video_id": "4630177680643498",
+      "url_video": "https://www.facebook.com/100033841465119/videos/4630177680643498/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -427,7 +428,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:46:30.305045+00:00",
+      "revisado_en": "2026-11-13T18:31:02.910400+00:00",
       "error": null
     },
     {
@@ -459,7 +460,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:46:49.146278+00:00",
+      "revisado_en": "2026-11-13T18:31:21.992456+00:00",
       "error": null
     },
     {
@@ -486,7 +487,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:47:07.240852+00:00",
+      "revisado_en": "2026-11-13T18:31:40.303845+00:00",
       "error": null
     },
     {
@@ -512,7 +513,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:47:25.533319+00:00",
+      "revisado_en": "2026-11-13T18:31:58.792704+00:00",
       "error": null
     },
     {
@@ -527,9 +528,9 @@
       "icono_url": "https://graph.facebook.com/SolidariaBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "50:26",
-      "video_id": "1670258217941197",
-      "url_video": "https://www.facebook.com/SolidariaBolivia/videos/1670258217941197/",
+      "titulo": "51:44",
+      "video_id": "1615049559714226",
+      "url_video": "https://www.facebook.com/SolidariaBolivia/videos/1615049559714226/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -544,7 +545,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:47:43.680745+00:00",
+      "revisado_en": "2026-11-13T18:32:16.731964+00:00",
       "error": null
     },
     {
@@ -576,7 +577,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:48:01.858436+00:00",
+      "revisado_en": "2026-11-13T18:32:35.079672+00:00",
       "error": null
     },
     {
@@ -603,7 +604,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:48:19.950995+00:00",
+      "revisado_en": "2026-11-13T18:32:53.159684+00:00",
       "error": null
     },
     {
@@ -629,7 +630,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:48:38.187263+00:00",
+      "revisado_en": "2026-11-13T18:33:11.517528+00:00",
       "error": null
     },
     {
@@ -655,7 +656,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:48:55.947613+00:00",
+      "revisado_en": "2026-11-13T18:33:29.259567+00:00",
       "error": null
     },
     {
@@ -681,7 +682,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:49:13.701154+00:00",
+      "revisado_en": "2026-11-13T18:33:47.069985+00:00",
       "error": null
     },
     {
@@ -708,7 +709,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:49:31.370613+00:00",
+      "revisado_en": "2026-11-13T18:34:04.767826+00:00",
       "error": null
     },
     {
@@ -723,9 +724,9 @@
       "icono_url": "https://graph.facebook.com/RadioShowBolivia/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "20:17",
-      "video_id": "2634384256990367",
-      "url_video": "https://www.facebook.com/RadioShowBolivia/videos/2634384256990367/",
+      "titulo": "1:07:46",
+      "video_id": "1837238873949596",
+      "url_video": "https://www.facebook.com/RadioShowBolivia/videos/1837238873949596/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -740,7 +741,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:49:49.352875+00:00",
+      "revisado_en": "2026-11-13T18:34:23.155662+00:00",
       "error": null
     },
     {
@@ -767,7 +768,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:50:07.832879+00:00",
+      "revisado_en": "2026-11-13T18:34:41.452213+00:00",
       "error": null
     },
     {
@@ -799,7 +800,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:50:26.074955+00:00",
+      "revisado_en": "2026-11-13T18:34:59.594104+00:00",
       "error": null
     },
     {
@@ -831,7 +832,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:50:44.508984+00:00",
+      "revisado_en": "2026-11-13T18:35:18.139697+00:00",
       "error": null
     },
     {
@@ -863,7 +864,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:51:02.629259+00:00",
+      "revisado_en": "2026-11-13T18:35:36.242431+00:00",
       "error": null
     },
     {
@@ -891,7 +892,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:51:20.862557+00:00",
+      "revisado_en": "2026-11-13T18:35:54.397716+00:00",
       "error": null
     },
     {
@@ -917,7 +918,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:51:38.905579+00:00",
+      "revisado_en": "2026-11-13T18:36:12.355748+00:00",
       "error": null
     },
     {
@@ -932,9 +933,9 @@
       "icono_url": "https://graph.facebook.com/DiarioOpinion/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "14:31",
-      "video_id": "1700602451494512",
-      "url_video": "https://www.facebook.com/DiarioOpinion/videos/1700602451494512/",
+      "titulo": "1:03:55",
+      "video_id": "1137121068719962",
+      "url_video": "https://www.facebook.com/DiarioOpinion/videos/1137121068719962/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -949,7 +950,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:51:56.611479+00:00",
+      "revisado_en": "2026-11-13T18:36:29.949618+00:00",
       "error": null
     },
     {
@@ -975,7 +976,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:52:14.737009+00:00",
+      "revisado_en": "2026-11-13T18:36:48.021757+00:00",
       "error": null
     },
     {
@@ -990,7 +991,7 @@
       "icono_url": "https://graph.facebook.com/DobleImpactoOruro/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "137,3 mil visualizaciones",
+      "titulo": "137,4 mil visualizaciones",
       "video_id": "1437932231614059",
       "url_video": "https://www.facebook.com/DobleImpactoOruro/videos/1437932231614059/",
       "confianza": -370,
@@ -1007,7 +1008,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-13T10:52:32.428676+00:00",
+      "revisado_en": "2026-11-13T18:37:05.899188+00:00",
       "error": null
     }
   ]
