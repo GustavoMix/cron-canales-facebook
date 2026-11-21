@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-11-21T04:09:38.462693+00:00",
+  "generado_en": "2026-11-21T12:51:27.776277+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 3,
   "resultados": [
     {
       "nombre": "Telemundo (Teledoce)",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T03:59:19.750259+00:00",
+      "revisado_en": "2026-11-21T12:41:09.050674+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T03:59:39.013467+00:00",
+      "revisado_en": "2026-11-21T12:41:28.608024+00:00",
       "error": null
     },
     {
@@ -74,15 +74,17 @@
       "tipo": "pagina",
       "identificador": "Canal4nicaraguanoticias",
       "icono_url": "https://graph.facebook.com/Canal4nicaraguanoticias/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Canal 4 Nicaragua",
-      "video_id": "1111066368495487",
-      "url_video": "https://www.facebook.com/100064761756326/videos/1111066368495487",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1156901466837199",
+      "url_video": "https://www.facebook.com/100064761756326/videos/1156901466837199",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/Canal4nicaraguanoticias/videos/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 8200,
       "marcadores": [
         "html_is_live",
         "html_is_live_streaming",
@@ -91,7 +93,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T03:59:58.474124+00:00",
+      "revisado_en": "2026-11-21T12:41:48.148109+00:00",
       "error": null
     },
     {
@@ -106,12 +108,14 @@
       "icono_url": "https://graph.facebook.com/AztecaNoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Indicador de estado activo",
+      "titulo": "Azteca Noticias",
       "video_id": "1604208948176892",
       "url_video": "https://www.facebook.com/100069563637018/videos/1604208948176892",
-      "confianza": 0,
+      "confianza": 30,
       "ruta_detectada": null,
-      "motivos": [],
+      "motivos": [
+        "debil: en vivo "
+      ],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
@@ -121,7 +125,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:00:17.942151+00:00",
+      "revisado_en": "2026-11-21T12:42:09.057029+00:00",
       "error": null
     },
     {
@@ -151,7 +155,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:00:37.849021+00:00",
+      "revisado_en": "2026-11-21T12:42:28.892162+00:00",
       "error": null
     },
     {
@@ -181,7 +185,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:00:57.069161+00:00",
+      "revisado_en": "2026-11-21T12:42:47.908713+00:00",
       "error": null
     },
     {
@@ -211,7 +215,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:01:16.008195+00:00",
+      "revisado_en": "2026-11-21T12:43:07.291588+00:00",
       "error": null
     },
     {
@@ -237,7 +241,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:01:36.331623+00:00",
+      "revisado_en": "2026-11-21T12:43:28.383909+00:00",
       "error": null
     },
     {
@@ -264,7 +268,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:01:54.000923+00:00",
+      "revisado_en": "2026-11-21T12:43:46.040906+00:00",
       "error": null
     },
     {
@@ -296,7 +300,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:02:11.787528+00:00",
+      "revisado_en": "2026-11-21T12:44:04.220040+00:00",
       "error": null
     },
     {
@@ -328,7 +332,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:02:29.768434+00:00",
+      "revisado_en": "2026-11-21T12:44:22.434478+00:00",
       "error": null
     },
     {
@@ -354,7 +358,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:02:47.888975+00:00",
+      "revisado_en": "2026-11-21T12:44:40.999838+00:00",
       "error": null
     },
     {
@@ -386,7 +390,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:03:05.307807+00:00",
+      "revisado_en": "2026-11-21T12:44:58.423839+00:00",
       "error": null
     },
     {
@@ -413,7 +417,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:03:24.611016+00:00",
+      "revisado_en": "2026-11-21T12:45:16.625233+00:00",
       "error": null
     },
     {
@@ -428,7 +432,7 @@
       "icono_url": "https://graph.facebook.com/PoliciaBolivianaCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "29,9 mil visualizaciones",
+      "titulo": "30,1 mil visualizaciones",
       "video_id": "2363815504439234",
       "url_video": "https://www.facebook.com/PoliciaBolivianaCochabamba/videos/2363815504439234/",
       "confianza": -370,
@@ -445,7 +449,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:03:42.641995+00:00",
+      "revisado_en": "2026-11-21T12:45:34.757770+00:00",
       "error": null
     },
     {
@@ -472,7 +476,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:04:00.799916+00:00",
+      "revisado_en": "2026-11-21T12:45:53.079186+00:00",
       "error": null
     },
     {
@@ -504,7 +508,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:04:18.567164+00:00",
+      "revisado_en": "2026-11-21T12:46:11.171958+00:00",
       "error": null
     },
     {
@@ -531,7 +535,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:04:37.170874+00:00",
+      "revisado_en": "2026-11-21T12:46:30.098148+00:00",
       "error": null
     },
     {
@@ -563,7 +567,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:04:55.711501+00:00",
+      "revisado_en": "2026-11-21T12:46:48.246354+00:00",
       "error": null
     },
     {
@@ -595,7 +599,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:05:14.031511+00:00",
+      "revisado_en": "2026-11-21T12:47:06.983192+00:00",
       "error": null
     },
     {
@@ -608,27 +612,27 @@
       "tipo": "pagina",
       "identificador": "FidesTV",
       "icono_url": "https://graph.facebook.com/FidesTV/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "58:28",
-      "video_id": "1154946257394981",
-      "url_video": "https://www.facebook.com/FidesTV/videos/1154946257394981/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "fidestv",
+      "video_id": "2600810290345707",
+      "url_video": "https://www.facebook.com/100063710400583/videos/2600810290345707",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live",
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:05:32.546108+00:00",
+      "revisado_en": "2026-11-21T12:47:25.121652+00:00",
       "error": null
     },
     {
@@ -641,26 +645,26 @@
       "tipo": "pagina",
       "identificador": "eldeberradio",
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
-      "titulo": "54:35",
-      "video_id": "1031975869944991",
-      "url_video": "https://www.facebook.com/eldeberradio/videos/1031975869944991/",
-      "confianza": -370,
-      "ruta_detectada": null,
+      "en_vivo": true,
+      "estado": "live",
+      "titulo": "El Deber Radio",
+      "video_id": "1765514341185949",
+      "url_video": "https://www.facebook.com/100072454578597/videos/1765514341185949",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
       "motivos": [
-        "pasado:en vivo anteriores",
-        "pasado:vivo anteriores",
-        "debil: en vivo "
+        "aria_live"
       ],
-      "espectadores": null,
+      "espectadores": 7300,
       "marcadores": [
         "html_is_live",
+        "html_broadcast_id",
         "html_is_live_streaming",
+        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:05:50.895858+00:00",
+      "revisado_en": "2026-11-21T12:47:40.810805+00:00",
       "error": null
     },
     {
@@ -692,7 +696,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:06:09.081537+00:00",
+      "revisado_en": "2026-11-21T12:47:56.981305+00:00",
       "error": null
     },
     {
@@ -724,7 +728,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:06:27.189223+00:00",
+      "revisado_en": "2026-11-21T12:48:15.374892+00:00",
       "error": null
     },
     {
@@ -751,7 +755,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:06:45.457003+00:00",
+      "revisado_en": "2026-11-21T12:48:33.739912+00:00",
       "error": null
     },
     {
@@ -766,9 +770,9 @@
       "icono_url": "https://graph.facebook.com/GobernacionDeOruro/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "52:14",
-      "video_id": "988010457714164",
-      "url_video": "https://www.facebook.com/GobernacionDeOruro/videos/988010457714164/",
+      "titulo": "1:30:20",
+      "video_id": "1006318249219928",
+      "url_video": "https://www.facebook.com/GobernacionDeOruro/videos/1006318249219928/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -783,7 +787,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:07:03.428208+00:00",
+      "revisado_en": "2026-11-21T12:48:52.143539+00:00",
       "error": null
     },
     {
@@ -809,7 +813,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:07:21.489288+00:00",
+      "revisado_en": "2026-11-21T12:49:10.334330+00:00",
       "error": null
     },
     {
@@ -841,7 +845,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:07:39.011580+00:00",
+      "revisado_en": "2026-11-21T12:49:27.881122+00:00",
       "error": null
     },
     {
@@ -873,7 +877,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:07:57.124817+00:00",
+      "revisado_en": "2026-11-21T12:49:46.188570+00:00",
       "error": null
     },
     {
@@ -905,7 +909,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:08:15.242637+00:00",
+      "revisado_en": "2026-11-21T12:50:04.394272+00:00",
       "error": null
     },
     {
@@ -933,7 +937,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:08:33.768118+00:00",
+      "revisado_en": "2026-11-21T12:50:22.803102+00:00",
       "error": null
     },
     {
@@ -965,7 +969,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:08:52.024915+00:00",
+      "revisado_en": "2026-11-21T12:50:41.154450+00:00",
       "error": null
     },
     {
@@ -992,7 +996,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:09:10.224472+00:00",
+      "revisado_en": "2026-11-21T12:50:59.378470+00:00",
       "error": null
     },
     {
@@ -1025,7 +1029,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-21T04:09:28.214798+00:00",
+      "revisado_en": "2026-11-21T12:51:17.529833+00:00",
       "error": null
     }
   ]
