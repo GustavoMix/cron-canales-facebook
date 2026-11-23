@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-11-23T22:45:19.829272+00:00",
+  "generado_en": "2026-11-23T22:50:24.303171+00:00",
   "fuentes_revisadas": 308,
   "en_vivo": 26,
   "resultados": [
@@ -5193,10 +5193,10 @@
       "icono_url": "https://graph.facebook.com/telemundouy/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Telemundo",
-      "video_id": "1142222318220341",
-      "url_video": "https://www.facebook.com/100064478240768/videos/1142222318220341",
-      "confianza": 0,
+      "titulo": null,
+      "video_id": null,
+      "url_video": null,
+      "confianza": null,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
@@ -5208,7 +5208,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:47:57.438460+00:00",
+      "revisado_en": "2026-11-23T22:40:15.031481+00:00",
       "error": null
     },
     {
@@ -5221,24 +5221,26 @@
       "tipo": "pagina",
       "identificador": "cdn.com.do",
       "icono_url": "https://graph.facebook.com/cdn.com.do/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "CDN 37",
-      "video_id": "3036057833404221",
-      "url_video": "https://www.facebook.com/100064283455585/videos/3036057833404221",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "1925094745529447",
+      "url_video": "https://www.facebook.com/100064283455585/videos/1925094745529447",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/cdn.com.do/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1000,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:48:17.445658+00:00",
+      "revisado_en": "2026-11-23T22:40:33.690667+00:00",
       "error": null
     },
     {
@@ -5270,7 +5272,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:48:36.943729+00:00",
+      "revisado_en": "2026-11-23T22:40:48.673269+00:00",
       "error": null
     },
     {
@@ -5285,7 +5287,7 @@
       "icono_url": "https://graph.facebook.com/AztecaNoticias/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "Azteca Noticias",
+      "titulo": "Indicador de estado activo",
       "video_id": "3756225107875661",
       "url_video": "https://www.facebook.com/100069563637018/videos/3756225107875661",
       "confianza": 0,
@@ -5300,7 +5302,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:48:58.157325+00:00",
+      "revisado_en": "2026-11-23T22:41:08.822563+00:00",
       "error": null
     },
     {
@@ -5330,7 +5332,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:49:17.432519+00:00",
+      "revisado_en": "2026-11-23T22:41:28.041606+00:00",
       "error": null
     },
     {
@@ -5360,7 +5362,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:49:36.318155+00:00",
+      "revisado_en": "2026-11-23T22:41:47.211747+00:00",
       "error": null
     },
     {
@@ -5390,7 +5392,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:49:55.346141+00:00",
+      "revisado_en": "2026-11-23T22:42:05.820804+00:00",
       "error": null
     },
     {
@@ -5416,7 +5418,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:50:16.475159+00:00",
+      "revisado_en": "2026-11-23T22:42:25.932941+00:00",
       "error": null
     },
     {
@@ -5431,19 +5433,22 @@
       "icono_url": "https://graph.facebook.com/AMUNLaPaz/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": null,
-      "video_id": null,
-      "url_video": null,
-      "confianza": null,
+      "titulo": "Agencia Municipal de Noticias",
+      "video_id": "1107729315394723",
+      "url_video": "https://www.facebook.com/100064127555592/videos/1107729315394723",
+      "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
       "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_is_currently_live"
+        "html_is_currently_live",
+        "html_broadcast_id",
+        "html_is_live_streaming",
+        "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:50:33.960932+00:00",
+      "revisado_en": "2026-11-23T22:42:43.473010+00:00",
       "error": null
     },
     {
@@ -5475,7 +5480,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:50:52.018011+00:00",
+      "revisado_en": "2026-11-23T22:43:02.296423+00:00",
       "error": null
     },
     {
@@ -5507,7 +5512,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:51:09.909542+00:00",
+      "revisado_en": "2026-11-23T22:43:20.329113+00:00",
       "error": null
     },
     {
@@ -5533,7 +5538,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:51:28.216496+00:00",
+      "revisado_en": "2026-11-23T22:43:38.542402+00:00",
       "error": null
     },
     {
@@ -5548,9 +5553,9 @@
       "icono_url": "https://graph.facebook.com/GobernacionDeCochabamba/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "1:03:55",
-      "video_id": "970753712472350",
-      "url_video": "https://www.facebook.com/GobernacionDeCochabamba/videos/970753712472350/",
+      "titulo": "537 visualizaciones",
+      "video_id": "1311667314435463",
+      "url_video": "https://www.facebook.com/GobernacionDeCochabamba/videos/1311667314435463/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5565,7 +5570,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:51:45.988794+00:00",
+      "revisado_en": "2026-11-23T22:43:56.110602+00:00",
       "error": null
     },
     {
@@ -5592,7 +5597,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:52:04.138215+00:00",
+      "revisado_en": "2026-11-23T22:44:14.098186+00:00",
       "error": null
     },
     {
@@ -5624,7 +5629,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:52:22.036537+00:00",
+      "revisado_en": "2026-11-23T22:44:32.034097+00:00",
       "error": null
     },
     {
@@ -5651,7 +5656,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:52:39.977879+00:00",
+      "revisado_en": "2026-11-23T22:44:50.121869+00:00",
       "error": null
     },
     {
@@ -5683,7 +5688,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:52:57.988411+00:00",
+      "revisado_en": "2026-11-23T22:45:08.014063+00:00",
       "error": null
     },
     {
@@ -5710,7 +5715,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:53:16.007830+00:00",
+      "revisado_en": "2026-11-23T22:45:26.524630+00:00",
       "error": null
     },
     {
@@ -5742,7 +5747,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:53:33.794629+00:00",
+      "revisado_en": "2026-11-23T22:45:44.609394+00:00",
       "error": null
     },
     {
@@ -5757,9 +5762,9 @@
       "icono_url": "https://graph.facebook.com/ATBDigital/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "5:29:05",
-      "video_id": "1656725219280309",
-      "url_video": "https://www.facebook.com/ATBDigital/videos/1656725219280309/",
+      "titulo": "58:43",
+      "video_id": "1764090072388701",
+      "url_video": "https://www.facebook.com/ATBDigital/videos/1764090072388701/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5774,7 +5779,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:53:51.913386+00:00",
+      "revisado_en": "2026-11-23T22:46:02.888232+00:00",
       "error": null
     },
     {
@@ -5790,8 +5795,8 @@
       "en_vivo": true,
       "estado": "live",
       "titulo": "fidestv",
-      "video_id": "1107790888982922",
-      "url_video": "https://www.facebook.com/100063710400583/videos/1107790888982922",
+      "video_id": "1841488283704162",
+      "url_video": "https://www.facebook.com/100063710400583/videos/1841488283704162",
       "confianza": 100,
       "ruta_detectada": "https://www.facebook.com/FidesTV/live/",
       "motivos": [
@@ -5807,7 +5812,7 @@
         "texto_en_directo"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:54:09.832992+00:00",
+      "revisado_en": "2026-11-23T22:46:21.030571+00:00",
       "error": null
     },
     {
@@ -5820,26 +5825,26 @@
       "tipo": "pagina",
       "identificador": "eldeberradio",
       "icono_url": "https://graph.facebook.com/eldeberradio/picture?type=large",
-      "en_vivo": true,
-      "estado": "live",
-      "titulo": "El Deber Radio",
-      "video_id": "1447550667567708",
-      "url_video": "https://www.facebook.com/100072454578597/videos/1447550667567708",
-      "confianza": 100,
-      "ruta_detectada": "https://www.facebook.com/eldeberradio/live/",
+      "en_vivo": false,
+      "estado": "offline",
+      "titulo": "33:10",
+      "video_id": "2459721514794968",
+      "url_video": "https://www.facebook.com/eldeberradio/videos/2459721514794968/",
+      "confianza": -370,
+      "ruta_detectada": null,
       "motivos": [
-        "aria_live"
+        "pasado:en vivo anteriores",
+        "pasado:vivo anteriores",
+        "debil: en vivo "
       ],
-      "espectadores": 7300,
+      "espectadores": null,
       "marcadores": [
         "html_is_live",
-        "html_broadcast_id",
         "html_is_live_streaming",
-        "html_broadcast_status",
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:54:26.185532+00:00",
+      "revisado_en": "2026-11-23T22:46:36.097752+00:00",
       "error": null
     },
     {
@@ -5871,7 +5876,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:54:42.074702+00:00",
+      "revisado_en": "2026-11-23T22:46:54.249071+00:00",
       "error": null
     },
     {
@@ -5903,7 +5908,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:55:00.176282+00:00",
+      "revisado_en": "2026-11-23T22:47:12.267444+00:00",
       "error": null
     },
     {
@@ -5930,7 +5935,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:55:18.095396+00:00",
+      "revisado_en": "2026-11-23T22:47:30.267116+00:00",
       "error": null
     },
     {
@@ -5945,9 +5950,9 @@
       "icono_url": "https://graph.facebook.com/GobernacionDeOruro/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "49:07",
-      "video_id": "1812626993280111",
-      "url_video": "https://www.facebook.com/GobernacionDeOruro/videos/1812626993280111/",
+      "titulo": "1:02:48",
+      "video_id": "1146310421216419",
+      "url_video": "https://www.facebook.com/GobernacionDeOruro/videos/1146310421216419/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -5962,7 +5967,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:55:36.368408+00:00",
+      "revisado_en": "2026-11-23T22:47:48.409752+00:00",
       "error": null
     },
     {
@@ -5988,7 +5993,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:55:54.720025+00:00",
+      "revisado_en": "2026-11-23T22:48:06.363313+00:00",
       "error": null
     },
     {
@@ -6003,9 +6008,9 @@
       "icono_url": "https://graph.facebook.com/gobiernomunicipaldepotosi/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "14:30",
-      "video_id": "2179403542659557",
-      "url_video": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/2179403542659557/",
+      "titulo": "17:47",
+      "video_id": "964724489824830",
+      "url_video": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/964724489824830/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -6020,7 +6025,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:56:12.328363+00:00",
+      "revisado_en": "2026-11-23T22:48:23.964543+00:00",
       "error": null
     },
     {
@@ -6052,7 +6057,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:56:30.363242+00:00",
+      "revisado_en": "2026-11-23T22:48:41.962017+00:00",
       "error": null
     },
     {
@@ -6084,7 +6089,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:56:48.422290+00:00",
+      "revisado_en": "2026-11-23T22:48:59.876975+00:00",
       "error": null
     },
     {
@@ -6112,7 +6117,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:57:06.520524+00:00",
+      "revisado_en": "2026-11-23T22:49:17.921149+00:00",
       "error": null
     },
     {
@@ -6144,7 +6149,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:57:24.842847+00:00",
+      "revisado_en": "2026-11-23T22:49:35.879050+00:00",
       "error": null
     },
     {
@@ -6171,7 +6176,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:57:42.878645+00:00",
+      "revisado_en": "2026-11-23T22:49:53.874524+00:00",
       "error": null
     },
     {
@@ -6186,9 +6191,9 @@
       "icono_url": "https://graph.facebook.com/cobija.gob/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "🔴 EN VIVO",
-      "video_id": "1449123883864614",
-      "url_video": "https://www.facebook.com/cobija.gob/videos/1449123883864614/",
+      "titulo": "2,3 mil visualizaciones",
+      "video_id": "1671137097806027",
+      "url_video": "https://www.facebook.com/cobija.gob/videos/1671137097806027/",
       "confianza": -340,
       "ruta_detectada": null,
       "motivos": [
@@ -6204,7 +6209,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-23T10:58:00.808903+00:00",
+      "revisado_en": "2026-11-23T22:50:11.822620+00:00",
       "error": null
     },
     {
