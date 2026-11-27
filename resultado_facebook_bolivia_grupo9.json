@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generado_en": "2026-11-27T05:23:33.678516+00:00",
+  "generado_en": "2026-11-27T15:34:54.074815+00:00",
   "fuentes_revisadas": 34,
-  "en_vivo": 0,
+  "en_vivo": 1,
   "resultados": [
     {
       "nombre": "Punto Tv Tarija",
@@ -31,7 +31,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:13:07.758346+00:00",
+      "revisado_en": "2026-11-27T15:24:35.898511+00:00",
       "error": null
     },
     {
@@ -47,8 +47,8 @@
       "en_vivo": false,
       "estado": "offline",
       "titulo": "Urgente.bo",
-      "video_id": "1331671512385596",
-      "url_video": "https://www.facebook.com/100063895602481/videos/1331671512385596",
+      "video_id": "1849719902893128",
+      "url_video": "https://www.facebook.com/100063895602481/videos/1849719902893128",
       "confianza": 0,
       "ruta_detectada": null,
       "motivos": [],
@@ -61,7 +61,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:13:28.611000+00:00",
+      "revisado_en": "2026-11-27T15:24:56.013523+00:00",
       "error": null
     },
     {
@@ -74,24 +74,26 @@
       "tipo": "pagina",
       "identificador": "brujuladigitalbolivia",
       "icono_url": "https://graph.facebook.com/brujuladigitalbolivia/picture?type=large",
-      "en_vivo": false,
-      "estado": "offline",
+      "en_vivo": true,
+      "estado": "live",
       "titulo": "Brújula Digital Bolivia",
-      "video_id": "979901421519066",
-      "url_video": "https://www.facebook.com/100063674373306/videos/979901421519066",
-      "confianza": 0,
-      "ruta_detectada": null,
-      "motivos": [],
-      "espectadores": null,
+      "video_id": "2144510912864505",
+      "url_video": "https://www.facebook.com/100063674373306/videos/2144510912864505",
+      "confianza": 100,
+      "ruta_detectada": "https://www.facebook.com/brujuladigitalbolivia/live/",
+      "motivos": [
+        "aria_live"
+      ],
+      "espectadores": 1900,
       "marcadores": [
         "html_is_live",
-        "html_is_live_streaming",
-        "html_is_currently_live",
         "html_broadcast_id",
-        "html_broadcast_status"
+        "html_is_live_streaming",
+        "html_broadcast_status",
+        "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:13:49.093576+00:00",
+      "revisado_en": "2026-11-27T15:25:16.029686+00:00",
       "error": null
     },
     {
@@ -117,7 +119,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:14:09.688176+00:00",
+      "revisado_en": "2026-11-27T15:25:31.825202+00:00",
       "error": null
     },
     {
@@ -147,7 +149,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:14:27.803366+00:00",
+      "revisado_en": "2026-11-27T15:25:49.854169+00:00",
       "error": null
     },
     {
@@ -179,7 +181,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:14:47.152833+00:00",
+      "revisado_en": "2026-11-27T15:26:10.072328+00:00",
       "error": null
     },
     {
@@ -205,7 +207,7 @@
         "html_is_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:15:06.937214+00:00",
+      "revisado_en": "2026-11-27T15:26:30.321350+00:00",
       "error": null
     },
     {
@@ -235,7 +237,7 @@
         "html_broadcast_status"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:15:24.705648+00:00",
+      "revisado_en": "2026-11-27T15:26:47.796226+00:00",
       "error": null
     },
     {
@@ -268,7 +270,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:15:44.408432+00:00",
+      "revisado_en": "2026-11-27T15:27:07.458651+00:00",
       "error": null
     },
     {
@@ -300,7 +302,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:16:02.517429+00:00",
+      "revisado_en": "2026-11-27T15:27:25.705002+00:00",
       "error": null
     },
     {
@@ -332,7 +334,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:16:20.848628+00:00",
+      "revisado_en": "2026-11-27T15:27:43.951545+00:00",
       "error": null
     },
     {
@@ -347,9 +349,9 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "3:15:46",
-      "video_id": "2613181229185564",
-      "url_video": "https://www.facebook.com/100090506256593/videos/2613181229185564/",
+      "titulo": "3:18:46",
+      "video_id": "4842342312757498",
+      "url_video": "https://www.facebook.com/100090506256593/videos/4842342312757498/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -364,7 +366,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:16:39.203054+00:00",
+      "revisado_en": "2026-11-27T15:28:02.207732+00:00",
       "error": null
     },
     {
@@ -391,7 +393,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:16:57.419954+00:00",
+      "revisado_en": "2026-11-27T15:28:20.263943+00:00",
       "error": null
     },
     {
@@ -423,7 +425,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:17:15.802946+00:00",
+      "revisado_en": "2026-11-27T15:28:38.292492+00:00",
       "error": null
     },
     {
@@ -438,9 +440,9 @@
       "icono_url": null,
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:56:59",
-      "video_id": "4059661391008874",
-      "url_video": "https://www.facebook.com/61559049486842/videos/4059661391008874/",
+      "titulo": "2:36:49",
+      "video_id": "1538080778148380",
+      "url_video": "https://www.facebook.com/61559049486842/videos/1538080778148380/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -455,7 +457,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:17:34.370473+00:00",
+      "revisado_en": "2026-11-27T15:28:56.620721+00:00",
       "error": null
     },
     {
@@ -487,7 +489,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:17:52.594016+00:00",
+      "revisado_en": "2026-11-27T15:29:14.902797+00:00",
       "error": null
     },
     {
@@ -519,7 +521,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:18:10.780009+00:00",
+      "revisado_en": "2026-11-27T15:29:32.869270+00:00",
       "error": null
     },
     {
@@ -546,7 +548,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:18:28.948885+00:00",
+      "revisado_en": "2026-11-27T15:29:50.986188+00:00",
       "error": null
     },
     {
@@ -573,7 +575,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:18:47.634167+00:00",
+      "revisado_en": "2026-11-27T15:30:08.924886+00:00",
       "error": null
     },
     {
@@ -601,7 +603,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:19:05.932590+00:00",
+      "revisado_en": "2026-11-27T15:30:27.197365+00:00",
       "error": null
     },
     {
@@ -628,7 +630,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:19:24.873235+00:00",
+      "revisado_en": "2026-11-27T15:30:45.420194+00:00",
       "error": null
     },
     {
@@ -660,7 +662,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:19:43.291946+00:00",
+      "revisado_en": "2026-11-27T15:31:03.665390+00:00",
       "error": null
     },
     {
@@ -692,7 +694,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:20:01.550026+00:00",
+      "revisado_en": "2026-11-27T15:31:21.947157+00:00",
       "error": null
     },
     {
@@ -719,7 +721,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:20:19.970469+00:00",
+      "revisado_en": "2026-11-27T15:31:40.231128+00:00",
       "error": null
     },
     {
@@ -747,7 +749,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:20:37.871507+00:00",
+      "revisado_en": "2026-11-27T15:31:58.350497+00:00",
       "error": null
     },
     {
@@ -762,9 +764,9 @@
       "icono_url": "https://graph.facebook.com/LeoProduccionesBrasill/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:32:22",
-      "video_id": "1050763317423115",
-      "url_video": "https://www.facebook.com/LeoProduccionesBrasill/videos/1050763317423115/",
+      "titulo": "12:24",
+      "video_id": "1954696475937216",
+      "url_video": "https://www.facebook.com/LeoProduccionesBrasill/videos/1954696475937216/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -779,7 +781,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:20:56.027834+00:00",
+      "revisado_en": "2026-11-27T15:32:16.745238+00:00",
       "error": null
     },
     {
@@ -794,9 +796,9 @@
       "icono_url": "https://graph.facebook.com/LeoProduccionesBrasil/picture?type=large",
       "en_vivo": false,
       "estado": "offline",
-      "titulo": "2:32:22",
-      "video_id": "4623253894629852",
-      "url_video": "https://www.facebook.com/LeoProduccionesBrasil/videos/4623253894629852/",
+      "titulo": "14:07",
+      "video_id": "1879075179958100",
+      "url_video": "https://www.facebook.com/LeoProduccionesBrasil/videos/1879075179958100/",
       "confianza": -370,
       "ruta_detectada": null,
       "motivos": [
@@ -811,7 +813,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:21:14.309011+00:00",
+      "revisado_en": "2026-11-27T15:32:35.142346+00:00",
       "error": null
     },
     {
@@ -843,7 +845,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:21:32.638836+00:00",
+      "revisado_en": "2026-11-27T15:32:53.586325+00:00",
       "error": null
     },
     {
@@ -875,7 +877,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:21:50.944436+00:00",
+      "revisado_en": "2026-11-27T15:33:12.461817+00:00",
       "error": null
     },
     {
@@ -902,7 +904,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:22:09.259166+00:00",
+      "revisado_en": "2026-11-27T15:33:31.049699+00:00",
       "error": null
     },
     {
@@ -930,7 +932,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:22:27.477433+00:00",
+      "revisado_en": "2026-11-27T15:33:49.175256+00:00",
       "error": null
     },
     {
@@ -957,7 +959,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:22:46.282120+00:00",
+      "revisado_en": "2026-11-27T15:34:07.326098+00:00",
       "error": null
     },
     {
@@ -984,7 +986,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:23:04.848468+00:00",
+      "revisado_en": "2026-11-27T15:34:25.436329+00:00",
       "error": null
     },
     {
@@ -1011,7 +1013,7 @@
         "html_is_currently_live"
       ],
       "muro_login": false,
-      "revisado_en": "2026-11-27T05:23:23.282197+00:00",
+      "revisado_en": "2026-11-27T15:34:43.883635+00:00",
       "error": null
     }
   ]
